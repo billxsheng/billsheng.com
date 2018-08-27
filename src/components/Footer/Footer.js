@@ -4,7 +4,7 @@ import classes from './Footer.css';
 
 const footer = (props) => (
     <footer className={classes.footer}>
-        <span class="container">
+        <span className="container">
             <row>
                 <h1>Footer</h1>
             </row>

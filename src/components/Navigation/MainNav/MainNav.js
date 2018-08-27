@@ -7,7 +7,6 @@ const mainNav = (props) => (
     <nav className={classes.navContainer}>
     <span className="sticky-top">
     <NavItems/>
-
     </span>
     </nav>
 )
