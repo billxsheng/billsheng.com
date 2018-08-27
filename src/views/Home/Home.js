@@ -1,13 +1,17 @@
 import React from 'react';
 
-import classes from './Home.css';
-
+//import classes from './Home.css';
+import Hero from './HomeContainers/Hero/Hero';
+import AboutPreview from './HomeContainers/AboutPreview/AboutPreview';
+import ProjectsPreview from './HomeContainers/ProjectsPreview/ProjectsPreview';
+import GalleryPreview from './HomeContainers/GalleryPreview/GalleryPreview';
 
 const Home = (props) => (
-    <div className="jumbotron">
-        <span className= {classes.hero} >
-          <h1>Hey, I'm Bill</h1>
-        </span>
+    <div>
+        <Hero/>
+        <AboutPreview/>
+        <ProjectsPreview/>
+        <GalleryPreview/>
     </div>
 )
 

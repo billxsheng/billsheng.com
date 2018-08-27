@@ -1,0 +1,5 @@
+.navContainer {
+    padding: 1.2rem;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+    position: sticky;
+}
