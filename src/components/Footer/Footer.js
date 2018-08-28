@@ -1,15 +1,14 @@
 import React from 'react';
 
-import classes from './Footer.css';
+import CSSModules from 'react-css-modules';
+import styles from './Footer.css';
 
 const footer = (props) => (
-    <footer className={classes.footer}>
+    <footer styleName='footer'>
         <span className="container">
-            <row>
                 <h1>Footer</h1>
-            </row>
         </span>
     </footer>
 )
 
-export default footer;
+export default CSSModules(footer, styles);

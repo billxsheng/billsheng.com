@@ -1,11 +1,12 @@
-.btn-icon {
+.btnIcon {
+    cursor: pointer;
+    color: black;
+}
+
+.btnSmall {
 
 }
 
-.btn-small {
-
-}
-
-.btn-large {
+.btnLarge {
     
 }

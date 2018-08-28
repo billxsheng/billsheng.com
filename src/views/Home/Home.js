@@ -1,6 +1,7 @@
 import React from 'react';
 
-//import classes from './Home.css';
+//import CSSModules from 'react-css-modules';
+//import styles from './Home.css';
 import Hero from './HomeContainers/Hero/Hero';
 import AboutPreview from './HomeContainers/AboutPreview/AboutPreview';
 import ProjectsPreview from './HomeContainers/ProjectsPreview/ProjectsPreview';

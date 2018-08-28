@@ -1,14 +1,14 @@
 import React from 'react';
-import classes from './GalleryPreview.css'
+
+import CSSModules from 'react-css-modules';
+import styles from './GalleryPreview.css'
 
 const galleryPreview = (props) => (
-    <div className= {classes.galleryPreview}>
+    <div styleName= 'galleryPreview'>
     <span className="container">
-        <row>
             <h1>Gallery</h1>
-        </row>
     </span>
 </div>
 )
 
-export default galleryPreview;
+export default CSSModules(galleryPreview, styles);

@@ -1,14 +1,14 @@
 import React from 'react';
-import classes from './AboutPreview.css'
+
+import CSSModules from 'react-css-modules';
+import styles from './AboutPreview.css'
 
 const aboutPreview = (props) => (
-    <div className= {classes.aboutPreview}>
+    <div styleName= 'aboutPreview'>
     <span className="container">
-        <row>
             <h1>About</h1>
-        </row>
     </span>
 </div>
 )
 
-export default aboutPreview;
+export default CSSModules(aboutPreview, styles);

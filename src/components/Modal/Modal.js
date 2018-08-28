@@ -1,14 +1,14 @@
 import React from 'react';
 
-import classes from './Modal.css';
+import CSSModules from 'react-css-modules';
+import styles from './Modal.css';
 
 const modal = (props) => (
-    <div className={classes.modal}>
+    <div styleName="modal">
         <div className="modal fade" id={props.targetName} tabIndex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div className="modal-dialog modal-lg" role="document">
-                <span className={classes.modalOverlay}>
+                <span styleName="modalOverlay">
                     <div className="modal-content">
-
                         <div className="modal-footer">
                             <button type="button" className="btn btn-primary" data-dismiss="modal">Close</button>
                         </div>
@@ -20,4 +20,4 @@ const modal = (props) => (
     </div>
 )
 
-export default modal;
+export default CSSModules(modal, styles);
