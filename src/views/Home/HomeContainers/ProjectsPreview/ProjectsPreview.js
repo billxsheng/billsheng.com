@@ -1,14 +1,14 @@
 import React from 'react';
-import classes from './ProjectsPreview.css'
+
+import CSSModules from 'react-css-modules';
+import styles from './ProjectsPreview.css'
 
 const projectsPreview = (props) => (
-    <div className= {classes.projectsPreview}>
+    <div styleName= 'projectsPreview'>
     <span className="container">
-        <row>
             <h1>Projects</h1>
-        </row>
     </span>
 </div>
 )
 
-export default projectsPreview;
+export default CSSModules(projectsPreview, styles);

@@ -1,3 +1,6 @@
 .modal {
-    z-index: 99999;
+}
+
+.modalOverlay {
+    width: 500px;
 }

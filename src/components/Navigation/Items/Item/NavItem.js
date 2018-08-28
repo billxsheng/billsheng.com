@@ -1,11 +1,13 @@
 import React from 'react';
 
-import classes from './NavItem.css';
+import CSSModules from 'react-css-modules';
+import styles from './NavItem.css';
 
 const navItem = (props) => (
     <li className="nav-item" >
-        <a className="nav-link"><span className={classes.btnNav}>{props.children}</span></a>
+        <a data-toggle={props.dataToggle} data-target={props.dataTarget} styleName='btnNav' className="nav-link">{props.children}</a>
     </li>
 )
 
-export default navItem;
+export default CSSModules(navItem, styles);
+

@@ -1,11 +1,12 @@
 import React from 'react';
 
-import classes from './Logo.css';
+import CSSModules from 'react-css-modules';
+import styles from './Logo.css';
 
 const logo = (props) => {     
     return (
-        <img className={classes.logo} src={require('../../assets/images/logo.png')} alt="logo" />
+        <img styleName='logo' src={require('../../assets/images/logo.png')} alt="logo" />
     )   
 }
 
-export default logo;
+export default CSSModules(logo, styles);

@@ -1,7 +1,6 @@
 .hero {
     height: 100vh !important;
     background-color: rgb(233, 233, 233);
-    border-bottom-right-radius: 200px;
     box-shadow: 0 50px 50px -50px  rgba(0, 0, 0, 0.1);
 }
 
@@ -12,5 +11,14 @@
     font-weight: 700;
     font-size: 100px;
     letter-spacing: -6px;
+}
+
+.btn-container {
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+.divide-container {
+    position: absolute;
 }
 

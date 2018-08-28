@@ -1,9 +1,13 @@
 import React from 'react';
 
-import classes from Icon.css;
+import CSSModules from 'react-css-modules';
+import styles from './Icon.css';
 
-const icon = (props) => (
-    <i>{props.name}</i>
-)
+const icon = (props) => {
 
-export default icon;
+    return (
+      <i target="_blank" className={props.iconName} styleName={props.iconType}></i>
+    )
+}
+
+export default CSSModules(icon, styles);

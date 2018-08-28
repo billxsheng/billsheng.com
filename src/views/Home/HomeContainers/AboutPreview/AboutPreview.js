@@ -1,14 +1,16 @@
 import React from 'react';
-import classes from './AboutPreview.css'
+
+import CSSModules from 'react-css-modules';
+import styles from './AboutPreview.css';
+import Typing from 'react-typing-animation';
+
 
 const aboutPreview = (props) => (
-    <div className= {classes.aboutPreview}>
-    <span className="container">
-        <row>
+    <div styleName='aboutPreview'>
+        <span className="container">
             <h1>About</h1>
-        </row>
-    </span>
-</div>
+        </span>
+    </div>
 )
 
-export default aboutPreview;
+export default CSSModules(aboutPreview, styles);

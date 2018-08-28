@@ -1,9 +1,13 @@
 import React from 'react';
 
-import classes from 'Button.css';
+import CSSModules from 'react-css-modules';
+import styles from './Button.css';
 
-const button = (props) => (
-    <button>{props.name}</button>
-)
+const button = (props) => {
 
-export default button;
+    return (
+        <a target="_blank" href={props.link} styleName={props.btnType}>{props.children}</a>
+    )
+}
+
+export default CSSModules(button, styles);

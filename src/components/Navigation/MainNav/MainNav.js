@@ -1,14 +1,15 @@
 import React from 'react';
-import classes from './MainNav.css';
 
+import styles from './MainNav.css';
+import CSSModules from 'react-css-modules';
 import NavItems from '../Items/NavItems';
 
 const mainNav = (props) => (
-    <nav className={classes.navContainer}>
-    <span className="sticky-top">
+    <nav styleName="navContainer">
+    <span>
     <NavItems/>
     </span>
     </nav>
 )
 
-export default mainNav;
+export default CSSModules(mainNav, styles);
