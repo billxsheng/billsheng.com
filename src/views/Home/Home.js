@@ -12,7 +12,7 @@ const Home = (props) => (
         <Hero/>
         <AboutPreview/>
         <ProjectsPreview/>
-        <GalleryPreview/>
+        {/* <GalleryPreview/> */}
     </div>
 )
 

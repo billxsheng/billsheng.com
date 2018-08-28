@@ -1,7 +1,5 @@
 .projectsPreview {
     height: 100vh;
-    background-color: rgb(233, 233, 233);
-    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
 }
 
 .projectsPreview h1 {

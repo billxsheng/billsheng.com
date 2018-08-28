@@ -16,11 +16,11 @@ const Hero = (props) => {
         <div styleName='hero'>
             <span className="container">
                 <div className="row">
-                    <h1> 
+                    <h1>
                         <span>
                             <img style={waveStyle} src={require('../../../../assets/images/wave.png')} />
-                         </span>
-                         Hey, I'm Bill.
+                        </span>
+                        Hey, I'm Bill.
                     </h1>
                 </div>
             </span>
@@ -38,7 +38,10 @@ const Hero = (props) => {
                     <Button link={Links.linkedin} btnType="btnIcon" ><Icon iconName="fab fa-linkedin" iconType="iconSmall" /></Button>
                 </div>
             </div>
-            <svg width="100%" height="100%" version="1.1"><defs></defs><path id="mainWave" d=""/></svg>
+            <div className="jumbotron" styleName="divide-container">
+               
+            </div>
+            <svg width="100%" height="100%" version="1.1"><defs></defs><path id="mainWave" d="" /></svg>
 
         </div>
     )
