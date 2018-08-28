@@ -38,6 +38,8 @@ const Hero = (props) => {
                     <Button link={Links.linkedin} btnType="btnIcon" ><Icon iconName="fab fa-linkedin" iconType="iconSmall" /></Button>
                 </div>
             </div>
+            <svg width="100%" height="100%" version="1.1"><defs></defs><path id="mainWave" d=""/></svg>
+
         </div>
     )
 }

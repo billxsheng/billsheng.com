@@ -1,7 +1,6 @@
 .footer {
     height: 50vh;
     background-color: rgb(233, 233, 233);
-    border-top-left-radius: 200px;
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);}
 
 .footer h1 {
