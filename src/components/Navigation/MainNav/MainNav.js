@@ -5,7 +5,7 @@ import NavItems from '../Items/NavItems';
 
 const mainNav = (props) => (
     <nav className={classes.navContainer}>
-    <span className="sticky-top">
+    <span>
     <NavItems/>
     </span>
     </nav>
