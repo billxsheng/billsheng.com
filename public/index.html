@@ -8,6 +8,7 @@
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
   <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
   <link rel="stylesheet" href="%PUBLIC_URL%/external/bootstrap.min.css">
+  <link rel="stylesheet" href="../node_modules/typer-js/typer.css">
   <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800|Roboto:300,400,500,700,900|Cairo:300,400,600,700"
     rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
@@ -38,8 +39,7 @@
   <script src="/external/TweenMax.min.js"></script>
   <script src="/external/wavify.js"></script>
   <script src="/external/jquery.wavify.js"></script>
-  <script src="../node_modules/typeit/dist/typeit.min.js"></script>
-
+  <script src="/external/typer.min.js"></script>
   <script>
     $(document).ready(function () {
       console.log("ready!");
@@ -51,9 +51,11 @@
         speed: .15
       });
 
-      new TypeIt('#hero', {
-        strings: ['This is my string!'],
-      });
+      const typerElement = document.getElementById('typerElement');
+      typer(typerElement)
+        .line('How cool is this?')
+        .line('So very cool.')
+        .line('Agreed!');
     });
   </script>
 </body>

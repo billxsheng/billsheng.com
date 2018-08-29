@@ -6,20 +6,12 @@ import Icon from '../../../../components/Icon/Icon';
 import Links from '../../../../assets/links';
 
 const Hero = (props) => {
-    let waveStyle = {
-        height: '80px',
-        margin: 'auto 20px 10px 20px'
-    }
-
     return (
         <div styleName='hero'>
             <span className="container">
                 <div className="row">
                     <h1>
-                        <span>
-                            <img style={waveStyle} src={require('../../../../assets/images/wave.png')} />
-                        </span>
-                        Hey, I'm Bill.
+                        👋 &nbsp;Hey, I'm Bill.
                     </h1>
                 </div>
             </span>
