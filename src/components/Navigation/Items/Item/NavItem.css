@@ -1,7 +1,8 @@
 .btnNav {
     font-family: 'Cairo';
-    font-size: 20px;
+    font-size: 16px;
     cursor: pointer;
     letter-spacing: 2px;
-    line-height: 100px;
+    line-height: 70px;
+    margin: auto 10px;
 }

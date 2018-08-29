@@ -38,6 +38,8 @@
   <script src="/external/TweenMax.min.js"></script>
   <script src="/external/wavify.js"></script>
   <script src="/external/jquery.wavify.js"></script>
+  <script src="../node_modules/typeit/dist/typeit.min.js"></script>
+
   <script>
     $(document).ready(function () {
       console.log("ready!");
@@ -47,6 +49,10 @@
         amplitude: 80,
         color: '#fff',
         speed: .15
+      });
+
+      new TypeIt('#hero', {
+        strings: ['This is my string!'],
       });
     });
   </script>

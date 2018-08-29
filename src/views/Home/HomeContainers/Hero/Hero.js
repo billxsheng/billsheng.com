@@ -5,10 +5,9 @@ import Button from '../../../../components/Button/Button';
 import Icon from '../../../../components/Icon/Icon';
 import Links from '../../../../assets/links';
 
-
 const Hero = (props) => {
     let waveStyle = {
-        height: '100px',
+        height: '80px',
         margin: 'auto 20px 10px 20px'
     }
 
@@ -38,11 +37,15 @@ const Hero = (props) => {
                     <Button link={Links.linkedin} btnType="btnIcon" ><Icon iconName="fab fa-linkedin" iconType="iconSmall" /></Button>
                 </div>
             </div>
-            <div className="jumbotron" styleName="divide-container">
-               
+            <div className="container" styleName="divide-container">
+               <div styleName="upper-wrapper" >
+
+               </div>
+               <div styleName="lower-wrapper" >
+
+               </div>
             </div>
             <svg width="100%" height="100%" version="1.1"><defs></defs><path id="mainWave" d="" /></svg>
-
         </div>
     )
 }
