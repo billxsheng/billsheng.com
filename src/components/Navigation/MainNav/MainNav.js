@@ -5,11 +5,11 @@ import CSSModules from 'react-css-modules';
 import NavItems from '../Items/NavItems';
 
 const mainNav = (props) => (
-    <nav styleName="navContainer">
-    <span>
-    <NavItems/>
-    </span>
+    <nav styleName="navContainer navContainerActive">
+        <span>
+            <NavItems/>
+        </span>
     </nav>
 )
 
-export default CSSModules(mainNav, styles);
+export default CSSModules(mainNav, styles, {allowMultiple: true});

@@ -16,10 +16,8 @@ const Hero = (props) => {
            <MainButtonRow/>
             <div className="container" styleName="divide-container">
                <div styleName="upper-wrapper" >
-
                </div>
                <div styleName="lower-wrapper" >
-
                </div>
             </div>
             <svg styleName="wave" width="100%" height="100%" version="1.1"><defs></defs><path id="mainWave" d="" /></svg>

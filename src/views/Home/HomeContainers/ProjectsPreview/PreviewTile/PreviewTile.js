@@ -8,8 +8,9 @@ const PreviewTile = (props) => (
         <div styleName="upper-wrapper">
         
         </div>
-        <div styleName="lower-wrapper">
-        
+        <div styleName="lower-wrapper" className="text-center">
+            <h3>Project Name</h3>
+            <p>short description</p>
         </div>
     </div>
 )
