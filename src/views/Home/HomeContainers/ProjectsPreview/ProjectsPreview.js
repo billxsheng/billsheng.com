@@ -4,6 +4,7 @@ import CSSModules from 'react-css-modules';
 import styles from './ProjectsPreview.css';
 import Button from './../../../../components/Button/Button';
 import PreviewTile from './PreviewTile/PreviewTile';
+import ProjectInfo from '../../../../assets/projectsInfo';
 
 const projectsPreview = (props) => (
     <div styleName= 'projectsPreview'>

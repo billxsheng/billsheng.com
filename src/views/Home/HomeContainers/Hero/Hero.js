@@ -22,8 +22,9 @@ const Hero = (props) => {
 
                </div>
             </div>
-            <svg width="100%" height="100%" version="1.1"><defs></defs><path id="mainWave" d="" /></svg>
+            <svg styleName="wave" width="100%" height="100%" version="1.1"><defs></defs><path id="mainWave" d="" /></svg>
         </div>
+        
     )
 }
 

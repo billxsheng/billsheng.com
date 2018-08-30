@@ -5,7 +5,12 @@ import styles from './PreviewTile.css';
 
 const PreviewTile = (props) => (
     <div styleName="project-preview-tile" className="col-md-4">
-        <h1>1</h1>
+        <div styleName="upper-wrapper">
+        
+        </div>
+        <div styleName="lower-wrapper">
+        
+        </div>
     </div>
 )
 

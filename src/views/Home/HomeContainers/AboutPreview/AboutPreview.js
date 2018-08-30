@@ -12,9 +12,6 @@ const aboutPreview = (props) => {
 
     return (
     <div styleName='aboutPreview'>
-        <span className="container">
-            <h1>About</h1>
-        </span>
         <Carousel carouselItems={carouselItems1} classes="owl-carousel owl-theme about-preview-bwd" />
         <div className="container">
             <div styleName="abt-prev-el" className="row">

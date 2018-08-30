@@ -1,5 +1,10 @@
 .aboutPreview {
     height: auto;
+    margin: 300px auto 400px auto;
+}
+
+.abt-prev-el {
+    z-index: 200;
 }
 
 .abt-prev-el h2 {
@@ -10,3 +15,7 @@
     margin: 15px auto 30px auto;
 }
 
+
+.preview-container {
+    margin: 200px auto;
+}
