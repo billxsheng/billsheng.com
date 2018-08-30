@@ -1,31 +1,26 @@
 import React, { Component } from 'react';
 
 class Carousel extends Component {
-    constructor(props) {
-        super(props);
-    }
-
     state = {
-        carouselItems: null
+        carouselItems: this.props.carouselItems,
+        yeet: [1,2,3]
     }
 
-
-    updateItemsHandler = () => {
-        this.setState({carouselItems: this.props.carouselItems});
-    }
-
+    
+   
 
     render() {
+        const carouselItemsArr = Object.keys(this.state.carouselItems).map((key) => {
+            return [this.state.carouselItems[key]]
+        });
 
-        this.updateItemsHandler();
-
-        console.log(this.state.carouselItems)
-        const carouselItems = this.state.carouselItems.map((emoji) =>
+        console.log(carouselItemsArr)
+        const carouselItems = carouselItemsArr.map((emoji, index) =>
             <div styleName="carousel-item" >{emoji}</div>
         )
         return (
             <div className={this.props.classes}>
-                {{carouselItems}}
+                {carouselItems}
             </div>
         )
     }
