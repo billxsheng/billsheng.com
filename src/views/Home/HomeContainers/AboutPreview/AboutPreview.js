@@ -9,8 +9,13 @@ const aboutPreview = (props) => (
     <div styleName='aboutPreview'>
         <span className="container">
             <h1>About</h1>
-            <Button btnType="btnSmall">About Me</Button>
+            {/* <Button btnType="btnSmall">About Me</Button> */}
         </span>
+        
+    
+
+
+
     </div>
 )
 
