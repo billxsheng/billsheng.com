@@ -10,6 +10,7 @@
     letter-spacing: -6px;
 }
 
-.about-carousel div {
-    margin: 0 auto;
+.carousel-item {
+    text-align: center;
+    font-size: 50px;
 }
