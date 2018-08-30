@@ -4,5 +4,13 @@
     cursor: pointer;
     letter-spacing: 2px;
     line-height: 70px;
-    margin: auto 10px;
+    color: rgba(0, 0, 0, 0.4) !important;
+    transition: color 0.2s;
+}
+
+.btnNav:hover {
+    color: black !important;
+}
+
+.nav-item-parent {
 }

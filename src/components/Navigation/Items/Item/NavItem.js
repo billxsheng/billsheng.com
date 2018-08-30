@@ -4,7 +4,7 @@ import CSSModules from 'react-css-modules';
 import styles from './NavItem.css';
 
 const navItem = (props) => (
-    <li className="nav-item" >
+    <li styleName="nav-item-parent" className="nav-item" >
         <a data-toggle={props.dataToggle} data-target={props.dataTarget} styleName='btnNav' className="nav-link">{props.children}</a>
     </li>
 )

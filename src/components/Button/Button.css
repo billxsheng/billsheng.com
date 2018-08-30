@@ -1,10 +1,21 @@
 .btnIcon {
     cursor: pointer;
+    color: rgba(0, 0, 0, 0.5);
+    transition: color 0.2s;
+}
+
+.btnIcon:hover {
     color: black;
+    transform: scaleZ(1.1);
 }
 
 .btnSmall {
-
+    cursor: pointer;
+    background-color: blue;
+    padding: 20px;
+    border-radius: 5px;
+    color: white !important;
+    font-family: 'Cairo';
 }
 
 .btnLarge {
