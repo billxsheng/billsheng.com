@@ -1,6 +1,6 @@
 .btnIcon {
     cursor: pointer;
-    color: rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.3);
     transition: color 0.2s;
 }
 

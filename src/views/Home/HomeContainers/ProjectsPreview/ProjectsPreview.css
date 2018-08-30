@@ -1,11 +1,5 @@
 .projectsPreview {
-    height: 100vh;
+    height: auto;
 }
 
-.projectsPreview h1 {
-    text-align: center;
-    font-family: 'Poppins';
-    font-weight: 700;
-    font-size: 100px;
-    letter-spacing: -6px;
-}
+

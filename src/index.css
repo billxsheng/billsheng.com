@@ -4,3 +4,21 @@ body {
   font-family: sans-serif;
 }
 
+
+h2 {
+  font-size: 40px;
+  font-family: 'Cairo';
+  text-align: center !important;
+  width: 100%;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 100px;
+  letter-spacing: -6px;
+  margin: 10px auto;
+}
+

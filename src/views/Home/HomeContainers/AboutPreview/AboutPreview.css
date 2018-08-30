@@ -1,16 +1,12 @@
 .aboutPreview {
-    height: 100vh;
+    height: auto;
 }
 
-.aboutPreview h1 {
-    text-align: center;
-    font-family: 'Poppins';
-    font-weight: 700;
-    font-size: 100px;
-    letter-spacing: -6px;
+.abt-prev-el h2 {
+    margin: 30px auto 15px auto;
 }
 
-.carousel-item {
-    text-align: center;
-    font-size: 50px;
+.abt-prev-el a {
+    margin: 15px auto 30px auto;
 }
+
