@@ -13,9 +13,9 @@ const projectsPreview = (props) => (
     </span>
     <div className="container">
         <div styleName="tile-wrapper" className="row">
-            <PreviewTile/>
-            <PreviewTile/>
-            <PreviewTile/>
+            <PreviewTile title="Blitz" desc="Revolutionizing sports notifications." />
+            <PreviewTile title="Munkee" desc="Just for fun." />
+            <PreviewTile title="Moodify" desc="For job seekers." />
         </div>
     </div>
     <div className="container">

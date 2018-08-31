@@ -4,15 +4,14 @@ import CSSModules from 'react-css-modules';
 import styles from './PreviewTile.css';
 
 const PreviewTile = (props) => (
-    <div styleName="project-preview-tile" className="col-md-4">
-        <div styleName="upper-wrapper">
-        
+        <div styleName="project-preview-tile" >
+            <div styleName="tile-div">
+                <h3>{props.title}</h3>
+                <p>{props.desc}</p>
+            </div>
         </div>
-        <div styleName="lower-wrapper" className="text-center">
-            <h3>Project Name</h3>
-            <p>short description</p>
-        </div>
-    </div>
-)
+    )
+    
 
-export default CSSModules(PreviewTile, styles);
+
+export default CSSModules(PreviewTile, styles, {allowMultiple: true});
