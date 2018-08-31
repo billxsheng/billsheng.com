@@ -5,11 +5,11 @@ import Logo from '../../Logo/Logo';
 
 const navItems = (props) => (
     <ul className="nav justify-content-center">
-        <NavItem>ABOUT</NavItem>
-        <NavItem>PROJECTS</NavItem>
-        <NavItem> <Logo className="navbar-brand"/></NavItem>
-        <NavItem>GALLERY</NavItem>
-        <NavItem dataTarget = "#contactModal" dataToggle="modal" >CONTACT</NavItem>
+        <NavItem link="/about" >ABOUT</NavItem>
+        <NavItem link="/projects" >PROJECTS</NavItem>
+        <NavItem link="/" ><Logo className="navbar-brand"/></NavItem>
+        <NavItem link="/gallery" >GALLERY</NavItem>
+        <NavItem link="/" dataTarget = "#contactModal" dataToggle="modal" >CONTACT</NavItem>
     </ul>
 )
 

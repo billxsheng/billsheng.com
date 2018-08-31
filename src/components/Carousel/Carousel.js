@@ -8,8 +8,6 @@ class Carousel extends Component {
     }
 
     render() {
-        console.log(this.props)
-        console.log(this.state.carouselItems)
         const carouselItemsArr = Object.keys(this.state.carouselItems).map((key) => {
             return [this.state.carouselItems[key]]
         });

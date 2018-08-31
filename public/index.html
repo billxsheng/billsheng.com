@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="utf-8">
+  <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="theme-color" content="#000000">
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
@@ -44,7 +45,6 @@
   <script src="./external/owl.carousel.min.js"></script>
   <script>
     $(document).ready(function () {
-      console.log("ready!");
       var myWave = $('#mainWave').wavify({
         height: 100,
         bones: 3,
@@ -76,6 +76,13 @@
         rtl: true,
       })
 
+      var mainNav = $('.mainNav');
+      $(function () {
+        $(window).on('scroll', function () {
+          mainNav.toggleClass('scroll-hidden', ($(window).scrollTop()) > scroll);
+          scroll = ($(window).scrollTop());
+        })
+      });
 
     });
   </script>
