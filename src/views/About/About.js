@@ -14,7 +14,9 @@ const About = (props) => (
         <div className="row">
             <p>I'm a 19 year old Management Engineering Major at the University of Waterloo.</p>
         </div>
-        <Image scale="0.5" path="waterloo-engineering.png" />
+        <div className="row">
+            <Image scale="0.5" path="waterloo-engineering.png" />
+        </div>
         <div className="row">
             <p>The University of Waterloo features Canada's largest engineering school. The school's reputation revolves around its production of excellence through engineering's world-famous co-op program.</p>
         </div>

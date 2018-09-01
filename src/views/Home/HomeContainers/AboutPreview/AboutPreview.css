@@ -21,11 +21,11 @@
 }
 
 .stripe {
-    height: 400px;
+    height: 325px;
     width: 150vw;
     margin-left: -30vw;
     position: absolute;
-    background-color: rgba(255, 166, 0, 0.774);
+    background-color: orange;
     z-index: -2;
     transform: rotate(4deg);
 }

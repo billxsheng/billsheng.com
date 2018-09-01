@@ -39,6 +39,10 @@
     border-bottom-right-radius: 20px;
 }
 
+.lower-wrapper * {
+    top: 25px;
+}
+
 .wave {
     position: relative;
     top: -300px;

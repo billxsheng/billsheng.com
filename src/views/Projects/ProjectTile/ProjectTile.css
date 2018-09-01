@@ -1,6 +1,34 @@
 .project-tile {
-    height: 200px;
-    background-color: blue;
-    margin: 20px auto;
+    height: 325px;
+    margin: 50px auto;
     width: 80%;
+    transition: box-shadow 0.2s;
+    border-radius: 15px;
+}
+
+.project-tile:hover {
+    box-shadow: 0 0 40px #ccc;
+}
+
+.project-tile h2 {
+    margin: 80px auto 0 auto;
+    text-align: left;
+}
+
+.project-tile p {
+}
+
+.project-preview-tag {
+    background-color: orange;
+    width: 120px;
+    line-height: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+}
+
+.text-cont {
+}
+
+.image-cont {
+
 }

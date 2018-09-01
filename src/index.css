@@ -24,11 +24,15 @@ h1 {
 p {
   text-align: center;
   margin: 10px auto;
-  font-family: 'Roboto';
+  font-family: 'Cairo';
   margin: 20px auto;
 }
 
 
+a {
+  cursor: pointer;
+}
 
-
-
+button {
+  cursor: pointer;
+}

@@ -9,9 +9,6 @@
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json"/>
   <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico"/>
   <link rel="stylesheet" href="%PUBLIC_URL%/external/bootstrap.min.css"/>
-  <link rel="stylesheet" href="../node_modules/typer-js/typer.css"/>
-  <link rel="stylesheet" href="./external/owl.theme.default.css"/>
-  <link rel="stylesheet" href='./external/owl.carousel.css' />
   <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800|Roboto:300,400,500,700,900|Cairo:300,400,600,700"
     rel="stylesheet"/>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
@@ -39,21 +36,9 @@
     crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
     crossorigin="anonymous"></script>
-  <script src="/external/TweenMax.min.js"></script>
-  <script src="/external/wavify.js"></script>
-  <script src="/external/jquery.wavify.js"></script>
-  <script src="./external/owl.carousel.min.js"></script>
   <script>
     $(document).ready(function () {
       console.log('ready');
-
-      var myWave = $('#mainWave').wavify({
-        height: 100,
-        bones: 3,
-        amplitude: 80,
-        color: '#fff',
-        speed: .15
-      });
 
       var mainNav = $('.mainNav');
       $(function () {

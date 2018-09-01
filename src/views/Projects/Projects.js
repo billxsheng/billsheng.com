@@ -10,8 +10,8 @@ const Projects = (props) => (
                 Projects
             </h1>
         </span>
-        <ProjectTile title="Blitz" shortDesc="Sports notification innovation." />
-        <ProjectTile title="Blitz" shortDesc="Sports notification innovation."/>
+        <ProjectTile tag="Project" title="Blitz" shortDesc="Sports notification innovation." />
+        <ProjectTile tag="Internship" title="Blitz" reverse="true" shortDesc="Sports notification innovation."/>
     </div>
 )
 
