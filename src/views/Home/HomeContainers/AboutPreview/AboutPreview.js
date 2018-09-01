@@ -10,8 +10,7 @@ import '../../../../external/owl.theme.default.css';
 
 
 const aboutPreview = (props) => {
-    const carouselItems1 = ['🎓', '🧠', '👨🏻‍💻', '🏋🏻‍', '🥑 ', '🏈', '⚾️', '🥅', '🎢'];
-    const carouselItems2 = ['🐶', '👔', '🏀', '🎣', '🎸', '🔧', '🌇', '📚', '🍁'];
+    const carouselItems = ['🐶', '👔', '🏀', '🎣', '🎸', '🔧', '🌇', '📚', '🍁','🎓', '🧠', '👨🏻‍💻', '🏋🏻‍', '🥑 ', '🏈', '⚾️', '🥅', '🎢'];
     const options = {
         items: 5,
         nav: false,
@@ -19,26 +18,12 @@ const aboutPreview = (props) => {
         loop: true,
         dots: false,
         autoplayTimeout: 2000,
-        rtl: true
-    }
-
-    const optionsReverse = {
-        items: 5,
-        nav: false,
-        autoplay: true,
-        loop: true,
-        dots: false,
-        autoplayTimeout: 2000,
-        rtl: false
+        rtl: false,
+        mouseDrag: false
     }
     return (
     <div styleName='aboutPreview'>
-        <OwlCarousel
-        options={optionsReverse}
-        >
-            <Carousel carouselItems={carouselItems1} classes="owl-carousel owl-theme about-preview-bwd" />
-        </OwlCarousel>
-
+        <div styleName="stripe"></div>
             <div className="container">
                 <div styleName="abt-prev-el" className="row">
                 <h2>something cool</h2>
@@ -49,11 +34,10 @@ const aboutPreview = (props) => {
                     <Button btnType="btnSmall">About Me</Button>
                 </div>
             </div>
-
         <OwlCarousel
         options={options}
         >   
-            <Carousel carouselItems={carouselItems2} classes="owl-carousel owl-theme" />
+            <Carousel carouselItems={carouselItems} classes="owl-carousel owl-theme" />
         </OwlCarousel>
     </div>
     )

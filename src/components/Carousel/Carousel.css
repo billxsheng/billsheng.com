@@ -1,4 +1,4 @@
 .carousel-item {
-    text-align: center;
+    text-align: center !important;
     font-size: 50px;
 }
