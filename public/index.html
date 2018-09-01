@@ -2,20 +2,20 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="theme-color" content="#000000">
-  <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
-  <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
-  <link rel="stylesheet" href="%PUBLIC_URL%/external/bootstrap.min.css">
-  <link rel="stylesheet" href="../node_modules/typer-js/typer.css">
-  <link rel="stylesheet" href="./external/owl.theme.default.css">
+  <meta charset="utf-8"/>
+  <base href="/"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+  <meta name="theme-color" content="#000000"/>
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json"/>
+  <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico"/>
+  <link rel="stylesheet" href="%PUBLIC_URL%/external/bootstrap.min.css"/>
+  <link rel="stylesheet" href="../node_modules/typer-js/typer.css"/>
+  <link rel="stylesheet" href="./external/owl.theme.default.css"/>
   <link rel="stylesheet" href='./external/owl.carousel.css' />
   <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800|Roboto:300,400,500,700,900|Cairo:300,400,600,700"
-    rel="stylesheet">
+    rel="stylesheet"/>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-    crossorigin="anonymous">
+    crossorigin="anonymous"/>
   <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -45,6 +45,8 @@
   <script src="./external/owl.carousel.min.js"></script>
   <script>
     $(document).ready(function () {
+      console.log('ready');
+
       var myWave = $('#mainWave').wavify({
         height: 100,
         bones: 3,
@@ -52,29 +54,6 @@
         color: '#fff',
         speed: .15
       });
-
-      $('.about-preview-bwd').owlCarousel({
-        loop: true,
-        items: 5,
-        margin: 10,
-        nav: false,
-        autoplay: true,
-        dots: false,
-        autoplaySpeed: 500,
-        autoplayTimeout: 2000
-      })
-
-      $('.about-preview-fwd').owlCarousel({
-        loop: true,
-        items: 5,
-        margin: 10,
-        nav: false,
-        autoplay: true,
-        dots: false,
-        autoplaySpeed: 500,
-        autoplayTimeout: 2000,
-        rtl: true,
-      })
 
       var mainNav = $('.mainNav');
       $(function () {

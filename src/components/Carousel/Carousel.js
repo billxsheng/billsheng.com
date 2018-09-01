@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import CSSModules from 'react-css-modules';
 import styles from './Carousel.css';
+import Aux from '../../hoc/HO-Aux/HO-aux';
 
 class Carousel extends Component {
     state = {
@@ -17,9 +18,9 @@ class Carousel extends Component {
         )
 
         return (
-            <div className={this.props.classes}>
+            <Aux>
                 {carouselItems}
-            </div>
+            </Aux>
         )
     }
  

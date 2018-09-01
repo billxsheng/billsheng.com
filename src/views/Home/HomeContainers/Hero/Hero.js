@@ -3,7 +3,9 @@ import CSSModules from 'react-css-modules';
 import styles from './Hero.css';
 import MainButtonRow from '../../../../components/Button/MainButtonRow/MainButtonRow';
 
+
 const Hero = (props) => {
+
     return (
         <div styleName='hero'>
             <span className="container">
@@ -26,4 +28,4 @@ const Hero = (props) => {
     )
 }
 
-export default CSSModules(Hero, styles);
+export default CSSModules(Hero, styles,{allowMultiple: true});
