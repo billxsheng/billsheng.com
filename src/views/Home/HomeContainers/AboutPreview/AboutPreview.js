@@ -31,7 +31,7 @@ const aboutPreview = (props) => {
             </div>
             <div className="container">
                 <div styleName="abt-prev-el" className="row">
-                    <Button btnType="btnSmall">About Me</Button>
+                    <Button linkSPA="/about" btnType="btnSmall">About Me</Button>
                 </div>
             </div>
         <OwlCarousel

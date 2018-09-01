@@ -1,16 +1,17 @@
 import React from 'react';
 import styles from './Projects.css';
 import CSSModules from 'react-css-modules';
+import ProjectTile from './ProjectTile/ProjectTile';
 
 const Projects = (props) => (
-    <div styleName="about">
+    <div styleName="about" className="container">
         <span className="container">
-                <div className="row">
-                    <h1>
-                       Projects
-                    </h1>
-                </div>
-            </span>
+            <h1>
+                Projects
+            </h1>
+        </span>
+        <ProjectTile title="Blitz" shortDesc="Sports notification innovation." />
+        <ProjectTile title="Blitz" shortDesc="Sports notification innovation."/>
     </div>
 )
 

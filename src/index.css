@@ -10,7 +10,6 @@ h2 {
   font-family: 'Cairo';
   text-align: center !important;
   width: 100%;
-  margin: 0 auto;
 }
 
 h1 {
@@ -19,8 +18,14 @@ h1 {
   font-weight: 700;
   font-size: 100px;
   letter-spacing: -6px;
-  margin: 10px auto;
   margin: 130px auto 0 auto !important;
+}
+
+p {
+  text-align: center;
+  margin: 10px auto;
+  font-family: 'Roboto';
+  margin: 20px auto;
 }
 
 

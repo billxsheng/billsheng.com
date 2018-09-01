@@ -6,7 +6,7 @@ import styles from './Button.css';
 const button = (props) => {
 
     return (
-        <a target="_blank" href={props.link} styleName={props.btnType}>{props.children}</a>
+        <a target="_blank" to={props.linkSPA} href={props.link} styleName={props.btnType}>{props.children}</a>
     )
 }
 
