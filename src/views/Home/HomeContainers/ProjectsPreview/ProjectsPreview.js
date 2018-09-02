@@ -4,7 +4,7 @@ import CSSModules from 'react-css-modules';
 import styles from './ProjectsPreview.css';
 import Button from './../../../../components/Button/Button';
 import PreviewTile from './PreviewTile/PreviewTile';
-import ProjectInfo from '../../../../assets/projectsInfo';
+import { NavLink } from 'react-router-dom';
 
 const projectsPreview = (props) => (
     <div styleName= 'projectsPreview'>
@@ -20,7 +20,7 @@ const projectsPreview = (props) => (
     </div>
     <div className="container">
         <div styleName="proj-prev-el" className="row">
-            <Button btnType="btnSmall">View All Projects</Button>
+            <NavLink styleName="btn-link" to="/projects">View All Projects</NavLink>
         </div>
     </div>
 </div>

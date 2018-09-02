@@ -4,7 +4,10 @@ import styles from './Hero.css';
 import MainButtonRow from '../../../../components/Button/MainButtonRow/MainButtonRow';
 
 const Hero = (props) => {
-
+    const waveStyle = {
+        'width': '120px',
+        'height': '100%'
+    }
     
 
     return (
@@ -12,7 +15,10 @@ const Hero = (props) => {
             <span className="container">
                 <div className="row" styleName="main-title">
                     <h1>
-                        👋 &nbsp;Hey, I'm Bill.
+                    {/* <span aria-label="emoji" role="img">👋</span>&nbsp; Hey, I'm Bill. */}
+                    <span><img styleName="wave" alt="wave" style={waveStyle} src={require('../../../../assets/images/wave.png')}></img></span>
+                    &nbsp;
+                    Hey, I'm Bill!
                     </h1>
                 </div>
             </span>
@@ -27,7 +33,6 @@ const Hero = (props) => {
                     <MainButtonRow/>
                </div>
             </div>
-            {/* <svg styleName="wave" width="100%" height="100%" version="1.1"><defs></defs><path id="mainWave" d="" /></svg> */}
         </div>
         
     )

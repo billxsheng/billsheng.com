@@ -6,9 +6,6 @@ import MainButtonRow from '../Button/MainButtonRow/MainButtonRow';
 
 const footer = (props) => (
     <footer styleName='footer'>
-        <span className="container">
-                <h1>Footer</h1>
-        </span>
         <MainButtonRow/>
     </footer>
 )

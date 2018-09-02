@@ -8,16 +8,3 @@
     color: black;
     transform: scaleZ(1.1);
 }
-
-.btnSmall {
-    cursor: pointer;
-    background-color: #4775de;
-    padding: 20px;
-    border-radius: 5px;
-    color: white !important;
-    font-family: 'Cairo';
-}
-
-.btnLarge {
-    
-}

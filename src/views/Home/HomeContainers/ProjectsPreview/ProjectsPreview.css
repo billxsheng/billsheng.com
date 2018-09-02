@@ -1,6 +1,6 @@
 .projectsPreview {
     height: auto;
-    margin: 0 auto 400px auto;
+    margin: 0 auto 200px auto;
 
 }
 
@@ -12,4 +12,17 @@
     max-width: 1800px !important;
 }
 
+.btn-link {
+    cursor: pointer;
+    background-color: #4775de;
+    padding: 15px;
+    border-radius: 5px;
+    color: white !important;
+    font-family: 'Cairo';
+    transition: background-color 0.2s;
+}
 
+.btn-link:hover {
+    text-decoration: none !important;
+    background-color: #608aec;
+}

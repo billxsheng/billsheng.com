@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import CSSModules from 'react-css-modules';
 import styles from './ProjectTile.css';
+import Image from '../../../components/Image/Image';
 
 class projectTile extends Component {
     state = {
@@ -12,7 +13,7 @@ class projectTile extends Component {
             return (
                 <a className="row" styleName="project-tile">
                     <div styleName="image-cont" className="col-md-7">
-                        <img/>
+                        {/* <Image path="#"/> */}
                     </div>
                     <div styleName="text-cont" className="col-md-5">
                         <h2>
@@ -39,7 +40,7 @@ class projectTile extends Component {
                     <p styleName="project-preview-tag" >{this.props.tag}</p>
                 </div>
                 <div styleName="image-cont" className="col-md-7">
-                    <img/>
+                    {/* <Image path="#"/> */}
                 </div>
             </a>
         )

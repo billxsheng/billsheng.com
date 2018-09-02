@@ -5,6 +5,7 @@ import styles from './AboutPreview.css';
 import Button from '../../../../components/Button/Button';
 import Carousel from '../../../../components/Carousel/Carousel';
 import OwlCarousel from 'react-owl-carousel2';
+import { NavLink } from 'react-router-dom';
 import '../../../../external/owl.carousel.css';
 import '../../../../external/owl.theme.default.css';
 
@@ -31,7 +32,7 @@ const aboutPreview = (props) => {
             </div>
             <div className="container">
                 <div styleName="abt-prev-el" className="row">
-                    <Button linkSPA="/about" btnType="btnSmall">About Me</Button>
+                    <NavLink styleName="btn-link" to="/about">About Me</NavLink>
                 </div>
             </div>
         <OwlCarousel

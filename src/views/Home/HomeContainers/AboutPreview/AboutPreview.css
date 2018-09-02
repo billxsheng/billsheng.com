@@ -1,6 +1,6 @@
 .aboutPreview {
     height: auto;
-    margin: 300px auto 400px auto;
+    margin: 0 auto 250px auto;
 }
 
 .abt-prev-el {
@@ -29,6 +29,22 @@
     z-index: -2;
     transform: rotate(4deg);
 }
+
+.btn-link {
+    cursor: pointer;
+    background-color: #4775de;
+    padding: 15px;
+    border-radius: 5px;
+    color: white !important;
+    font-family: 'Cairo';
+    transition: background-color 0.2s;
+}
+
+.btn-link:hover {
+    text-decoration: none !important;
+    background-color: #608aec;
+}
+
 
 
 
