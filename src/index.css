@@ -36,3 +36,8 @@ a {
 button {
   cursor: pointer;
 }
+
+.scroll-hidden {
+  transform: translate3d(0, -100%, 0) !important;
+}
+

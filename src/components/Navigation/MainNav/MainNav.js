@@ -4,8 +4,8 @@ import classes from './MainNav.css'
 import NavItems from '../Items/NavItems';
 
 const mainNav = (props) => (
-    <nav className={classes.navContainer}>
-        <span className="mainNav" >
+    <nav id="mainNav" className={classes.navContainer}>
+        <span>
             <NavItems/>
         </span>
     </nav>

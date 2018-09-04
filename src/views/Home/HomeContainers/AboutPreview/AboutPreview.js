@@ -18,16 +18,17 @@ const aboutPreview = (props) => {
         autoplay: true,
         loop: true,
         dots: false,
-        autoplayTimeout: 2000,
+        autoplayTimeout: 1500,
         rtl: false,
         mouseDrag: false
     }
     return (
     <div styleName='aboutPreview'>
-        <div styleName="stripe"></div>
+        {/* <div styleName="stripe"></div>
+        <div styleName="stripe-reflected"></div> */}
             <div className="container">
                 <div styleName="abt-prev-el" className="row">
-                <h2>something cool</h2>
+                <h2>About Me</h2>
                 </div>
             </div>
             <div className="container">

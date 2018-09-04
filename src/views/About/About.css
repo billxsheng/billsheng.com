@@ -4,3 +4,28 @@
 
 .img-container div {
 }
+
+.stripe {
+    height: 325px;
+    width: 150vw;
+    margin-left: -30vw;
+    position: absolute;
+    background-color: rgb(255, 220, 154);
+    z-index: -3;
+    transform: rotate(4deg);
+}
+
+.stripe-reflected {
+    height: 375px;
+    width: 150vw;
+    margin-left: -30vw;
+    position: absolute;
+    transform: rotate(-4deg);
+    background-color: orange;
+    z-index: -2;
+    top: -50px;
+}
+
+.content-div {
+    margin-top: 100px;
+}

@@ -17,8 +17,13 @@ class Projects extends Component {
                         Projects
                     </h1>
                 </span>
-                <ProjectTile tag="Project" title="Blitz" shortDesc="Sports notification innovation." />
-                <ProjectTile tag="Internship" title="Blitz" reverse="true" shortDesc="Sports notification innovation."/>
+                <ProjectTile tag="Project" title="Skout" shortDesc="LinkedIn for Athletes" />
+                <ProjectTile tag="Internship" title="Canadian Tire" reverse="true" shortDesc="Developing in one of Canada's largest retai companies."/>
+                <ProjectTile tag="Project" title="Blitz" shortDesc="Sports Notification Innovation"/>
+                <ProjectTile tag="Project" title="Munkee" reverse="true" shortDesc="Just for fun"/>
+                <ProjectTile tag="Freelance" title="VCuts" shortDesc="Barber Website"/>
+                <ProjectTile tag="Hackathon" title="Moodify" reverse="true"  shortDesc="Combining machine learning and job searching"/>
+                <ProjectTile tag="Project" title="PROG" reverse="true"  shortDesc="Product Management Tool"/>
             </div>
         )
     }
