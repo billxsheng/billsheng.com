@@ -8,6 +8,7 @@ const PreviewTile = (props) => (
             <div styleName="tile-div">
                 <h3>{props.title}</h3>
                 <p>{props.desc}</p>
+                <p styleName="project-preview-tag">{props.tag}</p>
             </div>
         </div>
     )

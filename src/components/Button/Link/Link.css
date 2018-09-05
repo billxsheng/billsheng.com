@@ -1,0 +1,16 @@
+
+.btn-link {
+    cursor: pointer;
+    background-color: #4775de;
+    padding: 15px;
+    border-radius: 5px;
+    color: white !important;
+    font-family: 'Lato';
+    transition: background-color 0.2s;
+    margin: 0 auto;
+}
+
+.btn-link:hover {
+    text-decoration: none !important;
+    background-color: #608aec;
+}

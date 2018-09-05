@@ -11,14 +11,17 @@
     box-shadow: 0 0 80px rgba(0, 0, 0, 0.1);
 }
 
-.tile-div h3, .tile-div p {
-    font-family: 'Cairo';
-    text-align: center;
-}
-
 .tile-div {
     display: table-cell;
     vertical-align: middle;
+}
+
+.project-preview-tag {
+    background-color: orange;
+    width: 120px;
+    line-height: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
 }
 
 

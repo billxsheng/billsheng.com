@@ -4,12 +4,19 @@ body {
   font-family: sans-serif;
 }
 
+h3 {
+  font-family: 'Lato';
+  font-weight: 400;
+}
+
 
 h2 {
   font-size: 40px;
-  font-family: 'Cairo';
+  font-family: 'Lato';
+  font-weight: 400;
   text-align: center !important;
   width: 100%;
+  letter-spacing: -1px;
 }
 
 h1 {
@@ -24,8 +31,9 @@ h1 {
 p {
   text-align: center;
   margin: 10px auto;
-  font-family: 'Cairo';
+  font-family: 'Lato';
   margin: 20px auto;
+  font-weight: 400;
 }
 
 
@@ -41,3 +49,6 @@ button {
   transform: translate3d(0, -100%, 0) !important;
 }
 
+iframe {
+  margin: 20px auto;
+}

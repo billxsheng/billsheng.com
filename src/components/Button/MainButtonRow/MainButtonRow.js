@@ -12,7 +12,7 @@ const MainButtonRow = (props) => (
             <Button link={Links.resumePath} btnType="btnIcon" ><Icon iconName="far fa-file" iconType="iconSmall" /></Button>
         </div>
         <div className="col-md-3">
-            <Button link={Links.email} btnType="btnIcon" ><Icon iconName="far fa-envelope" iconType="iconSmall" /></Button>
+            <Button newPage="false" link={Links.email} btnType="btnIcon" ><Icon iconName="far fa-envelope" iconType="iconSmall" /></Button>
         </div>
         <div className="col-md-3">
             <Button link={Links.github} btnType="btnIcon" ><Icon iconName="fab fa-github" iconType="iconSmall" /></Button>

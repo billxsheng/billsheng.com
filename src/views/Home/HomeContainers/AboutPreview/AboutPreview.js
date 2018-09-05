@@ -2,12 +2,11 @@ import React from 'react';
 
 import CSSModules from 'react-css-modules';
 import styles from './AboutPreview.css';
-import Button from '../../../../components/Button/Button';
 import Carousel from '../../../../components/Carousel/Carousel';
 import OwlCarousel from 'react-owl-carousel2';
-import { NavLink } from 'react-router-dom';
 import '../../../../external/owl.carousel.css';
 import '../../../../external/owl.theme.default.css';
+import Link from '../../../../components/Button/Link/Link';
 
 
 const aboutPreview = (props) => {
@@ -33,7 +32,7 @@ const aboutPreview = (props) => {
             </div>
             <div className="container">
                 <div styleName="abt-prev-el" className="row">
-                    <NavLink styleName="btn-link" to="/about">About Me</NavLink>
+                    <Link link="/about">About Me</Link>
                 </div>
             </div>
         <OwlCarousel

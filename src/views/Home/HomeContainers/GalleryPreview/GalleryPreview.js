@@ -2,14 +2,14 @@ import React from 'react';
 
 import CSSModules from 'react-css-modules';
 import styles from './GalleryPreview.css';
-import { NavLink } from 'react-router-dom';
+import Link from '../../../../components/Button/Link/Link';
 
 const galleryPreview = (props) => (
     <div styleName= 'galleryPreview'>
     <span className="container">
-            <h1>Gallery</h1>
+            <h2>Gallery</h2>
             <div styleName="gallery-prev-el" className="row">
-                <NavLink styleName="btn-link" to="/gallery">View Gallery</NavLink>
+                <Link link="/gallery">View Gallery</Link>
             </div>
     </span>
 </div>
