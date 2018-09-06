@@ -29,7 +29,7 @@ class About extends Component {
                         <p>I'm a 19 year old Management Engineering Major at the University of Waterloo.</p>
                     </div>
                     <div className="row">
-                        <Image width="600px" path="waterloo-engineering.png" />
+                        <Image height="40px" path="waterloo-engineering.png" />
                     </div>
                     {/* <div className="row">
                         <iframe width="420" height="315" src="https://www.youtube.com/embed/Zw6UpeFCeN0"></iframe>
@@ -49,7 +49,7 @@ class About extends Component {
                             Canada's largest retail organizations with services ranging from gas to finance.</p>                       
                     </div>
                     <div className="row">
-                        <Image width="500px" path="canadian-tire-large.png" />
+                        <Image height="80px" path="canadian-tire-large.png" />
                     </div>
                     <div className="row">
                         <Link link="/projects">Learn More</Link>

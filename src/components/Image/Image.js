@@ -1,13 +1,13 @@
 import React from 'react';
+import { withRouter } from 'react-router-dom';
 
 const Image = (props) => {
     console.log(props.path);
     const imageStyle = {
        'margin': `0 auto`,
-       'width': props.width,
-       'height': '100%',
-       'top':props.top,
-        'position':'relative'
+       'width': 'auto',
+       'height': props.height,
+       'top': props.top,
     }
 
     return (
@@ -15,4 +15,4 @@ const Image = (props) => {
     )
 }
 
-export default Image;
+export default withRouter(Image);

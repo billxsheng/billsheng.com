@@ -7,7 +7,7 @@ import Image from '../../../components/Image/Image';
 const aboutTile = (props) => (
     <div className="jumbotron" styleName="aboutTile">
         <div className="row" >
-            <Image top="-100px" width="100px" path="logo.png"/>
+            <Image top="-100px" height="80px" path="logo.png"/>
         </div>
         <div>
             <h3>{props.title}</h3>
