@@ -5,7 +5,9 @@ const Image = (props) => {
     const imageStyle = {
        'margin': `0 auto`,
        'width': props.width,
-       'height': '100%'
+       'height': '100%',
+       'top':props.top,
+        'position':'relative'
     }
 
     return (

@@ -1,0 +1,8 @@
+.aboutTile {
+    height: 300px;
+    width: 300px;
+    margin: 100px auto 0 auto;
+    background-color: white;
+    box-shadow: 0 0 40px #ccc;
+    border-radius: 20px;
+}

@@ -27,7 +27,7 @@ class Projects extends Component {
                 <ProjectTile to="/skout" tag="Hackathon" title="Moodify" reverse="true"  shortDesc="Combining machine learning and job searching"/>
                 <ProjectTile to="/skout" tag="Project" title="PROG" shortDesc="Product Management Tool"/>
 
-                <Route path="/skout" exact component={Skout} />
+                <Route path="/projects/skout" exact component={Skout} />
             </div>
         )
     }
