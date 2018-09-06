@@ -37,23 +37,22 @@ class About extends Component {
                     </div>
                     <h2>Interests</h2>
                     <div className="row">
-                        <p>I am interested in: </p>
                         <p>Web Development</p>
                         <p>Mobile Development</p>
                         <p>Data Science</p>
                     </div>
                     <div className="row">
                         <p>At Waterloo Engineering, students are given 6 co-op work terms on top of their academic requirements. 
-                            During my first work term in summer 2018, I was a technical specialist intern at Canadian Tire Corporation. You can learn more about that below.</p>                       
+                            During my first work term in summer 2018, I was a technical specialist intern at Canadian Tire Corporation.</p>                       
                     </div>
                     <div className="row">
                         <Link link="/projects">Learn More</Link>
                     </div>
                     <div className="row">
-                        <p>Throughout my future work terms, I would like to explore: </p>
-                        <p>Software Engineering</p>
-                        <p>Data Science</p>
-                        <p>Product Management</p>
+                        <p>Throughout my future work terms, I would like to explore roles as a: </p>
+                        <p>Software Engineer</p>
+                        <p>Data Scientist</p>
+                        <p>Product Manager</p>
                     </div>
                     <div className="row">
                         <p>My Skills: </p>

@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import styles from './Projects.css';
 import CSSModules from 'react-css-modules';
 import ProjectTile from './ProjectTile/ProjectTile';
+import { Route } from 'react-router-dom';
+import Skout from './ProjectDetails/Skout/Skout';
 
 class Projects extends Component {
 
@@ -17,13 +19,15 @@ class Projects extends Component {
                         Projects
                     </h1>
                 </span>
-                <ProjectTile tag="Project" title="Skout" shortDesc="LinkedIn for Athletes" />
-                <ProjectTile tag="Internship" title="Canadian Tire" reverse="true" shortDesc="Developing in one of Canada's largest retai companies."/>
-                <ProjectTile tag="Project" title="Blitz" shortDesc="Sports Notification Innovation"/>
-                <ProjectTile tag="Project" title="Munkee" reverse="true" shortDesc="Just for fun"/>
-                <ProjectTile tag="Freelance" title="VCuts" shortDesc="Barber Website"/>
-                <ProjectTile tag="Hackathon" title="Moodify" reverse="true"  shortDesc="Combining machine learning and job searching"/>
-                <ProjectTile tag="Project" title="PROG" reverse="true"  shortDesc="Product Management Tool"/>
+                <ProjectTile to="/projects/skout" tag="Project" title="Skout" shortDesc="LinkedIn for Athletes" />
+                <ProjectTile to="/skout" tag="Internship" title="Canadian Tire" reverse="true" shortDesc="Developing in one of Canada's largest retai companies."/>
+                <ProjectTile to="/skout" tag="Project" title="Blitz" shortDesc="Sports Notification Innovation"/>
+                <ProjectTile to="/skout" tag="Project" title="Munkee" reverse="true" shortDesc="Just for fun"/>
+                <ProjectTile to="/skout" tag="Freelance" title="VCuts" shortDesc="Barber Website"/>
+                <ProjectTile to="/skout" tag="Hackathon" title="Moodify" reverse="true"  shortDesc="Combining machine learning and job searching"/>
+                <ProjectTile to="/skout" tag="Project" title="PROG" shortDesc="Product Management Tool"/>
+
+                <Route path="/skout" exact component={Skout} />
             </div>
         )
     }

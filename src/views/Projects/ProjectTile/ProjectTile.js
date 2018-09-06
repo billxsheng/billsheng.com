@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import CSSModules from 'react-css-modules';
 import styles from './ProjectTile.css';
 import Image from '../../../components/Image/Image';
+import { NavLink } from 'react-router-dom';
 
 class projectTile extends Component {
     state = {
@@ -11,7 +12,7 @@ class projectTile extends Component {
     render() {
         if(this.state.reverse) {
             return (
-                <a className="row" styleName="project-tile">
+                <NavLink to={this.props.to} className="row" styleName="project-tile">
                     <div styleName="image-cont" className="col-md-7">
                         {/* <Image path="#"/> */}
                     </div>
@@ -24,12 +25,12 @@ class projectTile extends Component {
                         </p>
                         <p styleName="project-preview-tag" >{this.props.tag}</p>
                     </div>
-                </a>
+                </NavLink>
             )
         }
 
         return (
-            <a className="row" styleName="project-tile">
+            <NavLink to={this.props.to} className="row" styleName="project-tile">
                 <div styleName="text-cont" className="col-md-5">
                     <h2>
                         {this.props.title}
@@ -42,7 +43,7 @@ class projectTile extends Component {
                 <div styleName="image-cont" className="col-md-7">
                     {/* <Image path="#"/> */}
                 </div>
-            </a>
+            </NavLink>
         )
     }
 } 

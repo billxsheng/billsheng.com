@@ -12,7 +12,6 @@ import Footer from './components/Footer/Footer';
 import Modal from './components/Modal/Modal';
 import styles from './App.css';
 import Waypoint from 'react-waypoint';
-import $ from 'jquery';
 
 class App extends Component {
 
@@ -21,10 +20,10 @@ class App extends Component {
 
     let routes = (
       <Switch>
-        <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />
         <Route exact path="/projects" component={Projects} />
         <Route exact path="/gallery" component={Gallery} />
+        <Route path="/" component={Home} />
         <Redirect to="/" />
       </Switch>
     )

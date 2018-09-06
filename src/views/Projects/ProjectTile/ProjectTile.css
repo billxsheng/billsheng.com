@@ -4,10 +4,13 @@
     width: 80%;
     transition: box-shadow 0.2s;
     border-radius: 15px;
+    color: black;
 }
 
 .project-tile:hover {
+    text-decoration: none !important;
     box-shadow: 0 0 40px #ccc;
+    color: black;
 }
 
 .project-tile h2 {
