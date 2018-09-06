@@ -3,15 +3,17 @@ import CSSModules from 'react-css-modules';
 
 import styles from './PreviewTile.css';
 
-const PreviewTile = (props) => (
-        <div className='btn' styleName="project-preview-tile" >
-            <div styleName="tile-div">
-                <h3>{props.title}</h3>
-                <p>{props.desc}</p>
-                <p styleName="project-preview-tag">{props.tag}</p>
+const PreviewTile = (props) => {
+        return (
+            <div className='btn' styleName="project-preview-tile" >
+                <div styleName="tile-div">
+                    <h3>{props.title}</h3>
+                    <p>{props.desc}</p>
+                    <p styleName="project-preview-tag">{props.tag}</p>
+                </div>
             </div>
-        </div>
-    )
+        )
+}
     
 
 

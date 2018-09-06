@@ -8,6 +8,7 @@ const Image = (props) => {
        'width': 'auto',
        'height': props.height,
        'top': props.top,
+       'position': 'relative'
     }
 
     return (
