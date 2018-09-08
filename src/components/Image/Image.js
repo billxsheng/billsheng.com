@@ -6,13 +6,13 @@ const Image = (props) => {
     const imageStyle = {
        'margin': `0 auto`,
        'width': 'auto',
-       'height': props.height,
+       'maxHeight': props.height,
        'top': props.top,
        'position': 'relative'
     }
 
     return (
-        <img alt="bill" style={imageStyle} src={require(`../../assets/images/${props.path}`)} />
+        <img className="img-fluid" alt="bill" style={imageStyle} src={require(`../../assets/images/${props.path}`)} />
     )
 }
 

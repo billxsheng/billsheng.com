@@ -20,10 +20,10 @@ class projectTile extends Component {
             
             return (
                 <NavLink to={this.props.to} className="row" styleName="project-tile">
-                    <div style={this.imageStyle} className="col-md-7">
+                    <div style={this.imageStyle} className="col-md-6">
                         <Image top={this.props.top} height={this.props.imageHeight} path={this.props.imageName}/>
                     </div>
-                    <div styleName="text-cont" className="col-md-5">
+                    <div styleName="text-cont" className="col-md-6">
                         <h2>
                             {this.props.title}
                         </h2>
@@ -38,7 +38,7 @@ class projectTile extends Component {
 
         return (
             <NavLink to={this.props.to} className="row" styleName="project-tile">
-                <div styleName="text-cont" className="col-md-5">
+                <div styleName="text-cont" className="col-md-6">
                     <h2>
                         {this.props.title}
                     </h2>
@@ -47,7 +47,7 @@ class projectTile extends Component {
                     </p>
                     <p styleName="project-preview-tag" >{this.props.tag}</p>
                 </div>
-                <div style = {this.imageStyle}className="col-md-7">
+                <div style = {this.imageStyle}className="col-md-6">
                     <Image height={this.props.imageHeight} path={this.props.imageName}/>
                 </div>
             </NavLink>
