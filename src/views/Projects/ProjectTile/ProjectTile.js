@@ -11,7 +11,14 @@ class projectTile extends Component {
 
     imageStyle = {
         'backgroundColor': this.props.imageBackground,
-        'borderRadius': 'inherit',
+        'borderTopLeftRadius':'15px',
+        'borderBottomLeftRadius':'15px'
+    }
+
+    imageStyleReverse = {
+        'backgroundColor': this.props.imageBackground,
+        'borderBottomRightRadius':'15px',
+        'borderTopRightRadius':'15px'
     }
 
     render() {
@@ -47,7 +54,7 @@ class projectTile extends Component {
                     </p>
                     <p styleName="project-preview-tag" >{this.props.tag}</p>
                 </div>
-                <div style = {this.imageStyle}className="col-md-6">
+                <div style = {this.imageStyleReverse}className="col-md-6">
                     <Image height={this.props.imageHeight} path={this.props.imageName}/>
                 </div>
             </NavLink>
