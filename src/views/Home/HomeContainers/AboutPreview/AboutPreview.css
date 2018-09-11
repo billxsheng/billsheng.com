@@ -40,7 +40,13 @@
     z-index: -2;
 }
 
-
+.carousel-overlay {
+    z-index: 200;
+    background: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),  rgba(255, 255, 255, 1) );
+    height: 75px;
+    position: absolute;
+    width: 100%;
+}
 
 
 

@@ -25,9 +25,9 @@ class projectTile extends Component {
 
         if(this.state.reverse) {
             
-            return (
+            return (             
                 <NavLink to={this.props.to} className="row" styleName="project-tile">
-                    <div style={this.imageStyle} className="col-md-6">
+                    <div styleName="img-cont" style={this.imageStyle} className="col-md-6">
                         <Image top={this.props.top} height={this.props.imageHeight} path={this.props.imageName}/>
                     </div>
                     <div styleName="text-cont" className="col-md-6">
@@ -39,6 +39,7 @@ class projectTile extends Component {
                         </p>
                         <p styleName="project-preview-tag" >{this.props.tag}</p>
                     </div>
+                    
                 </NavLink>
             )
         }
@@ -54,7 +55,7 @@ class projectTile extends Component {
                     </p>
                     <p styleName="project-preview-tag" >{this.props.tag}</p>
                 </div>
-                <div style = {this.imageStyleReverse}className="col-md-6">
+                <div styleName="img-cont" style = {this.imageStyleReverse}className="col-md-6">
                     <Image height={this.props.imageHeight} path={this.props.imageName}/>
                 </div>
             </NavLink>

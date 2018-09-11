@@ -26,7 +26,9 @@ class About extends Component {
                 <div styleName="content-div">
                     <h2>Hey, I'm Bill!</h2>
                     <div className="row">
-                        <p>I'm a 19 year old Management Engineering Major at the University of Waterloo.</p>
+                        <p>I'm a 19 year old Management Engineering Major at the University of Waterloo. 
+                            I'm a curious, hard-working individual with an interest for software development and data. 
+                            I enjoy working on projects that have real-world impact in industries that I am passionate about.&nbsp;<span>🇨🇦</span></p>
                     </div>
                     <div className="row">
                         <Image height="40px" path="waterloo-engineering.png" />
@@ -35,18 +37,12 @@ class About extends Component {
                         <iframe width="420" height="315" src="https://www.youtube.com/embed/Zw6UpeFCeN0"></iframe>
                     </div> */}
                     <div className="row">
-                        <p>Previously, I attended Markville Secondary School in my hometown of Markham, Ontario. <span>🇨🇦</span></p>
-                    </div>
-                    <h2>Interests</h2>
-                    <div className="row">
-                        <p>Web Development</p>
-                        <p>Mobile Development</p>
-                        <p>Data Science</p>
+                        <p>Management Engineering is a one-of-a-kind interdisciplinary program with a split focus in computer science, systems engineering, and optimization.</p>
                     </div>
                     <div className="row">
-                        <p>At Waterloo Engineering, students are given 6 co-op work terms on top of their academic requirements. 
-                            During my first work term in summer 2018, I was an intern at Canadian Tire Corporation. Canadian Tire is one of 
-                            Canada's largest retail organizations with services ranging from gas to finance.</p>                       
+                        <p>Waterloo Engineering students are given six co-op terms on top of coursework. 
+                            These mandatory work terms allow students to gain real-world experience while exploring potential career paths. 
+                            For my first work term this past summer, I was an intern at Canadian Tire Corporation.</p>                       
                     </div>
                     <div className="row">
                         <Image height="80px" path="canadian-tire-large.png" />
@@ -55,24 +51,23 @@ class About extends Component {
                         <Link link="/projects">Learn More</Link>
                     </div>
                     <div className="row">
-                        <p>I am currently looking for positions as a: </p>
-                        <p>Software Engineer</p>
-                        <p>Data Scientist</p>
-                        <p>Product Manager</p>
+                        <p>In future terms, I would like to acquire positions related to: </p>                       
                     </div>
-                    <AboutTile iconName="fas fa-desktop" title="Web Development"/>
                     <div className="row">
-                        <p>Skills</p>
+                        <AboutTile iconName="fas fa-desktop" title="Software Engineering"/>
+                        <AboutTile iconName="fas fa-desktop" title="Data Science"/>
+                        <AboutTile iconName="fas fa-desktop" title="Product Management"/>
                     </div>
+
+                    <h2>Skills</h2>
+
                     <h2>Hobbies</h2>
                     <div className="row">
-                        <p>Hobbies</p>
                         <p>Sports + Fitness</p>
                         <p>Guitar</p>
                         <p>Cooking</p>
                     </div>
                     <div className="row">
-                        <p>Teams</p>
                         <p>NCAAFB</p>
                         <p>NHL</p>
                         <p>NFL</p>

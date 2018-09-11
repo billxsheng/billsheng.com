@@ -4,15 +4,20 @@ import { withRouter } from 'react-router-dom';
 const Image = (props) => {
     console.log(props.path);
     const imageStyle = {
-       'margin': `0 auto`,
+       'marginTop': props.imageDivided,
+       'marginBottom': `0`,
+       'marginLeft': `auto`,
+       'marginRight': `auto`,
        'width': 'auto',
        'maxHeight': props.height,
-       'top': props.top,
-       'position': 'relative'
+       'display': 'block',
+       'verticalAlign': 'middle',
+       'position': 'relative',
+       'borderRadius': '15px'
     }
 
     return (
-        <img className="img-fluid" alt="bill" style={imageStyle} src={require(`../../assets/images/${props.path}`)} />
+        <img alt="bill" style={imageStyle} src={require(`../../assets/images/${props.path}`)} />
     )
 }
 

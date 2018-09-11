@@ -35,6 +35,7 @@ const aboutPreview = (props) => {
                     <Link link="/about">About Me</Link>
                 </div>
             </div>
+            <div styleName="carousel-overlay"></div>
         <OwlCarousel
         options={options}
         >   

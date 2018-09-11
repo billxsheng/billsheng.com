@@ -1,7 +1,7 @@
 .project-tile {
-    height: 325px;
-    margin: 50px auto;
-    width: 80%;
+    height: 400px;
+    margin: 100px auto;
+    width: 1000px;
     transition: box-shadow 0.2s;
     border-radius: 15px;
     color: black;
@@ -14,7 +14,7 @@
 }
 
 .project-tile h2 {
-    margin: 80px auto 0 auto;
+    margin: 120px auto 0 auto;
     text-align: left;
 }
 
@@ -31,3 +31,9 @@
 
 .text-cont {
 }
+
+.img-cont {
+    padding: 0 !important;
+}
+
+

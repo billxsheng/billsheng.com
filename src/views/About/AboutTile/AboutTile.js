@@ -5,9 +5,9 @@ import Icon from '../../../components/Icon/Icon';
 import Image from '../../../components/Image/Image';
 
 const aboutTile = (props) => (
-    <div className="jumbotron" styleName="aboutTile">
+    <div className="jumbotron col-md-3" styleName="aboutTile">
         <div className="row" >
-            <Image top="-100px" height="80px" path="logo.png"/>
+            <Icon></Icon>
         </div>
         <div>
             <h3>{props.title}</h3>

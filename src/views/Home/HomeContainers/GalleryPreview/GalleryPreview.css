@@ -1,8 +1,11 @@
 .galleryPreview {
     height: auto;
+    margin: 0 auto;
+}
+.gallery-prev-el h2 {
+    margin: 30px auto 15px auto;
 }
 
 .gallery-prev-el a {
-    margin: 0 auto;
-
+    margin: 15px auto 30px auto;
 }

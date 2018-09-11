@@ -4,11 +4,16 @@
 
 }
 
-.proj-prev-el a {
-    margin: 0 auto;
-}
-
 .tile-wrapper {
     max-width: 1800px !important;
 }
+
+.proj-prev-el h2 {
+    margin: 30px auto 15px auto;
+}
+
+.proj-prev-el a {
+    margin: 5px auto 30px auto;
+}
+
 
