@@ -7,6 +7,9 @@ import MainButtonRow from '../Button/MainButtonRow/MainButtonRow';
 const footer = (props) => (
     <footer styleName='footer'>
         <MainButtonRow/>
+        <div className="container">
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bill Sheng 2018 ©</p>
+        </div>
     </footer>
 )
 

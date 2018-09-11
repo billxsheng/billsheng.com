@@ -8,6 +8,7 @@ import OwlCarousel from 'react-owl-carousel2';
 import '../../../../external/owl.carousel.css';
 import '../../../../external/owl.theme.default.css';
 import Carousel from '../../../../components/Carousel/Carousel';
+import Icon from '../../../../components/Icon/Icon';
 
 class projectsPreview extends Component {
     
@@ -32,8 +33,11 @@ class projectsPreview extends Component {
         return (
             <div styleName= 'projectsPreview'>
             <span className="container">
-                    <h2>Featured Projects</h2>
+                    <h2>Projects</h2>
             </span>
+            <span className="container">
+                    <p>No idea is too big 💡</p>            
+            </span> 
             <div className="container">
                     <div styleName="carousel-wrapper"></div>
                     <OwlCarousel style={carouselStyle} ref="projCarousel" options={options}>   
@@ -41,8 +45,8 @@ class projectsPreview extends Component {
                         <PreviewTile title="Canadian Tire" desc="Canada's largest retail organization" tag="Internship" />
                         <PreviewTile title="Blitz" desc="Sports Notification Innovation" tag="Project" />
                     </OwlCarousel>
-                <button onClick={() => this.refs.projCarousel.prev()}>prev</button>
-                <button onClick={() => this.refs.projCarousel.next()}>next</button>
+                <button onClick={() => this.refs.projCarousel.prev()}><Icon></Icon></button>
+                <button onClick={() => this.refs.projCarousel.next()}><Icon></Icon></button>
             </div>
             <div className="container">
                 <div styleName="proj-prev-el" className="row">

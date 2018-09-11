@@ -17,6 +17,11 @@ class Gallery extends Component {
                             Gallery
                         </h1>
                     </div>
+                    <span className="container">
+                        <p>
+                            Photos, Ideas, & Thoughts
+                        </p>
+                    </span>
                 </span>
             </div>
         )

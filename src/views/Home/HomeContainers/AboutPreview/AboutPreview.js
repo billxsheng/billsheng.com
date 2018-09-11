@@ -28,11 +28,9 @@ const aboutPreview = (props) => {
             <div className="container">
                 <div styleName="abt-prev-el" className="row">
                 <h2>About Me</h2>
-                </div>
-            </div>
-            <div className="container">
-                <div styleName="abt-prev-el" className="row">
-                    <Link link="/about">About Me</Link>
+                <span className="container">
+                    <p>Striving to be the best in everything I do</p>            
+                </span>  
                 </div>
             </div>
             <div styleName="carousel-overlay"></div>
@@ -41,6 +39,11 @@ const aboutPreview = (props) => {
         >   
             <Carousel carouselItems={carouselItems} classes="owl-carousel owl-theme" />
         </OwlCarousel>
+        <div className="container">
+                <div styleName="abt-prev-el" className="row">
+                    <Link link="/about">About Me</Link>
+                </div>
+            </div>
     </div>
     )
 }

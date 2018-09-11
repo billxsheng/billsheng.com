@@ -9,3 +9,39 @@
 .gallery-prev-el a {
     margin: 15px auto 30px auto;
 }
+
+.carousel-wrapper {
+    height: 400px;
+    width: 700px;
+    position: absolute;
+    z-index: -100;
+    background-color: green;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    border-radius: 15px;
+}
+
+.btn-left {
+    float: left;
+    position: relative;
+    top: -50%;
+    border-radius: 300px;
+    z-index: 500;
+}
+
+.btn-right {
+    float: right;
+    position: relative;
+    top: -50%;
+    border-radius: 300px;
+    z-index: 500;
+}
+
+.carousel-wrapper-btn {
+    height: 300px;
+    width: 700px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}

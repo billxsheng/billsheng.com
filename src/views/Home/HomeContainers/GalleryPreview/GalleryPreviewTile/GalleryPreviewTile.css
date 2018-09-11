@@ -1,0 +1,30 @@
+.gallery-preview-tile {
+    margin: 0 auto;
+    width: 100% !important;
+    height: 400px !important;
+    transition: box-shadow 0.2s;
+    background-color: transparent;
+    z-index: 500;
+    display: table;
+    color: black;
+}
+
+.gallery-preview-tile:hover {
+    color: black;
+}
+
+.tile-div { 
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.gallery-preview-tag {
+    background-color: #ffa500;
+    width: 120px;
+    line-height: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+}
+
+
+

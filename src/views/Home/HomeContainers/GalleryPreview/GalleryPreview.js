@@ -7,34 +7,44 @@ import OwlCarousel from 'react-owl-carousel2';
 import '../../../../external/owl.carousel.css';
 import '../../../../external/owl.theme.default.css';
 import Carousel from '../../../../components/Carousel/Carousel';
-import PreviewTile from '../ProjectsPreview/PreviewTile/PreviewTile';
+import GalleryPreviewTile from './GalleryPreviewTile/GalleryPreviewTile';
+import Icon from '../../../../components/Icon/Icon';
 
 class galleryPreview extends Component {
     render() {
         const options = {
             items: 1,
-            dots: true,
+            dots: false,
             autoplayTimeout: 1500,
             rtl: false,
             mouseDrag: false,
+            loop: true
         }
 
         const carouselStyle = {
-            'width': '500px',
-            'margin': '0 auto'
+            'width': 'inherit',
+            'margin': '0 auto',
+            'backgroundColor': 'red',
+            'borderRadius': '15px'
         }
 
         return (
             <div styleName= 'galleryPreview'>
                 <span className="container">
                     <h2>Gallery</h2>
-                    <OwlCarousel style={carouselStyle} ref="projCarousel" options={options}>   
-                        <PreviewTile title="Skout" desc="LinkedIn for Athletes" tag="Project" />
-                        <PreviewTile title="Canadian Tire" desc="Canada's largest retail organization" tag="Internship" />
-                        <PreviewTile title="Blitz" desc="Sports Notification Innovation" tag="Project" />
-                    </OwlCarousel>
-                <button onClick={() => this.refs.projCarousel.prev()}>prev</button>
-                <button onClick={() => this.refs.projCarousel.next()}>next</button>
+                    <span className="container">
+                        <p>From pick 6 to python</p>            
+                    </span> 
+                    <div styleName="carousel-wrapper"></div>
+                        <div styleName="carousel-wrapper-btn"  >
+                            <OwlCarousel style={carouselStyle} ref="projCarousel" options={options}>   
+                                <GalleryPreviewTile title="The Rise of College Football" desc="" tag="Project" />
+                                <GalleryPreviewTile title="GraphQL" desc="" tag="Internship" />
+                                <GalleryPreviewTile title="Containerization" desc="" tag="Project" />
+                            </OwlCarousel>
+                            <a className="btn btn-primary" styleName="btn-left" onClick={() => this.refs.projCarousel.prev()}><Icon iconType="iconSmall" iconName="fas fa-chevron-left"></Icon></a>
+                            <a className="btn btn-primary" styleName="btn-right" onClick={() => this.refs.projCarousel.next()}><Icon iconType="iconSmall" iconName="fas fa-chevron-right"></Icon></a>
+                        </div>
                     <div styleName="gallery-prev-el" className="row">
                         <Link link="/gallery">View Gallery</Link>
                     </div>
