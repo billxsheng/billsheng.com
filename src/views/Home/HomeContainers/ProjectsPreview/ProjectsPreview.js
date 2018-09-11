@@ -13,31 +13,36 @@ class projectsPreview extends Component {
     
 
     render() {
-        const carouselItems = ['🐶', '👔', '🏀', '🎣', '🎸', '🔧', '🌇', '📚', '🍁','🎓', '🧠', '👨🏻‍💻', '🏋🏻‍', '🥑 ', '🏈', '⚾️', '🥅', '🎢'];
         const options = {
         items: 1,
         dots: true,
         autoplayTimeout: 1500,
         rtl: false,
         mouseDrag: false,
+        nav: false
+        }
+
+        const carouselStyle = {
+            'width': '500px',
+            'margin': '0 auto',
+            'backgroundColor': 'transparent',
+            'borderRadius': '15px'
         }
 
         return (
             <div styleName= 'projectsPreview'>
             <span className="container">
-                    <h2>Projects</h2>
+                    <h2>Featured Projects</h2>
             </span>
             <div className="container">
-                <OwlCarousel ref="car" options={options}>   
-                    <PreviewTile title="Skout" desc="LinkedIn for Athletes" tag="Project" />
-                    <PreviewTile title="Canadian Tire" desc="Canada's largest retail organization" tag="Internship" />
-                    <PreviewTile title="Blitz" desc="Sports Notification Innovation" tag="Project" />
-                </OwlCarousel>
-                <button onClick={() => this.refs.car.prev()}>prev</button>
-                <button onClick={() => this.refs.car.next()}>next</button>
-
-                <div styleName="tile-wrapper" className="row">
-                </div>
+                    <div styleName="carousel-wrapper"></div>
+                    <OwlCarousel style={carouselStyle} ref="projCarousel" options={options}>   
+                        <PreviewTile title="Skout" desc="LinkedIn for Athletes" tag="Project" />
+                        <PreviewTile title="Canadian Tire" desc="Canada's largest retail organization" tag="Internship" />
+                        <PreviewTile title="Blitz" desc="Sports Notification Innovation" tag="Project" />
+                    </OwlCarousel>
+                <button onClick={() => this.refs.projCarousel.prev()}>prev</button>
+                <button onClick={() => this.refs.projCarousel.next()}>next</button>
             </div>
             <div className="container">
                 <div styleName="proj-prev-el" className="row">

@@ -16,4 +16,15 @@
     margin: 5px auto 30px auto;
 }
 
+.carousel-wrapper {
+    height: 300px;
+    width: 500px;
+    position: absolute;
+    z-index: -100;
+    background-color: green;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
 
