@@ -2,40 +2,34 @@
     height: auto;
     margin: 0 auto;
 }
-.gallery-prev-el h2 {
-    margin: 30px auto 15px auto;
+.gallery-prev-el  {
 }
 
-.gallery-prev-el a {
-    margin: 15px auto 30px auto;
-}
-
-.carousel-wrapper {
-    height: 400px;
-    width: 700px;
-    position: absolute;
-    z-index: -100;
-    background-color: green;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-    border-radius: 15px;
-}
 
 .btn-left {
     float: left;
     position: relative;
-    top: -50%;
-    border-radius: 300px;
+    top: -230px;
     z-index: 500;
+    text-align: center;
+    background-color: rgb(236, 236, 236);
+    padding: 5px 10px;
+    color: white !important;
+    border-radius: 50%;
+    margin-left: 15px;
 }
 
 .btn-right {
     float: right;
     position: relative;
-    top: -50%;
-    border-radius: 300px;
+    top: -230px;
+    text-align: center;
+    background-color: rgb(236, 236, 236);
+    padding: 5px 10px;
+    color: white !important;
+    border-radius: 50%;
     z-index: 500;
+    margin-right: 15px;
 }
 
 .carousel-wrapper-btn {

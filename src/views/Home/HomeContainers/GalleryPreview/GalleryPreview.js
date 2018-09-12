@@ -24,8 +24,10 @@ class galleryPreview extends Component {
         const carouselStyle = {
             'width': 'inherit',
             'margin': '0 auto',
-            'backgroundColor': 'red',
-            'borderRadius': '15px'
+            'backgroundColor': 'transparent',
+            'borderRadius': '15px',
+            'position':'relative',
+            'border': 'black solid 3px'
         }
 
         return (
@@ -33,21 +35,20 @@ class galleryPreview extends Component {
                 <span className="container">
                     <h2>Gallery</h2>
                     <span className="container">
-                        <p>From pick 6 to python</p>            
+                        <p>From pick 6 to python </p>            
                     </span> 
-                    <div styleName="carousel-wrapper"></div>
                         <div styleName="carousel-wrapper-btn"  >
                             <OwlCarousel style={carouselStyle} ref="projCarousel" options={options}>   
-                                <GalleryPreviewTile title="The Rise of College Football" desc="" tag="Project" />
+                                <GalleryPreviewTile background = "../../../../../assets/images/logo.png" title="The Rise of College Football" desc="" tag="Project" />
                                 <GalleryPreviewTile title="GraphQL" desc="" tag="Internship" />
                                 <GalleryPreviewTile title="Containerization" desc="" tag="Project" />
                             </OwlCarousel>
-                            <a className="btn btn-primary" styleName="btn-left" onClick={() => this.refs.projCarousel.prev()}><Icon iconType="iconSmall" iconName="fas fa-chevron-left"></Icon></a>
-                            <a className="btn btn-primary" styleName="btn-right" onClick={() => this.refs.projCarousel.next()}><Icon iconType="iconSmall" iconName="fas fa-chevron-right"></Icon></a>
+                            <a styleName="btn-left" onClick={() => this.refs.projCarousel.prev()}><Icon iconType="iconSmall" iconName="fas fa-chevron-left"></Icon></a>
+                            <a styleName="btn-right" onClick={() => this.refs.projCarousel.next()}><Icon iconType="iconSmall" iconName="fas fa-chevron-right"></Icon></a>
                         </div>
-                    <div styleName="gallery-prev-el" className="row">
-                        <Link link="/gallery">View Gallery</Link>
-                    </div>
+                        {/* <div styleName="gallery-prev-el" className="row">
+                            <Link link="/gallery">View Gallery</Link>
+                        </div> */}
                 </span>
             </div>
         )

@@ -16,8 +16,8 @@ h2 {
   font-family: 'Lato';
   font-weight: 400;
   text-align: center !important;
-  width: 100%;
   letter-spacing: -1px;
+  margin: 0 auto;
 }
 
 h1 {

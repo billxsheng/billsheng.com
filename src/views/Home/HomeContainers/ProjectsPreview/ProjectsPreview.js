@@ -36,17 +36,12 @@ class projectsPreview extends Component {
                     <h2>Projects</h2>
             </span>
             <span className="container">
-                    <p>No idea is too big 💡</p>            
+                    <p>Constantly turning ideas into reality 💡</p>            
             </span> 
-            <div className="container">
-                    <div styleName="carousel-wrapper"></div>
-                    <OwlCarousel style={carouselStyle} ref="projCarousel" options={options}>   
-                        <PreviewTile title="Skout" desc="LinkedIn for Athletes" tag="Project" />
-                        <PreviewTile title="Canadian Tire" desc="Canada's largest retail organization" tag="Internship" />
-                        <PreviewTile title="Blitz" desc="Sports Notification Innovation" tag="Project" />
-                    </OwlCarousel>
-                <button onClick={() => this.refs.projCarousel.prev()}><Icon></Icon></button>
-                <button onClick={() => this.refs.projCarousel.next()}><Icon></Icon></button>
+            <div styleName="tile-wrapper" className="container">
+                <PreviewTile title="Skout" desc="LinkedIn for Athletes" tag="Project" />
+                <PreviewTile title="Canadian Tire" desc="Canada's largest retail organization" tag="Internship" />
+                <PreviewTile title="Blitz" desc="Sports Notification Innovation" tag="Project" />
             </div>
             <div className="container">
                 <div styleName="proj-prev-el" className="row">

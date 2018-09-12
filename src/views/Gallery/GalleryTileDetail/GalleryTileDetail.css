@@ -1,0 +1,19 @@
+.text-wrapper {
+    display: table;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    border: red solid 1px;
+}
+
+.text-div {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.outer-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

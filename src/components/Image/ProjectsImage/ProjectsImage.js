@@ -4,8 +4,6 @@ import { withRouter } from 'react-router-dom';
 const Image = (props) => {
     console.log(props.path);
     const imageStyle = {
-        'marginTop': props.marginTop,
-        'marginBottom': props.marginBottom,
        'marginLeft': `auto`,
        'marginRight': `auto`,
        'width': 'auto',
@@ -17,7 +15,7 @@ const Image = (props) => {
     }
 
     return (
-        <img alt="bill" style={imageStyle} src={require(`../../assets/images/${props.path}`)} />
+        <img alt="bill" style={imageStyle} src={require(`../../../assets/images/${props.path}`)} />
     )
 }
 

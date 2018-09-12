@@ -5,16 +5,12 @@
 }
 
 .tile-wrapper {
-    max-width: 1800px !important;
+    max-width: 100% !important;
 }
 
-.proj-prev-el h2 {
-    margin: 30px auto 15px auto;
+.proj-prev-el {
 }
 
-.proj-prev-el a {
-    margin: 5px auto 30px auto;
-}
 
 .carousel-wrapper {
     height: 300px;

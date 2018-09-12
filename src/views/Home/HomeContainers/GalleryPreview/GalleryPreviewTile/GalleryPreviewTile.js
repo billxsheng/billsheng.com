@@ -4,8 +4,13 @@ import {NavLink} from 'react-router-dom';
 import styles from './GalleryPreviewTile.css';
 
 const galleryTile = (props) => {
+        const carouselStyle = {
+            'backgroundImage': `url(${props.background})`,
+            'backgroundSize': 'cover'
+        }
+        
         return (
-            <NavLink to="/gallery" className='btn' styleName="gallery-preview-tile" >
+            <NavLink style={carouselStyle} to="/gallery" className='btn' styleName="gallery-preview-tile" >
                 <div styleName="tile-div"> 
                     <h3>{props.title}</h3>
                     <p>{props.desc}</p>

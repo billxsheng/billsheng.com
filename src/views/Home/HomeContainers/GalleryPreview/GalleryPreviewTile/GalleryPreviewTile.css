@@ -26,5 +26,11 @@
     box-shadow: 0 0 5px #ccc;
 }
 
+.image-gallery {
+    width: 700px;
+    height: 400px !important;
+    position: absolute;
+}
+
 
 

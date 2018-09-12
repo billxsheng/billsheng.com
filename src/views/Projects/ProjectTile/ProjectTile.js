@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import CSSModules from 'react-css-modules';
 import styles from './ProjectTile.css';
-import Image from '../../../components/Image/Image';
+import ProjectsImage from '../../../components/Image/ProjectsImage/ProjectsImage';
 import { NavLink } from 'react-router-dom';
 
 class projectTile extends Component {
@@ -28,7 +28,7 @@ class projectTile extends Component {
             return (             
                 <NavLink to={this.props.to} className="row" styleName="project-tile">
                     <div styleName="img-cont" style={this.imageStyle} className="col-md-6">
-                        <Image top={this.props.top} height={this.props.imageHeight} path={this.props.imageName}/>
+                        <ProjectsImage top={this.props.top} height={this.props.imageHeight} path={this.props.imageName}/>
                     </div>
                     <div styleName="text-cont" className="col-md-6">
                         <h2>
@@ -56,7 +56,7 @@ class projectTile extends Component {
                     <p styleName="project-preview-tag" >{this.props.tag}</p>
                 </div>
                 <div styleName="img-cont" style = {this.imageStyleReverse}className="col-md-6">
-                    <Image height={this.props.imageHeight} path={this.props.imageName}/>
+                    <ProjectsImage height={this.props.imageHeight} path={this.props.imageName}/>
                 </div>
             </NavLink>
         )

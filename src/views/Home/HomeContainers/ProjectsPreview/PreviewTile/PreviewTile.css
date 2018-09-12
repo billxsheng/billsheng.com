@@ -1,18 +1,23 @@
 .project-preview-tile {
     margin: 0 auto 0 auto;
-    width: 100%;
+    width: 300px !important;
     height: 300px !important;
     transition: box-shadow 0.2s;
     background-color: transparent;
     z-index: 900;
     color: black;
+    border-radius: 15px;
+    display: table;
 }
 
 .project-preview-tile:hover {
     color: black;
+    box-shadow: 0 0 40px #ccc;
 }
 
 .tile-div { 
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .project-preview-tag {
