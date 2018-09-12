@@ -29,11 +29,11 @@ const aboutPreview = (props) => {
                 <div styleName="abt-prev-el" className="row">
                 <h2>About Me</h2>
                 <span className="container">
-                    <p>Striving to be the best in everything I do</p>            
+                    <p>Striving to be the best in everything I do.</p>            
                 </span>  
                 </div>
             </div>
-            <div styleName="carousel-overlay"></div>
+            {/* <div styleName="carousel-overlay"></div> */}
         <OwlCarousel
         options={options}
         >   

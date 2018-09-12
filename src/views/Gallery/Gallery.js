@@ -21,14 +21,15 @@ class Gallery extends Component {
                     </div>
                     <span className="container">
                         <p>
-                            Photos, Ideas, & Thoughts
+                            Photos, Ideas, and Thoughts
                         </p>
                     </span>
                 </span>
                 <div className="container">
                     <div styleName="gallery-tile-row" className="row">
-                        <GalleryTile height="400px" col="4"><GalleryTileDetail left="20px" right="10px" title="Title" description="Description"></GalleryTileDetail></GalleryTile>
-                        <GalleryTile height="400px" col="8"><GalleryTileDetail left="5px" right="10px" title="Title" description="Description"></GalleryTileDetail></GalleryTile>
+                        <GalleryTile height="350px" col="12"><GalleryTileDetail left="20px" right="20px" date="Sep 5" title="The Rise of the FBS " description="The NFL's successor"></GalleryTileDetail></GalleryTile>
+                        <GalleryTile height="350px" col="4"><GalleryTileDetail left="20px" right="10px" date="Sep 5" title="Coop #1" description="Thoughts and Reflections"></GalleryTileDetail></GalleryTile>
+                        <GalleryTile height="350px" col="8"><GalleryTileDetail left="10px" right="20px" date="Sep 5" title="GraphQL" description="Seamless API manipulation"></GalleryTileDetail></GalleryTile>
                     </div>
                 </div>
             </div>

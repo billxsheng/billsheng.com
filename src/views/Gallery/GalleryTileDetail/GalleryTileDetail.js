@@ -1,21 +1,23 @@
 import React from 'react';
 import CSSModules from 'react-css-modules';
-import styles from './GalleryTileDetail.css'
+import styles from './GalleryTileDetail.css';
+import {NavLink} from 'react-router-dom';
 
 const GalleryTileDetail = (props) => {
     const wrapperStyles = {
-        'paddingLeft': 'props.left',
-        'paddingRight': 'props.right'
+        paddingLeft: props.left,
+        paddingRight: props.right
     }
 
     return (
         <span styleName="outer-wrapper" style={wrapperStyles} >
-            <div styleName="text-wrapper">
+            <NavLink to="/" styleName="text-wrapper">
                 <div styleName="text-div">
                     <h2>{props.title}</h2>
                     <p>{props.description}</p>
+                    <p>{props.date}</p>
                 </div>
-            </div>
+            </NavLink>
         </span>
     )
 }

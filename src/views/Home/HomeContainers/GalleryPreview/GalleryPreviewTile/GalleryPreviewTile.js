@@ -12,8 +12,10 @@ const galleryTile = (props) => {
         return (
             <NavLink style={carouselStyle} to="/gallery" className='btn' styleName="gallery-preview-tile" >
                 <div styleName="tile-div"> 
+                    <img src="../../../assets/images/logo.png"></img>
                     <h3>{props.title}</h3>
                     <p>{props.desc}</p>
+                    <p>{props.date}</p>
                 </div>
             </NavLink>
         )

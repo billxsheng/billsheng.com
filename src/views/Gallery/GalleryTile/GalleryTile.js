@@ -15,7 +15,7 @@ class GalleryTile extends Component {
 
         const tileStyle = {
             height: this.state.height,
-            border: '1px solid black',
+            border: '1px solid transparent',
             position: 'relative',
         }
 
