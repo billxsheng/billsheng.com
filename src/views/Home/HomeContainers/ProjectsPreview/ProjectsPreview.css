@@ -5,7 +5,8 @@
 }
 
 .tile-wrapper {
-    max-width: 100% !important;
+    max-width: 1200px !important;
+    margin: 0 auto;
 }
 
 .proj-prev-el {

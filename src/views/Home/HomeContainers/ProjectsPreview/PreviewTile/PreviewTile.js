@@ -5,7 +5,7 @@ import styles from './PreviewTile.css';
 
 const PreviewTile = (props) => {
         return (
-            <NavLink to="/projects" className='col-md-4 btn' styleName="project-preview-tile" >
+            <NavLink to="/projects" className='btn' styleName="project-preview-tile" >
                 <div styleName="tile-div" > 
                     <h3>{props.title}</h3>
                     <p>{props.desc}</p>

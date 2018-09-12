@@ -17,7 +17,7 @@ class projectsPreview extends Component {
             <span className="container">
                     <p>I'm always up for a challenge 💡</p>            
             </span> 
-            <div styleName="tile-wrapper" className="container">
+            <div styleName="tile-wrapper" className="row">
                 <PreviewTile title="Skout" desc="LinkedIn for Athletes" tag="Project" />
                 <PreviewTile title="Canadian Tire" desc="Canada's largest retail organization" tag="Internship" />
                 <PreviewTile title="Blitz" desc="Sports Notification Innovation" tag="Project" />

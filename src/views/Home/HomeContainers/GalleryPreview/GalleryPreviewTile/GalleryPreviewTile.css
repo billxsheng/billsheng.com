@@ -3,7 +3,6 @@
     width: 100% !important;
     height: 400px !important;
     transition: box-shadow 0.2s;
-    background-color: transparent;
     z-index: 500;
     display: table;
     color: black;
@@ -16,6 +15,9 @@
 .tile-div { 
     display: table-cell;
     vertical-align: middle;
+    width: 700px !important;
+    height: 250px;
+    top: 0;
 }
 
 .gallery-preview-tag {
@@ -32,5 +34,36 @@
     position: absolute;
 }
 
+.lower-overlay {
+    position: absolute;
+    height: 150px;
+    width: 700px !important;
+    background-color: white;
+    left: 0;
+    bottom: 0;
+}
 
+.carousel-wrapper {
+    z-index: -3;
+}
+
+.upper-wrapper {
+    position: absolute;
+    width: 700px;
+    height: 280px;
+    top: 0;    
+    left: 0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.lower-wrapper {
+    position: absolute;
+    width: 700px;
+    background-color: white;
+    height: 120px;
+    bottom: 0;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
 

@@ -27,9 +27,9 @@ class Gallery extends Component {
                 </span>
                 <div className="container">
                     <div styleName="gallery-tile-row" className="row">
-                        <GalleryTile height="350px" col="12"><GalleryTileDetail left="20px" right="20px" date="Sep 5" title="The Rise of the FBS " description="The NFL's successor"></GalleryTileDetail></GalleryTile>
-                        <GalleryTile height="350px" col="4"><GalleryTileDetail left="20px" right="10px" date="Sep 5" title="Coop #1" description="Thoughts and Reflections"></GalleryTileDetail></GalleryTile>
-                        <GalleryTile height="350px" col="8"><GalleryTileDetail left="10px" right="20px" date="Sep 5" title="GraphQL" description="Seamless API manipulation"></GalleryTileDetail></GalleryTile>
+                        <GalleryTile height="350px" col="12"><GalleryTileDetail left="20px" right="20px" date="September 5, 2018" title="The Rise of the FBS " description="The NFL's successor"></GalleryTileDetail></GalleryTile>
+                        <GalleryTile height="350px" col="4"><GalleryTileDetail left="20px" right="10px" date="September 5, 2018" title="Coop #1" description="Thoughts and Reflections"></GalleryTileDetail></GalleryTile>
+                        <GalleryTile height="350px" col="8"><GalleryTileDetail left="10px" right="20px" date="September 5, 2018" title="GraphQL" description="Seamless API manipulation"></GalleryTileDetail></GalleryTile>
                     </div>
                 </div>
             </div>
