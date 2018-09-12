@@ -3,8 +3,6 @@ import React, {Component} from 'react';
 import CSSModules from 'react-css-modules';
 import styles from './GalleryPreview.css';
 import OwlCarousel from 'react-owl-carousel2';
-import '../../../../external/owl.carousel.css';
-import '../../../../external/owl.theme.default.css';
 import GalleryPreviewTile from './GalleryPreviewTile/GalleryPreviewTile';
 import Icon from '../../../../components/Icon/Icon';
 

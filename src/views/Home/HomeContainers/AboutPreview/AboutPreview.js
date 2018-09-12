@@ -4,8 +4,6 @@ import CSSModules from 'react-css-modules';
 import styles from './AboutPreview.css';
 import Carousel from '../../../../components/Carousel/Carousel';
 import OwlCarousel from 'react-owl-carousel2';
-import '../../../../external/owl.carousel.css';
-import '../../../../external/owl.theme.default.css';
 import Link from '../../../../components/Button/Link/Link';
 
 
