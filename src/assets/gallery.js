@@ -9,8 +9,8 @@ const GalleryInfo = {
         date: "Coming Soon"
         // description: 'API\'s Reimagined',
     },
-    firstInternship: {
-        title: 'My First Internship',
+    firstYear: {
+        title: 'Waterloo Engineering',
         date: "Coming Soon"
         // description: 'Thoughts and Takeaways',
     }

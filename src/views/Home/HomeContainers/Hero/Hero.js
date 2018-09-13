@@ -22,10 +22,8 @@ const Hero = (props) => {
                     </h1>
                 </div>
             </span>
-           <div>
-                <div styleName="stripe"/>    
-                <div styleName="stripe-reflected"/>  
-           </div>
+            <div styleName="stripe"/>    
+            <div styleName="stripe-reflected"/>  
             <div className="container" styleName="divide-container">
                <div styleName="upper-wrapper" >
                </div>

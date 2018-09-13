@@ -11,7 +11,7 @@
 .project-tile:hover {
     text-decoration: none !important;
     color: black;
-    transform: translateY(-10px);
+    transform: scale(1.03);
 }
 
 .project-tile h2 {

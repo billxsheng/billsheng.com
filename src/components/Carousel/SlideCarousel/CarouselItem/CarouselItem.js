@@ -13,13 +13,16 @@ const carouselItem = (props) => {
         }
         
         return (
-            <NavLink styleName="carousel-wrapper item-preview-tile" to="/gallery" className='btn'>
+            <NavLink styleName="carousel-wrapper item-preview-tile" to={props.to} className='btn'>
                 <div style={bgStyle} styleName="upper-wrapper">
                 </div>
                 <div styleName="lower-wrapper" className="row">
                     <div styleName="text-div">
                         <h3>{props.title}</h3>
                         <p>{props.date}</p>
+                        {props.tag ? <div styleName="tag">
+                            <p>{props.tag}</p>
+                        </div> : null}
                     </div>
                 </div>
             </NavLink>

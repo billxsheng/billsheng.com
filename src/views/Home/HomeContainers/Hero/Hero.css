@@ -1,8 +1,10 @@
 .hero {
-    height: 750px !important;
+    height: 820px !important;
     /* background-color: rgb(233, 233, 233); */
     /* box-shadow: 0 50px 50px -50px  rgba(0, 0, 0, 0.1); */
-    margin:0 auto 400px auto;
+    margin: 0 0 350px 0;
+    width: 100%;
+    overflow: hidden;
 }
 
 
@@ -71,12 +73,11 @@
 
 .stripe {
     height: 500px;
-    width: 150vw;
+    width: 100%;
     top: 350px;
-    margin-left: -30vw;
     position: absolute;
     background-color: #4775de;
-    transform: rotate(6.2deg);
+    transform: skew(6.2deg) rotate(6.2deg);
     z-index: -1;
 }
 
@@ -84,11 +85,12 @@
     top: 400px;
     height: 400px;
     position: absolute;
-    width: 150vw;
-    margin-left: -30vw;
+    width: 100%;
     background-color: #dbebfa;
-    transform: rotate(-6.2deg);
+    transform: skew(-6.2deg) rotate(-6.2deg);
     z-index: -2;
 }
 
-
+.stripe-container {
+    width: 100vh;
+}

@@ -73,46 +73,49 @@ class About extends Component {
                         <h2>Skills</h2>
                     </div>
                     <div className="row">
-                        <span styleName="skill-img" className="col-md-2" >
+                        <span styleName="skill-img" className="col-md-3" >
                             <Image marginTop="40px" height="100px" path="skills/html5.png" />
                         </span>
-                        <span styleName="skill-img" className="col-md-2" >
+                        <span styleName="skill-img" className="col-md-3" >
                             <Image marginTop="40px" height="100px" path="skills/css.png" />
                         </span>
-                        <span styleName="skill-img" className="col-md-2" >
-                            <Image marginTop="40px" height="100px" path="skills/javascript.png" />
-                        </span>
-                        <span styleName="skill-img" className="col-md-2" >
-                            <Image marginTop="40px" height="100px" path="skills/nodejs.png" />
-                        </span>
-                        <span styleName="skill-img" className="col-md-2" >
+                        <span styleName="skill-img" className="col-md-3" >
                             <Image marginTop="40px" height="100px" path="skills/java.png" />
                         </span>
-                        <span styleName="skill-img" className="col-md-2" >
+                        <span styleName="skill-img" className="col-md-3" >
                             <Image marginTop="40px" height="100px" path="skills/python.png" />
                         </span>
-                        <span styleName="skill-img" className="col-md-2" >
+                        <span styleName="skill-img" className="col-md-3" >
+                            <Image marginTop="40px" height="100px" path="skills/javascript.png" />
+                        </span>
+                        <span styleName="skill-img" className="col-md-3" >
+                            <Image marginTop="40px" height="100px" path="skills/nodejs.png" />
+                        </span>
+                        <span styleName="skill-img" className="col-md-3" >
+                            <Image marginTop="40px" height="100px" path="skills/express.png" />
+                        </span>
+                        <span styleName="skill-img" className="col-md-3" >
                             <Image marginTop="40px" height="100px" path="skills/react.png" />
                         </span>
-                        <span styleName="skill-img" className="col-md-2" >
+                        <span styleName="skill-img" className="col-md-3" >
                             <Image marginTop="40px" height="100px" path="skills/angular.png" />
                         </span>
-                        <span styleName="skill-img" className="col-md-2" >
+                        <span styleName="skill-img" className="col-md-3" >
                             <Image marginTop="40px" height="100px" path="skills/aws.png" />
                         </span>
-                        <span styleName="skill-img" className="col-md-2" >
+                        <span styleName="skill-img" className="col-md-3" >
                             <Image marginTop="40px" height="100px" path="skills/github.png" />
                         </span>
-                        <span styleName="skill-img" className="col-md-2" >
+                        <span styleName="skill-img" className="col-md-3" >
                             <Image marginTop="40px" height="100px" path="skills/graphql.png" />
                         </span>
-                        <span styleName="skill-img" className="col-md-2" >
+                        <span styleName="skill-img" className="col-md-3" >
                             <Image marginTop="40px" height="100px" path="skills/powershell.png" />
                         </span>
-                        <span styleName="skill-img" className="col-md-2" >
+                        <span styleName="skill-img" className="col-md-3" >
                             <Image marginTop="40px" height="100px" path="skills/excel.png" />
                         </span>
-                        <span styleName="skill-img" className="col-md-2" >
+                        <span styleName="skill-img" className="col-md-3" >
                             <Image marginTop="40px" height="100px" path="skills/sql.png" />
                         </span>
                     </div>
@@ -125,9 +128,9 @@ class About extends Component {
                         </div>
                         <div styleName="carousel-row" className="row">
                             <SlideCarousel>
-                                <CarouselItem path = "gallery/fbs.jpeg" title="Sports + Fitness"  />
-                                <CarouselItem  path = "gallery/graphql.jpg"  title="Guitar" />
-                                <CarouselItem  path = "gallery/coop1.jpg"  title="Cooking"  />
+                                <CarouselItem to="/" path = "about/hobbies/barbecue.jpg" title="Sports & Fitness"  />
+                                <CarouselItem to="/"  path = "about/hobbies/guitar.jpg"  title="Guitar" />
+                                <CarouselItem to="/"  path = "about/hobbies/barbecue.jpg"  title="Barbecue"  />
                             </SlideCarousel>
                         </div>
                     </div>
@@ -135,18 +138,15 @@ class About extends Component {
 
                     <div styleName="section-div">
                         <div className="row">
-                            <h2>My Teams</h2>
+                            <h2>Teams I Support</h2>
                         </div>
                         <div styleName="img-row" className="row">
-                            <span className="col-md-4">
+                            <span styleName="team" className="col-md-6">
                                 <Image height="100px" path="about/teams/georgia.png" />
                             </span>
-                            <span className="col-md-4">
+                            <span styleName="team" className="col-md-6">
                                 <Image height="100px" path="about/teams/tml.png" />
                             </span>                        
-                            <span className="col-md-4">
-                                <Image height="100px" path="about/teams/atlanta-falcons.png" />
-                            </span>
                         </div>
                     </div>
                    

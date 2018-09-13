@@ -1,6 +1,6 @@
 .aboutPreview {
     height: auto;
-    margin: 0 auto 250px auto;
+    margin: 0 auto 200px auto;
 }
 
 .abt-prev-el {
@@ -13,26 +13,6 @@
 
 .preview-container {
     margin: 200px auto;
-}
-
-.stripe {
-    height: 325px;
-    width: 150vw;
-    margin-left: -30vw;
-    position: absolute;
-    background-color: rgb(255, 220, 154);
-    z-index: -3;
-    transform: rotate(4deg);
-}
-
-.stripe-reflected {
-    height: 375px;
-    width: 150vw;
-    margin-left: -30vw;
-    position: absolute;
-    transform: rotate(-4deg);
-    background-color: orange;
-    z-index: -2;
 }
 
 .carousel-overlay {

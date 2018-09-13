@@ -33,7 +33,7 @@ class Gallery extends Component {
                         <GalleryTile height="350px" col="4">
                             <GalleryTileDetail color='rgb(255, 166, 0, 0.85)' path="graphql.jpg" left="20px" right="10px" date={GalleryInfo.graphQL.date} title={GalleryInfo.graphQL.title} description={GalleryInfo.graphQL.description}></GalleryTileDetail></GalleryTile>
                         <GalleryTile height="350px" col="8">
-                            <GalleryTileDetail color='rgb(10, 150, 52, 0.75)' path="coop1.jpg" left="10px" right="20px" date={GalleryInfo.firstInternship.date} title={GalleryInfo.firstInternship.title} description={GalleryInfo.firstInternship.description}></GalleryTileDetail></GalleryTile>
+                            <GalleryTileDetail color='rgb(10, 150, 52, 0.75)' path="waterloo-campus.jpg" left="10px" right="20px" date={GalleryInfo.firstYear.date} title={GalleryInfo.firstYear.title} description={GalleryInfo.firstYear.description}></GalleryTileDetail></GalleryTile>
                     </div>
                 </div>
             </div>

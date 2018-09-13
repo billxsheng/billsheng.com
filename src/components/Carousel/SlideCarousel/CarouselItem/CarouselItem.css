@@ -52,3 +52,20 @@
     display: table;
 }
 
+.tag {
+    height: 30px !important;
+    margin: 0 auto;
+    background-color: orange;
+    width: 120px;
+    height: auto;
+    line-height: 30px !important;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+    display: table;
+}
+
+.tag p {
+    display: table-cell;
+    vertical-align: middle;
+}
+
