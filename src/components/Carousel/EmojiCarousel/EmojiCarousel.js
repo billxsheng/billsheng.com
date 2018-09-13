@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import CSSModules from 'react-css-modules';
-import styles from './Carousel.css';
-import Aux from '../../hoc/HO-Aux/HO-aux';
+import styles from './EmojiCarousel.css';
+import Aux from '../../../hoc/HO-Aux/HO-aux';
 
 class Carousel extends Component {
     state = {

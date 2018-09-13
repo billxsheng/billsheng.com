@@ -8,11 +8,17 @@
     color: black;
     border-radius: 15px;
     display: table;
+    box-shadow: 0 0 40px #ccc;
 }
 
 .project-preview-tile:hover {
     color: black;
-    box-shadow: 0 0 40px #ccc;
+}
+
+.tile-div h3 {
+    font-family: 'Poppins';
+    font-weight: 700;
+    letter-spacing: -1px;
 }
 
 .tile-div { 

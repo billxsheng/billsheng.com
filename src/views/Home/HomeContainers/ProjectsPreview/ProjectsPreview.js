@@ -24,7 +24,7 @@ class projectsPreview extends Component {
             </div>
             <div className="container">
                 <div styleName="proj-prev-el" className="row">
-                    <Link link="/projects">View All Projects</Link>
+                    <Link margin="45px" link="/projects">View All Projects</Link>
                 </div>
             </div>
             </div>

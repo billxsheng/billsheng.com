@@ -30,8 +30,8 @@ class galleryPreview extends Component {
             <div styleName= 'galleryPreview'>
                 <span className="container">
                     <h2>Gallery</h2>
-                    <span className="container">
-                        <p>From pick 6 to python.</p>            
+                    <span styleName="gallery-preview-paragraph" className="container">
+                        <p>From pick six to python.</p>            
                     </span> 
                         <div styleName="carousel-wrapper-btn"  >
                             <OwlCarousel style={carouselStyle} ref="projCarousel" options={options}>   
