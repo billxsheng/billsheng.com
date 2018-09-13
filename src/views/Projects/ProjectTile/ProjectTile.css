@@ -1,6 +1,6 @@
 .project-tile {
     height: 400px;
-    margin: 100px auto;
+    margin: 20px auto 100px auto;
     width: 1000px;
     transition: transform 0.2s;
     border-radius: 15px;
