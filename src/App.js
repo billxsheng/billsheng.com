@@ -12,6 +12,7 @@ import Footer from './components/Footer/Footer';
 import Modal from './components/Modal/Modal';
 import styles from './App.css';
 import Waypoint from 'react-waypoint';
+import skout from './views/Projects/ProjectDetails/Skout/Skout';
 
 class App extends Component {
 
@@ -21,9 +22,11 @@ class App extends Component {
     let routes = (
       <Switch>
         <Route exact path="/about" component={About} />
-        <Route exact path="/projects" component={Projects} />
+        <Route exact path="/projects" component={Projects} >
+          <Route path = "/skout" component={skout}/>
+        </Route>
         <Route exact path="/gallery" component={Gallery} />
-        <Route path="/" component={Home} />
+        <Route exact path="/" component={Home} />
         <Redirect to="/" />
       </Switch>
     )

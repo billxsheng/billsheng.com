@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import styles from './Projects.css';
 import CSSModules from 'react-css-modules';
 import ProjectTile from './ProjectTile/ProjectTile';
-import { Route } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import Skout from './ProjectDetails/Skout/Skout';
 
 class Projects extends Component {
@@ -35,7 +35,7 @@ class Projects extends Component {
                 <ProjectTile to="/skout" reverse="true" imageHeight="400px" imageName="projects/ryse.png" tag="Freelance" title="VCuts" shortDesc="Barber Website"/>
                 <ProjectTile to="/skout" imageHeight="400px" imageName="projects/moodify.png" tag="Hackathon" title="Moodify" shortDesc="Combining machine learning and job searching"/>
                 <ProjectTile to="/skout" reverse="true" imageHeight="400px" imageName="projects/prog.png" tag="Project" title="PROG" shortDesc="Product Management Tool"/>
-                <Route path="/projects/skout" exact component={Skout} />
+
             </div>
         )
     }

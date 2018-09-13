@@ -1,0 +1,43 @@
+.btn-left {
+    float: left;
+    position: relative;
+    top: -320px;
+    z-index: 500;
+    text-align: center;
+    background-color: #608aec;
+    padding: 5px 10px;
+    color: white!important;
+    border-radius: 50%;
+    margin-left: 15px;
+    height: 45px;
+    width: 45px;
+    display: table;
+}
+
+.btn-right {
+    float: right;
+    position: relative;
+    top: -320px;
+    text-align: center;
+    background-color:#608aec;
+    padding: 5px 10px;
+    color: white !important;
+    border-radius: 50%;
+    z-index: 500;
+    margin-right: 15px;
+    height: 45px;
+    width: 45px;
+    display: table;
+}
+
+.carousel-wrapper-btn {
+    height: 300px;
+    width: 700px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+.gallery-preview-paragraph p {
+    line-height: 0 !important;
+}

@@ -2,7 +2,12 @@
     height: auto;
     margin: 0 auto;
 }
-.gallery-prev-el  {
+.gallery-prev-el a  {
+    height: 50px;
+}
+
+.gallery-prev-el {
+    height: 200px;
 }
 
 
