@@ -15,7 +15,7 @@ class projectsPreview extends Component {
                     <h2>Projects</h2>
             </span>
             <span className="container">
-                    <p>I'm always up for a challenge 💡</p>            
+                    <p>I'm always up for a challenge <span aria-label="emoji" role="img">💡</span></p>            
             </span> 
             <div styleName="tile-wrapper" className="row">
                 <PreviewTile title="Skout" desc="LinkedIn for Athletes" tag="Project" />

@@ -14,8 +14,6 @@ class About extends Component {
     render() {
         return(
             <div styleName="about" className="container">
-                {/* <div styleName="stripe"></div>
-                <div styleName="stripe-reflected"></div> */}
                 <span className="container">
                         <h1>
                             About
@@ -26,13 +24,10 @@ class About extends Component {
                     <div className="row">
                         <h2>Hey, I'm Bill!</h2>
                     </div>
-                    {/* <div className="row">
-                        <Image height="500px" path="donuts.jpg" />
-                    </div> */}
                     <div className="row">
                         <p>
                             I'm a curious, motivated, and hard-working individual with an interest for software development, AI, and data. 
-                            I enjoy working on projects that have real-world impact in industries that I am passionate about.&nbsp;<span>🇨🇦</span></p>
+                            I enjoy working on projects that have real-world impact in industries that I am passionate about.&nbsp;<span aria-label="emoji" role="img" >🇨🇦</span></p>
                     </div>
                     {/* <div className="row">
                         <iframe width="420" height="315" src="https://www.youtube.com/embed/Zw6UpeFCeN0"></iframe>

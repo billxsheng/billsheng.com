@@ -14,7 +14,7 @@ class galleryPreview extends Component {
             dots: true,
             rtl: false,
             mouseDrag: false,
-            loop: true
+            loop: false
         }
 
         const carouselStyle = {

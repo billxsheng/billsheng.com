@@ -13,9 +13,8 @@ const galleryTile = (props) => {
         }
         
         return (
-            <NavLink styleName="carousel-wrapper" to="/gallery" className='btn' styleName="gallery-preview-tile" >
+            <NavLink styleName="carousel-wrapper gallery-preview-tile" to="/gallery" className='btn'>
                 <div style={bgStyle} styleName="upper-wrapper">
-
                 </div>
                 <div styleName="lower-wrapper" className="row">
                     <div styleName="text-div">
