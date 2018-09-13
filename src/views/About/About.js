@@ -45,7 +45,7 @@ class About extends Component {
                             Management Engineering is a one-of-a-kind interdisciplinary program with a split focus in computer science, systems engineering, and optimization.</p>
                     </div>
                     <div className="row">
-                        <Image height="40px" path="waterloo-engineering.png" />
+                        <Image height="40px" path="about/waterloo-engineering.png" />
                     </div>
                     <div className="row">
                         <h2>Experience</h2>
@@ -56,7 +56,7 @@ class About extends Component {
                             For my first work term this past summer, I was an intern at Canadian Tire Corporation.</p>                       
                     </div>
                     <div className="row">
-                        <Image height="80px" path="canadian-tire-large.png" />
+                        <Image height="80px" path="about/canadian-tire-large.png" />
                     </div>
                     <div className="row">
                         <Link link="/projects">Learn More</Link>
@@ -67,28 +67,28 @@ class About extends Component {
                     <h2>Skills</h2>
                     <div className="row">
                         <span className="col-md-2" >
-                            <Image marginBottom="40px" height="100px" path="skillsImages/html5.png" />
+                            <Image marginBottom="40px" height="100px" path="skills/html5.png" />
                         </span>
                         <span className="col-md-2" >
-                            <Image height="100px" path="skillsImages/css.png" />
+                            <Image height="100px" path="skills/css.png" />
                         </span>
                         <span className="col-md-2" >
-                            <Image height="100px" path="skillsImages/javascript.png" />
+                            <Image height="100px" path="skills/javascript.png" />
                         </span>
                         <span className="col-md-2" >
-                            <Image height="100px" path="skillsImages/nodejs.png" />
+                            <Image height="100px" path="skills/nodejs.png" />
                         </span>
                         <span className="col-md-2" >
-                            <Image height="100px" path="skillsImages/java.png" />
+                            <Image height="100px" path="skills/java.png" />
                         </span>
                         <span className="col-md-2" >
-                            <Image height="100px" path="skillsImages/python.png" />
+                            <Image height="100px" path="skills/python.png" />
                         </span>
                         <span className="col-md-2" >
-                            <Image height="100px" path="skillsImages/react.png" />
+                            <Image height="100px" path="skills/react.png" />
                         </span>
                         <span className="col-md-2" >
-                            <Image height="100px" path="skillsImages/angular.png" />
+                            <Image height="100px" path="skills/angular.png" />
                         </span>
                     </div>
                     <h2>Hobbies</h2>
@@ -106,13 +106,13 @@ class About extends Component {
                     <h2>Teams I Support</h2>
                     <div className="row">
                         <span className="col-md-4">
-                            <Image height="100px" path="georgia.png" />
+                            <Image height="100px" path="about/georgia.png" />
                         </span>
                         <span className="col-md-4">
-                            <Image height="100px" path="tml.png" />
+                            <Image height="100px" path="about/tml.png" />
                         </span>                        
                         <span className="col-md-4">
-                            <Image height="100px" path="atlanta-falcons.png" />
+                            <Image height="100px" path="about/atlanta-falcons.png" />
                         </span>
                     </div>
                 </div>

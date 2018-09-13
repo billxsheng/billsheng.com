@@ -5,6 +5,7 @@ import styles from './GalleryPreview.css';
 import OwlCarousel from 'react-owl-carousel2';
 import GalleryPreviewTile from './GalleryPreviewTile/GalleryPreviewTile';
 import Icon from '../../../../components/Icon/Icon';
+import GalleryInfo from '../../../../assets/gallery';
 
 class galleryPreview extends Component {
     render() {
@@ -34,9 +35,9 @@ class galleryPreview extends Component {
                     </span> 
                         <div styleName="carousel-wrapper-btn"  >
                             <OwlCarousel style={carouselStyle} ref="projCarousel" options={options}>   
-                                <GalleryPreviewTile path = "fbs.jpeg" date="September 5, 2018" title="The Rise of the FBS" desc="The NFL's successor" />
-                                <GalleryPreviewTile  path = "graphql.jpg"  title="GraphQL" desc="Seamless API manipulation" date="September 5, 2018" />
-                                <GalleryPreviewTile  path = "coop1.jpg"  title="Co-op #1" desc="Thoughts and Reflections" date="September 5, 2018" />
+                                <GalleryPreviewTile path = "fbs.jpeg" date={GalleryInfo.saturdayNightLights.date} title={GalleryInfo.saturdayNightLights.title}  />
+                                <GalleryPreviewTile  path = "graphql.jpg"  title={GalleryInfo.graphQL.title} date={GalleryInfo.graphQL.date} />
+                                <GalleryPreviewTile  path = "coop1.jpg"  title={GalleryInfo.firstInternship.title}  date={GalleryInfo.firstInternship.date} />
                             </OwlCarousel>
                             <a styleName="btn-left" onClick={() => this.refs.projCarousel.prev()}><Icon iconType="iconSmall" iconName="fas fa-chevron-left"></Icon></a>
                             <a styleName="btn-right" onClick={() => this.refs.projCarousel.next()}><Icon iconType="iconSmall" iconName="fas fa-chevron-right"></Icon></a>

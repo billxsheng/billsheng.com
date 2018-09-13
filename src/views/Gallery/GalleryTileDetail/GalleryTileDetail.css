@@ -4,14 +4,13 @@
     width: 100%;
     margin: 0 auto;
     border-radius: 15px;
-    transition: box-shadow 0.15s;
-    border: 5px solid black;
-    color: black;
+    transition: transform 0.2s;
+    color: white;
 }
 
 .text-wrapper:hover {
-    box-shadow: 0 0 40px #ccc;
-    color: black;
+    transform: translateY(-7px);
+    color: white;
     text-decoration: none;
 }
 
@@ -20,9 +19,25 @@
     vertical-align: middle;
 }
 
+.text-div p {
+    line-height: 15px;
+}
+
+.text-div h2 {
+    font-size: 40px;
+}
+
 .outer-wrapper {
     display: table-cell;
     vertical-align: middle;
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
+.text-div h2 {
+    font-family: 'Poppins';
+    font-weight: 700;
+    letter-spacing: -3px;
+}
+
+

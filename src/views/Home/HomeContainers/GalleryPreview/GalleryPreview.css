@@ -9,13 +9,12 @@
 .btn-left {
     float: left;
     position: relative;
-    top: -235px;
+    top: -280px;
     z-index: 500;
     text-align: center;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0 0 20px #ccc;
+    background-color: #608aec;
     padding: 5px 10px;
-    color: rgb(255, 166, 0) !important;
+    color: white!important;
     border-radius: 50%;
     margin-left: 15px;
     height: 45px;
@@ -26,12 +25,11 @@
 .btn-right {
     float: right;
     position: relative;
-    top: -235px;
+    top: -280px;
     text-align: center;
-    background-color: rgb(255, 255, 255);
+    background-color:#608aec;
     padding: 5px 10px;
-    box-shadow: 0 0 20px #ccc;
-    color: orange !important;
+    color: white !important;
     border-radius: 50%;
     z-index: 500;
     margin-right: 15px;

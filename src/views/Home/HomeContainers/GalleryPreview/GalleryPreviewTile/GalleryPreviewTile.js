@@ -8,8 +8,7 @@ const galleryTile = (props) => {
         const bg = require('../../../../../assets/images/gallery/' + props.path);
     
         const bgStyle = {
-            // 'background': `linear-gradient(to top left, rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)), url(${bg})`,
-            'backgroundImage': `url(${bg})`,
+            'background': `linear-gradient(to right, rgb(0,0,0, 0.4), rgb(0,0,0,0), rgb(0,0,0, 0.4)), url(${bg})`,
             'backgroundSize': 'cover',
         }
         
@@ -19,11 +18,8 @@ const galleryTile = (props) => {
 
                 </div>
                 <div styleName="lower-wrapper" className="row">
-                    <div class="col-md-8">
-                    <h3>{props.title}</h3>
-                    </div>
-                    <div class="col-md-4">
-                        <p>{props.desc}</p>
+                    <div styleName="text-div">
+                        <h3>{props.title}</h3>
                         <p>{props.date}</p>
                     </div>
                 </div>
@@ -31,13 +27,6 @@ const galleryTile = (props) => {
         )
 }
     
-
-{/* <div style={carouselStyle}   styleName="tile-div"> 
-<h3>{props.title}</h3>
-<p>{props.desc}</p>
-<p>{props.date}</p>
-</div>
-<div styleName="lower-overlay"></div> */}
 
 
 export default CSSModules(galleryTile, styles, {allowMultiple: true});
