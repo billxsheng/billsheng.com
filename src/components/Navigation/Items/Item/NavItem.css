@@ -14,3 +14,20 @@
 
 .nav-item-parent {
 }
+
+@media only screen and (max-width: 650px) {
+    .btnNav {
+        font-size: 12px !important;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    .btnNav {
+        font-size: 12px !important;
+        padding: 0 6px !important;
+    }
+
+
+}
+

@@ -1,5 +1,6 @@
 import React from 'react';
-import { withRouter } from 'react-router-dom';
+import CSSModules from 'react-css-modules';
+import styles from './ProjectsImage.css';
 
 const Image = (props) => {
     const imageStyle = {
@@ -14,8 +15,8 @@ const Image = (props) => {
     }
 
     return (
-        <img alt="bill" style={imageStyle} src={require(`../../../assets/images/${props.path}`)} />
+        <img alt="bill" styleName="image" style={imageStyle} src={require(`../../../assets/images/${props.path}`)} />
     )
 }
 
-export default withRouter(Image);
+export default  CSSModules(Image, styles);

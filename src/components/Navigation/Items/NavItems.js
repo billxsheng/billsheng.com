@@ -1,5 +1,6 @@
 import React from 'react';
-
+import CSSModules from 'react-css-modules';
+import styles from './NavItems.css';
 import NavItem from './Item/NavItem';
 import Logo from '../../Logo/Logo';
 
@@ -13,7 +14,7 @@ const navItems = (props) => (
     </ul>
 )
 
-export default navItems;
+export default CSSModules(navItems, styles);
 
 
 

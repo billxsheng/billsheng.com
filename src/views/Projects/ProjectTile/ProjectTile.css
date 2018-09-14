@@ -37,5 +37,33 @@
     padding: 0 !important;
 }
 
+@media only screen and (max-width: 1200px) {
+    .project-tile {
+        height: 320px !important;
+        width: 800px !important;
+        margin: 20px auto 70px auto;
+    }
+
+    .project-tile h2 {
+        margin-top: 75px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .project-tile {
+        height: 240px !important;
+        width: 600px !important;
+        margin: 20px auto 70px auto;
+    }
+
+    .project-tile h2 {
+        margin-top: 40px;
+        font-size: 40px
+    }
+
+    .project-tile p {
+        font-size: 15px;
+    }
+}
 
 

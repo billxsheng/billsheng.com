@@ -5,7 +5,8 @@ import styles from './Logo.css';
 
 const logo = (props) => {     
     const logoStyle = {
-        'height': props.height
+        'height': props.height,
+        'margin': props.margin
     }
 
     return (

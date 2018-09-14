@@ -1,0 +1,11 @@
+@media only screen and (max-width: 1200px) {
+    .image {
+        height: 320px !important;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .image {
+        height: 240px !important;
+    }
+}
