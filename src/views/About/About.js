@@ -60,7 +60,7 @@ class About extends Component {
                             <Image height="80px" path="about/other/canadian-tire-large.png" />
                         </div>
                         <div className="row">
-                            <Link margin="20px" link="/projects">Learn More</Link>
+                            <Link margin="20px" link="/projects/canadian-tire">Learn More</Link>
                         </div>
                         <div className="row">
                             <p>In the future, I would like to work in positions related to <br/> <span >Software Engineering, Data Science, and Product Management.</span> </p>                       

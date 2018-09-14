@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Munkee = (props) => (
+const VCuts = (props) => (
     <div>
         <span className="container">
             <div className="row">
                 <h1>
-                    Munkee
+                    VCuts
                 </h1>
             </div>
             <span className="container">
@@ -16,4 +16,4 @@ const Munkee = (props) => (
     </div>
 )
 
-export default Munkee;
+export default VCuts;

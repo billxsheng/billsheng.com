@@ -4,8 +4,12 @@ import CSSModules from 'react-css-modules';
 import styles from './Logo.css';
 
 const logo = (props) => {     
+    const logoStyle = {
+        'height': props.height
+    }
+
     return (
-        <img styleName='logo' src={require('../../assets/images/logo.png')} alt="logo" />
+        <img style={logoStyle} styleName='logo' src={require('../../assets/images/logo.png')} alt="logo" />
     )   
 }
 

@@ -18,7 +18,7 @@ const GalleryTileDetail = (props) => {
 
     return (
         <span styleName="outer-wrapper" style={wrapperStyles} >
-            <NavLink to="/" styleName="text-wrapper" style={bgStyle}>
+            <NavLink to={props.to} styleName="text-wrapper" style={bgStyle}>
                 <div styleName="text-div">
                     <h2>{props.title}</h2>
                     <p>{props.description}</p>

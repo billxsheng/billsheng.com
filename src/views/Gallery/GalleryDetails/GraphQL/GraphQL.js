@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Munkee = (props) => (
+const GraphQL = (props) => (
     <div>
         <span className="container">
             <div className="row">
                 <h1>
-                    Munkee
+                    GraphQL
                 </h1>
             </div>
             <span className="container">
@@ -16,4 +16,4 @@ const Munkee = (props) => (
     </div>
 )
 
-export default Munkee;
+export default GraphQL;

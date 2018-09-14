@@ -1,9 +1,19 @@
 import React from 'react';
 
-const skout = (props) => (
+const Skout = (props) => (
     <div>
-        <h1>Skout</h1>
+        <span className="container">
+            <div className="row">
+                <h1>
+                    Skout
+                </h1>
+            </div>
+            <span className="container">
+                <p>
+                </p>
+            </span>
+        </span>
     </div>
 )
 
-export default skout;
+export default Skout;
