@@ -107,3 +107,30 @@
         display: none;
     }
 }
+
+@media (max-width: 705px) {
+    
+    .divide-container {
+        top: 100px;
+    }
+
+    .stripe {
+        height: 420px;
+        top: 390px;
+    }
+
+
+}
+
+@media (max-width: 590px) {
+    
+    .divide-container {
+        width: 300px;
+    }
+
+    .upper-wrapper {
+        background-position: center !important;
+    }
+
+
+} 
