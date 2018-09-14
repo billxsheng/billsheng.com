@@ -23,6 +23,12 @@
     width: 100%;
 }
 
+@media (max-width: 705px) {
+    .aboutPreview {
+        margin: 0 auto 120px auto;
+    }
+}
+
 
 
 

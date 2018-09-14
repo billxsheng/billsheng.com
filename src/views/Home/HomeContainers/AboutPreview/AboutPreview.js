@@ -15,9 +15,19 @@ const aboutPreview = (props) => {
         autoplay: true,
         loop: true,
         dots: false,
+        touchDrag: false,
         autoplayTimeout: 1500,
         rtl: false,
-        mouseDrag: false
+        mouseDrag: false,
+        responsive: {
+            705: {
+                items: 5
+            },
+            0: {
+                items: 3
+            }
+        }
+
     }
     return (
     <div styleName='aboutPreview'>
