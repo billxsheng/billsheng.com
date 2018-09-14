@@ -19,9 +19,9 @@ class projectsPreview extends Component {
                     <p>I'm always up for a challenge <span aria-label="emoji" role="img">💡</span></p>            
             </span> 
             <SlideCarousel>
-                <CarouselItem title="Blitz" tag="Project" path="projects/blitz-nfl.jpg" to="/projects"/>
+                <CarouselItem title="Ryse" tag="Hackathon" path="projects/ryse-screen.png" to="/projects"/>
                 <CarouselItem title="Canadian Tire" tag="Internship" path="gallery/coop1.jpg" to="/projects"/>
-                <CarouselItem title="Munkee" tag="Project" path="projects/munkee-closeup.png" to="/projects"/>
+                <CarouselItem title="Blitz" tag="Project" path="projects/blitz-nfl.jpg" to="/projects"/>
             </SlideCarousel>
             <div className="container">
                 <div styleName="proj-prev-el" className="row">

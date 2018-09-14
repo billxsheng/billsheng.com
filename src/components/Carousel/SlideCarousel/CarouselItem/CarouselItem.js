@@ -4,7 +4,6 @@ import {NavLink} from 'react-router-dom';
 import styles from './CarouselItem.css';
 
 const carouselItem = (props) => {
-    console.log(props.path);
         const bg = require('../../../../assets/images/' + props.path);
     
         const bgStyle = {

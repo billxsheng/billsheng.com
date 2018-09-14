@@ -4,7 +4,6 @@ import {NavLink} from 'react-router-dom';
 import styles from './GalleryPreviewTile.css';
 
 const galleryTile = (props) => {
-    console.log(props.path);
         const bg = require('../../../../../assets/images/gallery/' + props.path);
     
         const bgStyle = {

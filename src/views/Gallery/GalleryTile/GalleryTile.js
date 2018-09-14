@@ -11,7 +11,6 @@ class GalleryTile extends Component {
 
 
     render() {
-        console.log(this.state);
 
         const tileStyle = {
             height: this.state.height,

@@ -2,7 +2,6 @@ import React from 'react';
 import { withRouter } from 'react-router-dom';
 
 const Image = (props) => {
-    console.log(props.path);
     const imageStyle = {
         'marginTop': props.marginTop,
         'marginBottom': props.marginBottom,
