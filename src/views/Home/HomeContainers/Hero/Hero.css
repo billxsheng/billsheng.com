@@ -94,3 +94,16 @@
 .stripe-container {
     width: 100vh;
 }
+
+@media (max-width: 705px) {
+    .wave {
+        width: 90px !important;
+    }
+}
+
+@media (max-width: 560px) {
+    .wave {
+        width: 70px !important;
+        display: none;
+    }
+}

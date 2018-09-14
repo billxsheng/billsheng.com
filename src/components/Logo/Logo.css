@@ -1,7 +1,7 @@
 .logo {
 }
 
-@media only screen and (max-width: 650px) {
+@media(max-width: 650px) {
     .logo {
         height: 60px !important;
     }
@@ -9,9 +9,3 @@
 }
 
 
-@media only screen and (max-width: 500px) {
-    .logo {
-        height: 60px !important;
-    }
-
-}

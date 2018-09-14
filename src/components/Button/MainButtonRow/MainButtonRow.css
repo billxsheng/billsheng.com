@@ -3,7 +3,7 @@
     margin: 0 auto;
 }
 
-@media only screen and (max-width: 775px) {
+@media (max-width: 775px) {
     .btn-container div {
         display: inline !important;
         width: 25%;
@@ -11,7 +11,7 @@
 
 }
 
-@media only screen and (max-width: 775px) {
+@media (max-width: 775px) {
     .btn-container div {
         display: inline !important;
         width: 25%;

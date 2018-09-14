@@ -6,7 +6,7 @@ import MainButtonRow from '../../../../components/Button/MainButtonRow/MainButto
 const Hero = (props) => {
     const waveStyle = {
         'width': '120px',
-        'height': '100%'
+        'height': 'auto'
     }
     
 

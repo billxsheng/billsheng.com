@@ -37,7 +37,7 @@
     padding: 0 !important;
 }
 
-@media only screen and (max-width: 1200px) {
+@media (max-width: 1200px) {
     .project-tile {
         height: 320px !important;
         width: 800px !important;
@@ -49,7 +49,7 @@
     }
 }
 
-@media only screen and (max-width: 1000px) {
+@media (max-width: 1000px) {
     .project-tile {
         height: 240px !important;
         width: 600px !important;

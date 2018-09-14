@@ -41,3 +41,12 @@
 }
 
 
+@media (max-width: 1035px) {
+    .outer-wrapper {
+        padding: 15px 0 !important;
+    }
+    
+
+}
+
+
