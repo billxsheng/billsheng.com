@@ -44,7 +44,7 @@ class mainNav extends Component {
                 backgroundColor: 'white',
                 color: 'white !important',
                 boxShadow: '0 0 40px #ccc',
-                transition: 'box-shadow 0.5s'
+                transition: 'box-shadow 0.2s'
             }
         }
 
