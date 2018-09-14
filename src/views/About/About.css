@@ -13,7 +13,7 @@
 }
 .img-row {
     margin: 40px auto 0 auto;
-    width: 500px;
+    width: 100%;
 }
 
 .section-div {
@@ -22,7 +22,6 @@
 
 .team:hover {
     transition: transform 0.2s;
-
 }
 
 .skill-img {
@@ -40,3 +39,22 @@
 .section-div-first h2 {
     color: #4775de;
 }
+
+@media (max-width: 620px) {
+    p {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 775px) {
+    .team {
+        width: 50% !important;
+    }
+
+    .skill-img {
+        height: 100px !important;
+        width: 25%;
+    }
+}
+
+

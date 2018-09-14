@@ -43,7 +43,7 @@ class About extends Component {
                                 Management Engineering is a one-of-a-kind interdisciplinary program with a split focus in computer science, systems engineering, and optimization.</p>
                         </div>
                         <div className="row">
-                            <Image height="40px" path="about/other/waterloo-engineering.png" />
+                            <Image  height="25px" path="about/other/waterloo-engineering.png" />
                         </div>
                     </div>
                     
@@ -63,7 +63,7 @@ class About extends Component {
                             <Link margin="20px" link="/projects/canadian-tire">Learn More</Link>
                         </div>
                         <div className="row">
-                            <p>In the future, I would like to work in positions related to <br/> <span >Software Engineering, Data Science, and Product Management.</span> </p>                       
+                            <p>In the future, I would like to work in positions related to Software Engineering, Data Science, and Product Management.</p>                       
                         </div>
                     </div>
                    
@@ -138,7 +138,7 @@ class About extends Component {
 
                     <div styleName="section-div">
                         <div className="row">
-                            <h2>Teams I Support</h2>
+                            <h2>Teams</h2>
                         </div>
                         <div styleName="img-row" className="row">
                             <span styleName="team" className="col-md-6">

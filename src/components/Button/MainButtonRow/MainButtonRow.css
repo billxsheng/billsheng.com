@@ -10,11 +10,3 @@
     }    
 
 }
-
-@media (max-width: 775px) {
-    .btn-container div {
-        display: inline !important;
-        width: 25%;
-    }    
-
-}

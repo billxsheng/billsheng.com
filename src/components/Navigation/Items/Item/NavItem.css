@@ -17,17 +17,20 @@
 
 @media (max-width: 650px) {
     .btnNav {
-        font-size: 12px !important;
+        font-size: 17px !important;
     }
-
 }
 
-@media (max-width: 500px) {
+@media (max-width: 570px) {
     .btnNav {
-        font-size: 12px !important;
-        padding: 0 4px !important;
+        font-size: 15px !important;
     }
+}
 
-
+@media (max-width: 540px) {
+    .btnNav {
+        font-size: 11px !important;
+        padding: 0 5px !important;
+    }
 }
 

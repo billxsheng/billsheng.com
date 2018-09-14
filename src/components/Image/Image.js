@@ -16,7 +16,7 @@ const Image = (props) => {
     }
 
     return (
-        <img alt="bill" style={imageStyle} src={require(`../../assets/images/${props.path}`)} />
+        <img className="img-fluid" alt="bill" style={imageStyle} src={require(`../../assets/images/${props.path}`)} />
     )
 }
 
