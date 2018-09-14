@@ -61,7 +61,7 @@ class App extends Component {
     return (
       <BrowserRouter>
         <div className="App" styleName="main-wrapper">
-          <Waypoint topOffset="5px" 
+          <Waypoint topOffset={"-1px"} bottomOffset={"6000px"}
             onEnter={() => {
               this.onWaypoint();
             }}
