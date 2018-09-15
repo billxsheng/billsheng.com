@@ -1,4 +1,4 @@
-.text-wrapper {
+.text-wrapper-snl {
     display: table;
     height: 100%;
     width: 100%;
@@ -6,9 +6,37 @@
     border-radius: 15px;
     transition: transform 0.2s;
     color: white;
+    background: linear-gradient(to bottom, rgb(38, 0, 255, 0.8), rgb(38, 0, 255, 0.8)), url('../../../assets/images/gallery/fbs.jpg');
+    background-size: cover;
 }
 
-.text-wrapper:hover {
+.text-wrapper-graphql {
+    display: table;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 15px;
+    transition: transform 0.2s;
+    color: white;
+    background: linear-gradient(to bottom, rgb(255, 166, 0, 0.85), rgb(255, 166, 0, 0.85)), url('../../../assets/images/gallery/graphql.jpg');
+    background-size: cover;
+}
+
+.text-wrapper-wateng {
+    display: table;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 15px;
+    transition: transform 0.2s;
+    color: white;
+    background: linear-gradient(to bottom, rgb(10, 150, 52, 0.75), rgb(10, 150, 52, 0.75)), url('../../../assets/images/gallery/waterloo-campus.jpg');
+    background-size: cover;
+}
+
+.text-wrapper-snl:hover,
+.text-wrapper-graphql:hover,
+.text-wrapper-wateng:hover {
     transform: scale(1.05);
     color: white;
     text-decoration: none;

@@ -1,31 +1,31 @@
-import React from 'react';
+import React, {Component} from 'react';
 import CSSModules from 'react-css-modules';
 import styles from './GalleryTileDetail.css';
 import {NavLink} from 'react-router-dom';
 
-const GalleryTileDetail = (props) => {
+class GalleryTileDetail extends Component {
+
+    render () {
+
+        const articleName = `text-wrapper-${this.props.article}`;
+
+        const wrapperStyles = {
+            paddingLeft: this.props.left,
+            paddingRight: this.props.right,
+        }
     
-    const wrapperStyles = {
-        paddingLeft: props.left,
-        paddingRight: props.right,
+        return (
+            <span styleName="outer-wrapper" style={wrapperStyles} >
+                <NavLink to={this.props.to} styleName={articleName}>
+                    <div styleName="text-div">
+                        <h2>{this.props.title}</h2>
+                        <p>{this.props.description}</p>
+                        <p>{this.props.date}</p>
+                    </div>
+                </NavLink>
+            </span>
+        )
     }
+} 
 
-    const bgStyle = {
-        background: `linear-gradient(to bottom, ${props.color}, ${props.color}), url(${require('../../../assets/images/gallery/' + props.path)})`,
-        backgroundSize: 'cover'
-    }
-
-    return (
-        <span styleName="outer-wrapper" style={wrapperStyles} >
-            <NavLink to={props.to} styleName="text-wrapper" style={bgStyle}>
-                <div styleName="text-div">
-                    <h2>{props.title}</h2>
-                    <p>{props.description}</p>
-                    <p>{props.date}</p>
-                </div>
-            </NavLink>
-        </span>
-    )
-}
-
-export default CSSModules(GalleryTileDetail, styles);
+export default CSSModules(GalleryTileDetail, styles, {allowMultiple: true});
