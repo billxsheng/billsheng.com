@@ -126,6 +126,7 @@
 
     .divide-container {
         width: 300px;
+        top: 70px !important;
     }
 
     .upper-wrapper {
@@ -134,10 +135,16 @@
 
     .stripe {
         top: 300px !important;
+        height: 450px;
     }
 
     .stripe-reflected {
         top: 300px !important;
+        height: 430px;
+    }
+
+    .main-title h1 {
+        margin: 120px auto 0 auto !important;
     }
 
 }
