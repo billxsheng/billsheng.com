@@ -56,6 +56,10 @@
     .project-tile-mobile h2 {
         margin-top: 75px;
     }
+
+    .text-cont h2 {
+        font-size: 35px;
+    }
 }
 
 @media (max-width: 1000px) {
@@ -76,7 +80,12 @@
     .project-tile-mobile p {
         font-size: 12px;
     }
+
+    .text-cont h2 {
+        font-size: 30px;
+    }
 }
+
 
 
 @media (max-width: 767px) {
@@ -92,6 +101,10 @@
 
     .project-tile-mobile {
         display: block;
+    }
+
+    .text-cont h2 {
+        font-size: 40px;
     }
 }
 

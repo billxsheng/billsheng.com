@@ -5,6 +5,7 @@ import styles from './ProjectsPreview.css';
 import Link from '../../../../components/Button/Link/Link';
 import SlideCarousel from '../../../../components/Carousel/SlideCarousel/SlideCarousel';
 import CarouselItem from '../../../../components/Carousel/SlideCarousel/CarouselItem/CarouselItem';
+import projectsInfo from '../../../../assets/projectsInfo';
 
 class projectsPreview extends Component {
 
@@ -19,9 +20,9 @@ class projectsPreview extends Component {
             </span> 
             <div styleName="carousel-relative">
                 <SlideCarousel>
-                    <CarouselItem title="Ryse" tag="Hackathon" type="ryse" to="/projects/ryse"/>
-                    <CarouselItem title="Canadian Tire" tag="Internship" type="coop1" to="/projects/canadian-tire"/>
-                    <CarouselItem title="Blitz" tag="Project" type="blitz" to="/projects/blitz"/>
+                    <CarouselItem title={projectsInfo.Ryse.name} tag="Hackathon" type="ryse" to="/projects/ryse"/>
+                    <CarouselItem title={projectsInfo.CTC.name} tag="Internship" type="coop1" to="/projects/canadian-tire"/>
+                    <CarouselItem title={projectsInfo.Blitz.name} tag="Project" type="blitz" to="/projects/blitz"/>
                 </SlideCarousel>
             </div>
                 <div styleName="link-container" className="row">

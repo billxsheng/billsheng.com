@@ -1,23 +1,35 @@
 const ProjectsInfo = {
+    personalWebsite: {
+        name: 'Personal Website',
+        description: 'My portfolio, made from scratch.'
+    },
+    Ryse: {
+        name: 'Ryse',
+        description: 'Networking application for ex-criminals.'
+    },
+    PROG: {
+        name: 'PROG',
+        description: 'Accelerating group projects.'
+    },
+    CTC: {
+        name: 'Canadian Tire',
+        description: 'Improving IT productivity.'
+    },
     Blitz: {
-        projectName: 'Blitz',
-        previewDescription: '',
-        imageURL: ''
+        name: 'Blitz',
+        description: 'Redefining sports notifications.',
     },
     Munkee: {
-        projectName: 'Munkee',
-        previewDescription: '',
-        imageURL: ''
+        name: 'Munkee',
+        description: 'Just for fun :)',
     },
     Moodify: {
-        projectName: 'Moodify',
-        previewDescription: '',
-        imageURL: ''
+        name: 'Moodify',
+        description: 'Adding AI to the job search.',
     },
     vCuts: {
-        projectName: 'vCutz',
-        previewDescription: '',
-        imageURL: ''
+        name: 'VCuts',
+        description: 'Freelance barber website.',
     }
 }
 
