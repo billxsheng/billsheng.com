@@ -26,6 +26,10 @@ import GraphQL from './views/Gallery/GalleryDetails/GraphQL/GraphQL';
 
 class App extends Component {
 
+  state = {
+    isLoading: false
+  }
+
   constructor(props) {
     super(props);
     this.child = React.createRef();

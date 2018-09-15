@@ -1,6 +1,8 @@
 import React from 'react';
+import CSSModules from 'react-css-modules';
+import styles from './WaterlooEngineering.css';
 
-const WaterlooEngineering = (props) => (
+const wateng = (props) => (
     <div>
         <span className="container">
             <div className="row">
@@ -10,11 +12,13 @@ const WaterlooEngineering = (props) => (
             </div>
             <span className="container">
                 <p>
-                Coming Soon
+                    Coming Soon
                 </p>
             </span>
+            <div styleName="content">
+            </div>
         </span>
     </div>
 )
 
-export default WaterlooEngineering;
+export default CSSModules(wateng, styles);

@@ -1,4 +1,6 @@
 import React from 'react';
+import CSSModules from 'react-css-modules';
+import styles from './SNL.css';
 
 const SNL = (props) => (
     <div>
@@ -13,8 +15,10 @@ const SNL = (props) => (
                     Coming Soon
                 </p>
             </span>
+            <div styleName="content">
+            </div>
         </span>
     </div>
 )
 
-export default SNL;
+export default CSSModules(SNL, styles);

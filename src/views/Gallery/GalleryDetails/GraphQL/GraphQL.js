@@ -1,6 +1,8 @@
 import React from 'react';
+import CSSModules from 'react-css-modules';
+import styles from './GraphQL.css';
 
-const GraphQL = (props) => (
+const graphQL = (props) => (
     <div>
         <span className="container">
             <div className="row">
@@ -10,11 +12,13 @@ const GraphQL = (props) => (
             </div>
             <span className="container">
                 <p>
-                Coming Soon
+                    Coming Soon
                 </p>
             </span>
+            <div styleName="content">
+            </div>
         </span>
     </div>
 )
 
-export default GraphQL;
+export default CSSModules(graphQL, styles);

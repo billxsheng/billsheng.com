@@ -14,7 +14,6 @@ class mainNav extends Component {
     navChangeHandler = () => {
         const mainNav = document.getElementById('mainNav');
         mainNav.classList.toggle('navScroll');
-        console.log('navchangehandler');
         this.state.navTop === false ? this.setState({navTop: true}) : this.setState({navTop: false});
     };
 
@@ -32,7 +31,6 @@ class mainNav extends Component {
             transition: 'box-shadow 0.5s'
         }
 
-        console.log(this.state.navTop);
         if(this.state.navTop === false) {
             topStyle = {
                 padding: '15px',
@@ -46,10 +44,7 @@ class mainNav extends Component {
                 boxShadow: '0 0 40px #ccc',
                 transition: 'box-shadow 0.2s'
             }
-        }
-
-        console.log(topStyle);
-        
+        }        
 
 
         return (
