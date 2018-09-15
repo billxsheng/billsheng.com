@@ -3,7 +3,6 @@ import React from 'react';
 import CSSModules from 'react-css-modules';
 import styles from './Footer.css';
 import MainButtonRow from '../Button/MainButtonRow/MainButtonRow';
-import Logo from '../Logo/Logo';
 
 const footer = (props) => (
     <footer styleName='footer'>

@@ -73,7 +73,7 @@
 
 .stripe {
     height: 500px;
-    width: 100%;
+    width: 99.7%;
     top: 350px;
     position: absolute;
     background-color: #4775de;
@@ -85,7 +85,7 @@
     top: 400px;
     height: 400px;
     position: absolute;
-    width: 100%;
+    width: 99.7%;
     background-color: #dbebfa;
     transform: skew(-6.2deg) rotate(-6.2deg);
     z-index: -2;
