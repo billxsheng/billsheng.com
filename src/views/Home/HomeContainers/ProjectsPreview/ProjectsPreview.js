@@ -7,7 +7,6 @@ import SlideCarousel from '../../../../components/Carousel/SlideCarousel/SlideCa
 import CarouselItem from '../../../../components/Carousel/SlideCarousel/CarouselItem/CarouselItem';
 
 class projectsPreview extends Component {
-    
 
     render() {
         return (
@@ -20,9 +19,9 @@ class projectsPreview extends Component {
             </span> 
             <div styleName="carousel-relative">
                 <SlideCarousel>
-                    <CarouselItem title="Ryse" tag="Hackathon" path="projects/ryse-screen.png" to="/projects/ryse"/>
-                    <CarouselItem title="Canadian Tire" tag="Internship" path="gallery/coop1.jpg" to="/projects/canadian-tire"/>
-                    <CarouselItem title="Blitz" tag="Project" path="projects/blitz-nfl.jpg" to="/projects/blitz"/>
+                    <CarouselItem title="Ryse" tag="Hackathon" type="ryse" to="/projects/ryse"/>
+                    <CarouselItem title="Canadian Tire" tag="Internship" type="coop1" to="/projects/canadian-tire"/>
+                    <CarouselItem title="Blitz" tag="Project" type="blitz" to="/projects/blitz"/>
                 </SlideCarousel>
             </div>
                 <div styleName="link-container" className="row">

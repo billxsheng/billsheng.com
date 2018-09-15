@@ -18,9 +18,9 @@ class galleryPreview extends Component {
                     </span> 
                     <div styleName="carousel-relative" >
                     <SlideCarousel>
-                        <CarouselItem to="/gallery/saturday-night-lights" path = "gallery/fbs.jpg" date={GalleryInfo.saturdayNightLights.date} title={GalleryInfo.saturdayNightLights.title}  />
-                        <CarouselItem to="/gallery/graphql"  path = "gallery/graphql.jpg"  title={GalleryInfo.graphQL.title} date={GalleryInfo.graphQL.date} />
-                        <CarouselItem  to="/gallery/waterloo-engineering" path = "gallery/waterloo-campus.jpg"  title={GalleryInfo.firstYear.title}  date={GalleryInfo.firstYear.date} />
+                        <CarouselItem to="/gallery/saturday-night-lights" type = "snl" date={GalleryInfo.saturdayNightLights.date} title={GalleryInfo.saturdayNightLights.title}  />
+                        <CarouselItem to="/gallery/graphql"  type = "graphql"  title={GalleryInfo.graphQL.title} date={GalleryInfo.graphQL.date} />
+                        <CarouselItem  to="/gallery/waterloo-engineering" type = "wateng"  title={GalleryInfo.firstYear.title}  date={GalleryInfo.firstYear.date} />
                     </SlideCarousel>
                     </div>
                     <div styleName="link-container" className="row">

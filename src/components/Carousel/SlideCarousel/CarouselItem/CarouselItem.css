@@ -31,7 +31,7 @@
     z-index: -3;
 }
 
-.upper-wrapper {
+.upper-wrapper-coop1 {
     position: absolute;
     width: inherit;
     height: 280px;
@@ -39,6 +39,92 @@
     left: 0;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+    background: linear-gradient(to right, rgb(0,0,0, 0.4), rgb(0,0,0,0), rgb(0,0,0, 0.4)), url('../../../../assets/images/gallery/coop1.jpg');
+    background-size: cover;
+}
+
+.upper-wrapper-ryse {
+    position: absolute;
+    width: inherit;
+    height: 280px;
+    top: 0;    
+    left: 0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: linear-gradient(to right, rgb(0,0,0, 0.4), rgb(0,0,0,0), rgb(0,0,0, 0.4)), url('../../../../assets/images/projects/ryse-screen.png');
+    background-size: cover;
+}
+
+.upper-wrapper-blitz {
+    position: absolute;
+    width: inherit;
+    height: 280px;
+    top: 0;    
+    left: 0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: linear-gradient(to right, rgb(0,0,0, 0.4), rgb(0,0,0,0), rgb(0,0,0, 0.4)), url('../../../../assets/images/projects/blitz-nfl.jpg');
+    background-size: cover;
+}
+
+.upper-wrapper-snl {
+    position: absolute;
+    width: inherit;
+    height: 280px;
+    top: 0;    
+    left: 0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: linear-gradient(to right, rgb(0,0,0, 0.4), rgb(0,0,0,0), rgb(0,0,0, 0.4)), url('../../../../assets/images/gallery/fbs.jpg');
+    background-size: cover;
+}
+
+.upper-wrapper-graphql {
+    position: absolute;
+    width: inherit;
+    height: 280px;
+    top: 0;    
+    left: 0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: linear-gradient(to right, rgb(0,0,0, 0.4), rgb(0,0,0,0), rgb(0,0,0, 0.4)), url('../../../../assets/images/gallery/graphql.jpg');
+    background-size: cover;
+}
+
+.upper-wrapper-wateng {
+    position: absolute;
+    width: inherit;
+    height: 280px;
+    top: 0;    
+    left: 0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: linear-gradient(to right, rgb(0,0,0, 0.4), rgb(0,0,0,0), rgb(0,0,0, 0.4)), url('../../../../assets/images/gallery/waterloo-campus.jpg');
+    background-size: cover;
+}
+
+.upper-wrapper-bbq {
+    position: absolute;
+    width: inherit;
+    height: 280px;
+    top: 0;    
+    left: 0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: linear-gradient(to right, rgb(0,0,0, 0.4), rgb(0,0,0,0), rgb(0,0,0, 0.4)), url('../../../../assets/images/about/hobbies/barbecue.jpg');
+    background-size: cover;
+}
+
+.upper-wrapper-guitar {
+    position: absolute;
+    width: inherit;
+    height: 280px;
+    top: 0;    
+    left: 0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: linear-gradient(to right, rgb(0,0,0, 0.4), rgb(0,0,0,0), rgb(0,0,0, 0.4)), url('../../../../assets/images/about/hobbies/guitar.jpg');
+    background-size: cover;
 }
 
 .lower-wrapper {
