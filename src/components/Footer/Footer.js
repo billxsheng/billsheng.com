@@ -11,9 +11,6 @@ const footer = (props) => (
         <div className="container">
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bill Sheng 2018 ©</p>
         </div>
-        <div className="row" >
-            <Logo height="50px" margin="0 auto" />
-        </div>
     </footer>
 )
 
