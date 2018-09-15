@@ -4,15 +4,14 @@ import styles from './GalleryTileDetail.css';
 import {NavLink} from 'react-router-dom';
 
 const GalleryTileDetail = (props) => {
-    const bg = require('../../../assets/images/gallery/' + props.path);
-
+    
     const wrapperStyles = {
         paddingLeft: props.left,
         paddingRight: props.right,
     }
 
     const bgStyle = {
-        background: `linear-gradient(to bottom, ${props.color}, ${props.color}), url(${bg})`,
+        background: `linear-gradient(to bottom, ${props.color}, ${props.color}), url(${require('../../../assets/images/gallery/' + props.path)})`,
         backgroundSize: 'cover'
     }
 

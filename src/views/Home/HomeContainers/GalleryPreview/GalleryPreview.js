@@ -16,14 +16,16 @@ class galleryPreview extends Component {
                     <span styleName="gallery-preview-paragraph" className="container">
                         <p>From pick six to python.</p>            
                     </span> 
-                            <SlideCarousel>
-                                <CarouselItem to="/gallery/saturday-night-lights" path = "gallery/fbs.jpeg" date={GalleryInfo.saturdayNightLights.date} title={GalleryInfo.saturdayNightLights.title}  />
-                                <CarouselItem to="/gallery/graphql"  path = "gallery/graphql.jpg"  title={GalleryInfo.graphQL.title} date={GalleryInfo.graphQL.date} />
-                                <CarouselItem  to="/gallery/waterloo-engineering" path = "gallery/waterloo-campus.jpg"  title={GalleryInfo.firstYear.title}  date={GalleryInfo.firstYear.date} />
-                            </SlideCarousel>
-                        <div styleName="gallery-prev-el" className="row">
-                            <Link margin="180px" link="/gallery">View Gallery</Link>
-                        </div>
+                    <div styleName="carousel-relative" >
+                    <SlideCarousel>
+                        <CarouselItem to="/gallery/saturday-night-lights" path = "gallery/fbs.jpg" date={GalleryInfo.saturdayNightLights.date} title={GalleryInfo.saturdayNightLights.title}  />
+                        <CarouselItem to="/gallery/graphql"  path = "gallery/graphql.jpg"  title={GalleryInfo.graphQL.title} date={GalleryInfo.graphQL.date} />
+                        <CarouselItem  to="/gallery/waterloo-engineering" path = "gallery/waterloo-campus.jpg"  title={GalleryInfo.firstYear.title}  date={GalleryInfo.firstYear.date} />
+                    </SlideCarousel>
+                    </div>
+                    <div styleName="link-container" className="row">
+                        <Link  margin="50px" link="/gallery">View Gallery</Link>
+                    </div>
                 </span>
             </div>
         )

@@ -1,5 +1,6 @@
 
 .btn-link {
+    margin: 0;
     cursor: pointer;
     background-color: #4775de;
     padding: 15px;

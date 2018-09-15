@@ -1,6 +1,6 @@
 const GalleryInfo = {
     saturdayNightLights: {
-        title: 'Saturday Night Lights',
+        title: 'SNL',
         date: "Coming Soon"
         // description: 'The dominance of the FBS',
     },

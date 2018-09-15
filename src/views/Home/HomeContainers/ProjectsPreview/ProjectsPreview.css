@@ -28,6 +28,15 @@
     border-radius: 15px;
 }
 
+.carousel-relative {
+    height: 100%;
+}
+
+.link-container {
+    width: 50%;
+    margin: 0 auto;
+}
+
 @media (max-width: 705px) {
     .projectsPreview {
         margin: 0 auto 120px auto;

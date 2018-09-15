@@ -4,16 +4,16 @@ import {NavLink} from 'react-router-dom';
 import styles from './CarouselItem.css';
 
 const carouselItem = (props) => {
-        const bg = require('../../../../assets/images/' + props.path);
     
         const bgStyle = {
-            'background': `linear-gradient(to right, rgb(0,0,0, 0.4), rgb(0,0,0,0), rgb(0,0,0, 0.4)), url(${bg})`,
+            'background': `linear-gradient(to right, rgb(0,0,0, 0.4), rgb(0,0,0,0), rgb(0,0,0, 0.4)), url(${require('../../../../assets/images/' + props.path)})`,
             'backgroundSize': 'cover',
         }
         
         return (
             <NavLink styleName="carousel-wrapper item-preview-tile" to={props.to} className='btn'>
                 <div style={bgStyle} styleName="upper-wrapper">
+                {/* <img alt="bill" styleName="img-carousel" src={require(`../../../../assets/images/${props.path}`)} /> */}
                 </div>
                 <div styleName="lower-wrapper" className="row">
                     <div styleName="text-div">

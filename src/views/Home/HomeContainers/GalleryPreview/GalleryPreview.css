@@ -43,22 +43,22 @@
     display: table;
 }
 
-.carousel-wrapper-btn {
-    height: 300px;
-    width: 700px;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-}
-
 .gallery-preview-paragraph p {
     line-height: 0 !important;
+}
+
+.carousel-relative {
+    position: relative !important;
+    height: 100%;
+}
+
+.link-container {
+    width: 50%;
+    margin: 0 auto;
 }
 
 @media (max-width: 705px) {
     .projectsPreview {
         margin: 0 auto 120px auto;
     }
-
-
 }

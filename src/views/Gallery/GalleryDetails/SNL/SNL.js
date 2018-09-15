@@ -5,7 +5,7 @@ const SNL = (props) => (
         <span className="container">
             <div className="row">
                 <h1>
-                    Saturday Night Lights
+                    SNL
                 </h1>
             </div>
             <span className="container">
