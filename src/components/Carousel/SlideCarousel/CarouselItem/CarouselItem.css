@@ -75,3 +75,9 @@
         margin: 10px auto !important;
     }
 }
+
+@media (max-width: 550px) {
+    .upper-wrapper {
+        border-radius: 0 !important;
+    }
+}
