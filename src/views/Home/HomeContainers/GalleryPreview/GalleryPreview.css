@@ -54,3 +54,11 @@
 .gallery-preview-paragraph p {
     line-height: 0 !important;
 }
+
+@media (max-width: 705px) {
+    .projectsPreview {
+        margin: 0 auto 120px auto;
+    }
+
+
+}

@@ -7,14 +7,13 @@ import Logo from '../Logo/Logo';
 
 const footer = (props) => (
     <footer styleName='footer'>
-
         <MainButtonRow/>
         <div className="container">
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bill Sheng 2018 ©</p>
         </div>
-        {/* <div className="row" >
+        <div className="row" >
             <Logo height="50px" margin="0 auto" />
-        </div> */}
+        </div>
     </footer>
 )
 

@@ -15,7 +15,7 @@ class projectsPreview extends Component {
             <span className="container">
                     <h2>Projects</h2>
             </span>
-            <span className="container">
+            <span styleName="projects-preview-paragraph" className="container">
                     <p>I'm always up for a challenge <span aria-label="emoji" role="img">💡</span></p>            
             </span> 
             <SlideCarousel>

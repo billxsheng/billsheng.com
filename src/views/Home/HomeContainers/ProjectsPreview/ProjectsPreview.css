@@ -11,6 +11,10 @@
 .proj-prev-el {
 }
 
+.projects-preview-paragraph p {
+    line-height: 0 !important;
+}
+
 
 .carousel-wrapper {
     height: 300px;
@@ -27,6 +31,10 @@
 @media (max-width: 705px) {
     .projectsPreview {
         margin: 0 auto 120px auto;
+    }
+
+    .project-preview-paragraph p {
+        padding: 0 !important;
     }
 }
 

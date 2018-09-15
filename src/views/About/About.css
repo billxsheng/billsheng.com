@@ -41,7 +41,7 @@
 }
 
 @media (max-width: 620px) {
-    p {
+    .about p {
         padding: 20px;
     }
 }
@@ -52,7 +52,7 @@
     }
 
     .skill-img {
-        height: 100px !important;
+        height: 150px !important;
         width: 25%;
     }
 }

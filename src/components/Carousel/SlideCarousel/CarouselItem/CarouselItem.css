@@ -24,7 +24,7 @@
 }
 
 .text-div p {
-    line-height: 0;
+    line-height: 10px;
 }
 
 .carousel-wrapper {
@@ -33,7 +33,7 @@
 
 .upper-wrapper {
     position: absolute;
-    width: 700px;
+    width: inherit;
     height: 280px;
     top: 0;    
     left: 0;
@@ -43,7 +43,7 @@
 
 .lower-wrapper {
     position: absolute;
-    width: 700px;
+    width: inherit;
     background-color: white;
     height: 100px;
     bottom: 0;
@@ -69,3 +69,9 @@
     vertical-align: middle;
 }
 
+@media (max-width: 705px) {
+    .text-div p {
+        padding: 0 !important;
+        margin: 10px auto !important;
+    }
+}
