@@ -1,6 +1,6 @@
 .aboutPreview {
     height: auto;
-    margin: 0 auto 200px auto;
+    margin: 0 auto 150px auto;
 }
 
 .abt-prev-el {
@@ -25,7 +25,7 @@
 
 @media (max-width: 705px) {
     .aboutPreview {
-        margin: 0 auto 140px auto;
+        margin: 0 auto 80px auto;
     }
 
     h2 {

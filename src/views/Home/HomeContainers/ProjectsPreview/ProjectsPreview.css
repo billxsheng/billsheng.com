@@ -1,6 +1,6 @@
 .projectsPreview {
     height: auto;
-    margin: 0 auto 200px auto;
+    margin: 0 auto 150px auto;
 }
 
 .tile-wrapper {
@@ -39,11 +39,11 @@
 
 @media (max-width: 705px) {
     .projectsPreview {
-        margin: 0 auto 140px auto;
+        margin: 0 auto 80px auto;
     }
 
     .project-preview-paragraph p {
-        padding: 0 !important;
+        margin: 5px auto !important;
     }
 }
 

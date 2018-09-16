@@ -2,7 +2,7 @@ const ProjectsInfo = {
     personalWebsite: {
         name: 'Personal Website',
         description: 'My portfolio, made from scratch.',
-        technologies: 'JavaScript (JSX, React), HTML, CSS, Bootstrap, Amazon Web Services (AWS)',
+        technologies: 'JavaScript (React), HTML, CSS, Bootstrap, Amazon Web Services (AWS)',
         about: ''
     },
     Ryse: {

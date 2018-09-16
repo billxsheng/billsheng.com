@@ -36,10 +36,6 @@
     margin-top: 0;
 }
 
-.section-div-first h2 {
-    color: #4775de;
-}
-
 @media (max-width: 620px) {
     .about p {
         padding: 20px;

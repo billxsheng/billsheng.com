@@ -2,7 +2,7 @@
     height: 820px !important;
     /* background-color: rgb(233, 233, 233); */
     /* box-shadow: 0 50px 50px -50px  rgba(0, 0, 0, 0.1); */
-    margin: 0 0 300px 0;
+    margin: 0 0 200px 0;
     width: 100%;
     overflow: hidden;
 }
@@ -114,7 +114,7 @@
     }
 
     .hero {
-        margin: 0 auto 100px auto;
+        margin: 0 auto 0 auto;
     }
 }
 
@@ -126,7 +126,7 @@
 
     .divide-container {
         width: 300px;
-        top: 70px !important;
+        top: 45px !important;
     }
 
     .upper-wrapper {
@@ -134,17 +134,17 @@
     }
 
     .stripe {
-        top: 300px !important;
+        top: 250px !important;
         height: 450px;
     }
 
     .stripe-reflected {
-        top: 300px !important;
+        top: 250px !important;
         height: 430px;
     }
 
     .main-title h1 {
-        margin: 120px auto 0 auto !important;
+        margin: 90px auto 0 auto !important;
     }
 
 }

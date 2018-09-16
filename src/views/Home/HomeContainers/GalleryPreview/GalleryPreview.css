@@ -58,7 +58,7 @@
 }
 
 @media (max-width: 705px) {
-    .projectsPreview {
-        margin: 0 auto 140px auto;
+    .galleryPreview {
+        margin: 0 auto 0 auto;
     }
 }

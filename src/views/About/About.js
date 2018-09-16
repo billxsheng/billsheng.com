@@ -25,11 +25,8 @@ class About extends Component {
                 <div styleName="content-div">
                     <div styleName="section-div-first" >
                         <div className="row">
-                            <h2>Hey, I'm Bill!</h2>
-                        </div>
-                        <div className="row">
                             <p>
-                            I'm a curious, motivated, and hard-working individual with an interest for software development, AI, and data. 
+                            Hey, I'm Bill. I'm a curious, motivated, and hard-working individual with an interest for software development, AI, and data. 
                             I enjoy working on projects that have real-world impact in industries that I am passionate about.&nbsp;<span aria-label="emoji" role="img" >🇨🇦</span></p>
                         </div>
                     </div>
