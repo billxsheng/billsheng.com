@@ -5,7 +5,7 @@
 .button-row {
     margin-bottom: 80px;
     width: 350px;
-    margin: 0 auto 80px auto;
+    margin: 0 auto 0 auto;
 }
 
 .description-no-link p {
@@ -14,4 +14,22 @@
 
 .technologies {
     margin: 0 auto 0 auto;
+}
+
+.tag {
+    height: 30px !important;
+    margin: 0 auto;
+    background-color: orange;
+    width: 120px;
+    height: auto;
+    line-height: 30px !important;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+    display: table;
+    margin: 20px auto;
+}
+
+.tag p {
+    display: table-cell;
+    vertical-align: middle;
 }

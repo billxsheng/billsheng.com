@@ -14,33 +14,26 @@ class pweb extends Component {
         return (
             <div>
                     <span className="container">
-                        <div className="row">
                             <h1>
                                 {projectsInfo.personalWebsite.name}
                             </h1>
-                        </div>
-                        <span styleName="description" className="container">
+                            <div className="row" styleName="tag" >
+                                <p>Project</p>
+                            </div>
                             <p>
                                 {projectsInfo.personalWebsite.description}
                             </p>
-                        </span>
-                        <span>
-                            <div styleName="button-row" className="row">
-                                <Button link="http://github.com/billxsheng/personal-website" newPage = 'true' btnType="btnLarge" >View on Github</Button>
-                            </div>
-                        </span>
                         <span className="container">
                             <h3>Technologies Used</h3>
-                            <div styleName="technologies" className="row">
-                                <p>{projectsInfo.personalWebsite.technologies}</p>
-                            </div>
+                            <p>{projectsInfo.personalWebsite.technologies}</p>
                         </span>
                         <span className="container">
-                            <h3>About this Project</h3>
-                            <div className="row">
-                                <p>{projectsInfo.personalWebsite.about}</p>
-                            </div>
+                            <h3>Summary</h3>
+                            <p>{projectsInfo.personalWebsite.about}</p>
                         </span>
+                        <div styleName="button-row" className="row">
+                                <Button link="http://github.com/billxsheng/personal-website" newPage = 'true' btnType="btnLarge" >View on Github</Button>
+                            </div>
                     </span>
                 </div>
         )

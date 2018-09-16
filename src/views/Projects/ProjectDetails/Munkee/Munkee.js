@@ -15,34 +15,27 @@ class Munkee extends Component {
         return (
             <div>
                     <span className="container">
-                        <div className="row">
                             <h1>
                                 {projectsInfo.Munkee.name}
                             </h1>
-                        </div>
-                        <span styleName="description" className="container">
+                            <div className="row" styleName="tag" >
+                                <p>Project</p>
+                            </div>
                             <p>
                                 {projectsInfo.Munkee.description}
                             </p>
-                        </span>
-                        <span>
-                            <div styleName="button-row" className="row">
-                                <Button link="http://github.com/billxsheng/munkee" newPage = 'true' btnType="btnLarge" >View on Github</Button>
-                                <Button link="http://munkee.herokuapp.com" newPage = 'true' btnType="btnLarge" >Play Munkee</Button>
-                            </div>
-                        </span>
                         <span className="container">
                             <h3>Technologies Used</h3>
-                            <div styleName="technologies" className="row">
-                                <p>{projectsInfo.Munkee.technologies}</p>
-                            </div>
+                            <p>{projectsInfo.Munkee.technologies}</p>
                         </span>
                         <span className="container">
-                            <h3>About this Project</h3>
-                            <div className="row">
-                                <p>{projectsInfo.Munkee.about}</p>
-                            </div>
+                            <h3>Summary</h3>
+                            <p>{projectsInfo.Munkee.about}</p>
                         </span>
+                        <div styleName="button-row" className="row">
+                                <Button link="http://github.com/billxsheng/munkee" newPage = 'true' btnType="btnLarge" >View on Github</Button>
+                                <Button link="http://munkee.herokuapp.com" newPage = 'true' btnType="btnLarge" >Play Munkee</Button>
+                        </div>
                     </span>
                 </div>
         )

@@ -13,27 +13,22 @@ class canadianTire extends Component {
         return (
             <div>
                 <span className="container">
-                <div className="row">
                     <h1>
                         {projectsInfo.CTC.name}
                     </h1>
-                </div>
-                <span styleName="description-no-link" className="container">
+                    <div className="row" styleName="tag" >
+                        <p>Internship</p>
+                    </div>
                     <p>
                         {projectsInfo.CTC.description}
                     </p>
-                </span>
                 <span className="container">
                     <h3>Technologies Used</h3>
-                    <div styleName="technologies" className="row">
-                        <p>{projectsInfo.CTC.technologies}</p>
-                    </div>
+                    <p>{projectsInfo.CTC.technologies}</p>
                 </span>
                 <span className="container">
-                    <h3>About this Project</h3>
-                    <div className="row">
-                        <p>{projectsInfo.CTC.about}</p>
-                    </div>
+                    <h3>Summary</h3>
+                    <p>{projectsInfo.CTC.about}</p>
                 </span>
                 </span>
             </div>

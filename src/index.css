@@ -6,9 +6,11 @@ body {
 }
 
 h3 {
-  font-family: 'Lato';
-  font-weight: 400;
+  font-family: 'Poppins';
+  font-weight: 700;
   text-align: center;
+  letter-spacing: -2px;
+  font-size: 40px;
 }
 
 
@@ -69,11 +71,11 @@ button {
   }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 800px) {
   h1 {
     font-size: 60px;
     letter-spacing: -4px;
-    padding: 0 40px !important;
+    padding: 0 10px !important;
     margin: 90px auto 0 auto !important;
   }
 
@@ -85,6 +87,10 @@ button {
   h2 {
     font-size: 40px;
     letter-spacing: -2px;
+  }
+
+  h3 {
+    font-size: 30px;
   }
 } 
 

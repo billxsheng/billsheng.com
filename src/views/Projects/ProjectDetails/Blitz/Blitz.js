@@ -13,33 +13,26 @@ class Blitz extends Component {
         return (
             <div>
             <span className="container">
-                <div className="row">
                     <h1>
                         {projectsInfo.Blitz.name}
                     </h1>
-                </div>
-                <span styleName="description" className="container">
+                    <div className="row" styleName="tag" >
+                        <p>Project</p>
+                    </div>
                     <p>
                         {projectsInfo.Blitz.description}
                     </p>
-                </span>
-                <span>
-                    <div styleName="button-row" className="row">
-                        <Button link="http://github.com/billxsheng/blitz" newPage = 'true' btnType="btnLarge" >View on Github</Button>
-                    </div>
-                </span>
                 <span className="container">
                     <h3>Technologies Used</h3>
-                    <div styleName="technologies" className="row">
-                        <p>{projectsInfo.Blitz.technologies}</p>
-                    </div>
+                    <p>{projectsInfo.Blitz.technologies}</p>
                 </span>
                 <span className="container">
-                    <h3>About this Project</h3>
-                    <div className="row">
-                        <p>{projectsInfo.Blitz.about}</p>
-                    </div>
+                    <h3>Summary</h3>
+                    <p>{projectsInfo.Blitz.about}</p>
                 </span>
+                <div styleName="button-row" className="row">
+                        <Button link="http://github.com/billxsheng/blitz" newPage = 'true' btnType="btnLarge" >View on Github</Button>
+                </div>
             </span>
         </div>
         )
