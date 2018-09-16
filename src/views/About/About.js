@@ -26,7 +26,7 @@ class About extends Component {
                     <div styleName="section-div-first" >
                         <div className="row">
                             <p>
-                            Hey, I'm Bill. I'm a curious, motivated, and hard-working individual with an interest for software development, AI, and data. 
+                            Hey, I'm Bill! I'm a curious, motivated, and hard-working individual with an interest for software development, AI, and data. 
                             I enjoy working on projects that have real-world impact in industries that I am passionate about.&nbsp;<span aria-label="emoji" role="img" >🇨🇦</span></p>
                         </div>
                     </div>
@@ -50,7 +50,7 @@ class About extends Component {
                         </div>
                         <div className="row">
                             <p>Waterloo Engineering students are given six co-op terms on top of coursework. 
-                                These work terms allow students to gain real-world experience while exploring potential career paths. 
+                                These work terms allow students like me to gain real-world experience while exploring potential career paths. 
                                 For my first work term this past summer, I was an intern at Canadian Tire Corporation.</p>                       
                         </div>
                         <div className="row">
