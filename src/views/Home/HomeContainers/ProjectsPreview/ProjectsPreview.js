@@ -12,7 +12,7 @@ class projectsPreview extends Component {
     render() {
         return (
             <div styleName= 'projectsPreview'>
-            <span className="row">
+            <span className="container">
                     <h2>Projects</h2>
             </span>
             <span styleName="projects-preview-paragraph" className="container">
