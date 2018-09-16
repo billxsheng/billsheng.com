@@ -1,18 +1,19 @@
 import React from 'react';
 import CSSModules from 'react-css-modules';
 import styles from './WaterlooEngineering.css';
+import galleryInfo from '../../../../assets/gallery';
 
 const wateng = (props) => (
     <div>
         <span className="container">
             <div className="row">
                 <h1>
-                    Waterloo Engineering
+                    {galleryInfo.firstYear.title}
                 </h1>
             </div>
             <span className="container">
                 <p>
-                    Coming Soon
+                    {galleryInfo.firstYear.date}
                 </p>
             </span>
             <div styleName="content">

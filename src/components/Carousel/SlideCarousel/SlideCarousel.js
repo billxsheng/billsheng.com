@@ -13,7 +13,8 @@ class SlideCarousel extends Component {
             dots: true,
             rtl: false,
             mouseDrag: false,
-            loop: false
+            loop: false,
+            lazyLoad: true
         }
     
         const carouselStyle = {

@@ -26,7 +26,8 @@ const aboutPreview = (props) => {
             0: {
                 items: 3
             }
-        }
+        },
+        lazyLoad: true
 
     }
     return (

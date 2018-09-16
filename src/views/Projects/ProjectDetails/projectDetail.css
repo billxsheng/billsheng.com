@@ -1,0 +1,17 @@
+.description p {
+    margin: 0 auto;
+}
+
+.button-row {
+    margin-bottom: 80px;
+    width: 350px;
+    margin: 0 auto 80px auto;
+}
+
+.description-no-link p {
+    margin: 0 auto 80px auto;
+}
+
+.technologies {
+    margin: 0 auto 50px auto;
+}
