@@ -12,7 +12,6 @@ import Footer from './components/Footer/Footer';
 import Modal from './components/Modal/Modal';
 import styles from './App.css';
 import Waypoint from 'react-waypoint';
-import Skout from './views/Projects/ProjectDetails/Skout/Skout';
 import Blitz from './views/Projects/ProjectDetails/Blitz/Blitz';
 import canadianTire from './views/Projects/ProjectDetails/CTC/CTC';
 import Moodify from './views/Projects/ProjectDetails/Moodify/Moodify';
@@ -23,6 +22,7 @@ import VCuts from './views/Projects/ProjectDetails/VCuts/VCuts';
 import SNL from './views/Gallery/GalleryDetails/SNL/SNL';
 import WaterlooEngineering from './views/Gallery/GalleryDetails/WaterlooEngineering/WaterlooEngineering';
 import GraphQL from './views/Gallery/GalleryDetails/GraphQL/GraphQL';
+import pweb from './views/Projects/ProjectDetails/pweb/pweb';
 
 class App extends Component {
 
@@ -53,7 +53,7 @@ class App extends Component {
         <Route exact path="/projects/prog" component={prog} />
         <Route exact path="/projects/ryse" component={Ryse} />
         <Route exact path="/projects/vcuts" component={VCuts} />
-        <Route exact path="/projects/skout" component={Skout} />
+        <Route exact path="/projects/personal-website" component={pweb} />
         <Route exact path="/projects" component={Projects} />
         <Route exact path="/about" component={About} />
         <Route exact path="/gallery" component={Gallery} />

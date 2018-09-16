@@ -9,11 +9,11 @@
 }
 
 .carousel-row {
-    margin: 40px auto 250px auto;
+    margin-top: 40px;
 }
 .img-row {
     margin: 40px auto 0 auto;
-    width: 100%;
+    width: 400px;
 }
 
 .section-div {
@@ -43,6 +43,10 @@
 @media (max-width: 620px) {
     .about p {
         padding: 20px;
+    }
+
+    .img-row {
+        width: 100%;
     }
 }
 

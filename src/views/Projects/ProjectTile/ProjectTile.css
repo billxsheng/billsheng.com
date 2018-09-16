@@ -59,6 +59,7 @@
 
     .text-cont h2 {
         font-size: 35px;
+        letter-spacing: -2px;
     }
 }
 
@@ -78,7 +79,7 @@
 
     .project-tile p,
     .project-tile-mobile p {
-        font-size: 12px;
+        font-size: 15px;
     }
 
     .text-cont h2 {

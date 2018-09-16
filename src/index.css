@@ -72,6 +72,7 @@ iframe {
   h1 {
     font-size: 60px;
     letter-spacing: -4px;
+    padding: 0 15px !important;
   }
 
   p {
