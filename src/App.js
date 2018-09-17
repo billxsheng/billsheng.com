@@ -23,11 +23,20 @@ import SNL from './views/Gallery/GalleryDetails/SNL/SNL';
 import WaterlooEngineering from './views/Gallery/GalleryDetails/WaterlooEngineering/WaterlooEngineering';
 import GraphQL from './views/Gallery/GalleryDetails/GraphQL/GraphQL';
 import pweb from './views/Projects/ProjectDetails/pweb/pweb';
+import Aux from './hoc/HO-Aux/HO-aux';
+import Spinner from './components/Spinner/Spinner';
 
 class App extends Component {
 
   state = {
+    isLoading: false
+  }
 
+  componentDidMount = () => {
+    this.setState({isLoading: true})
+    setTimeout(() => {
+      this.setState({isLoading: false})
+    }, 600);
   }
 
   constructor(props) {
@@ -63,22 +72,26 @@ class App extends Component {
     )
 
     return (
-      <BrowserRouter>
-        <div className="App" styleName="main-wrapper">
-          <Waypoint topOffset={"-1px"} bottomOffset={"6000px"}
-            onEnter={() => {
-              this.onWaypoint();
-            }}
-            onLeave={() => {
-              this.onWaypoint();
-              }}
-          />
-              {routes}
-              <Navigation ref={this.child} />
-              <Modal styleName="modal" targetName="contactModal" />
-          <Footer />
-        </div>
-      </BrowserRouter>
+      <Aux>
+        {this.state.isLoading ? <Spinner/> :
+          <BrowserRouter>
+            <div className="App" styleName="main-wrapper">
+              <Waypoint topOffset={"-1px"} bottomOffset={"6000px"}
+                onEnter={() => {
+                  this.onWaypoint();
+                }}
+                onLeave={() => {
+                  this.onWaypoint();
+                  }}
+              />
+                  {routes}
+                  <Navigation ref={this.child} />
+                  <Modal styleName="modal" targetName="contactModal" />
+              <Footer />
+            </div>
+          </BrowserRouter>
+        }
+      </Aux>
     );
   }
 }
