@@ -45,7 +45,11 @@ class App extends Component {
   }
 
   onWaypoint = () => {
-    this.child.current.navChangeHandler();
+    if(this.child.current) {
+      this.child.current.navChangeHandler();
+    } else {
+      return 0;
+    }
   }
 
   render() {
@@ -84,10 +88,12 @@ class App extends Component {
                   this.onWaypoint();
                   }}
               />
+              <Layout>
                   {routes}
                   <Navigation ref={this.child} />
                   <Modal styleName="modal" targetName="contactModal" />
               <Footer />
+              </Layout>
             </div>
           </BrowserRouter>
         }

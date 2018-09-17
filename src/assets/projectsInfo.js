@@ -3,7 +3,7 @@ const ProjectsInfo = {
         name: 'Personal Website',
         description: 'My portfolio, made from scratch.',
         technologies: 'JavaScript (React), HTML, CSS, Bootstrap, Amazon Web Services (AWS), Photoshop',
-        about: 'The website you are currently on acts as a showcase for personal projects and articles. All components, from UI to functionalities, were made from scratch. Though I don\'t refer to myself as a designer, I had a lot of fun creating the UX behind this project :).'
+        about: 'This website acts as a showcase for personal projects and articles. I created all components and functionalities from scratch.'
     },
     Ryse: {
         name: 'Ryse',
@@ -21,13 +21,13 @@ const ProjectsInfo = {
         name: 'Canadian Tire',
         description: 'Improving IT productivity.',
         technologies: 'PowerShell, VMWare, Jira, Confluence',
-        about: 'During the summer of 2018, I interned at Canadian Tire Corporation in Downtown, Toronto. Canadian Tire is a large Canadian retail company which sells a wide range of products related to home, leisure, and finance. As a technical specialist, my role was help the IT team write scripts (mainly in PowerShell) that would simplify server configuration and virtualization. Overall, I had a lot of fun experiencing a real work environment and I can\'t wait to see where I land next.'
+        about: 'During the summer of 2018, I interned at Canadian Tire Corporation in Downtown Toronto. Canadian Tire is a large Canadian retail company which sells a wide range of home, leisure, and finance products. As a technical specialist, my role was to help the IT team write scripts (mainly in PowerShell) that would simplify server configuration and virtualization. Overall, I had a lot of fun experiencing a real work environment and I can\'t wait to see what the future holds :)'
     },
     Blitz: {
         name: 'Blitz',
         description: 'Redefining sports notifications.',
         technologies: 'JavaScript (Node.js, Express.js), MongoDB, HTML, CSS, Bootstrap',
-        about: 'Ever since I was a child, I have loved to watch and play sports. In recent years, I have combined this interest with my passion for software. Blitz is an SMS based, NFL notification system that relies on SMS text messages. This makes it extremely useful for sports fans without a cellular data plan. Users can sign up, select preferences, and recieve custom text messages on their favorite NFL team. The app features authentication, a variety of API\'s, and a complex algorithm which seamlessly sends the correct notification to the correct user. In the future, I plan to pitch this idea to organizations such as ESPN as this is a feature they have not yet implemented.'
+        about: 'Ever since I was a kid, I have loved to watch sports. In recent years, I have combined this interest with my passion for software. Blitz is an SMS-based NFL notification system that relies on text messages. This makes it extremely useful for sports fans without a cellular data plan. Users can sign up, select preferences, and recieve custom updates on their favorite NFL teams. The app features authentication, a variety of API\'s, and a complex algorithm which seamlessly sends the correct notification to the appropriate users.'
     },
     Munkee: {
         name: 'Munkee',

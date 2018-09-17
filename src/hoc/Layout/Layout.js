@@ -16,7 +16,7 @@ class Layout extends Component {
 
             setTimeout(() => {
                 this.setState({isLoading: false});
-            }, 300);
+            }, 200);
         }
     }
 
