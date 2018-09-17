@@ -125,7 +125,7 @@ class About extends Component {
                         </div>
                         <div styleName="carousel-row" className="row">
                             <SlideCarousel>
-                                <CarouselItem to="/" type = "bbq" title="Sports & Fitness"  />
+                                <CarouselItem to="/" type = "sports" title="Sports & Fitness"  />
                                 <CarouselItem to="/"  type = "guitar"  title="Guitar" />
                                 <CarouselItem to="/"  type = "bbq"  title="Barbecue"  />
                             </SlideCarousel>

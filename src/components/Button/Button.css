@@ -6,7 +6,6 @@
 
 .btnIcon:hover {
     color: black;
-    transform: scaleZ(1.1);
     text-decoration: none;
 }
 

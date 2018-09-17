@@ -27,7 +27,7 @@ import pweb from './views/Projects/ProjectDetails/pweb/pweb';
 class App extends Component {
 
   state = {
-    isLoading: false
+
   }
 
   constructor(props) {
@@ -73,15 +73,12 @@ class App extends Component {
               this.onWaypoint();
               }}
           />
-          <Layout>
               {routes}
               <Navigation ref={this.child} />
               <Modal styleName="modal" targetName="contactModal" />
-          </Layout>
           <Footer />
         </div>
       </BrowserRouter>
-
     );
   }
 }

@@ -3,7 +3,7 @@ const ProjectsInfo = {
         name: 'Personal Website',
         description: 'My portfolio, made from scratch.',
         technologies: 'JavaScript (React), HTML, CSS, Bootstrap, Amazon Web Services (AWS), Photoshop',
-        about: 'The website you are currently on acts as a showcase for personal projects and articles. All components, ranging from UI to functionalities, were made from scratch. Though I don\'t refer to myself as a designer, I had a lot of fun creating the user experience.'
+        about: 'The website you are currently on acts as a showcase for personal projects and articles. All components, from UI to functionalities, were made from scratch. Though I don\'t refer to myself as a designer, I had a lot of fun creating the UX behind this project :).'
     },
     Ryse: {
         name: 'Ryse',
