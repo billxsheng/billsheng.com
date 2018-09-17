@@ -28,7 +28,11 @@ class About extends Component {
                         <div className="row">
                             <p>
                             Hey, I'm Bill! I'm a curious, motivated, and hard-working individual with an interest for software development, AI, and data. 
-                            I enjoy working on projects that have real-world impact in industries that I am passionate about.&nbsp;<span aria-label="emoji" role="img" >🇨🇦</span></p>
+                            I enjoy working on projects that have real-world impact in industries that I am passionate about.&nbsp;<span aria-label="emoji" role="img" >🇨🇦</span>
+                            </p>
+                        </div>
+                        <div className="row" >
+                            <p>I am currently seeking a challenging new internship opportunity for the winter 2019 term in positions related to Software Engineering, Data Science, and Product Management. Scroll down to learn about what I have to offer :)</p> 
                         </div>
                         <div className="row">
                             <Button resume="true" btnType="btnLarge" >View Resume</Button>
@@ -62,9 +66,6 @@ class About extends Component {
                         </div>
                         <div className="row">
                             <Link margin="20px" link="/projects/canadian-tire">Learn More</Link>
-                        </div>
-                        <div className="row">
-                            <p>In the future, I would like to work in positions related to Software Engineering, Data Science, and Product Management.</p>                       
                         </div>
                     </div>
                    
