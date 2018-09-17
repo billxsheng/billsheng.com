@@ -73,10 +73,8 @@ button {
 
 @media (max-width: 800px) {
   h1 {
-    font-size: 60px;
-    letter-spacing: -4px;
     padding: 0 10px !important;
-    margin: 90px auto 0 auto !important;
+    margin:120px auto 0 auto !important;
   }
 
   p {
@@ -93,4 +91,15 @@ button {
     font-size: 30px;
   }
 } 
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 60px;
+    letter-spacing: -4px;
+    padding: 0 10px !important;
+    margin: 90px auto 0 auto !important;
+  }
+} 
+
+
 
