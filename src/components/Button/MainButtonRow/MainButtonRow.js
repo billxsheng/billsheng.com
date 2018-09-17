@@ -9,7 +9,7 @@ import Links from '../../../assets/links';
 const MainButtonRow = (props) => (
     <div className="row text-center" styleName="btn-container">
         <div className="col-md-3">
-            <Button link={Links.resumePath} btnType="btnIcon" ><Icon iconName="far fa-file" iconType="iconSmall" /></Button>
+            <Button resume="true" btnType="btnIcon" ><Icon iconName="far fa-file" iconType="iconSmall" /></Button>
         </div>
         <div className="col-md-3">
             <Button newPage="false" link={Links.email} btnType="btnIcon" ><Icon iconName="far fa-envelope" iconType="iconSmall" /></Button>

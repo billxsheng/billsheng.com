@@ -5,6 +5,7 @@ import Image from '../../components/Image/Image';
 import Link from '../../components/Button/Link/Link';
 import SlideCarousel from '../../components/Carousel/SlideCarousel/SlideCarousel';
 import CarouselItem from '../../components/Carousel/SlideCarousel/CarouselItem/CarouselItem';
+import Button from '../../components/Button/Button';
 
 
 class About extends Component {
@@ -28,6 +29,9 @@ class About extends Component {
                             <p>
                             Hey, I'm Bill! I'm a curious, motivated, and hard-working individual with an interest for software development, AI, and data. 
                             I enjoy working on projects that have real-world impact in industries that I am passionate about.&nbsp;<span aria-label="emoji" role="img" >🇨🇦</span></p>
+                        </div>
+                        <div className="row">
+                            <Button resume="true" btnType="btnLarge" >View Resume</Button>
                         </div>
                     </div>
 
