@@ -1,5 +1,6 @@
 .project-tile,
-.project-tile-mobile {
+.project-tile-mobile,
+.project-tile-mobile-single{
     height: 400px;
     margin: 20px auto 100px auto;
     width: 1000px;
@@ -10,19 +11,22 @@
 }
 
 .project-tile:hover,
-.project-tile-mobile:hover {
+.project-tile-mobile:hover,
+.project-tile-mobile-single:hover {
     text-decoration: none !important;
     color: black;
     transform: scale(1.03);
 }
 
 .project-tile h2,
-.project-tile-mobile h2 {
+.project-tile-mobile h2,
+.project-tile-mobile-single h2 {
     margin: 120px auto 0 auto;
     text-align: left;
 }
 
-.project-tile-mobile {
+.project-tile-mobile,
+.project-tile-mobile-single {
     display: none;
 }
 
@@ -35,6 +39,7 @@
     line-height: 30px;
     border-radius: 5px;
     box-shadow: 0 0 5px #ccc;
+    padding: 0 !important;
 }
 
 .text-cont {
@@ -46,14 +51,16 @@
 
 @media (max-width: 1200px) {
     .project-tile,
-    .project-tile-mobile {
+    .project-tile-mobile,
+    .project-tile-mobile-single {
         height: 320px !important;
         width: 800px !important;
         margin: 20px auto 70px auto;
     }
 
     .project-tile h2,
-    .project-tile-mobile h2 {
+    .project-tile-mobile h2,
+    .project-tile-mobile-single h2 {
         margin-top: 75px;
     }
 
@@ -65,20 +72,23 @@
 
 @media (max-width: 1000px) {
     .project-tile,
-    .project-tile-mobile {
+    .project-tile-mobile,
+    .project-tile-mobile-single {
         height: 240px !important;
         width: 600px !important;
         margin: 20px auto 70px auto;
     }
 
     .project-tile h2,
-    .project-tile-mobile h2 {
+    .project-tile-mobile h2,
+    .project-tile-mobile-single h2 {
         margin-top: 40px;
         font-size: 40px
     }
 
     .project-tile p,
-    .project-tile-mobile p {
+    .project-tile-mobile p,
+    .project-tile-mobile-single p {
         font-size: 15px;
     }
 
@@ -90,18 +100,23 @@
 
 
 @media (max-width: 767px) {
-    .project-tile-mobile {
+    .project-tile-mobile
+     {
         height: 480px !important;
         width: 600px !important;
         margin: 20px auto 70px auto;
+        display: block;
+    }
+
+    .project-tile-mobile-single {
+        height: 240px !important;
+        width: 600px !important;
+        margin: 20px auto 70px auto;
+        display: block;
     }
 
     .project-tile {
         display: none;
-    }
-
-    .project-tile-mobile {
-        display: block;
     }
 
     .text-cont h2 {
@@ -110,12 +125,14 @@
 }
 
 @media (max-width: 610px) {
-    .project-tile-mobile {
+    .project-tile-mobile,
+    .project-tile-mobile-single {
         border-radius: 0 !important;
         padding: 0;
     }
 
-    .project-tile-mobile:hover {
+    .project-tile-mobile:hover,
+    .project-tile-mobile-single:hover {
         transform: none;
     }
 }

@@ -25,6 +25,7 @@ import GraphQL from './views/Gallery/GalleryDetails/GraphQL/GraphQL';
 import pweb from './views/Projects/ProjectDetails/pweb/pweb';
 import Aux from './hoc/HO-Aux/HO-aux';
 import Spinner from './components/Spinner/Spinner';
+import Industry4 from './views/Projects/ProjectDetails/Industry4/Industry4';
 
 class App extends Component {
 
@@ -59,6 +60,7 @@ class App extends Component {
         <Route exact path="/gallery/saturday-night-lights" component={SNL} />
         <Route exact path="/gallery/waterloo-engineering" component={WaterlooEngineering} />
         <Route exact path="/gallery/graphql" component={GraphQL} />
+        <Route exact path="/projects/industry4" component={Industry4} />
         <Route exact path="/projects/blitz" component={Blitz} />
         <Route exact path="/projects/canadian-tire" component={canadianTire} />
         <Route exact path="/projects/moodify" component={Moodify} />

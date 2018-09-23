@@ -33,7 +33,7 @@ const ProjectsInfo = {
         name: 'Munkee',
         description: 'Online multiplayer game.',
         technologies: 'JavaScript (Node.js, Express.js, Socket.IO), MongoDB, HTML, CSS, Bootstrap',
-        about: 'Munkee is a cross-platform online multiplayer game. It runs the classic game of PIG. I used Node.js and web sockets in order to implement the online multiplayer capabilities.'
+        about: 'Munkee is a cross-platform online multiplayer game designed for children to learn about math and probability. It runs the classic game of PIG. I used Node.js and web sockets in order to implement the online multiplayer capabilities.'
     },
     Moodify: {
         name: 'Moodify',
@@ -46,6 +46,12 @@ const ProjectsInfo = {
         description: 'Freelance barber website.',
         technologies: 'JavaScript (Angular 2+, Node.js, jQuery), TypeScript, HTML, CSS, MongoDB, Amazon Web Services (AWS)',
         about: 'VCuts is a barber website I created as a freelance project. It features an implemented booking/inquiry system as well as a dynamic gallery connected to a MongoDB database. This project is still in progress :)'
+    },
+    Industry4: {
+        name: 'Industry 4.0',
+        description: 'Developing the fourth industrial revolution.',
+        technologies: '',
+        about: 'This term I will be working as a developer on the platform development team.'
     }
 }
 
