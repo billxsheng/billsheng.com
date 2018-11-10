@@ -8,7 +8,7 @@ const footer = (props) => (
     <footer styleName='footer'>
         <MainButtonRow/>
         <div className="container">
-            <p>Bill Sheng 2018 ©</p>
+            <p>Created from scratch by Bill Sheng  &nbsp;🚀</p>
         </div>
     </footer>
 )

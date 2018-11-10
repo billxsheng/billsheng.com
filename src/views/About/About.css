@@ -20,8 +20,12 @@
     margin: 100px auto;
 }
 
-.team:hover {
+.team {
     transition: transform 0.2s;
+}
+
+.team:hover {
+    transform: scale(1.05);
 }
 
 .skill-img {

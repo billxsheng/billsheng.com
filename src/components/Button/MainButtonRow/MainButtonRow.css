@@ -4,8 +4,7 @@
 }
 
 .btn-container div {
-    padding: 5px;
-    width: 20%;
+    padding: 0 5px;
 }
 
 @media (max-width: 775px) {
