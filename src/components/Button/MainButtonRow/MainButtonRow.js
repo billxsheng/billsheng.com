@@ -1,6 +1,5 @@
 import React from 'react';
 import CSSModules from 'react-css-modules';
-
 import styles from './MainButtonRow.css';
 import Button from '../Button';
 import Icon from '../../Icon/Icon';
@@ -22,5 +21,4 @@ const MainButtonRow = (props) => (
         </div>
     </div>
 )
-
 export default CSSModules (MainButtonRow, styles);

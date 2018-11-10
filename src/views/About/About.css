@@ -13,7 +13,7 @@
 }
 .img-row {
     margin: 40px auto 0 auto;
-    width: 400px;
+    width: 600px;
 }
 
 .section-div {
@@ -48,7 +48,7 @@
 
 @media (max-width: 775px) {
     .team {
-        width: 50% !important;
+        width: 33.333% !important;
     }
 
     .skill-img {

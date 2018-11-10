@@ -129,11 +129,20 @@ class About extends Component {
                             <h2>Hobbies</h2>
                         </div>
                         <div styleName="carousel-row" className="row">
-                            <SlideCarousel>
+                            <span className="col-md-4">
+                                <h4>Sports & Fitness</h4>
+                            </span>
+                            <span className="col-md-4">
+                                <h4>Guitar</h4>
+                            </span>
+                            <span className="col-md-4">
+                                <h4>Cooking</h4>
+                            </span>
+                            {/* <SlideCarousel>
                                 <CarouselItem to="/" type = "sports" title="Sports & Fitness"  />
                                 <CarouselItem to="/"  type = "guitar"  title="Guitar" />
                                 <CarouselItem to="/"  type = "bbq"  title="Barbecue"  />
-                            </SlideCarousel>
+                            </SlideCarousel> */}
                         </div>
                     </div>
 
@@ -143,12 +152,15 @@ class About extends Component {
                             <h2>Teams</h2>
                         </div>
                         <div styleName="img-row" className="row">
-                            <span styleName="team" className="col-md-6">
+                            <span styleName="team" className="col-md-4">
                                 <Image height="100px" path="about/teams/georgia.png" />
                             </span>
-                            <span styleName="team" className="col-md-6">
+                            <span styleName="team" className="col-md-4">
                                 <Image height="100px" path="about/teams/tml.png" />
                             </span>                        
+                            <span styleName="team" className="col-md-4">
+                                <Image height="100px" path="about/teams/raptors.png" />
+                            </span> 
                         </div>
                     </div>
                    

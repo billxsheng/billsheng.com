@@ -31,19 +31,19 @@ class Projects extends Component {
                     <ProjectTile to="/projects/industry4" singleTile = "true" imageHeight="400px" imageName="projects/pweb.png" tag="Design Team" title={projectInfo.Industry4.name} shortDesc={projectInfo.Industry4.description} />
                 </div>
                 <div className="row">
-                    <ProjectTile to="/projects/personal-website" reverse="true" imageHeight="400px" imageName="projects/pweb.png" tag="Project" title={projectInfo.personalWebsite.name} shortDesc={projectInfo.personalWebsite.description} />
+                    <ProjectTile to="/projects/personal-website" imageHeight="400px" imageName="projects/pweb.png" tag="Project" title={projectInfo.personalWebsite.name} shortDesc={projectInfo.personalWebsite.description} />
                 </div>
                 <div className="row">
-                    <ProjectTile to="/projects/blitz"  imageHeight="400px" imageName="projects/blitz.png" tag="Project" title={projectInfo.Blitz.name} shortDesc={projectInfo.Blitz.description}/>
+                    <ProjectTile to="/projects/blitz" reverse="true" imageHeight="400px" imageName="projects/blitz.png" tag="Project" title={projectInfo.Blitz.name} shortDesc={projectInfo.Blitz.description}/>
                 </div>
                 <div className="row">
-                    <ProjectTile to="/projects/canadian-tire" reverse="true" top="25px" imageHeight="400px" imageName="projects/ctc.png" tag="Internship" title={projectInfo.CTC.name} shortDesc={projectInfo.CTC.description}/>
+                    <ProjectTile to="/projects/canadian-tire" top="25px" imageHeight="400px" imageName="projects/ctc.png" tag="Internship" title={projectInfo.CTC.name} shortDesc={projectInfo.CTC.description}/>
                 </div>
                 <div className="row">
-                    <ProjectTile to="/projects/ryse" imageHeight="400px" imageName="projects/ryse.png" tag="Hackathon" title={projectInfo.Ryse.name} shortDesc={projectInfo.Ryse.description} />
+                    <ProjectTile to="/projects/ryse" reverse="true" imageHeight="400px" imageName="projects/ryse.png" tag="Hackathon" title={projectInfo.Ryse.name} shortDesc={projectInfo.Ryse.description} />
                 </div>
                 <div className="row">
-                    <ProjectTile to="/projects/munkee" reverse="true" imageHeight="400px" imageName="projects/munkee.png" tag="Project" title={projectInfo.Munkee.name} shortDesc={projectInfo.Munkee.description}/>
+                    <ProjectTile to="/projects/munkee" imageHeight="400px" imageName="projects/munkee.png" tag="Project" title={projectInfo.Munkee.name} shortDesc={projectInfo.Munkee.description}/>
                 </div>
                 <div className="row">
                     <ProjectTile to="/projects/vcuts" singleTile = "true" imageHeight="400px" tag="Freelance" title={projectInfo.vCuts.name} shortDesc={projectInfo.vCuts.description}/>

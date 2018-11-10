@@ -3,6 +3,11 @@
     margin: 0 auto;
 }
 
+.btn-container div {
+    padding: 5px;
+    width: 20%;
+}
+
 @media (max-width: 775px) {
     .btn-container div {
         display: inline !important;

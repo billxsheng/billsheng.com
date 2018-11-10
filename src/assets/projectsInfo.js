@@ -54,5 +54,4 @@ const ProjectsInfo = {
         about: 'This term I will be working as a developer on the platform development team.'
     }
 }
-
 export default ProjectsInfo;

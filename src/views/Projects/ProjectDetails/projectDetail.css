@@ -32,4 +32,5 @@
 .tag p {
     display: table-cell;
     vertical-align: middle;
+    padding: 0 !important;
 }
