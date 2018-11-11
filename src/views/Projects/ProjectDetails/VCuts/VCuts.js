@@ -31,7 +31,7 @@ class VCuts extends Component {
                             <p>{projectsInfo.vCuts.about}</p>
                     </span>
                     <div styleName="button-row" className="row">
-                            <Button link="http://github.com/billxsheng/freelance-vcuts" newPage = 'true' btnType="btnLarge" >View on Github</Button>
+                        <Button link="http://github.com/billxsheng/freelance-vcuts" newPage = 'true' btnType="btnLarge" >View on Github</Button>
                     </div>
                 </span>
             </div>
