@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import styles from './Internships.css';
+import styles from './Experience.css';
 import CSSModules from 'react-css-modules';
 import ProjectTile from '../../ProjectTile/ProjectTile';
 import projectInfo from '../../../../assets/projectsInfo';
 
 
-class Internships extends Component {
+class Experience extends Component {
 
     componentDidMount() {
         window.scrollTo(0,0);
@@ -16,16 +16,14 @@ class Internships extends Component {
         return(
             <div className="container">
                 <div styleName="curve">
-                    <span className="container">
+                    <span className="row">
                         <h1>
-                            Internships
+                            Internships & Experience
                         </h1>
                     </span>
-                    <span className="container">
                         <p>
-                            Reflection of previous internships.
+                            Reflection of experiences (Internships, Design Teams, Freelance).
                         </p>
-                    </span>
                 </div>
                 <div className="row">
                     <ProjectTile to="/projects/internships/industry4" singleTile = "true" imageHeight="400px" imageName="projects/pweb.png" tag="Design Team" title={projectInfo.Industry4.name} shortDesc={projectInfo.Industry4.description} />
@@ -40,4 +38,4 @@ class Internships extends Component {
 
 
 
-export default CSSModules(Internships, styles);
+export default CSSModules(Experience, styles);

@@ -127,7 +127,6 @@
 @media (max-width: 610px) {
     .project-tile-mobile,
     .project-tile-mobile-single {
-        border-radius: 0 !important;
         padding: 0;
     }
 

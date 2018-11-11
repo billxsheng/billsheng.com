@@ -10,16 +10,14 @@ class DataScience extends Component {
         return(
             <div className="container">
                 <div>
-                    <span className="container">
+                    <span className="row">
                         <h1>
                             Data Science
                         </h1>
                     </span>
-                    <span className="container">
                         <p>
                             Projects coming soon.
                         </p>
-                    </span>
                 </div>
                 <br/>
                 <br/>

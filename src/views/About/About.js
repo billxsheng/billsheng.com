@@ -15,25 +15,22 @@ class About extends Component {
     render() {
         return(
             <div styleName="about" className="container">
-                <span className="container">
                         <h1>
                             About
                         </h1>
-                </span>
-
                 <div styleName="content-div">
                     <div styleName="section-div-first" >
                         <div className="row">
                             <p>
                             Hey, I'm Bill! I'm a curious, motivated, and hard-working individual with an interest for software development, AI, and data. 
                             I enjoy working on projects that have real-world impact in industries that I am passionate about.&nbsp;<span aria-label="emoji" role="img" >🇨🇦</span>
+                            I am currently seeking a challenging new internship opportunity for the fall 2019 term in positions related to Software Engineering, Data Science, and Product Management. Scroll down to learn about what I have to offer :)
                             </p>
                         </div>
                         <div className="row" >
-                            <p>I am currently seeking a challenging new internship opportunity for the winter 2019 term in positions related to Software Engineering, Data Science, and Product Management. Scroll down to learn about what I have to offer :)</p> 
                         </div>
                         <div className="row">
-                            <Button resume="true" btnType="btnLarge" >View Resume</Button>
+                            <Button resume="true" btnType="btnLarge" >View My Resume</Button>
                         </div>
                     </div>
 
@@ -56,14 +53,11 @@ class About extends Component {
                         </div>
                         <div className="row">
                             <p>Waterloo Engineering students are given six co-op terms on top of coursework. 
-                                These work terms allow students like me to gain real-world experience while exploring potential career paths. 
-                                For my first work term this past summer, I was an intern at Canadian Tire Corporation.</p>                       
+                                These work terms allow students like me to gain real-world experience while exploring potential career paths. During academic terms, I can be found working with engineering design teams.
+                            </p>                       
                         </div>
                         <div className="row">
-                            <Image height="80px" path="about/other/canadian-tire-large.png" />
-                        </div>
-                        <div className="row">
-                            <Link margin="20px" link="/projects/canadian-tire">Learn More</Link>
+                            <Link margin="0px" link="/projects/internships-experience">View My Previous Experiences</Link>
                         </div>
                     </div>
                    
@@ -119,6 +113,11 @@ class About extends Component {
                             <Image marginTop="40px" height="100px" path="skills/sql.png" />
                         </span>
                     </div>
+                    <div className="row">
+                            <p>
+                                I am constantly applying my skills through personal side projects and hackathons. 
+                            </p>                       
+                        </div>
                    </div>
                     
                    

@@ -16,16 +16,14 @@ class WebMobile extends Component {
         return(
             <div className="container">
                 <div styleName="curve">
-                    <span className="container">
+                    <div className="row">
                         <h1>
                             Web & Mobile
                         </h1>
-                    </span>
-                    <span className="container">
-                        <p>
-                            Projects related to web/mobile development.
-                        </p>
-                    </span>
+                    </div>
+                    <p>
+                        Projects related to web/mobile development.
+                    </p>
                 </div>
                 <div className="row">
                     <ProjectTile to="/projects/web-mobile/personal-website" imageHeight="400px" imageName="projects/pweb.png" tag="Side Project" title={projectInfo.personalWebsite.name} shortDesc={projectInfo.personalWebsite.description} />

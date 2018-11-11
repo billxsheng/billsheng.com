@@ -24,7 +24,7 @@ class galleryPreview extends Component {
                     </SlideCarousel>
                     </div>
                     <div styleName="link-container" className="row">
-                        <Link  margin="50px" link="/gallery">View Gallery</Link>
+                        <Link  margin="25px" link="/gallery">View Gallery</Link>
                     </div>
                 </span>
             </div>

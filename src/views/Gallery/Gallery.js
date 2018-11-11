@@ -20,11 +20,9 @@ class Gallery extends Component {
                             Gallery
                         </h1>
                     </div>
-                    <span className="container">
                         <p>
                             Ideas, thoughts, and takeaways.
                         </p>
-                    </span>
                 </span>
                 <div className="container">
                     <div styleName="gallery-tile-row" className="row">

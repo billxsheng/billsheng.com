@@ -40,11 +40,15 @@ h1 {
   margin: 110px auto 0 auto !important;
 }
 
+.p-about {
+  font-size: 300px !important;
+}
+
 p {
   text-align: center;
   font-family: 'Lato';
   font-size: 18px;
-  margin: 0px auto 15px auto;
+  margin: 10px auto;
   font-weight: 400;
   max-width: 700px;
   line-height: 35px;
@@ -104,6 +108,10 @@ button {
     letter-spacing: -4px;
     padding: 0 10px !important;
     margin: 90px auto 0 auto !important;
+  }
+
+  p {
+    margin: 0 auto;
   }
 } 
 

@@ -26,7 +26,7 @@ import pweb from './views/Projects/ProjectDetails/pweb/pweb';
 import Aux from './hoc/HO-Aux/HO-aux';
 import Spinner from './components/Spinner/Spinner';
 import Industry4 from './views/Projects/ProjectDetails/Industry4/Industry4';
-import Internships from './views/Projects/ProjectSections/Internships/Internships';
+import Experience from './views/Projects/ProjectSections/Experience/Experience';
 import Hackathons from './views/Projects/ProjectSections/Hackathons/Hackathons';
 import DataScience from './views/Projects/ProjectSections/DataScience/DataScience';
 import WebMobile from './views/Projects/ProjectSections/WebMobile/WebMobile';
@@ -75,7 +75,7 @@ class App extends Component {
         <Route exact path="/projects/web-mobile/vcuts" component={VCuts} />
         <Route exact path="/projects/web-mobile/personal-website" component={pweb} />
         <Route exact path="/projects/hackathons" component={Hackathons} />
-        <Route exact path="/projects/internships" component={Internships} />
+        <Route exact path="/projects/internships-experience" component={Experience} />
         <Route exact path="/projects/data-science" component={DataScience} />
         <Route exact path="/projects/web-mobile" component={WebMobile} />
         <Route exact path="/projects" component={ProjectSelect} />

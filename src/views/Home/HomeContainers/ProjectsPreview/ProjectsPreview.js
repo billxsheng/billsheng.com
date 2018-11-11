@@ -26,7 +26,7 @@ class projectsPreview extends Component {
                 </SlideCarousel>
             </div>
                 <div styleName="link-container" className="row">
-                    <Link margin="50px" link="/projects">View All Projects</Link>
+                    <Link margin="25px" link="/projects">View All Projects</Link>
                 </div>
             </div>
         )

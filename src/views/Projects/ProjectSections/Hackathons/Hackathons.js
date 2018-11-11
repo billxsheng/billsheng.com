@@ -16,16 +16,14 @@ class Hackathons extends Component {
         return(
             <div className="container">
                 <div styleName="curve">
-                    <span className="container">
+                    <span className="row">
                         <h1>
                             Hackathons
                         </h1>
                     </span>
-                    <span className="container">
                         <p>
                             Projects built during hackathons.
                         </p>
-                    </span>
                 </div>
                 <div className="row">
                     <ProjectTile to="/projects/hackathons/ryse" imageHeight="400px" imageName="projects/ryse.png" tag="Hackathon" title={projectInfo.Ryse.name} shortDesc={projectInfo.Ryse.description} />
