@@ -22,7 +22,7 @@ class Gallery extends Component {
                     </div>
                     <span className="container">
                         <p>
-                            Storage for Photos, Ideas, and Thoughts
+                            Ideas, thoughts, and takeaways.
                         </p>
                     </span>
                 </span>

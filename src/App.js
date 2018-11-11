@@ -5,7 +5,7 @@ import { BrowserRouter, Switch, Route, Redirect  } from 'react-router-dom';
 import Layout from './hoc/Layout/Layout';
 import Home from './views/Home/Home';
 import About from './views/About/About';
-import Projects from './views/Projects/Projects';
+import ProjectSelect from './views/Projects/ProjectSelect';
 import Gallery from './views/Gallery/Gallery';
 import Navigation from './components/Navigation/MainNav/MainNav';
 import Footer from './components/Footer/Footer';
@@ -26,6 +26,11 @@ import pweb from './views/Projects/ProjectDetails/pweb/pweb';
 import Aux from './hoc/HO-Aux/HO-aux';
 import Spinner from './components/Spinner/Spinner';
 import Industry4 from './views/Projects/ProjectDetails/Industry4/Industry4';
+import Internships from './views/Projects/ProjectSections/Internships/Internships';
+import Hackathons from './views/Projects/ProjectSections/Hackathons/Hackathons';
+import DataScience from './views/Projects/ProjectSections/DataScience/DataScience';
+import WebMobile from './views/Projects/ProjectSections/WebMobile/WebMobile';
+
 
 class App extends Component {
 
@@ -60,16 +65,20 @@ class App extends Component {
         <Route exact path="/gallery/saturday-night-lights" component={SNL} />
         <Route exact path="/gallery/waterloo-engineering" component={WaterlooEngineering} />
         <Route exact path="/gallery/graphql" component={GraphQL} />
-        <Route exact path="/projects/industry4" component={Industry4} />
-        <Route exact path="/projects/blitz" component={Blitz} />
-        <Route exact path="/projects/canadian-tire" component={canadianTire} />
-        <Route exact path="/projects/moodify" component={Moodify} />
-        <Route exact path="/projects/munkee" component={Munkee} />
-        <Route exact path="/projects/prog" component={prog} />
-        <Route exact path="/projects/ryse" component={Ryse} />
-        <Route exact path="/projects/vcuts" component={VCuts} />
-        <Route exact path="/projects/personal-website" component={pweb} />
-        <Route exact path="/projects" component={Projects} />
+        <Route exact path="/projects/internships/industry4" component={Industry4} />
+        <Route exact path="/projects/web-mobile/blitz" component={Blitz} />
+        <Route exact path="/projects/internships/canadian-tire" component={canadianTire} />
+        <Route exact path="/projects/hackathons/moodify" component={Moodify} />
+        <Route exact path="/projects/web-mobile/munkee" component={Munkee} />
+        <Route exact path="/projects/web-mobile/prog" component={prog} />
+        <Route exact path="/projects/hackathons/ryse" component={Ryse} />
+        <Route exact path="/projects/web-mobile/vcuts" component={VCuts} />
+        <Route exact path="/projects/web-mobile/personal-website" component={pweb} />
+        <Route exact path="/projects/hackathons" component={Hackathons} />
+        <Route exact path="/projects/internships" component={Internships} />
+        <Route exact path="/projects/data-science" component={DataScience} />
+        <Route exact path="/projects/web-mobile" component={WebMobile} />
+        <Route exact path="/projects" component={ProjectSelect} />
         <Route exact path="/about" component={About} />
         <Route exact path="/gallery" component={Gallery} />
         <Route exact path="/" component={Home} />

@@ -21,7 +21,7 @@ class projectsPreview extends Component {
             <div styleName="carousel-relative">
                 <SlideCarousel>
                     <CarouselItem title={projectsInfo.CTC.name} tag="Internship" type="coop1" to="/projects/canadian-tire"/>
-                    <CarouselItem title={projectsInfo.Blitz.name} tag="Project" type="blitz" to="/projects/blitz"/>
+                    <CarouselItem title={projectsInfo.Blitz.name} tag="Side Project" type="blitz" to="/projects/blitz"/>
                     <CarouselItem title={projectsInfo.Ryse.name} tag="Hackathon" type="ryse" to="/projects/ryse"/>
                 </SlideCarousel>
             </div>

@@ -10,7 +10,7 @@ const GalleryInfo = {
         // description: 'API\'s Reimagined',
     },
     firstYear: {
-        title: 'Waterloo Engineering',
+        title: '1st Year',
         date: "Coming Soon"
         // description: 'Thoughts and Takeaways',
     }

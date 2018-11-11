@@ -15,7 +15,6 @@ const Hero = (props) => {
             <span className="container">
                 <div className="row" styleName="main-title">
                     <h1>
-                    {/* <span aria-label="emoji" role="img">👋</span>&nbsp; Hey, I'm Bill. */}
                     <span><img styleName="wave" alt="wave" style={waveStyle} src={require('../../../../assets/images/other/wave.png')}></img></span>
                     &nbsp;
                     Hey, I'm Bill!

@@ -1,0 +1,22 @@
+.select-box {
+    box-shadow: rgb(204, 204, 204) 0px 0px 20px;
+    height: 250px;
+    border-radius: 15px;
+    padding: 30px;
+    transition: transform 0.2s;
+    color: black;
+    display: table;
+    width: 100% !important;
+}
+
+.select-box:hover {
+    text-decoration: none !important;
+    color: black;
+    transform: scale(1.03);
+}
+
+.select-box h4 {
+    display: table-cell;
+    vertical-align: middle;
+}
+

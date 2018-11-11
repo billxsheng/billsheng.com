@@ -3,8 +3,6 @@ import styles from './About.css';
 import CSSModules from 'react-css-modules';
 import Image from '../../components/Image/Image';
 import Link from '../../components/Button/Link/Link';
-import SlideCarousel from '../../components/Carousel/SlideCarousel/SlideCarousel';
-import CarouselItem from '../../components/Carousel/SlideCarousel/CarouselItem/CarouselItem';
 import Button from '../../components/Button/Button';
 
 
@@ -138,11 +136,6 @@ class About extends Component {
                             <span className="col-md-4">
                                 <h4>Cooking</h4>
                             </span>
-                            {/* <SlideCarousel>
-                                <CarouselItem to="/" type = "sports" title="Sports & Fitness"  />
-                                <CarouselItem to="/"  type = "guitar"  title="Guitar" />
-                                <CarouselItem to="/"  type = "bbq"  title="Barbecue"  />
-                            </SlideCarousel> */}
                         </div>
                     </div>
 
