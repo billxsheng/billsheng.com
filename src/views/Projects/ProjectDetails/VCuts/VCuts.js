@@ -11,29 +11,27 @@ class VCuts extends Component {
 
     render() {
         return (
-            <div>
+            <div className="container">
                 <span className="container">
+                    <div className="row">
                         <h1>
-                            {projectsInfo.vCuts.name}
+                        {projectsInfo.vCuts.name}
                         </h1>
-                        <div className="row" styleName="tag" >
-                            <p>Freelance</p>
-                        </div>
-                        <p>
-                            {projectsInfo.vCuts.description}
-                        </p>
-                    <span className="container">
-                        <h3>Technologies Used</h3>
-                            <p>{projectsInfo.vCuts.technologies}</p>
-                    </span>
-                    <span className="container">
-                        <h3>Summary</h3>
-                            <p>{projectsInfo.vCuts.about}</p>
-                    </span>
-                    <div styleName="button-row" className="row">
-                        <Button link="http://github.com/billxsheng/freelance-vcuts" newPage = 'true' btnType="btnLarge" >View on Github</Button>
+                    </div>
+                    <p>
+                    {projectsInfo.vCuts.description}
+                    </p>
+                    <div className="row" styleName="tag" >
+                        <p>Freelance</p>
                     </div>
                 </span>
+                <span className="container">
+                    <h3>Summary</h3>
+                        <p>{projectsInfo.vCuts.about}</p>
+                </span>
+                <div styleName="button-row" className="row">
+                    <Button link="http://github.com/billxsheng/freelance-vcuts" newPage = 'true' btnType="btnLarge" >View on Github</Button>
+                </div>
             </div>
         )
     }

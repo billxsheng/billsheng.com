@@ -15,16 +15,16 @@ class Experience extends Component {
     render() {
         return(
             <div className="container">
-                <div styleName="curve">
-                    <span className="row">
+                <span styleName="curve" className="container">
+                    <div className="row">
                         <h1>
-                            Internships & Experience
+                            Experience
                         </h1>
-                    </span>
+                    </div>
                         <p>
-                            Reflection of experiences (Internships, Design Teams, Freelance).
+                            idk
                         </p>
-                </div>
+                </span>
                 <div className="row">
                     <ProjectTile to="/projects/internships/industry4" singleTile = "true" imageHeight="400px" imageName="projects/pweb.png" tag="Design Team" title={projectInfo.Industry4.name} shortDesc={projectInfo.Industry4.description} />
                 </div>

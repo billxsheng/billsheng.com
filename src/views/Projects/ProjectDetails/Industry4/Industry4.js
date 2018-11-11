@@ -11,17 +11,20 @@ class Moodify extends Component {
     
     render () {
         return (
-        <div>
-            <span className="container">
-                    <h1>
+            <div className="container">
+                <span className="container">
+                    <div className="row">
+                        <h1>
                         {projectsInfo.Industry4.name}
-                    </h1>
-                    <div className="row" styleName="tag" >
-                        <p>Design Team</p>
+                        </h1>
                     </div>
                     <p>
                         {projectsInfo.Industry4.description}
                     </p>
+                    <div className="row" styleName="tag" >
+                        <p>Design Team</p>
+                    </div>
+                </span>
                 <span className="container">
                     <h3>Summary</h3>
                     <p>{projectsInfo.Industry4.about}</p>
@@ -30,8 +33,7 @@ class Moodify extends Component {
                 {/* <div styleName="button-row" className="row">
                         <Button link="http://github.com/billxsheng/moodify" newPage = 'true' btnType="btnLarge" >View on Github</Button>
                 </div> */}
-            </span>
-        </div>
+            </div>
         )
     }
 } 

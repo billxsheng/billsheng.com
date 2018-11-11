@@ -15,17 +15,15 @@ class button extends Component {
             return (
                 <a href={this.props.link} styleName={this.props.btnType}>{this.props.children}</a>
             )
-        }
-
-        if(this.state.resume) {
+        } else if(this.state.resume) {
             return (
                 <a target="_blank" href= {require(`../../assets/documents/resume.pdf`)} styleName={this.props.btnType}>{this.props.children}</a>
             )
+        } else {
+            return (
+                <a target="_blank" href={this.props.link} styleName={this.props.btnType}>{this.props.children}</a>
+            )
         }
-
-        return (
-            <a target="_blank" href={this.props.link} styleName={this.props.btnType}>{this.props.children}</a>
-        )
     }
 }
 

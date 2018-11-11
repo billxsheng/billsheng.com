@@ -9,16 +9,16 @@ class DataScience extends Component {
     render() {
         return(
             <div className="container">
-                <div>
-                    <span className="row">
+                <span styleName="curve" className="container">
+                    <div className="row">
                         <h1>
                             Data Science
                         </h1>
-                    </span>
+                    </div>
                         <p>
                             Projects coming soon.
                         </p>
-                </div>
+                </span>
                 <br/>
                 <br/>
                 <br/>

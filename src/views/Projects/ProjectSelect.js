@@ -16,7 +16,7 @@ class Projects extends Component {
 
         return(
             <div className="container">
-                <div styleName="curve">
+                <span styleName="curve" className="container">
                     <div className="row">
                         <h1>
                             Projects
@@ -25,7 +25,7 @@ class Projects extends Component {
                         <p>
                             A collection of personal projects and experiences.
                         </p>
-                </div>
+                </span>
                 <div styleName="project-select-row" className="row">
                     <NavLink styleName="project-select-link" to="/projects/web-mobile" className="col-md-3">
                         <ProjectSelectTile type="Web & Mobile"/>
@@ -34,7 +34,7 @@ class Projects extends Component {
                         <ProjectSelectTile type="Data Science"/>
                     </NavLink>
                     <NavLink styleName="project-select-link" to="/projects/internships-experience" className="col-md-3">
-                        <ProjectSelectTile type="Internships & Experience"/>
+                        <ProjectSelectTile type="Experience"/>
                     </NavLink>
                     <NavLink styleName="project-select-link" to="/projects/hackathons" className="col-md-3">
                         <ProjectSelectTile type="Hackathons"/>

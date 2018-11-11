@@ -2,7 +2,7 @@
 .project-tile-mobile,
 .project-tile-mobile-single{
     height: 400px;
-    margin: 20px auto 100px auto;
+    margin: 10px auto 80px auto;
     width: 1000px;
     transition: transform 0.2s;
     border-radius: 15px;
@@ -55,7 +55,7 @@
     .project-tile-mobile-single {
         height: 320px !important;
         width: 800px !important;
-        margin: 20px auto 70px auto;
+        margin: 10px auto 60px auto;
     }
 
     .project-tile h2,
@@ -76,7 +76,7 @@
     .project-tile-mobile-single {
         height: 240px !important;
         width: 600px !important;
-        margin: 20px auto 70px auto;
+        margin: 0px auto 60px auto;
     }
 
     .project-tile h2,
@@ -104,7 +104,7 @@
      {
         height: 480px !important;
         width: 600px !important;
-        margin: 20px auto 70px auto;
+        margin: 0px auto 60px auto;
         display: block;
     }
 

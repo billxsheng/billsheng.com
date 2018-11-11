@@ -27,7 +27,7 @@ class Gallery extends Component {
                 <div className="container">
                     <div styleName="gallery-tile-row" className="row">
                         <GalleryTile height="350px" col="12">
-                            <GalleryTileDetail to="/gallery/saturday-night-lights" article="snl" left="20px" right="20px" date={GalleryInfo.saturdayNightLights.date} title={GalleryInfo.saturdayNightLights.title} description={GalleryInfo.saturdayNightLights.description}></GalleryTileDetail></GalleryTile>
+                            <GalleryTileDetail isFirst to="/gallery/saturday-night-lights" article="snl" left="20px" right="20px" date={GalleryInfo.saturdayNightLights.date} title={GalleryInfo.saturdayNightLights.title} description={GalleryInfo.saturdayNightLights.description}></GalleryTileDetail></GalleryTile>
                         <GalleryTile height="350px" col="4">
                             <GalleryTileDetail to="/gallery/graphql" article="graphql" left="20px" right="10px" date={GalleryInfo.graphQL.date} title={GalleryInfo.graphQL.title} description={GalleryInfo.graphQL.description}></GalleryTileDetail></GalleryTile>
                         <GalleryTile height="350px" col="8">

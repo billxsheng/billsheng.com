@@ -15,9 +15,16 @@ class About extends Component {
     render() {
         return(
             <div styleName="about" className="container">
+                <span className="container">
+                    <div className="row">
                         <h1>
                             About
                         </h1>
+                    </div>
+                        <p>
+                            Cool Slogan
+                        </p>
+                </span>
                 <div styleName="content-div">
                     <div styleName="section-div-first" >
                         <div className="row">
@@ -60,9 +67,9 @@ class About extends Component {
                             <Link margin="0px" link="/projects/internships-experience">View My Previous Experiences</Link>
                         </div>
                     </div>
-                   
+                    
 
-                   <div styleName="section-div">
+                    <div styleName="section-div">
                     <div className="row">
                         <h2>Skills</h2>
                     </div>
@@ -118,9 +125,9 @@ class About extends Component {
                                 I am constantly applying my skills through personal side projects and hackathons. 
                             </p>                       
                         </div>
-                   </div>
+                    </div>
                     
-                   
+                    
                     <div styleName="section-div">
                         <div className="row">
                             <h2>Hobbies</h2>
@@ -155,8 +162,8 @@ class About extends Component {
                             </span> 
                         </div>
                     </div>
-                   
-                   
+                    
+                    
                     
                 </div>
             </div>

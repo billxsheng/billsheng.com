@@ -58,8 +58,7 @@
 .outer-wrapper {
     display: table-cell;
     vertical-align: middle;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
 
 .text-div h2 {
@@ -70,10 +69,8 @@
 
 @media (max-width: 1035px) {
     .outer-wrapper {
-        padding: 15px 0 !important;
+        padding: 0 0 25px 0 !important;
     }
-    
-
 }
 
 

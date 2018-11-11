@@ -11,17 +11,20 @@ class canadianTire extends Component {
     
     render() {
         return (
-            <div>
+            <div className="container">
                 <span className="container">
-                    <h1>
+                    <div className="row">
+                        <h1>
                         {projectsInfo.CTC.name}
-                    </h1>
+                        </h1>
+                    </div>
+                    <p>
+                    {projectsInfo.CTC.description}
+                    </p>
                     <div className="row" styleName="tag" >
                         <p>Internship</p>
                     </div>
-                    <p>
-                        {projectsInfo.CTC.description}
-                    </p>
+                </span>
                 <span className="container">
                     <h3>Technologies Used</h3>
                     <p>{projectsInfo.CTC.technologies}</p>
@@ -29,7 +32,6 @@ class canadianTire extends Component {
                 <span className="container">
                     <h3>Summary</h3>
                     <p>{projectsInfo.CTC.about}</p>
-                </span>
                 </span>
             </div>
         )

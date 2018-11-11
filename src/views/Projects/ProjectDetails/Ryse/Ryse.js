@@ -11,29 +11,31 @@ class Ryse extends Component {
 
     render() {
         return (
-            <div>
+            <div className="container">
                 <span className="container">
+                    <div className="row">
                         <h1>
-                            {projectsInfo.Ryse.name}
+                        {projectsInfo.Ryse.name}
                         </h1>
-                        <div className="row" styleName="tag" >
-                            <p>Hackathon</p>
-                        </div>
-                        <p>
-                            {projectsInfo.Ryse.description}
-                        </p>
-                    <span className="container">
-                        <h3>Technologies Used</h3>
-                        <p>{projectsInfo.Ryse.technologies}</p>
-                    </span>
-                    <span className="container">
-                        <h3>Summary</h3>
-                        <p>{projectsInfo.Ryse.about}</p>
-                    </span>
-                    <div styleName="button-row" className="row">
-                        <Button link="http://github.com/billxsheng/ryse" newPage = 'true' btnType="btnLarge" >View on Github</Button>
+                    </div>
+                    <p>
+                    {projectsInfo.Ryse.description}
+                    </p>
+                    <div className="row" styleName="tag" >
+                        <p>Hackathon</p>
                     </div>
                 </span>
+                <span className="container">
+                    <h3>Technologies Used</h3>
+                    <p>{projectsInfo.Ryse.technologies}</p>
+                </span>
+                <span className="container">
+                    <h3>Summary</h3>
+                    <p>{projectsInfo.Ryse.about}</p>
+                </span>
+                <div styleName="button-row" className="row">
+                    <Button link="http://github.com/billxsheng/ryse" newPage = 'true' btnType="btnLarge" >View on Github</Button>
+                </div>
             </div>
         )
     }
