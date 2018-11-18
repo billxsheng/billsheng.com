@@ -22,7 +22,7 @@ class WebMobile extends Component {
                     </h1>
                 </div>
                     <p>
-                        Projects related to web/mobile development.
+                        Web/Mpbile Development
                     </p>
             </span>
             <div className="row">

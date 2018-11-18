@@ -23,7 +23,7 @@ class Projects extends Component {
                         </h1>
                     </div>
                         <p>
-                            A collection of personal projects and experiences.
+                            A collection of projects & experiences.
                         </p>
                 </span>
                 <div styleName="project-select-row" className="row">

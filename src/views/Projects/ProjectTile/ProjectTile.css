@@ -45,6 +45,8 @@
 .text-cont {
 }
 
+
+
 .img-cont {
     padding: 0 !important;
 }
@@ -61,7 +63,7 @@
     .project-tile h2,
     .project-tile-mobile h2,
     .project-tile-mobile-single h2 {
-        margin-top: 75px;
+        margin-top: 90px;
     }
 
     .text-cont h2 {
@@ -82,7 +84,7 @@
     .project-tile h2,
     .project-tile-mobile h2,
     .project-tile-mobile-single h2 {
-        margin-top: 40px;
+        margin-top: 50px;
         font-size: 40px
     }
 
@@ -102,7 +104,7 @@
 @media (max-width: 767px) {
     .project-tile-mobile
      {
-        height: 480px !important;
+        height: 440px !important;
         width: 600px !important;
         margin: 0px auto 60px auto;
         display: block;

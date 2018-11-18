@@ -22,7 +22,7 @@ class Experience extends Component {
                         </h1>
                     </div>
                         <p>
-                            idk
+                            Internships, Design Teams, Clubs
                         </p>
                 </span>
                 <div className="row">

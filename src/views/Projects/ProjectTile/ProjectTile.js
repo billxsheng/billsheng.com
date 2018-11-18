@@ -26,7 +26,6 @@ class projectTile extends Component {
     render() {
 
         if(this.state.reverse) {
-            
             return (     
                 <Aux>
                     <NavLink to={this.props.to} className="row" styleName="project-tile">
