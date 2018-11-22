@@ -41,7 +41,6 @@ class projectTile extends Component {
                             </p>
                             <p styleName="project-preview-tag" >{this.props.tag}</p>
                         </div>
-                        
                     </NavLink>
                     <NavLink to={this.props.to} className="row" styleName="project-tile-mobile">
                         <div styleName="text-cont" className="col-md-6">

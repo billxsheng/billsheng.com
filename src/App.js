@@ -25,11 +25,11 @@ import GraphQL from './views/Gallery/GalleryDetails/GraphQL/GraphQL';
 import pweb from './views/Projects/ProjectDetails/pweb/pweb';
 import Aux from './hoc/HO-Aux/HO-aux';
 import Spinner from './components/Spinner/Spinner';
-import Industry4 from './views/Projects/ProjectDetails/Industry4/Industry4';
 import Experience from './views/Projects/ProjectSections/Experience/Experience';
 import Hackathons from './views/Projects/ProjectSections/Hackathons/Hackathons';
 import DataScience from './views/Projects/ProjectSections/DataScience/DataScience';
 import WebMobile from './views/Projects/ProjectSections/WebMobile/WebMobile';
+import OpenText from './views/Projects/ProjectDetails/OpenText/OpenText';
 
 
 class App extends Component {
@@ -65,9 +65,9 @@ class App extends Component {
         <Route exact path="/gallery/saturday-night-lights" component={SNL} />
         <Route exact path="/gallery/waterloo-engineering" component={WaterlooEngineering} />
         <Route exact path="/gallery/graphql" component={GraphQL} />
-        <Route exact path="/projects/internships/industry4" component={Industry4} />
+        <Route exact path="/projects/experience/opentext" component={OpenText} />
         <Route exact path="/projects/web-mobile/blitz" component={Blitz} />
-        <Route exact path="/projects/internships/canadian-tire" component={canadianTire} />
+        <Route exact path="/projects/experience/canadian-tire" component={canadianTire} />
         <Route exact path="/projects/hackathons/moodify" component={Moodify} />
         <Route exact path="/projects/web-mobile/munkee" component={Munkee} />
         <Route exact path="/projects/web-mobile/prog" component={prog} />
@@ -75,7 +75,7 @@ class App extends Component {
         <Route exact path="/projects/web-mobile/vcuts" component={VCuts} />
         <Route exact path="/projects/web-mobile/personal-website" component={pweb} />
         <Route exact path="/projects/hackathons" component={Hackathons} />
-        <Route exact path="/projects/internships-experience" component={Experience} />
+        <Route exact path="/projects/experience" component={Experience} />
         <Route exact path="/projects/data-science" component={DataScience} />
         <Route exact path="/projects/web-mobile" component={WebMobile} />
         <Route exact path="/projects" component={ProjectSelect} />

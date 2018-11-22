@@ -33,7 +33,7 @@ class Projects extends Component {
                     <NavLink styleName="project-select-link" to="/projects/data-science" className="col-md-3">
                         <ProjectSelectTile type="Data Science"/>
                     </NavLink>
-                    <NavLink styleName="project-select-link" to="/projects/internships-experience" className="col-md-3">
+                    <NavLink styleName="project-select-link" to="/projects/experience" className="col-md-3">
                         <ProjectSelectTile type="Experience"/>
                     </NavLink>
                     <NavLink styleName="project-select-link" to="/projects/hackathons" className="col-md-3">

@@ -26,10 +26,10 @@ class Experience extends Component {
                         </p>
                 </span>
                 <div className="row">
-                    <ProjectTile to="/projects/internships/industry4" singleTile = "true" imageHeight="400px" imageName="projects/pweb.png" tag="Design Team" title={projectInfo.Industry4.name} shortDesc={projectInfo.Industry4.description} />
+                    <ProjectTile to="/projects/experience/opentext" singleTile = "true" imageHeight="400px" imageName="projects/pweb.png" tag="Internship" title={projectInfo.opentext.name} shortDesc={projectInfo.opentext.description} />
                 </div>
                 <div className="row">
-                    <ProjectTile to="/projects/internships/canadian-tire" top="25px" imageHeight="400px" imageName="projects/ctc.png" tag="Internship" title={projectInfo.CTC.name} shortDesc={projectInfo.CTC.description}/>
+                    <ProjectTile to="/projects/experience/canadian-tire" top="25px" imageHeight="400px" imageName="projects/ctc.png" tag="Internship" title={projectInfo.CTC.name} shortDesc={projectInfo.CTC.description}/>
                 </div>
             </div>
         )

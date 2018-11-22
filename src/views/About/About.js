@@ -21,18 +21,18 @@ class About extends Component {
                             About
                         </h1>
                     </div>
-                        <p>
-                            Cool Slogan
-                        </p>
                 </span>
                 <div styleName="content-div">
                     <div styleName="section-div-first" >
                         <div className="row">
-                            <p>
+                            <Image  height="500px" path="about/team-picture.jpeg" />
+                        </div>
+                        <div className="row">
+                            <p2>
                             Hey, I'm Bill! I'm a curious, motivated, and hard-working individual with an interest for software development, AI, and data. 
                             I enjoy working on projects that have real-world impact in industries that I am passionate about.&nbsp;<span aria-label="emoji" role="img" >🇨🇦</span>
                             I am currently seeking a challenging new internship opportunity for the fall 2019 term in positions related to Software Engineering, Data Science, and Product Management. Scroll down to learn about what I have to offer :)
-                            </p>
+                            </p2>
                         </div>
                         <div className="row" >
                         </div>
@@ -46,8 +46,9 @@ class About extends Component {
                             <h2>Education</h2>
                         </div>
                         <div className="row">
-                            <p>I'm a 19 year old Management Engineering Major at the University of Waterloo. 
-                                Management Engineering is a one-of-a-kind interdisciplinary program with a split focus in computer science, systems engineering, and optimization.</p>
+                            <p2>I'm a 19 year old Management Engineering Major at the University of Waterloo. 
+                                Management Engineering is a one-of-a-kind interdisciplinary program with a split focus in computer science, systems engineering, and optimization.
+                            </p2>
                         </div>
                         <div className="row">
                             <Image  height="25px" path="about/other/waterloo-engineering.png" />
@@ -59,12 +60,12 @@ class About extends Component {
                             <h2>Experience</h2>
                         </div>
                         <div className="row">
-                            <p>Waterloo Engineering students are given six co-op terms on top of coursework. 
+                            <p2>Waterloo Engineering students are given six co-op terms on top of coursework. 
                                 These work terms allow students like me to gain real-world experience while exploring potential career paths. During academic terms, I can be found working with engineering design teams.
-                            </p>                       
+                            </p2>                       
                         </div>
                         <div className="row">
-                            <Link margin="0px" link="/projects/internships-experience">View My Previous Experiences</Link>
+                            <Link margin="0px" link="/projects/experience">View My Previous Experiences</Link>
                         </div>
                     </div>
                     
@@ -121,9 +122,9 @@ class About extends Component {
                         </span>
                     </div>
                     <div className="row">
-                            <p>
+                            <p2>
                                 I am constantly applying my skills through personal side projects and hackathons. 
-                            </p>                       
+                            </p2>                       
                         </div>
                     </div>
                     
