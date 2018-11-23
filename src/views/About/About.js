@@ -70,7 +70,7 @@ class About extends Component {
                     </div>
                     
 
-                    <div styleName="section-div">
+                    {/* <div styleName="section-div">
                     <div className="row">
                         <h2>Skills</h2>
                     </div>
@@ -126,7 +126,7 @@ class About extends Component {
                                 I am constantly applying my skills through personal side projects and hackathons. 
                             </p2>                       
                         </div>
-                    </div>
+                    </div> */}
                     
                     
                     <div styleName="section-div">
