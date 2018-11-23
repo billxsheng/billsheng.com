@@ -84,7 +84,7 @@
     .project-tile h2,
     .project-tile-mobile h2,
     .project-tile-mobile-single h2 {
-        margin-top: 50px;
+        margin-top: 55px;
         font-size: 40px
     }
 
@@ -104,7 +104,7 @@
 @media (max-width: 767px) {
     .project-tile-mobile
      {
-        height: 440px !important;
+        height: 480px !important;
         width: 600px !important;
         margin: 0px auto 60px auto;
         display: block;

@@ -46,8 +46,8 @@ h1 {
 
 p {
   text-align: center;
-  font-family: 'Lato';
-  font-size: 18px;
+  font-family: 'Cairo';
+  font-size: 16px;
   margin: 10px auto;
   font-weight: 400;
   max-width: 700px;
@@ -56,11 +56,12 @@ p {
 
 p2 {
   text-align: left;
-  margin: 40px auto;
-  font-family: 'Lato';
-  font-size: 18px;
+  margin: 20px auto;
+  font-family: 'Cairo';
+  font-size: 16px;
   line-height: 35px;
   font-weight: 400;
+  max-width: 900px;
 }
 
 li {
@@ -120,7 +121,7 @@ button {
   }
 
   p {
-    margin: 0 auto;
+    margin: 8px auto;
   }
 } 
 
