@@ -32,17 +32,14 @@ const aboutPreview = (props) => {
     }
     return (
     <div styleName='aboutPreview'>
-        {/* <div styleName="stripe"></div>
-        <div styleName="stripe-reflected"></div> */}
             <div className="container">
                 <div styleName="abt-prev-el" className="row">
                 <h2>About Me</h2>
-                <span styleName="about-preview-paragraph" className="container">
+                <span className="container">
                     <p>Striving to be the best in everything I do.</p>            
                 </span>  
                 </div>
             </div>
-            {/* <div styleName="carousel-overlay"></div> */}
         <OwlCarousel
         options={options}
         >   

@@ -21,7 +21,7 @@
     }
 }
 
-@media (max-width: 610px) {
+@media (max-width: 650px) {
     .project-select-link {
         max-width: 100% !important;
     }

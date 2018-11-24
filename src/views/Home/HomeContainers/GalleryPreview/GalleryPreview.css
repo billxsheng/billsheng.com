@@ -57,8 +57,3 @@
     margin: 0 auto;
 }
 
-@media (max-width: 705px) {
-    .galleryPreview {
-        margin: 0 auto 0 auto;
-    }
-}

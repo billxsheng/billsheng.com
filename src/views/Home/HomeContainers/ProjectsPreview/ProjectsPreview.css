@@ -37,14 +37,6 @@
     margin: 0 auto;
 }
 
-@media (max-width: 705px) {
-    .projectsPreview {
-        margin: 0 auto 80px auto;
-    }
 
-    .project-preview-paragraph p {
-        margin: 5px auto !important;
-    }
-}
 
 

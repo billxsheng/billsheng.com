@@ -15,22 +15,5 @@
 .nav-item-parent {
 }
 
-@media (max-width: 650px) {
-    .btnNav {
-        font-size: 17px !important;
-    }
-}
 
-@media (max-width: 570px) {
-    .btnNav {
-        font-size: 15px !important;
-    }
-}
-
-@media (max-width: 540px) {
-    .btnNav {
-        font-size: 11px !important;
-        padding: 0 5px !important;
-    }
-}
 

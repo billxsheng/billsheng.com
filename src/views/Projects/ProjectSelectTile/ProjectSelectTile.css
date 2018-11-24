@@ -27,7 +27,7 @@
     }
 }
 
-@media (max-width: 610px) {
+@media (max-width: 650px) {
     .select-box {
         height: 170px;
     }

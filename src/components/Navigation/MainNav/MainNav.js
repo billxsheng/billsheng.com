@@ -48,7 +48,7 @@ class mainNav extends Component {
 
 
         return (
-            <nav id="mainNav" style={topStyle} >
+            <nav styleName="mainNav" id="mainNav" style={topStyle} >
                 <span>
                     <NavItems/>
                 </span>

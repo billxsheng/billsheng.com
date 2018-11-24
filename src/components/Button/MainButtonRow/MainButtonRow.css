@@ -5,12 +5,8 @@
 
 .btn-container div {
     padding: 0 5px;
+    display: inline !important;
+    width: 25%;
 }
 
-@media (max-width: 775px) {
-    .btn-container div {
-        display: inline !important;
-        width: 25%;
-    }    
 
-}

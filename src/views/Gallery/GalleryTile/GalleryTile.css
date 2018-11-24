@@ -4,7 +4,7 @@
 
 
 
-@media (max-width: 1035px) {
+@media (max-width: 800px) {
     .tile-div {
         flex: none !important;
         max-width: 100% !important;

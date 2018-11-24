@@ -23,19 +23,6 @@
     width: 100%;
 }
 
-@media (max-width: 705px) {
-    .aboutPreview {
-        margin: 0 auto 80px auto;
-    }
-
-    h2 {
-        margin: 0 auto;
-    }
-
-    .about-preview-paragraph {
-        line-height: 15px !important;
-    }
-}
 
 
 

@@ -168,15 +168,5 @@
     vertical-align: middle;
 }
 
-@media (max-width: 705px) {
-    .text-div p {
-        padding: 0 !important;
-        margin: 10px auto !important;
-    }
-}
 
-@media (max-width: 550px) {
-    .upper-wrapper {
-        border-radius: 0 !important;
-    }
-}
+
