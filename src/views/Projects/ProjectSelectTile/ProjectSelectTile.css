@@ -7,10 +7,29 @@
     border-radius: 15px;
     padding: 30px;
     transition: transform 0.2s;
-    color: black;
+    color: white;
     display: table;
     width: 100% !important;
-    background: linear-gradient(to bottom, rgb(255, 166, 0, 0.85), rgb(255, 166, 0, 0.85)), url('../../../assets/images/gallery/fbs.jpg');
+}
+
+.select-box-ds {
+    background: linear-gradient(to bottom, rgba(255, 0, 0, 0.65), rgba(255, 0, 0, 0.65)), url('../../../assets/images/projects/select-ds.jpg');
+    background-size: cover;
+}
+
+.select-box-wm {
+    background: linear-gradient(to bottom, rgb(38, 0, 255, 0.65), rgb(38, 0, 255, 0.65)), url('../../../assets/images/projects/select-wm.png');
+    background-size: cover;
+}
+
+.select-box-exp {
+    background: linear-gradient(to bottom, rgb(10, 150, 52, 0.75), rgb(10, 150, 52, 0.75)), url('../../../assets/images/projects/select-exp.jpg');
+    background-size: cover;
+}
+
+.select-box-hack {
+    background: linear-gradient(to bottom, rgba(255, 166, 0, 0.85), rgb(255, 166, 0, 0.85)), url('../../../assets/images/projects/select-hack.png');
+    background-size: cover;
 }
 
 .select-box-wm:hover,
@@ -18,7 +37,7 @@
 .select-box-exp:hover,
 .select-box-hack:hover{
     text-decoration: none !important;
-    color: black;
+    color: white;
     transform: scale(1.03);
 }
 
