@@ -6,7 +6,6 @@ import Link from '../../components/Button/Link/Link';
 import Button from '../../components/Button/Button';
 import CarouselItem from '../../components/Carousel/SlideCarousel/CarouselItem/CarouselItem';
 import SlideCarousel from '../../components/Carousel/SlideCarousel/SlideCarousel';
-import aux from '../../hoc/HO-Aux/HO-aux';
 
 
 
@@ -18,7 +17,7 @@ class About extends Component {
 
     render() {
         return(
-            <aux>
+            <div>
                 <div styleName="about" className="container">
                     <span className="container">
                         <div className="row">
@@ -107,7 +106,8 @@ class About extends Component {
                         </div>
                     </div> 
                 </div>
-            </aux>
+            </div>
+
         )
     }
 };
