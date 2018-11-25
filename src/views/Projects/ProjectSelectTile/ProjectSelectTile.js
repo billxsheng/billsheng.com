@@ -9,8 +9,10 @@ class projectSelect extends Component {
     }
     
     render() {
+        const selectBoxStyle = `select-box-${this.props.name}`;
+        
         return(
-            <div styleName="select-box">
+            <div styleName={selectBoxStyle}>
                 <h4>{this.props.type}</h4>
                 {this.props.children}
             </div>
