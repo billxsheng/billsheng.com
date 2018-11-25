@@ -1,31 +1,9 @@
 .modal {
     height: 500px;
-    width: 100%;
-    border-radius: 15px;
+    width: 600px;
 }
 
-.modalOverlay {
-    width: 500px;
+.modal h1 {
+    margin: 30px auto 20px auto !important;
 }
 
-.close-btn {
-    background-color: #4775de;
-}
-
-.close-btn p {
-    line-height: 0;
-}
-
-.modal-header h2 {
-    margin: 0;
-    text-align: center;
-    width: 100%;
-}
-
-.modal-body {
-
-}
-
-.social-btn {
-    margin: 30px auto;
-}

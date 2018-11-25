@@ -32,10 +32,18 @@ import DataScience from './views/Projects/ProjectSections/DataScience/DataScienc
 import WebMobile from './views/Projects/ProjectSections/WebMobile/WebMobile';
 import OpenText from './views/Projects/ProjectDetails/OpenText/OpenText';
 import DialogContent from './components/DialogContent/DialogContent';
+import { withStyles } from '@material-ui/core';
 
 function Transition(props) {
-  return <Slide direction="up" timeout= "0"  {...props} />;
+  return <Slide direction="down" timeout= "0"  {...props} />;
 }
+
+const Modal = withStyles({
+  paper: {
+    borderRadius: '15px',
+    top: '-125px'
+  }
+})(Dialog);
 
 class App extends Component {
   constructor(props) {
@@ -117,13 +125,13 @@ class App extends Component {
               <Layout modalOpen = {this.onModalOpen}>
                   {routes}
                   <Navigation modalOpen = {this.onModalOpen} ref={this.child} />
-                  <Dialog TransitionComponent={Transition} 
+                  <Modal TransitionComponent={Transition} 
                   onBackdropClick = {this.closeModal} 
                   styleName="modal" 
                   open={this.state.modalIsOpen}
                   >
                     <DialogContent/>
-                  </Dialog>
+                  </Modal>
               <Footer />
               </Layout>
             </div>

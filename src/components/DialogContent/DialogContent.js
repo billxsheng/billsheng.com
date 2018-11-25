@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import CSSModules from 'react-css-modules';
 import styles from './DialogContent.css';
-// import MainButtonNav from '../Button/MainButtonRow/MainButtonRow';
+import MainButtonNav from '../Button/MainButtonRow/MainButtonRow';
 
 class modal extends Component {
   state = {
@@ -12,8 +12,8 @@ class modal extends Component {
     return (
       <div styleName="modal">
         <h1>Contact</h1>
+        <MainButtonNav/>
       </div>
-      
     )
   }
 } 
