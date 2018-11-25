@@ -4,6 +4,10 @@ import CSSModules from 'react-css-modules';
 import Image from '../../components/Image/Image';
 import Link from '../../components/Button/Link/Link';
 import Button from '../../components/Button/Button';
+import CarouselItem from '../../components/Carousel/SlideCarousel/CarouselItem/CarouselItem';
+import SlideCarousel from '../../components/Carousel/SlideCarousel/SlideCarousel';
+import aux from '../../hoc/HO-Aux/HO-aux';
+
 
 
 class About extends Component {
@@ -14,14 +18,17 @@ class About extends Component {
 
     render() {
         return(
-            <div styleName="about" className="container">
-                <span className="container">
-                    <div className="row">
-                        <h1>
-                            About
-                        </h1>
-                    </div>
-                </span>
+            <aux>
+                <div styleName="about" className="container">
+                    <span className="container">
+                        <div className="row">
+                            <h1>
+                                About
+                            </h1>
+                        </div>
+                    </span>
+                </div>
+
                 <div styleName="content-div">
                     <div styleName="section-div-first" >
                         <div className="row">
@@ -68,81 +75,17 @@ class About extends Component {
                             <Link margin="0px" link="/projects/experience">View My Previous Experiences</Link>
                         </div>
                     </div>
-                    
-
-                    {/* <div styleName="section-div">
-                    <div className="row">
-                        <h2>Skills</h2>
-                    </div>
-                    <div className="row">
-                        <span styleName="skill-img" className="col-md-3" >
-                            <Image marginTop="40px" height="100px" path="skills/html5.png" />
-                        </span>
-                        <span styleName="skill-img" className="col-md-3" >
-                            <Image marginTop="40px" height="100px" path="skills/css.png" />
-                        </span>
-                        <span styleName="skill-img" className="col-md-3" >
-                            <Image marginTop="40px" height="100px" path="skills/java.png" />
-                        </span>
-                        <span styleName="skill-img" className="col-md-3" >
-                            <Image marginTop="40px" height="100px" path="skills/python.png" />
-                        </span>
-                        <span styleName="skill-img" className="col-md-3" >
-                            <Image marginTop="40px" height="100px" path="skills/javascript.png" />
-                        </span>
-                        <span styleName="skill-img" className="col-md-3" >
-                            <Image marginTop="40px" height="100px" path="skills/nodejs.png" />
-                        </span>
-                        <span styleName="skill-img" className="col-md-3" >
-                            <Image marginTop="40px" height="100px" path="skills/express.png" />
-                        </span>
-                        <span styleName="skill-img" className="col-md-3" >
-                            <Image marginTop="40px" height="100px" path="skills/react.png" />
-                        </span>
-                        <span styleName="skill-img" className="col-md-3" >
-                            <Image marginTop="40px" height="100px" path="skills/angular.png" />
-                        </span>
-                        <span styleName="skill-img" className="col-md-3" >
-                            <Image marginTop="40px" height="100px" path="skills/aws.png" />
-                        </span>
-                        <span styleName="skill-img" className="col-md-3" >
-                            <Image marginTop="40px" height="100px" path="skills/github.png" />
-                        </span>
-                        <span styleName="skill-img" className="col-md-3" >
-                            <Image marginTop="40px" height="100px" path="skills/graphql.png" />
-                        </span>
-                        <span styleName="skill-img" className="col-md-3" >
-                            <Image marginTop="40px" height="100px" path="skills/powershell.png" />
-                        </span>
-                        <span styleName="skill-img" className="col-md-3" >
-                            <Image marginTop="40px" height="100px" path="skills/excel.png" />
-                        </span>
-                        <span styleName="skill-img" className="col-md-3" >
-                            <Image marginTop="40px" height="100px" path="skills/sql.png" />
-                        </span>
-                    </div>
-                    <div className="row">
-                            <p2>
-                                I am constantly applying my skills through personal side projects and hackathons. 
-                            </p2>                       
-                        </div>
-                    </div> */}
-                    
-                    
+                                   
                     <div styleName="section-div">
                         <div className="row">
                             <h2>Hobbies</h2>
                         </div>
-                        <div styleName="carousel-row" className="row">
-                            <span className="col-md-4">
-                                <h4>Sports & Fitness</h4>
-                            </span>
-                            <span className="col-md-4">
-                                <h4>Guitar</h4>
-                            </span>
-                            <span className="col-md-4">
-                                <h4>Cooking</h4>
-                            </span>
+                        <div styleName="carousel">
+                            <SlideCarousel>
+                                <CarouselItem showcase="true" type = "sports" title="Sports & Fitness"  />
+                                <CarouselItem showcase="true" type = "guitar"  title= "Guitar"  />
+                                <CarouselItem showcase="true"  type = "bbq"  title="Barbecue"  />
+                            </SlideCarousel>
                         </div>
                     </div>
 
@@ -162,12 +105,9 @@ class About extends Component {
                                 <Image height="100px" path="about/teams/raptors.png" />
                             </span> 
                         </div>
-                    </div>
-                    
-                    
-                    
+                    </div> 
                 </div>
-            </div>
+            </aux>
         )
     }
 };

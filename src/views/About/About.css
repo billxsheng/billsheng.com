@@ -24,6 +24,10 @@
     transition: transform 0.2s;
 }
 
+.carousel {
+    margin-top: 20px;
+}
+
 .team:hover {
     transform: scale(1.05);
 }
