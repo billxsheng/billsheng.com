@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import CSSModules from 'react-css-modules';
 import styles from './WaterlooEngineering.css';
-import galleryInfo from '../../../../assets/gallery';
+import galleryInfo from '../../../../assets/galleryInfo';
 
 class wateng extends Component {
 
@@ -15,12 +15,12 @@ class wateng extends Component {
                 <span className="container">
                     <div className="row">
                         <h1>
-                            {galleryInfo.firstYear.title}
+                            {galleryInfo.year1.title}
                         </h1>
                     </div>
                     <span className="container">
                         <p>
-                            {galleryInfo.firstYear.date}
+                            {galleryInfo.year1.date}
                         </p>
                     </span>
                     <div styleName="content">

@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import CSSModules from 'react-css-modules';
 import styles from './SNL.css';
-import galleryInfo from '../../../../assets/gallery';
+import galleryInfo from '../../../../assets/galleryInfo';
 
 class SNL extends Component {
 
@@ -15,12 +15,12 @@ class SNL extends Component {
                 <span className="container">
                     <div className="row">
                         <h1>
-                            {galleryInfo.saturdayNightLights.title}
+                            {galleryInfo.snl.title}
                         </h1>
                     </div>
                     <span className="container">
                         <p>
-                            {galleryInfo.saturdayNightLights.date}
+                            {galleryInfo.snl.date}
                         </p>
                     </span>
                     <div styleName="content">

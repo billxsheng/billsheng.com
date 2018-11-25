@@ -6,6 +6,7 @@ import Link from '../../components/Button/Link/Link';
 import Button from '../../components/Button/Button';
 import CarouselItem from '../../components/Carousel/SlideCarousel/CarouselItem/CarouselItem';
 import SlideCarousel from '../../components/Carousel/SlideCarousel/SlideCarousel';
+import aboutInfo from '../../assets/aboutInfo';
 
 
 
@@ -35,9 +36,7 @@ class About extends Component {
                         </div>
                         <div className="row">
                             <p2>
-                            Hey, I'm Bill! I'm a curious, motivated, and hard-working individual with an interest for software development, AI, and data. 
-                            I enjoy working on projects that have real-world impact in industries that I am passionate about.&nbsp;<span aria-label="emoji" role="img" >🇨🇦</span>
-                            I am currently seeking a challenging new internship opportunity for the fall 2019 term in positions related to Software Engineering, Data Science, and Product Management. Scroll down to learn about what I have to offer :)
+                                {aboutInfo.general}
                             </p2>
                         </div>
                         <div className="row" >
@@ -52,8 +51,8 @@ class About extends Component {
                             <h2>Education</h2>
                         </div>
                         <div className="row">
-                            <p2>I'm a 19 year old Management Engineering Major at the University of Waterloo. 
-                                Management Engineering is a one-of-a-kind interdisciplinary program with a split focus in computer science, systems engineering, and optimization.
+                            <p2>
+                                {aboutInfo.education}
                             </p2>
                         </div>
                         <div className="row">
@@ -66,8 +65,8 @@ class About extends Component {
                             <h2>Experience</h2>
                         </div>
                         <div className="row">
-                            <p2>Waterloo Engineering students are given six co-op terms on top of coursework. 
-                                These work terms allow students like me to gain real-world experience while exploring potential career paths. During academic terms, I can be found working with engineering design teams.
+                            <p2>
+                                {aboutInfo.experience}
                             </p2>                       
                         </div>
                         <div className="row">

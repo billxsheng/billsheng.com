@@ -15,23 +15,23 @@ class Ryse extends Component {
                 <span className="container">
                     <div className="row">
                         <h1>
-                        {projectsInfo.Ryse.name}
+                            {projectsInfo.ryse.name}
                         </h1>
                     </div>
                     <p>
-                    {projectsInfo.Ryse.description}
+                        {projectsInfo.ryse.description}
                     </p>
                     <div className="row" styleName="tag" >
-                        <p>Hackathon</p>
+                        <p>{projectsInfo.ryse.tag}</p>
                     </div>
                 </span>
                 <span className="container">
                     <h3>Technologies Used</h3>
-                    <p>{projectsInfo.Ryse.technologies}</p>
+                    <p>{projectsInfo.ryse.technologies}</p>
                 </span>
                 <span className="container">
                     <h3>Summary</h3>
-                    <p>{projectsInfo.Ryse.about}</p>
+                    <p>{projectsInfo.ryse.about}</p>
                 </span>
                 <div styleName="button-row" className="row">
                     <Button link="http://github.com/billxsheng/ryse" newPage = 'true' btnType="btnLarge" >View on Github</Button>

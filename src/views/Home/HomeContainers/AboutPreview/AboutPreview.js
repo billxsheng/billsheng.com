@@ -5,6 +5,7 @@ import styles from './AboutPreview.css';
 import Carousel from '../../../../components/Carousel/EmojiCarousel/EmojiCarousel';
 import OwlCarousel from 'react-owl-carousel2';
 import Link from '../../../../components/Button/Link/Link';
+import homeInfo from '../../../../assets/homeInfo';
 
 
 const aboutPreview = (props) => {
@@ -34,9 +35,9 @@ const aboutPreview = (props) => {
     <div styleName='aboutPreview'>
             <div className="container">
                 <div styleName="abt-prev-el" className="row">
-                <h2>About Me</h2>
+                <h2>{homeInfo.about.title}</h2>
                 <span className="container">
-                    <p>Striving to be the best in everything I do.</p>            
+                    <p>{homeInfo.about.description}</p>            
                 </span>  
                 </div>
             </div>

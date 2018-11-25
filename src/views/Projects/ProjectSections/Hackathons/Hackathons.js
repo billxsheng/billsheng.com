@@ -18,18 +18,18 @@ class Hackathons extends Component {
                 <span styleName="curve" className="container">
                     <div className="row">
                         <h1>
-                            Hackathons
+                            {projectInfo.headings.hackathons.title}
                         </h1>
                     </div>
                         <p>
-                            Projects built during hackathons.
+                            {projectInfo.headings.hackathons.description}
                         </p>
                 </span>
                 <div className="row">
-                    <ProjectTile to="/projects/hackathons/ryse" imageHeight="400px" imageName="projects/ryse.png" tag="Hackathon" title={projectInfo.Ryse.name} shortDesc={projectInfo.Ryse.description} />
+                    <ProjectTile to="/projects/hackathons/ryse" imageHeight="400px" imageName="projects/ryse.png" tag={projectInfo.ryse.tag} title={projectInfo.ryse.name} shortDesc={projectInfo.ryse.description} />
                 </div>
                 <div className="row">
-                    <ProjectTile to="/projects/hackathons/moodify" reverse="true" imageHeight="400px" imageName="projects/moodify.png" tag="Hackathon" title={projectInfo.Moodify.name} shortDesc={projectInfo.Moodify.description}/>
+                    <ProjectTile to="/projects/hackathons/moodify" reverse="true" imageHeight="400px" imageName="projects/moodify.png" tag={projectInfo.moodify.tag} title={projectInfo.moodify.name} shortDesc={projectInfo.moodify.description}/>
                 </div>
             </div>
         )

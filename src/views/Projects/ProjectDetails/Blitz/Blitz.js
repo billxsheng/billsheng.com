@@ -15,19 +15,19 @@ class Blitz extends Component {
                 <span className="container">
                     <div className="row">
                         <h1>
-                            {projectsInfo.Blitz.name}
+                            {projectsInfo.blitz.name}
                         </h1>
                     </div>
                     <p>
-                        {projectsInfo.Blitz.description}
+                        {projectsInfo.blitz.description}
                     </p>
                     <div className="row" styleName="tag" >
-                        <p>Project</p>
+                        <p>{projectsInfo.blitz.tag}</p>
                     </div>
                 </span>
-                <span styleName="technologies" className="container">
+                <span className="container">
                     <h3>Technologies</h3>
-                    <p>JavaScript (Node.js, Express.js) <br/> MongoDB  <br/> HTML  <br/> CSS  <br/> Bootstrap</p>
+                    <p>{projectsInfo.blitz.technologies}</p>
                 </span>
                 <div styleName="button-row" className="row">
                     <Button link="http://github.com/billxsheng/blitz" newPage = 'true' btnType="btnLarge" >View on Github</Button>

@@ -3,6 +3,7 @@ import styles from './ProjectSelect.css';
 import CSSModules from 'react-css-modules';
 import ProjectSelectTile from './ProjectSelectTile/ProjectSelectTile';
 import { NavLink } from 'react-router-dom';
+import ProjectsInfo from '../../assets/projectsInfo';
 
 
 class Projects extends Component {
@@ -11,19 +12,17 @@ class Projects extends Component {
         window.scrollTo(0,0);
     }
     
-
     render() {
-
         return(
             <div className="container">
                 <span styleName="curve" className="container">
                     <div className="row">
                         <h1>
-                            Projects
+                            {ProjectsInfo.headings.projects.title}
                         </h1>
                     </div>
                         <p>
-                            A collection of projects & experiences.
+                            {ProjectsInfo.headings.projects.description}
                         </p>
                 </span>
                 <div styleName="project-select-row" className="row">

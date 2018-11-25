@@ -21,7 +21,7 @@ class Blitz extends Component {
                         {projectsInfo.opentext.description}
                     </p>
                     <div className="row" styleName="tag" >
-                        <p>Internship</p>
+                        <p>{projectsInfo.opentext.tag}</p>
                     </div>
                 </span>
             </div>

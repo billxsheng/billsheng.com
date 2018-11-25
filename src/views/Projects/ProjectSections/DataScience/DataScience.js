@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ProjectsInfo from '../../../../assets/projectsInfo';
 
 class DataScience extends Component {
 
@@ -12,11 +13,11 @@ class DataScience extends Component {
                 <span styleName="curve" className="container">
                     <div className="row">
                         <h1>
-                            Data Science
+                            {ProjectsInfo.headings.ds.title}
                         </h1>
                     </div>
                         <p>
-                            Projects coming soon.
+                            {ProjectsInfo.headings.ds.description}
                         </p>
                 </span>
                 <br/>

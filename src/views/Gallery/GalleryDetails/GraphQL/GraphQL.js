@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import CSSModules from 'react-css-modules';
 import styles from './GraphQL.css';
-import galleryInfo from '../../../../assets/gallery';
+import galleryInfo from '../../../../assets/galleryInfo';
 
 class graphQL extends Component {
 
@@ -15,12 +15,12 @@ class graphQL extends Component {
                     <span className="container">
                         <div className="row">
                             <h1>
-                                {galleryInfo.graphQL.title}
+                                {galleryInfo.graphql.title}
                             </h1>
                         </div>
                         <span className="container">
                             <p>
-                                {galleryInfo.graphQL.date}
+                                {galleryInfo.graphql.date}
                             </p>
                         </span>
                         <div styleName="content">

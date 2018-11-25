@@ -16,23 +16,23 @@ class Moodify extends Component {
                 <span className="container">
                     <div className="row">
                         <h1>
-                            {projectsInfo.Moodify.name}
+                            {projectsInfo.moodify.name}
                         </h1>
                     </div>
                     <p>
-                        {projectsInfo.Moodify.description}
+                        {projectsInfo.moodify.description}
                     </p>
                     <div className="row" styleName="tag" >
-                        <p>Hackathon</p>
+                        <p>{projectsInfo.moodify.tag}</p>
                     </div>
                 </span>
                 <span className="container">
                     <h3>Technologies Used</h3>
-                    <p>{projectsInfo.Moodify.technologies}</p>
+                    <p>{projectsInfo.moodify.technologies}</p>
                 </span>
                 <span className="container">
                     <h3>Summary</h3>
-                    <p>{projectsInfo.Moodify.about}</p>
+                    <p>{projectsInfo.moodify.about}</p>
                 </span>
                 <div styleName="button-row" className="row">
                         <Button link="http://github.com/billxsheng/moodify" newPage = 'true' btnType="btnLarge" >View on Github</Button>

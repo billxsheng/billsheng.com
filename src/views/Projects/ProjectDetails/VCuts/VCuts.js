@@ -15,19 +15,19 @@ class VCuts extends Component {
                 <span className="container">
                     <div className="row">
                         <h1>
-                        {projectsInfo.vCuts.name}
+                        {projectsInfo.vcuts.name}
                         </h1>
                     </div>
                     <p>
-                    {projectsInfo.vCuts.description}
+                    {projectsInfo.vcuts.description}
                     </p>
                     <div className="row" styleName="tag" >
-                        <p>Freelance</p>
+                        <p>{projectsInfo.vcuts.tag}</p>
                     </div>
                 </span>
                 <span className="container">
                     <h3>Summary</h3>
-                        <p>{projectsInfo.vCuts.about}</p>
+                        <p>{projectsInfo.vcuts.about}</p>
                 </span>
                 <div styleName="button-row" className="row">
                     <Button link="http://github.com/billxsheng/freelance-vcuts" newPage = 'true' btnType="btnLarge" >View on Github</Button>

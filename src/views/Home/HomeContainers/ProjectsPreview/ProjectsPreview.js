@@ -6,6 +6,7 @@ import Link from '../../../../components/Button/Link/Link';
 import SlideCarousel from '../../../../components/Carousel/SlideCarousel/SlideCarousel';
 import CarouselItem from '../../../../components/Carousel/SlideCarousel/CarouselItem/CarouselItem';
 import projectsInfo from '../../../../assets/projectsInfo';
+import homeInfo from '../../../../assets/homeInfo';
 
 class projectsPreview extends Component {
 
@@ -13,16 +14,16 @@ class projectsPreview extends Component {
         return (
             <div styleName= 'projectsPreview'>
             <span className="container">
-                    <h2>Projects</h2>
+                    <h2>{homeInfo.projects.title}</h2>
             </span>
             <span styleName="projects-preview-paragraph" className="container">
-                    <p>I'm always up for a challenge <span aria-label="emoji" role="img">💡</span></p>            
+                    <p>{homeInfo.projects.description} <span aria-label="emoji" role="img">💡</span></p>            
             </span> 
             <div styleName="carousel-relative">
                 <SlideCarousel>
-                    <CarouselItem title={projectsInfo.CTC.name} tag="Internship" type="coop1" to="/projects/canadian-tire"/>
-                    <CarouselItem title={projectsInfo.Blitz.name} tag="Side Project" type="blitz" to="/projects/blitz"/>
-                    <CarouselItem title={projectsInfo.Ryse.name} tag="Hackathon" type="ryse" to="/projects/ryse"/>
+                    <CarouselItem title={projectsInfo.ctc.name} tag={projectsInfo.ctc.tag} type="coop1" to="/projects/canadian-tire"/>
+                    <CarouselItem title={projectsInfo.blitz.name} tag={projectsInfo.blitz.tag} type="blitz" to="/projects/blitz"/>
+                    <CarouselItem title={projectsInfo.ryse.name} tag={projectsInfo.ryse.tag} type="ryse" to="/projects/ryse"/>
                 </SlideCarousel>
             </div>
                 <div styleName="link-container" className="row">

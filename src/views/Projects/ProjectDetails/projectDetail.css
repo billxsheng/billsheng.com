@@ -12,12 +12,6 @@
     margin: 0 auto 80px auto;
 }
 
-.technologies {
-    padding: 20px;
-    border-radius: 15px;    
-    box-shadow: rgb(204, 204, 204) 0px 0px 20px;
-}
-
 .tag {
     height: 30px !important;
     margin: 0 auto;

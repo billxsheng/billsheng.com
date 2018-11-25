@@ -3,6 +3,7 @@ import styles from './WebMobile.css';
 import CSSModules from 'react-css-modules';
 import ProjectTile from '../../ProjectTile/ProjectTile';
 import projectInfo from '../../../../assets/projectsInfo';
+import ProjectsInfo from '../../../../assets/projectsInfo';
 
 
 class WebMobile extends Component {
@@ -18,27 +19,27 @@ class WebMobile extends Component {
             <span styleName="curve" className="container">
                 <div className="row">
                     <h1>
-                        Web & Mobile
+                        {ProjectsInfo.headings.webMobile.title}
                     </h1>
                 </div>
                     <p>
-                        Web/Mobile Development
+                        {ProjectsInfo.headings.webMobile.description}
                     </p>
             </span>
             <div className="row">
-                <ProjectTile to="/projects/web-mobile/personal-website" imageHeight="400px" imageName="projects/pweb.png" tag="Side Project" title={projectInfo.personalWebsite.name} shortDesc={projectInfo.personalWebsite.description} />
+                <ProjectTile to="/projects/web-mobile/personal-website" imageHeight="400px" imageName="projects/pweb.png" tag={projectInfo.pw.tag} title={projectInfo.pw.name} shortDesc={projectInfo.pw.description} />
             </div>
             <div className="row">
-                <ProjectTile to="/projects/web-mobile/blitz" reverse="true" imageHeight="400px" imageName="projects/blitz.png" tag="Side Project" title={projectInfo.Blitz.name} shortDesc={projectInfo.Blitz.description}/>
+                <ProjectTile to="/projects/web-mobile/blitz" reverse="true" imageHeight="400px" imageName="projects/blitz.png" tag={projectInfo.blitz.tag} title={projectInfo.blitz.name} shortDesc={projectInfo.blitz.description}/>
             </div>
             <div className="row">
-                <ProjectTile to="/projects/web-mobile/munkee" imageHeight="400px" imageName="projects/munkee.png" tag="Side Project" title={projectInfo.Munkee.name} shortDesc={projectInfo.Munkee.description}/>
+                <ProjectTile to="/projects/web-mobile/munkee" imageHeight="400px" imageName="projects/munkee.png" tag={projectInfo.munkee.tag} title={projectInfo.munkee.name} shortDesc={projectInfo.munkee.description}/>
             </div>
             <div className="row">
-                <ProjectTile to="/projects/web-mobile/vcuts" singleTile = "true" imageHeight="400px" tag="Freelance" title={projectInfo.vCuts.name} shortDesc={projectInfo.vCuts.description}/>
+                <ProjectTile to="/projects/web-mobile/vcuts" singleTile = "true" imageHeight="400px" tag={projectInfo.vcuts.tag}title={projectInfo.vcuts.name} shortDesc={projectInfo.vcuts.description}/>
             </div>
             <div className="row">
-                <ProjectTile to="/projects/web-mobile/prog" reverse="true" imageHeight="400px" imageName="projects/prog.png" tag="Side Project" title={projectInfo.PROG.name} shortDesc={projectInfo.PROG.description}/>
+                <ProjectTile to="/projects/web-mobile/prog" reverse="true" imageHeight="400px" imageName="projects/prog.png" tag={projectInfo.prog.tag} title={projectInfo.prog.name} shortDesc={projectInfo.prog.description}/>
             </div>
         </div>
         )

@@ -15,23 +15,23 @@ class canadianTire extends Component {
                 <span className="container">
                     <div className="row">
                         <h1>
-                        {projectsInfo.CTC.name}
+                            {projectsInfo.ctc.name}
                         </h1>
                     </div>
                     <p>
-                    {projectsInfo.CTC.description}
+                        {projectsInfo.ctc.description}
                     </p>
                     <div className="row" styleName="tag" >
-                        <p>Internship</p>
+                        <p>{projectsInfo.ctc.tag}</p>
                     </div>
                 </span>
                 <span className="container">
                     <h3>Technologies Used</h3>
-                    <p>{projectsInfo.CTC.technologies}</p>
+                    <p>{projectsInfo.ctc.technologies}</p>
                 </span>
                 <span className="container">
                     <h3>Summary</h3>
-                    <p>{projectsInfo.CTC.about}</p>
+                    <p>{projectsInfo.ctc.about}</p>
                 </span>
             </div>
         )

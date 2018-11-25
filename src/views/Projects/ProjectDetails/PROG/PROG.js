@@ -16,23 +16,23 @@ class prog extends Component {
                 <span className="container">
                     <div className="row">
                         <h1>
-                            {projectsInfo.PROG.name}
+                            {projectsInfo.prog.name}
                         </h1>
                     </div>
                     <p>
-                        {projectsInfo.PROG.description}
+                        {projectsInfo.prog.description}
                     </p>
                     <div className="row" styleName="tag" >
-                        <p>Side Project</p>
+                        <p>{projectsInfo.prog.tag}</p>
                     </div>
                 </span>
                 <span className="container">
                     <h3>Technologies Used</h3>
-                    <p>{projectsInfo.PROG.technologies}</p>
+                    <p>{projectsInfo.prog.technologies}</p>
                 </span>
                 <span className="container">
                     <h3>Summary</h3>
-                    <p>{projectsInfo.PROG.about}</p>
+                    <p>{projectsInfo.prog.about}</p>
                 </span>
                 <div styleName="button-row" className="row">
                         <Button link="http://github.com/billxsheng/prog-pm-tool" newPage = 'true' btnType="btnLarge" >View on Github</Button>
