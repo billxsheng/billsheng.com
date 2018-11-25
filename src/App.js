@@ -42,8 +42,8 @@ const Modal = withStyles({
   paper: {
     borderRadius: '15px',
     top: '-100px',
-    height: '390px',
-    overflowX: 'hidden'
+    overflowX: 'hidden',
+    margin: '20px;'
   }
 })(Dialog);
 

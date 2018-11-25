@@ -21,3 +21,23 @@
     line-height: 35px;
 }
 
+@media (max-width: 800px) {
+    .modal {
+        width: 400px;
+        overflow: hidden;
+        height: 435px !important;
+    }
+} 
+
+@media (max-width: 560px) {
+    .modal {
+        width: 320px;
+        overflow: hidden;
+        height: 415px !important;
+    }
+
+    .contact-p {
+        font-size: 13px;
+    }
+} 
+
