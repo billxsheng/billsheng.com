@@ -36,7 +36,7 @@ class About extends Component {
                         </div>
                         <div className="row">
                             <p2>
-                                {aboutInfo.general}
+                                {aboutInfo.general.description}
                             </p2>
                         </div>
                         <div className="row" >
@@ -48,11 +48,11 @@ class About extends Component {
 
                     <div styleName="section-div">
                         <div className="row">
-                            <h2>Education</h2>
+                            <h2>{aboutInfo.education.title}</h2>
                         </div>
                         <div className="row">
                             <p2>
-                                {aboutInfo.education}
+                                {aboutInfo.education.description}
                             </p2>
                         </div>
                         <div className="row">
@@ -62,11 +62,11 @@ class About extends Component {
                     
                     <div styleName="section-div"> 
                         <div className="row">
-                            <h2>Experience</h2>
+                            <h2>{aboutInfo.experience.title}</h2>
                         </div>
                         <div className="row">
                             <p2>
-                                {aboutInfo.experience}
+                                {aboutInfo.experience.description}
                             </p2>                       
                         </div>
                         <div className="row">
@@ -77,6 +77,11 @@ class About extends Component {
                     <div styleName="section-div">
                         <div className="row">
                             <h2>Hobbies</h2>
+                        </div>
+                        <div className="row">
+                            <p2>
+                                {aboutInfo.hobbies.description}
+                            </p2>                       
                         </div>
                         <div styleName="carousel">
                             <SlideCarousel>
@@ -91,6 +96,11 @@ class About extends Component {
                     <div styleName="section-div">
                         <div className="row">
                             <h2>Teams</h2>
+                        </div>
+                        <div className="row">
+                            <p2>
+                                {aboutInfo.teams.description}
+                            </p2>                       
                         </div>
                         <div styleName="img-row" className="row">
                             <span styleName="team" className="col-md-4">

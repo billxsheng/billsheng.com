@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 
 import classes from './MainNav.css'
-import NavItems from '../Items/NavItems';
 import CSSModules from 'react-css-modules';
-
+import Logo from '../../Logo/Logo';
+import {NavLink} from 'react-router-dom'; 
 
 class mainNav extends Component {
 
@@ -50,7 +50,23 @@ class mainNav extends Component {
         return (
             <nav styleName="mainNav" id="mainNav" style={topStyle} >
                 <span>
-                    <NavItems/>
+                    <ul className="nav justify-content-center">
+                        <li styleName="nav-item-parent" className="nav-item" >
+                            <NavLink to="/about" styleName='btnNav' className="nav-link">ABOUT</NavLink>
+                        </li>
+                        <li styleName="nav-item-parent" className="nav-item" >
+                            <NavLink to="/projects" styleName='btnNav' className="nav-link">PROJECTS</NavLink>
+                        </li>
+                        <li styleName="nav-item-parent" className="nav-item" >
+                            <NavLink to="/"styleName='btnNav' className="nav-link"><Logo height="70px" className="navbar-brand"/></NavLink>
+                        </li>
+                        <li styleName="nav-item-parent" className="nav-item" >
+                            <NavLink to="/gallery" styleName='btnNav' className="nav-link">GALLERY</NavLink>
+                        </li>
+                        <li styleName="nav-item-parent" className="nav-item" >
+                            <a to="/" styleName='btnNav' className="nav-link" onClick = {this.props.modalOpen}>CONTACT</a>
+                        </li>
+                    </ul>    
                 </span>
             </nav>
         )

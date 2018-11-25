@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import CSSModules from 'react-css-modules';
 import { BrowserRouter, Switch, Route, Redirect  } from 'react-router-dom';
+import Dialog from '@material-ui/core/Dialog';
+import Slide from '@material-ui/core/Slide';
 
 import Layout from './hoc/Layout/Layout';
 import Home from './views/Home/Home';
@@ -9,7 +11,6 @@ import ProjectSelect from './views/Projects/ProjectSelect';
 import Gallery from './views/Gallery/Gallery';
 import Navigation from './components/Navigation/MainNav/MainNav';
 import Footer from './components/Footer/Footer';
-import Modal from './components/Modal/Modal';
 import styles from './App.css';
 import Waypoint from 'react-waypoint';
 import Blitz from './views/Projects/ProjectDetails/Blitz/Blitz';
@@ -30,12 +31,31 @@ import Hackathons from './views/Projects/ProjectSections/Hackathons/Hackathons';
 import DataScience from './views/Projects/ProjectSections/DataScience/DataScience';
 import WebMobile from './views/Projects/ProjectSections/WebMobile/WebMobile';
 import OpenText from './views/Projects/ProjectDetails/OpenText/OpenText';
+import DialogContent from './components/DialogContent/DialogContent';
 
+function Transition(props) {
+  return <Slide direction="up" timeout= "0"  {...props} />;
+}
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.child = React.createRef();
+    this.onModalOpen = this.onModalOpen.bind(this);
+    this.closeModal = this.closeModal.bind(this);
+  }
 
   state = {
-    isLoading: false
+    isLoading: false,
+    modalIsOpen: false
+  }
+
+  onModalOpen() {
+    this.setState({modalIsOpen: true})
+  }
+
+  closeModal() {
+    this.setState({modalIsOpen: false});
   }
 
   componentDidMount = () => {
@@ -43,11 +63,6 @@ class App extends Component {
     setTimeout(() => {
       this.setState({isLoading: false})
     }, 600);
-  }
-
-  constructor(props) {
-    super(props);
-    this.child = React.createRef();
   }
 
   onWaypoint = () => {
@@ -99,10 +114,16 @@ class App extends Component {
                   this.onWaypoint();
                   }}
               />
-              <Layout>
+              <Layout modalOpen = {this.onModalOpen}>
                   {routes}
-                  <Navigation ref={this.child} />
-                  <Modal styleName="modal" targetName="contactModal" />
+                  <Navigation modalOpen = {this.onModalOpen} ref={this.child} />
+                  <Dialog TransitionComponent={Transition} 
+                  onBackdropClick = {this.closeModal} 
+                  styleName="modal" 
+                  open={this.state.modalIsOpen}
+                  >
+                    <DialogContent/>
+                  </Dialog>
               <Footer />
               </Layout>
             </div>

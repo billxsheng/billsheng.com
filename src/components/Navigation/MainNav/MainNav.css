@@ -1,3 +1,33 @@
+.btnNav {
+    font-family: 'Cairo';
+    font-size: 20px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    line-height: 70px;
+    color: rgba(0, 0, 0, 0.4) !important;
+    transition: color 0.2s;
+}
+
+.btnNav:hover {
+    color: black !important;
+}
+
+.nav-item-parent {
+}
+
+@media (max-width: 650px) {
+    .btnNav {
+        font-size: 16px !important;
+    }
+}
+
+@media (max-width: 560px) {
+    .btnNav {
+        font-size: 11px !important;
+        padding: 0 5px !important;
+    }
+}
+
 @media (max-width: 650px) {
     .mainNav {
 
