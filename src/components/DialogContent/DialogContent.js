@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import CSSModules from 'react-css-modules';
 import styles from './DialogContent.css';
 import MainButtonNav from '../Button/MainButtonRow/MainButtonRow';
+import contactInfo from '../../assets/contactInfo';
 
 class modal extends Component {
   state = {
@@ -11,8 +12,14 @@ class modal extends Component {
   render() {
     return (
       <div styleName="modal">
-        <h1>Contact</h1>
+        <h1>{contactInfo.title}</h1>
         <MainButtonNav/>
+        <p styleName="contact-p" >
+          {contactInfo.search}
+        </p>
+        <div className="row" styleName="btn-close"> 
+          {this.props.children}
+        </div>
       </div>
     )
   }

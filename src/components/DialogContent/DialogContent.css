@@ -1,9 +1,23 @@
 .modal {
-    height: 500px;
+    height: 390px !important;
     width: 600px;
 }
 
 .modal h1 {
     margin: 30px auto 20px auto !important;
+}
+
+.btn-close {
+    bottom: 0;
+}
+
+.contact-p {
+    text-align: center;
+    font-family: 'Cairo';
+    font-size: 15px;
+    margin: 5px auto 15px auto;
+    font-weight: 400;
+    max-width: 550px;
+    line-height: 35px;
 }
 

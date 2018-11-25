@@ -1,11 +1,11 @@
 .btnIcon {
     cursor: pointer;
-    color: rgba(0, 0, 0, 0.3);
+    color: rgba(0, 0, 0, 0.3) !important;
     transition: color 0.2s;
 }
 
 .btnIcon:hover {
-    color: black;
+    color: black !important;
     text-decoration: none;
 }
 

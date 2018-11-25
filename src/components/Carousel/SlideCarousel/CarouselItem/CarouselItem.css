@@ -12,6 +12,10 @@
     color: black;
 }
 
+.default-cursor {
+    cursor: default !important;
+}
+
 .text-div { 
     display: table-cell;
     vertical-align: middle;
@@ -104,10 +108,10 @@
     background-size: cover;
 }
 
-.upper-wrapper-sports {
+.upper-wrapper-showcase-sports {
     position: absolute;
     width: inherit;
-    height: 280px;
+    height: 320px;
     top: 0;    
     left: 0;
     border-top-left-radius: 15px;
@@ -116,10 +120,10 @@
     background-size: cover;
 }
 
-.upper-wrapper-bbq {
+.upper-wrapper-showcase-bbq {
     position: absolute;
     width: inherit;
-    height: 280px;
+    height: 320px;
     top: 0;    
     left: 0;
     border-top-left-radius: 15px;
@@ -128,10 +132,10 @@
     background-size: cover;
 }
 
-.upper-wrapper-guitar {
+.upper-wrapper-showcase-guitar {
     position: absolute;
     width: inherit;
-    height: 280px;
+    height: 320px;
     top: 0;    
     left: 0;
     border-top-left-radius: 15px;
@@ -140,7 +144,8 @@
     background-size: cover;
 }
 
-.lower-wrapper {
+.lower-wrapper,
+.lower-wrapper-showcase {
     position: absolute;
     width: inherit;
     background-color: white;
@@ -149,6 +154,10 @@
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     display: table;
+}
+
+.lower-wrapper-showcase {
+    height: 70px;
 }
 
 .tag {

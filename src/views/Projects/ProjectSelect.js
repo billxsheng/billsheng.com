@@ -27,16 +27,16 @@ class Projects extends Component {
                 </span>
                 <div styleName="project-select-row" className="row">
                     <NavLink styleName="project-select-link" to="/projects/web-mobile" className="col-md-3">
-                        <ProjectSelectTile type="Web & Mobile"/>
+                        <ProjectSelectTile type={ProjectsInfo.headings.webMobile.title}/>
                     </NavLink>
                     <NavLink styleName="project-select-link" to="/projects/data-science" className="col-md-3">
-                        <ProjectSelectTile type="Data Science"/>
+                        <ProjectSelectTile type={ProjectsInfo.headings.ds.title}/>
                     </NavLink>
                     <NavLink styleName="project-select-link" to="/projects/experience" className="col-md-3">
-                        <ProjectSelectTile type="Experience"/>
+                        <ProjectSelectTile type={ProjectsInfo.headings.experience.title}/>
                     </NavLink>
                     <NavLink styleName="project-select-link" to="/projects/hackathons" className="col-md-3">
-                        <ProjectSelectTile type="Hackathons"/>
+                        <ProjectSelectTile type={ProjectsInfo.headings.hackathons.title}/>
                     </NavLink>
                 </div>
             </div>

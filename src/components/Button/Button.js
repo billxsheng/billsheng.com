@@ -7,7 +7,7 @@ import styles from './Button.css';
 class button extends Component {
     state = {
         newPage: this.props.newPage,
-        resume: true
+        resume: this.props.resume
     }
 
     render() {

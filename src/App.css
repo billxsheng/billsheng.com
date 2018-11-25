@@ -9,3 +9,20 @@
     z-index: 990;
 }
 
+.btn-close {
+    cursor: pointer;
+    background-color: #4775de;
+    padding: 15px;
+    border-radius: 5px;
+    color: white !important;
+    font-family: 'Lato';
+    transition: background-color 0.2s;
+    position: relative;
+    margin: 0 auto;
+}
+
+.btn-close:hover {
+    text-decoration: none !important;
+    background-color: #608aec;
+}
+

@@ -10,13 +10,15 @@ class carouselItem extends Component {
 
     render() {
         const projectName = `upper-wrapper-${this.props.type}`
+        const projectNameShowcase = `upper-wrapper-showcase-${this.props.type}`
+
 
         if(this.state.showcase) {
             return (
-                <div styleName="carousel-wrapper item-preview-tile">
-                    <div styleName={projectName}>
+                <div styleName="carousel-wrapper item-preview-tile default-cursor" className="btn" >
+                    <div styleName={projectNameShowcase}>
                     </div>
-                    <div styleName="lower-wrapper" className="row btn-disabled">
+                    <div styleName="lower-wrapper-showcase" className="row">
                         <div styleName="text-div">
                             <h3>{this.props.title}</h3>
                         </div>
