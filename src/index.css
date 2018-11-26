@@ -120,7 +120,7 @@ button {
 
 @media (max-width: 560px) {
   h1 {
-    font-size: 60px;
+    font-size: 50px;
     letter-spacing: -4px;
     padding: 0 10px !important;
     margin: 90px auto 0 auto !important;

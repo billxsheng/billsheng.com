@@ -104,7 +104,7 @@
 @media (max-width: 767px) {
     .project-tile-mobile
      {
-        height: 480px !important;
+        height: 470px !important;
         width: 600px !important;
         margin: 0px auto 60px auto;
         display: block;
@@ -129,7 +129,11 @@
 @media (max-width: 610px) {
     .project-tile-mobile,
     .project-tile-mobile-single {
-        padding: 0;
+        width: 90% !important;
+    }
+
+    .text-cont h2 {
+        font-size: 30px;
     }
 
     .project-tile-mobile:hover,
