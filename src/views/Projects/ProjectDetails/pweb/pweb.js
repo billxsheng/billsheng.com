@@ -12,19 +12,19 @@ class pweb extends Component {
     
     render() {
         return (
-            <div className="container">
+            <div className="container" styleName="overlay">
                 <span className="container">
                     <div className="row">
                         <h1>
                             {projectsInfo.pw.name}
                         </h1>
                     </div>
-                    <p>
+                    <p styleName="description-p">
                         {projectsInfo.pw.description}
                     </p>
-                    <div className="row" styleName="tag" >
+                    {/* <div className="row" styleName="tag" >
                         <p>{projectsInfo.pw.tag}</p>
-                    </div>
+                    </div> */}
                 </span>
                 <span className="container">
                     <h3>Technologies Used</h3>

@@ -30,3 +30,40 @@
     vertical-align: middle;
     padding: 0 !important;
 }
+
+.overlay h1 {
+    font-size: 70px;
+    font-family: 'Poppins';
+    letter-spacing: -3px;
+}
+
+.description-p {
+    margin: 0 auto !important;
+}
+
+.overlay h3 {
+    font-size: 30px;
+    letter-spacing: -1px;
+    text-align: left;
+}
+
+.overlay p {
+
+}
+
+@media (max-width: 1000px) {
+
+}
+
+@media (max-width: 800px) {
+    .overlay h1 {
+        font-size: 55px;
+    }
+}
+
+@media (max-width: 560px) {
+    .overlay h1 {
+        font-size: 40px;
+    }
+}
+

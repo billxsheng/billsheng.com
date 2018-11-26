@@ -41,7 +41,7 @@ function Transition(props) {
 const Modal = withStyles({
   paper: {
     borderRadius: '15px',
-    top: '-100px',
+    top: '-50px',
     overflowX: 'hidden',
     margin: '20px;'
   }
