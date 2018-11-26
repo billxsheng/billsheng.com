@@ -20,7 +20,7 @@ class mainNav extends Component {
     render() {
 
         let topStyle = {
-            padding: '15px',
+            padding: '10px',
             zIndex: '900',
             position: 'fixed',
             width: '100vw',
@@ -33,7 +33,7 @@ class mainNav extends Component {
 
         if(this.state.navTop === false) {
             topStyle = {
-                padding: '15px',
+                padding: '10px',
                 zIndex: '900',
                 position: 'fixed',
                 width: '100vw',

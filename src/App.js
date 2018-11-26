@@ -23,7 +23,6 @@ import VCuts from './views/Projects/ProjectDetails/VCuts/VCuts';
 import SNL from './views/Gallery/GalleryDetails/SNL/SNL';
 import WaterlooEngineering from './views/Gallery/GalleryDetails/WaterlooEngineering/WaterlooEngineering';
 import GraphQL from './views/Gallery/GalleryDetails/GraphQL/GraphQL';
-import pweb from './views/Projects/ProjectDetails/pweb/pweb';
 import Aux from './hoc/HO-Aux/HO-aux';
 import Spinner from './components/Spinner/Spinner';
 import Experience from './views/Projects/ProjectSections/Experience/Experience';
@@ -98,7 +97,6 @@ class App extends Component {
         <Route exact path="/projects/web-mobile/prog" component={prog} />
         <Route exact path="/projects/hackathons/ryse" component={Ryse} />
         <Route exact path="/projects/web-mobile/vcuts" component={VCuts} />
-        <Route exact path="/projects/web-mobile/personal-website" component={pweb} />
         <Route exact path="/projects/hackathons" component={Hackathons} />
         <Route exact path="/projects/experience" component={Experience} />
         <Route exact path="/projects/data-science" component={DataScience} />

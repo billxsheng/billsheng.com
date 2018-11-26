@@ -21,6 +21,7 @@ class carouselItem extends Component {
                     <div styleName="lower-wrapper-showcase" className="row">
                         <div styleName="text-div">
                             <h3>{this.props.title}</h3>
+                            <p>{this.props.description}</p>
                         </div>
                     </div>
                 </div>
@@ -33,7 +34,7 @@ class carouselItem extends Component {
                     <div styleName="lower-wrapper" className="row">
                         <div styleName="text-div">
                             <h3>{this.props.title}</h3>
-                            <p>{this.props.date}</p>
+                            <p>{this.props.description}</p>
                             {this.props.tag ? <div styleName="tag">
                                 <p>{this.props.tag}</p>
                             </div> : null}

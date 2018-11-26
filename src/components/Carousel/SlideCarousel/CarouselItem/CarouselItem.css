@@ -36,7 +36,7 @@
     z-index: -3;
 }
 
-.upper-wrapper-coop1 {
+.upper-wrapper-hack {
     position: absolute;
     width: inherit;
     height: 280px;
@@ -44,11 +44,22 @@
     left: 0;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    background: linear-gradient(to right, rgb(0,0,0, 0.4), rgb(0,0,0,0), rgb(0,0,0, 0.4)), url('../../../../assets/images/gallery/coop1.jpg');
+    background: linear-gradient(to right, rgb(0,0,0, 0.4), rgb(0,0,0,0), rgb(0,0,0, 0.4)), url('../../../../assets/images/projects/select-hack.png') center;
+}
+
+.upper-wrapper-exp {
+    position: absolute;
+    width: inherit;
+    height: 280px;
+    top: 0;    
+    left: 0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: linear-gradient(to right, rgb(0,0,0, 0.4), rgb(0,0,0,0), rgb(0,0,0, 0.4)), url('../../../../assets/images/projects/select-exp.jpg');
     background-size: cover;
 }
 
-.upper-wrapper-ryse {
+.upper-wrapper-wm {
     position: absolute;
     width: inherit;
     height: 280px;
@@ -56,19 +67,7 @@
     left: 0;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    background: linear-gradient(to right, rgb(0,0,0, 0.4), rgb(0,0,0,0), rgb(0,0,0, 0.4)), url('../../../../assets/images/projects/ryse-screen.png');
-    background-size: cover;
-}
-
-.upper-wrapper-blitz {
-    position: absolute;
-    width: inherit;
-    height: 280px;
-    top: 0;    
-    left: 0;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    background: linear-gradient(to right, rgb(0,0,0, 0.4), rgb(0,0,0,0), rgb(0,0,0, 0.4)), url('../../../../assets/images/projects/blitz-nfl.jpg');
+    background: linear-gradient(to right, rgb(0,0,0, 0.4), rgb(0,0,0,0), rgb(0,0,0, 0.4)), url('../../../../assets/images/projects/select-wm.png');
     background-size: cover;
 }
 

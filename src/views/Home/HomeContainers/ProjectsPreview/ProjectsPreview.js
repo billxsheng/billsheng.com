@@ -21,13 +21,13 @@ class projectsPreview extends Component {
             </span> 
             <div styleName="carousel-relative">
                 <SlideCarousel>
-                    <CarouselItem title={projectsInfo.ctc.name} tag={projectsInfo.ctc.tag} type="coop1" to="/projects/experience/canadian-tire"/>
-                    <CarouselItem title={projectsInfo.blitz.name} tag={projectsInfo.blitz.tag} type="blitz" to="/projects/web-mobile/blitz"/>
-                    <CarouselItem title={projectsInfo.ryse.name} tag={projectsInfo.ryse.tag} type="ryse" to="/projects/hackathons/ryse"/>
+                    <CarouselItem title={projectsInfo.headings.webMobile.title} description={projectsInfo.headings.webMobile.description} type="wm" to="/projects/web-mobile"/>
+                    <CarouselItem title={projectsInfo.headings.experience.title} description={projectsInfo.headings.experience.description} type="exp" to="/projects/experience"/>
+                    <CarouselItem title={projectsInfo.headings.hackathons.title} description={projectsInfo.headings.hackathons.description} type="hack" to="/projects/hackathons"/>
                 </SlideCarousel>
             </div>
                 <div styleName="link-container" className="row">
-                    <Link margin="25px" link="/projects">View All Projects</Link>
+                    <Link margin="25px" link="/projects">View Projects</Link>
                 </div>
             </div>
         )
