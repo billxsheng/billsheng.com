@@ -45,17 +45,15 @@
 }
 
 
-@media (max-width: 800px) {
+@media (max-width: 767px) {
     .team {
         width: 33.333% !important;
     }
-}
-
-@media (max-width: 560px) {
     .img-row {
         width: 100%;
     }
 }
+
 
 
 

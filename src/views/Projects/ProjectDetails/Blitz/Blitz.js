@@ -25,6 +25,7 @@ class Blitz extends Component {
                         <p>{projectsInfo.blitz.tag}</p>
                     </div> */}
                 </span>
+                
                 <span className="container">
                     <h3>Technologies</h3>
                     <p>{projectsInfo.blitz.technologies}</p>

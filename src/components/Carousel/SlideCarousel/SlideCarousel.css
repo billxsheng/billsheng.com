@@ -43,13 +43,7 @@
     line-height: 0 !important;
 }
 
-@media (max-width: 800px) {
-    .carousel-wrapper-btn {
-        width: 500px;
-    }
-}
-
-@media (max-width: 560px) {
+@media (max-width: 767px) {
     .carousel-wrapper-btn {
         width: 100%;
     }

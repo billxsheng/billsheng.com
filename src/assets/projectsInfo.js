@@ -21,13 +21,6 @@ const ProjectsInfo = {
             description: "Projects built during hackathons."
         }
     },
-    pw: {
-        name: 'Personal Website',
-        description: 'My portfolio, made from scratch.',
-        technologies: 'JavaScript (React), HTML, CSS, Bootstrap, Amazon Web Services (AWS), Photoshop',
-        about: "Coming Soon",        
-        tag: "Side Project"
-    },
     ryse: {
         name: 'Ryse',
         description: 'Networking application for ex-criminals.',

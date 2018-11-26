@@ -99,37 +99,18 @@
     width: 100vh;
 }
 
-@media (max-width: 800px) {
-    .wave {
-        width: 90px !important;
-    }
-
-    .divide-container {
-        top: 50px;
-    }
-
-    .stripe {
-        height: 420px;
-        top: 330px;
-    }
-
-    .stripe-reflected {
-        top: 330px;
-    }
-
+@media (max-width: 767px) {
     .hero {
-        margin: 0 auto 0 auto;
+        margin-bottom: 60px;
     }
-}
 
-@media (max-width: 560px) {
     .wave {
         width: 70px !important;
         display: none;
     }
 
     .divide-container {
-        width: 300px;
+        width: 450px;
         top: 45px !important;
     }
 
@@ -149,6 +130,13 @@
 
     .main-title h1 {
         margin: 90px auto 0 auto !important;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .divide-container {
+        width: 300px;
     }
 
 }

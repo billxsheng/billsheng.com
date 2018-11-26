@@ -59,7 +59,7 @@
     }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 767px) {
     .select-box-wm,
     .select-box-ds,
     .select-box-exp,

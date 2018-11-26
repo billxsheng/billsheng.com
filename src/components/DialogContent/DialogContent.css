@@ -21,15 +21,7 @@
     line-height: 35px;
 }
 
-@media (max-width: 800px) {
-    .modal {
-        width: 400px;
-        overflow: hidden;
-        height: 460px !important;
-    }
-} 
-
-@media (max-width: 560px) {
+@media (max-width: 767px) {
     .modal {
         width: 320px;
         overflow: hidden;

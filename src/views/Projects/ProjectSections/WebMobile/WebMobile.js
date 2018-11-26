@@ -27,9 +27,6 @@ class WebMobile extends Component {
                     </p>
             </span>
             <div className="row">
-                <ProjectTile to="/projects/web-mobile/personal-website" imageHeight="400px" imageName="projects/pweb.png" tag={projectInfo.pw.tag} title={projectInfo.pw.name} shortDesc={projectInfo.pw.description} />
-            </div>
-            <div className="row">
                 <ProjectTile to="/projects/web-mobile/blitz" reverse="true" imageHeight="400px" imageName="projects/blitz.png" tag={projectInfo.blitz.tag} title={projectInfo.blitz.name} shortDesc={projectInfo.blitz.description}/>
             </div>
             <div className="row">
