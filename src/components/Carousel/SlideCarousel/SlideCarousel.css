@@ -1,5 +1,5 @@
-.btn-left {
-    float: left;
+.btn-left,
+.btn-right {
     position: relative;
     top: -320px;
     z-index: 500;
@@ -8,26 +8,19 @@
     padding: 5px 10px;
     color: white!important;
     border-radius: 50%;
-    margin-left: 15px;
     height: 45px;
     width: 45px;
     display: table;
 }
 
+.btn-left {
+    float: left;
+    margin-left: 15px;
+}
+
 .btn-right {
     float: right;
-    position: relative;
-    top: -320px;
-    text-align: center;
-    background-color:#608aec;
-    padding: 5px 10px;
-    color: white !important;
-    border-radius: 50%;
-    z-index: 500;
     margin-right: 15px;
-    height: 45px;
-    width: 45px;
-    display: table;
 }
 
 .carousel-wrapper-btn {

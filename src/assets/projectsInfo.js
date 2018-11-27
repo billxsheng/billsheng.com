@@ -6,7 +6,8 @@ const ProjectsInfo = {
         },
         webMobile: {
             title: "Web & Mobile",
-            description: "Web/Mobile Development."
+            description: "Web/Mobile Development.",
+            order: ['blitz', 'munkee', 'vcuts', 'prog']
         },
         ds: {
             title: "Data Science",
