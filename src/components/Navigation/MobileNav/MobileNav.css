@@ -1,0 +1,24 @@
+.mobileNav {
+    display: none;
+    height: 85px;
+}
+
+.logo {
+
+}
+
+.vl {
+    width: 1px;
+    height: 50px;
+}
+
+@media (max-width: 767px) {
+    .btnNav {
+        font-size: 11px !important;
+        padding: 0 5px !important;
+    }
+
+    .mobileNav {
+        display: block;
+    }
+}

@@ -10,6 +10,7 @@ import About from './views/About/About';
 import ProjectSelect from './views/Projects/ProjectSelect';
 import Gallery from './views/Gallery/Gallery';
 import Navigation from './components/Navigation/MainNav/MainNav';
+import MobileNav from './components/Navigation/MobileNav/MobileNav';
 import Footer from './components/Footer/Footer';
 import styles from './App.css';
 import Waypoint from 'react-waypoint';
@@ -123,6 +124,7 @@ class App extends Component {
               <Layout modalOpen = {this.onModalOpen}>
                   {routes}
                   <Navigation modalOpen = {this.onModalOpen} ref={this.child} />
+                  <MobileNav/>
                   <Modal TransitionComponent={Transition} 
                   onBackdropClick = {this.closeModal} 
                   styleName="modal" 

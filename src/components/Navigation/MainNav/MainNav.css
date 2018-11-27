@@ -24,4 +24,8 @@
         font-size: 11px !important;
         padding: 0 5px !important;
     }
+
+    .mainNav {
+        display: none;
+    }
 }
