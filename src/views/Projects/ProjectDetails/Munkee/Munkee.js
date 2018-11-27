@@ -64,10 +64,6 @@ class Munkee extends Component {
                     </div> */}
                 </span>
                 <span className="container">
-                    <h3>Technologies Used</h3>
-                    <p>{projectsInfo.munkee.technologies}</p>
-                </span>
-                <span className="container">
                     <h3>Summary</h3>
                     <p>{projectsInfo.munkee.about}</p>
                 </span>

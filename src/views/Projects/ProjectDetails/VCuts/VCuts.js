@@ -65,7 +65,7 @@ class VCuts extends Component {
                 </span>
                 <span className="container">
                     <h3>Summary</h3>
-                        <p>{projectsInfo.vcuts.about}</p>
+                    <p>{projectsInfo.vcuts.about}</p>
                 </span>
                 <div styleName="button-row" className="row">
                     <Button link="http://github.com/billxsheng/freelance-vcuts" newPage = 'true' btnType="btnLarge" >View on Github</Button>

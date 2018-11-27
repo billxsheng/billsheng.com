@@ -63,10 +63,6 @@ class Moodify extends Component {
                     </div>
                 </span>
                 <span className="container">
-                    <h3>Technologies Used</h3>
-                    <p>{projectsInfo.moodify.technologies}</p>
-                </span>
-                <span className="container">
                     <h3>Summary</h3>
                     <p>{projectsInfo.moodify.about}</p>
                 </span>

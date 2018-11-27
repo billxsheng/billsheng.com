@@ -57,13 +57,9 @@ class canadianTire extends Component {
                     <p styleName="description-p">
                         {projectsInfo.ctc.description}
                     </p>
-                    <div className="row" styleName="tag" >
+                    {/* <div className="row" styleName="tag" >
                         <p>{projectsInfo.ctc.tag}</p>
-                    </div>
-                </span>
-                <span className="container">
-                    <h3>Technologies Used</h3>
-                    <p>{projectsInfo.ctc.technologies}</p>
+                    </div> */}
                 </span>
                 <span className="container">
                     <h3>Summary</h3>

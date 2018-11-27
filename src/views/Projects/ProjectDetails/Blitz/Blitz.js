@@ -64,8 +64,8 @@ class Blitz extends Component {
                 </span>
                 
                 <span className="container">
-                    <h3>Technologies</h3>
-                    <p>{projectsInfo.blitz.technologies}</p>
+                    <h3>Summary</h3>
+                    <p>{projectsInfo.blitz.about}</p>
                 </span>
                 <div styleName="button-row" className="row">
                     <Button link="http://github.com/billxsheng/blitz" newPage = 'true' btnType="btnLarge" >View on Github</Button>

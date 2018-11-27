@@ -62,10 +62,6 @@ class Ryse extends Component {
                     </div>
                 </span>
                 <span className="container">
-                    <h3>Technologies Used</h3>
-                    <p>{projectsInfo.ryse.technologies}</p>
-                </span>
-                <span className="container">
                     <h3>Summary</h3>
                     <p>{projectsInfo.ryse.about}</p>
                 </span>
