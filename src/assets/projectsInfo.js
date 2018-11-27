@@ -7,19 +7,22 @@ const ProjectsInfo = {
         webMobile: {
             title: "Web & Mobile",
             description: "Web/Mobile Development.",
-            order: ['blitz', 'munkee', 'vcuts', 'prog']
+            order: ['blitz', 'munkee', 'vcuts']
         },
         ds: {
             title: "Data Science",
-            description: "Projects coming soon."
+            description: "Projects coming soon.",
+            order: []
         },
         experience: {
             title: "Experience",
-            description: "Internships, Design Teams, Clubs"
+            description: "Internships, Design Teams, Clubs",
+            order: ['opentext', 'canadian-tire']
         },
         hackathons: {
             title: "Hackathons",
-            description: "Projects built during hackathons."
+            description: "Projects built during hackathons.",
+            order: ['ryse', 'moodify']
         }
     },
     ryse: {
@@ -30,15 +33,9 @@ const ProjectsInfo = {
         tag: "Hackathon"
 
     },
-    prog: {
-        name: 'PROG',
-        description: 'Accelerating group projects.',
-        technologies: 'Microsoft Excel Developer Tools, Visual Basic for Applications (VBA)',
-        tag: "Side Project",
-        about: "Coming Soon"    
-    },
     ctc: {
         name: 'Canadian Tire',
+        link: 'canadian-tire',
         description: 'Improving IT productivity.',
         technologies: 'PowerShell, VMWare, Jira, Confluence',
         tag: "Internship",

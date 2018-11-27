@@ -17,7 +17,6 @@ import Blitz from './views/Projects/ProjectDetails/Blitz/Blitz';
 import canadianTire from './views/Projects/ProjectDetails/CTC/CTC';
 import Moodify from './views/Projects/ProjectDetails/Moodify/Moodify';
 import Munkee from './views/Projects/ProjectDetails/Munkee/Munkee';
-import prog from './views/Projects/ProjectDetails/PROG/PROG';
 import Ryse from './views/Projects/ProjectDetails/Ryse/Ryse';
 import VCuts from './views/Projects/ProjectDetails/VCuts/VCuts';
 import SNL from './views/Gallery/GalleryDetails/SNL/SNL';
@@ -94,7 +93,6 @@ class App extends Component {
         <Route exact path="/projects/experience/canadian-tire" component={canadianTire} />
         <Route exact path="/projects/hackathons/moodify" component={Moodify} />
         <Route exact path="/projects/web-mobile/munkee" component={Munkee} />
-        <Route exact path="/projects/web-mobile/prog" component={prog} />
         <Route exact path="/projects/hackathons/ryse" component={Ryse} />
         <Route exact path="/projects/web-mobile/vcuts" component={VCuts} />
         <Route exact path="/projects/hackathons" component={Hackathons} />

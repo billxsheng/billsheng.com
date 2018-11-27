@@ -56,7 +56,8 @@
 }
 
 .btn-prev,
-.btn-next {
+.btn-next,
+.btn-disabled {
     position: relative;
     z-index: 500;
     text-align: center;
@@ -73,6 +74,14 @@
 .btn-prev:hover,
 .btn-next:hover {
     text-decoration: none;
+}
+
+.btn-disabled {
+    opacity: 0.5;
+}
+
+.btn-disabled:hover {
+    cursor: not-allowed;
 }
 
 

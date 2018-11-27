@@ -31,7 +31,12 @@ class Blitz extends Component {
                     <div className="row">
                         <div className="col-md-4">
                             {this.state.leftArrow ? 
-                                <a styleName="btn-prev" ><Icon iconType="iconSmall" iconName="fas fa-chevron-left"></Icon></a> : null
+                                <NavLink styleName="btn-prev" to={`/projects/web-mobile/${projectsArray[projectsArray.indexOf(projectsInfo.blitz.name.toLowerCase()) - 1]}`} >
+                                    <Icon iconType="iconSmall" iconName="fas fa-chevron-left"></Icon>
+                                </NavLink>: 
+                                <a className="btn-disabled" styleName="btn-disabled">
+                                    <Icon iconType="iconSmall" iconName="fas fa-chevron-left"></Icon>
+                                </a>
                             }
                         </div> 
                         <div className="col-md-4">
@@ -43,7 +48,10 @@ class Blitz extends Component {
                             {this.state.rightArrow ? 
                                 <NavLink styleName="btn-next" to={`/projects/web-mobile/${projectsArray[projectsArray.indexOf(projectsInfo.blitz.name.toLowerCase()) + 1]}`} >
                                     <Icon iconType="iconSmall" iconName="fas fa-chevron-right"></Icon>
-                                </NavLink> : null
+                                </NavLink> : 
+                                <a className="btn-disabled" styleName="btn-disabled">
+                                    <Icon iconType="iconSmall" iconName="fas fa-chevron-right"></Icon>
+                                </a>
                             }
                         </div> 
                     </div>

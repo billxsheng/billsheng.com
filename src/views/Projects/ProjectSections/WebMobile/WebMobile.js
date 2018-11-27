@@ -33,9 +33,6 @@ class WebMobile extends Component {
             <div className="row">
                 <ProjectTile to="/projects/web-mobile/vcuts" singleTile = "true" imageHeight="400px" tag={projectInfo.vcuts.tag}title={projectInfo.vcuts.name} shortDesc={projectInfo.vcuts.description}/>
             </div>
-            <div className="row">
-                <ProjectTile to="/projects/web-mobile/prog" reverse="true" imageHeight="400px" imageName="projects/prog.png" tag={projectInfo.prog.tag} title={projectInfo.prog.name} shortDesc={projectInfo.prog.description}/>
-            </div>
         </div>
         )
     }
