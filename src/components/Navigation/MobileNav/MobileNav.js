@@ -30,7 +30,7 @@ class mobileNav extends Component {
             backgroundColor: 'white',
             color: 'white !important',
             boxShadow: '0 0 20px #ccc',
-            transition: 'transform 0.2s',
+            transition: 'all 200ms cubic-bezier(0.1, 0, 0.1, 1) 0s'
         }
 
         if(this.state.navOpen) {
@@ -44,7 +44,7 @@ class mobileNav extends Component {
                 color: 'white !important',
                 boxShadow: '0 0 20px #ccc',
                 transform: 'translateY(0)',
-                transition: 'transform 0.2s',
+                transition: 'all 200ms cubic-bezier(0.1, 0, 0.1, 1) 0s'
             }
         }        
 
