@@ -9,11 +9,27 @@
     height: 80px;
     padding: 0;
     color: black;
+    border-bottom: 1px solid #eee;
+    border-right: 1px solid #eee;
 }
 
 .mobile-nav-item:hover {
     text-decoration: none;
     color: black;
+}
+
+.mobile-nav-item i {
+    text-align: center;
+    font-size: 40px;
+    display: block;
+    position: relative;
+    top: 2px;
+}
+
+.mobile-nav-item p {
+    padding: 0;
+    top: -25px !important;
+    position: relative;
 }
 
 .item-row {

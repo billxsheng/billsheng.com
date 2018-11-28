@@ -53,18 +53,22 @@ class mobileNav extends Component {
             <div style={topStyle} styleName = "mobileNav" id="mobileNav">
                 <div styleName="item-row" className="row">
                     <NavLink to="/about" styleName="mobile-nav-item" className="col-sm-3"> 
+                        <i className="icon ion-md-person"></i>
                         <p>About</p>
                     </NavLink>
                     <NavLink to="/projects" styleName="mobile-nav-item" className="col-sm-3"> 
+                        <i className="icon ion-ios-rocket"></i>
                         <p>Projects</p>
                     </NavLink>
                     <NavLink to="/gallery" styleName="mobile-nav-item" className="col-sm-3"> 
+                        <i className="icon ion-md-image"></i>
                         <p>Gallery</p>
                     </NavLink>
                     <a onClick = {() => {
                         this.props.modalOpen();
                         this.closeNav();
-                    }} styleName="mobile-nav-item" className="col-sm-3"> 
+                    }} styleName="mobile-nav-item" className="col-sm-3">
+                        <i className="icon ion-md-hand"></i> 
                         <p>Contact</p>
                     </a>
                 </div>
