@@ -1,10 +1,38 @@
 .mobileNav {
     display: none;
-    height: 85px;
+    height: 165px;
+    transform: translateY(-80px);
+}
+
+.mobile-nav-item {
+    width: 25%;
+    height: 80px;
+    padding: 0;
+    color: black;
+}
+
+.mobile-nav-item:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.item-row {
+    width: 100% !important;
+    margin: 0;
+}
+
+.mobile-nav-item p {
+    text-align: center;
 }
 
 .logo {
+    display: inline-block !important;
+}
 
+.menu {
+    float: right;
+    font-size: 45px;
+    margin: 10px 30px 0px 0px;
 }
 
 .vl {

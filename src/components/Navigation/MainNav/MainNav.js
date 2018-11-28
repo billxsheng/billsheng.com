@@ -12,8 +12,6 @@ class mainNav extends Component {
     }
 
     navChangeHandler = () => {
-        const mainNav = document.getElementById('mainNav');
-        mainNav.classList.toggle('navScroll');
         this.state.navTop === false ? this.setState({navTop: true}) : this.setState({navTop: false});
     };
 

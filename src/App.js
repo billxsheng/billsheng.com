@@ -124,7 +124,7 @@ class App extends Component {
               <Layout modalOpen = {this.onModalOpen}>
                   {routes}
                   <Navigation modalOpen = {this.onModalOpen} ref={this.child} />
-                  <MobileNav/>
+                  <MobileNav modalOpen = {this.onModalOpen}/>
                   <Modal TransitionComponent={Transition} 
                   onBackdropClick = {this.closeModal} 
                   styleName="modal" 

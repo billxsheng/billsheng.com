@@ -4,24 +4,24 @@ import classes from './MobileNav.css'
 import CSSModules from 'react-css-modules';
 import Logo from '../../Logo/Logo';
 import {NavLink} from 'react-router-dom'; 
-import Icon from '../../Icon/Icon';
 
 class mobileNav extends Component {
 
     state = {
-        navTop: true
+        navOpen: false
     }
 
-    navChangeHandler = () => {
-        const mainNav = document.getElementById('mainNav');
-        mainNav.classList.toggle('navScroll');
-        this.state.navTop === false ? this.setState({navTop: true}) : this.setState({navTop: false});
-    };
+    navHandler = () => {
+        this.state.navOpen === false ? this.setState({navOpen: true}) : this.setState({navOpen: false});
+    }
+
+    closeNav = () => {
+        this.setState({navOpen: false});
+    }
 
     render() {
 
         let topStyle = {
-            padding: '10px',
             zIndex: '900',
             position: 'fixed',
             width: '100vw',
@@ -29,13 +29,12 @@ class mobileNav extends Component {
             top: 0,
             backgroundColor: 'white',
             color: 'white !important',
-            boxShadow: '0 0 40px #ccc',
-            transition: 'box-shadow 0.5s'
+            boxShadow: '0 0 20px #ccc',
+            transition: 'transform 0.2s',
         }
 
-        if(this.state.navTop === false) {
+        if(this.state.navOpen) {
             topStyle = {
-                padding: '10px',
                 zIndex: '900',
                 position: 'fixed',
                 width: '100vw',
@@ -43,16 +42,36 @@ class mobileNav extends Component {
                 top: 0,
                 backgroundColor: 'white',
                 color: 'white !important',
-                boxShadow: '0 0 40px #ccc',
-                transition: 'box-shadow 0.2s'
+                boxShadow: '0 0 20px #ccc',
+                transform: 'translateY(0)',
+                transition: 'transform 0.2s',
             }
         }        
 
 
         return (
-            <div style={topStyle} styleName = "mobileNav">
-                <NavLink to="/"styleName='logo' className="nav-link"><Logo height="50px" className="navbar-brand"/></NavLink>
-                <Icon iconType = "iconLarge"  iconName = ""></Icon>
+            <div style={topStyle} styleName = "mobileNav" id="mobileNav">
+                <div styleName="item-row" className="row">
+                    <NavLink to="/about" styleName="mobile-nav-item" className="col-sm-3"> 
+                        <p>About</p>
+                    </NavLink>
+                    <NavLink to="/projects" styleName="mobile-nav-item" className="col-sm-3"> 
+                        <p>Projects</p>
+                    </NavLink>
+                    <NavLink to="/gallery" styleName="mobile-nav-item" className="col-sm-3"> 
+                        <p>Gallery</p>
+                    </NavLink>
+                    <a onClick = {() => {
+                        this.props.modalOpen();
+                        this.closeNav();
+                    }} styleName="mobile-nav-item" className="col-sm-3"> 
+                        <p>Contact</p>
+                    </a>
+                </div>
+                <div>
+                    <NavLink to="/" styleName='logo' className="nav-link"><Logo height="70px" /></NavLink>
+                    <a onClick = {this.navHandler} ><i  styleName="menu" className = "icon ion-ios-menu"></i></a>
+                </div>
             </div>
         )
     }
