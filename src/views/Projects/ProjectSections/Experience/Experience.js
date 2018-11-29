@@ -1,15 +1,27 @@
 import React, { Component } from 'react';
-import styles from './Experience.css';
+import styles from '../ProjectSections.css';
 import CSSModules from 'react-css-modules';
 import ProjectTile from '../../ProjectTile/ProjectTile';
-import projectInfo from '../../../../assets/projectsInfo';
-import ProjectsInfo from '../../../../assets/projectsInfo';
+import projectsInfo from '../../../../assets/projectsInfo';
+import Icon from '../../../../components/Icon/Icon';
+import {NavLink} from 'react-router-dom';
 
+var projectsArray = projectsInfo.headings.order;
 
 class Experience extends Component {
+    state = {
+        leftArrow: true,
+        rightArrow: true
+    }
 
     componentDidMount() {
         window.scrollTo(0,0);
+        if(projectsArray.indexOf((projectsInfo.headings.experience.link).toLowerCase()) === 0) {
+            this.setState({leftArrow: false});
+        }
+        if(projectsArray.indexOf((projectsInfo.headings.experience.link).toLowerCase()) === projectsArray.length - 1) {
+            this.setState({rightArrow: false});
+        }
     }
     
 
@@ -17,20 +29,42 @@ class Experience extends Component {
         return(
             <div className="container">
                 <span styleName="curve" className="container">
-                    <div className="row">
-                        <h1>
-                            {ProjectsInfo.headings.experience.title}
-                        </h1>
+                    <div className="row" styleName="title-block">
+                        <div className="col-md-2">
+                            {this.state.leftArrow ? 
+                                <NavLink styleName="btn-prev" to={`/projects/${projectsArray[projectsArray.indexOf(projectsInfo.headings.experience.link.toLowerCase()) - 1]}`} >
+                                    <Icon iconType="iconSmall" iconName="fas fa-chevron-left"></Icon>
+                                </NavLink>: 
+                                <a className="btn-disabled" styleName="btn-disabled">
+                                    <Icon iconType="iconSmall" iconName="fas fa-chevron-left"></Icon>
+                                </a>
+                            }
+                        </div> 
+                        <div className="col-md-8" styleName="heading-div">
+                            <h1>
+                                {projectsInfo.headings.experience.title}
+                            </h1>
+                        </div>
+                        <div className="col-md-2">
+                            {this.state.rightArrow ? 
+                                <NavLink styleName="btn-next" to={`/projects/${projectsArray[projectsArray.indexOf(projectsInfo.headings.experience.link.toLowerCase()) + 1]}`} >
+                                    <Icon iconType="iconSmall" iconName="fas fa-chevron-right"></Icon>
+                                </NavLink> : 
+                                <a className="btn-disabled" styleName="btn-disabled">
+                                    <Icon iconType="iconSmall" iconName="fas fa-chevron-right"></Icon>
+                                </a>
+                            }
+                        </div>
                     </div>
                         <p>
-                            {ProjectsInfo.headings.experience.description}
+                            {projectsInfo.headings.experience.description}
                         </p>
                 </span>
                 <div className="row">
-                    <ProjectTile to="/projects/experience/opentext" singleTile = "true" imageHeight="400px" imageName="projects/pweb.png" tag={projectInfo.opentext.tag} title={projectInfo.opentext.name} shortDesc={projectInfo.opentext.description} />
+                    <ProjectTile to="/projects/experience/opentext" singleTile = "true" imageHeight="400px" imageName="projects/pweb.png" tag={projectsInfo.opentext.tag} title={projectsInfo.opentext.name} shortDesc={projectsInfo.opentext.description} />
                 </div>
                 <div className="row">
-                    <ProjectTile to="/projects/experience/canadian-tire" top="25px" imageHeight="400px" imageName="projects/ctc.png" tag={projectInfo.ctc.tag}title={projectInfo.ctc.name} shortDesc={projectInfo.ctc.description}/>
+                    <ProjectTile to="/projects/experience/canadian-tire" top="25px" imageHeight="400px" imageName="projects/ctc.png" tag={projectsInfo.ctc.tag}title={projectsInfo.ctc.name} shortDesc={projectsInfo.ctc.description}/>
                 </div>
             </div>
         )

@@ -7,23 +7,28 @@ const ProjectsInfo = {
         webMobile: {
             title: "Web & Mobile",
             description: "Web/Mobile Development.",
-            order: ['blitz', 'munkee', 'vcuts']
+            order: ['blitz', 'munkee', 'vcuts'],
+            link: 'web-mobile'
         },
         ds: {
             title: "Data Science",
+            link: 'data-science',
             description: "Projects coming soon.",
             order: []
         },
         experience: {
             title: "Experience",
             description: "Internships, Design Teams, Clubs",
-            order: ['opentext', 'canadian-tire']
+            order: ['opentext', 'canadian-tire'],
+            link: 'experience'
         },
         hackathons: {
             title: "Hackathons",
             description: "Projects built during hackathons.",
-            order: ['ryse', 'moodify']
-        }
+            order: ['ryse', 'moodify'],
+            link: 'hackathons'
+        },
+        order: ['web-mobile', 'data-science', 'experience', 'hackathons']
     },
     ryse: {
         name: 'Ryse',

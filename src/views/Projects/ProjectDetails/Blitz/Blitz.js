@@ -28,7 +28,7 @@ class Blitz extends Component {
         return (
             <div className="container" styleName="overlay">
                 <span className="container">
-                    <div className="row">
+                    <div className="row" styleName="title-block">
                         <div className="col-md-4">
                             {this.state.leftArrow ? 
                                 <NavLink styleName="btn-prev" to={`/projects/web-mobile/${projectsArray[projectsArray.indexOf(projectsInfo.blitz.name.toLowerCase()) - 1]}`} >

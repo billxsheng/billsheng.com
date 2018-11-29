@@ -92,11 +92,27 @@
     .overlay h1 {
         font-size: 55px;
     }
+
+    .title-block div {
+        width: 33.3%;
+    }
+
+    .btn-prev,
+    .btn-next,
+    .btn-disabled {
+        margin-top: 110px;
+    }
 }
 
 @media (max-width: 560px) {
     .overlay h1 {
         font-size: 40px;
+    }
+
+    .btn-prev,
+    .btn-next,
+    .btn-disabled {
+        display: none;
     }
 }
 

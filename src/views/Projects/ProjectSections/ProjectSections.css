@@ -1,0 +1,51 @@
+.curve {
+    width: 100%;
+}
+
+.btn-prev,
+.btn-next,
+.btn-disabled {
+    position: relative;
+    z-index: 500;
+    text-align: center;
+    background-color: #608aec;
+    padding: 5px 10px;
+    color: white!important;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    display: table;
+    margin: 135px auto 0 auto;
+}
+
+.btn-prev:hover,
+.btn-next:hover {
+    text-decoration: none;
+}
+
+.btn-disabled {
+    opacity: 0.5;
+}
+
+.btn-disabled:hover {
+    cursor: not-allowed;
+}
+
+.title-block {
+
+}
+
+@media (max-width: 1000px) {
+    .btn-prev,
+    .btn-next,
+    .btn-disabled {
+        display: none;
+    }
+
+    .heading-div {
+        flex: none !important;
+        max-width: 100%;
+    }
+}
+
+
