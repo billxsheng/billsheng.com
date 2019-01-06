@@ -32,7 +32,7 @@ class About extends Component {
                 <div styleName="content-div">
                     <div styleName="section-div-first" >
                         <div className="row">
-                            <Image  height="450px" path="about/other/secondary.jpeg" />
+                            <img styleName= "header-img" alt="header-img" src={require(`./../../assets/images/about/other/secondary.jpeg`)} ></img>
                         </div>
                         <div className="row">
                             <p2>

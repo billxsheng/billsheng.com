@@ -6,6 +6,13 @@
 }
 
 .content-div {
+    overflow: hidden;
+}
+
+.header-img {
+    margin: 0 auto;
+    height: 450px;
+    border-radius: 15px;
 }
 
 .carousel-row {
@@ -46,11 +53,21 @@
 
 
 @media (max-width: 767px) {
+    .header-img {
+        height: 300px;
+    }
     .team {
         width: 33.333% !important;
     }
     .img-row {
         width: 100%;
+    }
+}
+
+
+@media (max-width: 560px) {
+    .header-img {
+        height: 230px;
     }
 }
 
