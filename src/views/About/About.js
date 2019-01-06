@@ -31,9 +31,9 @@ class About extends Component {
 
                 <div styleName="content-div">
                     <div styleName="section-div-first" >
-                        {/* <div className="row">
-                            <Image  height="500px" path="about/team-picture.jpeg" />
-                        </div> */}
+                        <div className="row">
+                            <Image  height="450px" path="about/other/secondary.jpeg" />
+                        </div>
                         <div className="row">
                             <p2>
                                 {aboutInfo.general.description}
