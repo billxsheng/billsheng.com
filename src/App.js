@@ -40,7 +40,7 @@ function Transition(props) {
 const Modal = withStyles({
   paper: {
     borderRadius: '15px',
-    top: '-50px',
+    top: '-12%',
     overflowX: 'hidden',
     margin: '20px;'
   }
@@ -131,7 +131,7 @@ class App extends Component {
                   open={this.state.modalIsOpen}
                   >
                     <DialogContent>
-                      <a styleName="btn-close" onClick={this.closeModal} btnType="btnLarge">Close</a>
+                      <a styleName="btn-close" onClick={this.closeModal}>Close</a>
                     </DialogContent>
                   </Modal>
               <Footer />

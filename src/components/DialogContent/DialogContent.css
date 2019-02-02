@@ -1,5 +1,5 @@
 .modal {
-    height: 415px !important;
+    height: 400px !important;
     width: 600px;
 }
 
@@ -9,13 +9,17 @@
 
 .btn-close {
     bottom: 0;
+    margin-top: 15px;
+}
+
+.under-heading {
 }
 
 .contact-p {
     text-align: center;
     font-family: 'Cairo';
     font-size: 15px;
-    margin: 5px auto 50px auto;
+    margin: 5px auto 15px auto;
     font-weight: 400;
     max-width: 550px;
     line-height: 35px;
@@ -25,7 +29,7 @@
     .modal {
         width: 320px;
         overflow: hidden;
-        height: 430px !important;
+        height: 415px !important;
     }
 
     .contact-p {

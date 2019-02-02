@@ -13,12 +13,14 @@ class modal extends Component {
     return (
       <div styleName="modal">
         <h1>{contactInfo.title}</h1>
-        <MainButtonNav/>
-        <p styleName="contact-p" >
-          {contactInfo.search}
-        </p>
-        <div className="row" styleName="btn-close"> 
-          {this.props.children}
+          <div styleName="under-heading">
+            <p styleName="contact-p" >
+              {contactInfo.search}
+            </p>
+            <MainButtonNav/>
+            <div className="row" styleName="btn-close"> 
+              {this.props.children}
+            </div>
         </div>
       </div>
     )
