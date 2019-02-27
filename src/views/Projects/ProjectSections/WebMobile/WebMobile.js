@@ -61,6 +61,9 @@ class WebMobile extends Component {
                     </p>
             </span>
             <div className="row">
+                <ProjectTile to="/projects/web-mobile/huddle" singleTile="true" tag={projectsInfo.huddle.tag} title={projectsInfo.huddle.name} shortDesc={projectsInfo.huddle.description}/>
+            </div>
+            <div className="row">
                 <ProjectTile to="/projects/web-mobile/blitz" reverse="true" imageHeight="400px" imageName="projects/blitz.png" tag={projectsInfo.blitz.tag} title={projectsInfo.blitz.name} shortDesc={projectsInfo.blitz.description}/>
             </div>
             <div className="row">

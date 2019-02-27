@@ -7,7 +7,7 @@ const ProjectsInfo = {
         webMobile: {
             title: "Web & Mobile",
             description: "Web/Mobile Development",
-            order: ['blitz', 'munkee', 'vcuts'],
+            order: ['huddle', 'blitz', 'munkee', 'vcuts'],
             link: 'web-mobile'
         },
         ds: {
@@ -25,10 +25,10 @@ const ProjectsInfo = {
         hackathons: {
             title: "Hackathons",
             description: "Projects built during hackathons",
-            order: ['ryse', 'moodify'],
+            order: ['airdrums', 'ryse', 'moodify'],
             link: 'hackathons'
         },
-        order: ['web-mobile', 'data-science', 'experience', 'hackathons']
+        order: ['experience', 'web-mobile', 'data-science', 'hackathons']
     },
     ryse: {
         name: 'Ryse',
@@ -80,6 +80,20 @@ const ProjectsInfo = {
         technologies: '',
         tag: "Internship",
         about: "Coming Soon"    
+    },
+    huddle: {
+        name:'Huddle',
+        description: 'Comming Soon',
+        technologies: '',
+        tag: "Internship",
+        about: "Coming Soon" 
+    },
+    airdrums: {
+        name:'AirDrums',
+        description: 'Comming Soon',
+        technologies: '',
+        tag: "Hackathon",
+        about: "Coming Soon" 
     }
 }
 export default ProjectsInfo;

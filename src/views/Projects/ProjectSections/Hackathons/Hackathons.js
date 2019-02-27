@@ -60,6 +60,9 @@ class Hackathons extends Component {
                         </p>
                 </span>
                 <div className="row">
+                    <ProjectTile to="/projects/hackathons/airdrums" singleTile="true" tag={projectsInfo.airdrums.tag} title={projectsInfo.airdrums.name} shortDesc={projectsInfo.airdrums.description} />
+                </div>
+                <div className="row">
                     <ProjectTile to="/projects/hackathons/ryse" imageHeight="400px" imageName="projects/ryse.png" tag={projectsInfo.ryse.tag} title={projectsInfo.ryse.name} shortDesc={projectsInfo.ryse.description} />
                 </div>
                 <div className="row">

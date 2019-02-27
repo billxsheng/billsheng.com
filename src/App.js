@@ -32,6 +32,8 @@ import WebMobile from './views/Projects/ProjectSections/WebMobile/WebMobile';
 import OpenText from './views/Projects/ProjectDetails/OpenText/OpenText';
 import DialogContent from './components/DialogContent/DialogContent';
 import { withStyles } from '@material-ui/core';
+import Huddle from './views/Projects/ProjectDetails/Huddle/Huddle';
+import Airdrums from './views/Projects/ProjectDetails/Airdrums/Airdrums';
 
 function Transition(props) {
   return <Slide direction="down" timeout= "0"  {...props} />;
@@ -91,10 +93,12 @@ class App extends Component {
         <Route exact path="/gallery/graphql" component={GraphQL} />
         <Route exact path="/projects/experience/opentext" component={OpenText} />
         <Route exact path="/projects/web-mobile/blitz" component={Blitz} />
+        <Route exact path="/projects/web-mobile/huddle" component={Huddle} />
         <Route exact path="/projects/experience/canadian-tire" component={canadianTire} />
         <Route exact path="/projects/hackathons/moodify" component={Moodify} />
         <Route exact path="/projects/web-mobile/munkee" component={Munkee} />
         <Route exact path="/projects/hackathons/ryse" component={Ryse} />
+        <Route exact path="/projects/hackathons/airdrums" component={Airdrums} />
         <Route exact path="/projects/web-mobile/vcuts" component={VCuts} />
         <Route exact path="/projects/hackathons" component={Hackathons} />
         <Route exact path="/projects/experience" component={Experience} />
