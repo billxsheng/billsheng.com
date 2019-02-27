@@ -5,6 +5,8 @@ import ProjectTile from '../../ProjectTile/ProjectTile';
 import projectsInfo from '../../../../assets/projectsInfo';
 import Icon from '../../../../components/Icon/Icon';
 import {NavLink} from 'react-router-dom';
+import Button from '../../../../components/Button/Button';
+import links from '../../../../assets/links';
 
 var projectsArray = projectsInfo.headings.order;
 class Hackathons extends Component {
@@ -67,6 +69,9 @@ class Hackathons extends Component {
                 </div>
                 <div className="row">
                     <ProjectTile to="/projects/hackathons/moodify" reverse="true" imageHeight="400px" imageName="projects/moodify.png" tag={projectsInfo.moodify.tag} title={projectsInfo.moodify.name} shortDesc={projectsInfo.moodify.description}/>
+                </div>
+                <div className="row">
+                    <Button newPage="true" link={links.devpost} btnType="btnLarge" >View Devpost</Button>
                 </div>
             </div>
         )
