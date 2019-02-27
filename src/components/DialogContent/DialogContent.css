@@ -25,6 +25,10 @@
     line-height: 35px;
 }
 
+.hr {
+    width: 300px;
+}
+
 @media (max-width: 767px) {
     .modal {
         width: 320px;
@@ -34,6 +38,10 @@
 
     .contact-p {
         font-size: 13px;
+    }
+
+    .hr {
+        width: 150px;
     }
 } 
 

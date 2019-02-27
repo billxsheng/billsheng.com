@@ -17,6 +17,7 @@ class modal extends Component {
             <p styleName="contact-p" >
               {contactInfo.search}
             </p>
+            <hr styleName="hr"></hr>
             <MainButtonNav/>
             <div className="row" styleName="btn-close"> 
               {this.props.children}
