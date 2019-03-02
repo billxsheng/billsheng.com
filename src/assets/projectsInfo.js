@@ -76,16 +76,16 @@ const ProjectsInfo = {
     },
     opentext: {
         name: 'OpenText',
-        description: 'Coming Soon',
+        description: 'Software Engineering',
         technologies: '',
         tag: "Internship",
         about: "Coming Soon"    
     },
     huddle: {
         name:'Huddle',
-        description: 'Comming Soon',
+        description: 'Coming Soon',
         technologies: '',
-        tag: "Internship",
+        tag: "Project",
         about: "Coming Soon" 
     },
     airdrums: {
