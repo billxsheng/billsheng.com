@@ -1,23 +1,26 @@
-import React from 'react';
-import { withRouter } from 'react-router-dom';
+import React, {Component} from 'react';
+import CSSModules from 'react-css-modules';
+import styles from './Image.css';
 
-const Image = (props) => {
-    const imageStyle = {
-        'marginTop': props.marginTop,
-        'marginBottom': props.marginBottom,
-       'marginLeft': `auto`,
-       'marginRight': `auto`,
-       'width': 'auto',
-       'maxHeight': props.height,
-       'display': 'block',
-       'verticalAlign': 'middle',
-       'position': 'relative',
-       'borderRadius': '15px'
+class Image extends Component {
+    render() {
+        const imageStyle = {
+            'marginTop': this.props.marginTop,
+            'marginBottom': this.props.marginBottom,
+           'marginLeft': `auto`,
+           'marginRight': `auto`,
+           'width': 'auto',
+           'maxHeight': this.props.height,
+           'display': 'block',
+           'verticalAlign': 'middle',
+           'position': 'relative',
+           'borderRadius': '15px'
+        }
+
+        return (
+            <img className="img-fluid" alt="bill" style={imageStyle} src={require(`../../assets/images/${this.props.path}`)} />
+        )
     }
+} 
 
-    return (
-        <img className="img-fluid" alt="bill" style={imageStyle} src={require(`../../assets/images/${props.path}`)} />
-    )
-}
-
-export default withRouter(Image);
+export default CSSModules(Image, styles);

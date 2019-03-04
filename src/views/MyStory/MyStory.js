@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import styles from './About.css';
+import styles from './MyStory.css';
 import CSSModules from 'react-css-modules';
 import Image from '../../components/Image/Image';
 import Link from '../../components/Button/Link/Link';
@@ -10,7 +10,7 @@ import aboutInfo from '../../assets/aboutInfo';
 
 
 
-class About extends Component {
+class MyStory extends Component {
 
     componentDidMount() {
         window.scrollTo(0,0);
@@ -23,7 +23,7 @@ class About extends Component {
                     <span className="container">
                         <div className="row">
                             <h1>
-                                About
+                                My Story
                             </h1>
                         </div>
                     </span>
@@ -32,7 +32,7 @@ class About extends Component {
                 <div styleName="content-div">
                     <div styleName="section-div-first" >
                         <div className="row">
-                            <img styleName= "header-img" alt="header-img" src={require(`./../../assets/images/about/other/headshot.jpg`)} ></img>
+                            <img className="img-fluid" styleName= "header-img" alt="header-img" src={require(`./../../assets/images/about/other/headshot.jpg`)} ></img>
                         </div>
                         <div className="row">
                             <p2>
@@ -56,7 +56,7 @@ class About extends Component {
                             </p2>
                         </div>
                         <div className="row">
-                            <Image  height="25px" path="about/other/waterloo-engineering.png" />
+                            <Image height="25px" path="about/other/waterloo-engineering.png" />
                         </div>
                     </div>
                     
@@ -122,4 +122,4 @@ class About extends Component {
 };
 
 
-export default CSSModules(About, styles);
+export default CSSModules(MyStory, styles);

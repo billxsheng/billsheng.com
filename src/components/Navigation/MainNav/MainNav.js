@@ -50,7 +50,7 @@ class mainNav extends Component {
                 <span>
                     <ul className="nav justify-content-center">
                         <li styleName="nav-item-parent" className="nav-item" >
-                            <NavLink to="/about" styleName='btnNav' className="nav-link">ABOUT</NavLink>
+                            <NavLink to="/my-story" styleName='btnNav' className="nav-link">MY STORY</NavLink>
                         </li>
                         <li styleName="nav-item-parent" className="nav-item" >
                             <NavLink to="/projects" styleName='btnNav' className="nav-link">PROJECTS</NavLink>

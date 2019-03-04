@@ -35,9 +35,9 @@ const aboutPreview = (props) => {
     <div styleName='aboutPreview'>
             <div className="container">
                 <div styleName="abt-prev-el" className="row">
-                <h2>{homeInfo.about.title}</h2>
+                <h2>{homeInfo.myStory.title}</h2>
                 <span className="container">
-                    <p>{homeInfo.about.description}</p>            
+                    <p>{homeInfo.myStory.description}</p>            
                 </span>  
                 </div>
             </div>
@@ -48,7 +48,7 @@ const aboutPreview = (props) => {
         </OwlCarousel>
         <div className="container">
                 <div styleName="abt-prev-el" className="row">
-                    <Link margin="25px" link="/about">About Me</Link>
+                    <Link margin="25px" link="/my-story">My Story</Link>
                 </div>
             </div>
     </div>

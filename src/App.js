@@ -6,7 +6,7 @@ import Slide from '@material-ui/core/Slide';
 
 import Layout from './hoc/Layout/Layout';
 import Home from './views/Home/Home';
-import About from './views/About/About';
+import MyStory from './views/MyStory/MyStory';
 import ProjectSelect from './views/Projects/ProjectSelect';
 import Gallery from './views/Gallery/Gallery';
 import Navigation from './components/Navigation/MainNav/MainNav';
@@ -105,7 +105,7 @@ class App extends Component {
         <Route exact path="/projects/data-science" component={DataScience} />
         <Route exact path="/projects/web-mobile" component={WebMobile} />
         <Route exact path="/projects" component={ProjectSelect} />
-        <Route exact path="/about" component={About} />
+        <Route exact path="/my-story" component={MyStory} />
         <Route exact path="/gallery" component={Gallery} />
         <Route exact path="/" component={Home} />
         <Redirect exact to="/" />
@@ -134,6 +134,7 @@ class App extends Component {
                   styleName="modal" 
                   open={this.state.modalIsOpen}
                   >
+                  
                     <DialogContent>
                       <a styleName="btn-close" onClick={this.closeModal}>Close</a>
                     </DialogContent>

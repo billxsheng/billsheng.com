@@ -52,9 +52,9 @@ class mobileNav extends Component {
         return (
             <div style={topStyle} styleName = "mobileNav" id="mobileNav">
                 <div styleName="item-row" className="row">
-                    <NavLink to="/about" styleName="mobile-nav-item" className="col-sm-3"> 
+                    <NavLink to="/my-story" styleName="mobile-nav-item" className="col-sm-3"> 
                         <i className="icon ion-md-person"></i>
-                        <p>About</p>
+                        <p>My Story</p>
                     </NavLink>
                     <NavLink to="/projects" styleName="mobile-nav-item" className="col-sm-3"> 
                         <i className="icon ion-ios-rocket"></i>
