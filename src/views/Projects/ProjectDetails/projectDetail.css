@@ -85,7 +85,9 @@
 
 
 @media (max-width: 1000px) {
-
+    .overlay h1 {
+        font-size: 65px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -100,19 +102,13 @@
     .btn-prev,
     .btn-next,
     .btn-disabled {
-        margin-top: 110px;
+        display: none;
     }
 }
 
 @media (max-width: 560px) {
     .overlay h1 {
         font-size: 40px;
-    }
-
-    .btn-prev,
-    .btn-next,
-    .btn-disabled {
-        display: none;
     }
 }
 

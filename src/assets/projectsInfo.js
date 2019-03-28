@@ -19,7 +19,7 @@ const ProjectsInfo = {
         experience: {
             title: "Experience",
             description: "Internships, Design Teams, Clubs",
-            order: ['opentext', 'canadian-tire'],
+            order: ['opentext', 'freelance', 'canadian-tire'],
             link: 'experience'
         },
         hackathons: {
@@ -80,6 +80,13 @@ const ProjectsInfo = {
         technologies: '',
         tag: "Internship",
         about: "Coming Soon"    
+    },
+    freelance: {
+        name: 'Freelance',
+        description: 'Personal Brand',
+        technologies: '',
+        tag: 'Freelance',
+        about: 'Coming soon'
     },
     huddle: {
         name:'Huddle',

@@ -30,7 +30,7 @@ class Munkee extends Component {
             <div className="container" styleName="overlay">
                 <span className="container">
                     <div className="row">
-                        <div className="col-md-4">
+                        <div className="col-md-2">
                             {this.state.leftArrow ? 
                                 <NavLink styleName="btn-prev" to={`/projects/web-mobile/${projectsArray[projectsArray.indexOf(projectsInfo.munkee.name.toLowerCase()) - 1]}`} >
                                     <Icon iconType="iconSmall" iconName="fas fa-chevron-left"></Icon>
@@ -40,12 +40,12 @@ class Munkee extends Component {
                                 </a>
                             }
                         </div> 
-                        <div className="col-md-4">
+                        <div className="col-md-8">
                             <h1>
                                 {projectsInfo.munkee.name}
                             </h1>
                         </div>
-                        <div className="col-md-4">
+                        <div className="col-md-2">
                             {this.state.rightArrow ? 
                                 <NavLink styleName="btn-next" to={`/projects/web-mobile/${projectsArray[projectsArray.indexOf(projectsInfo.munkee.name.toLowerCase()) + 1]}`} >
                                     <Icon iconType="iconSmall" iconName="fas fa-chevron-right"></Icon>

@@ -28,7 +28,7 @@ class Airdrums extends Component {
             <div className="container" styleName="overlay">
                 <span className="container">
                     <div className="row">
-                        <div className="col-md-4">
+                        <div className="col-md-2">
                             {this.state.leftArrow ? 
                                 <NavLink styleName="btn-prev" to={`/projects/hackathons/${projectsArray[projectsArray.indexOf(projectsInfo.airdrums.name.toLowerCase()) - 1]}`} >
                                     <Icon iconType="iconSmall" iconName="fas fa-chevron-left"></Icon>
@@ -38,12 +38,12 @@ class Airdrums extends Component {
                                 </a>
                             }
                         </div> 
-                        <div className="col-md-4">
+                        <div className="col-md-8">
                             <h1>
                                 {projectsInfo.airdrums.name}
                             </h1>
                         </div>
-                        <div className="col-md-4">
+                        <div className="col-md-2">
                             {this.state.rightArrow ? 
                                 <NavLink styleName="btn-next" to={`/projects/hackathons/${projectsArray[projectsArray.indexOf(projectsInfo.airdrums.name.toLowerCase()) + 1]}`} >
                                     <Icon iconType="iconSmall" iconName="fas fa-chevron-right"></Icon>

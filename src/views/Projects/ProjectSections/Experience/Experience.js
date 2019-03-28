@@ -64,6 +64,9 @@ class Experience extends Component {
                     <ProjectTile to="/projects/experience/opentext" singleTile = "true" imageHeight="400px" imageName="projects/pweb.png" tag={projectsInfo.opentext.tag} title={projectsInfo.opentext.name} shortDesc={projectsInfo.opentext.description} />
                 </div>
                 <div className="row">
+                    <ProjectTile to="/projects/experience/freelance" singleTile = "true" tag={projectsInfo.freelance.tag} title={projectsInfo.freelance.name} shortDesc={projectsInfo.freelance.description} />
+                </div>
+                <div className="row">
                     <ProjectTile to="/projects/experience/canadian-tire" top="25px" imageHeight="400px" imageName="projects/ctc.png" tag={projectsInfo.ctc.tag}title={projectsInfo.ctc.name} shortDesc={projectsInfo.ctc.description}/>
                 </div>
             </div>

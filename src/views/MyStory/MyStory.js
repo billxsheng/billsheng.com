@@ -82,14 +82,7 @@ class MyStory extends Component {
                             <p2>
                                 {aboutInfo.hobbies.description}
                             </p2>                       
-                        </div>
-                        <div styleName="carousel">
-                            <SlideCarousel>
-                                <CarouselItem showcase="true" type = "sports" title="Sports & Fitness"  />
-                                <CarouselItem showcase="true" type = "guitar"  title= "Guitar"  />
-                                <CarouselItem showcase="true"  type = "bbq"  title="Barbecue"  />
-                            </SlideCarousel>
-                        </div>
+                        </div> 
                     </div>
 
 
