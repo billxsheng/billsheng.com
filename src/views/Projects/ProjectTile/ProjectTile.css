@@ -99,8 +99,6 @@
     }
 }
 
-
-
 @media (max-width: 767px) {
     .project-tile-mobile {
         height: 470px !important;
