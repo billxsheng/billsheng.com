@@ -4,8 +4,6 @@ import CSSModules from 'react-css-modules';
 import Image from '../../components/Image/Image';
 import Link from '../../components/Button/Link/Link';
 import Button from '../../components/Button/Button';
-import CarouselItem from '../../components/Carousel/SlideCarousel/CarouselItem/CarouselItem';
-import SlideCarousel from '../../components/Carousel/SlideCarousel/SlideCarousel';
 import aboutInfo from '../../assets/aboutInfo';
 
 
