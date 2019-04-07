@@ -54,6 +54,9 @@ class Opentext extends Component {
                             }
                         </div> 
                     </div>
+                    <p styleName="description-p">
+                        {projectsInfo.opentext.description}
+                    </p>
                     {/* <div className="row" styleName="tag" >
                         <p>{projectsInfo.opentext.tag}</p>
                     </div> */}

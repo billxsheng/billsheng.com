@@ -24,9 +24,8 @@ class Experience extends Component {
         }
     }
     
-
     render() {
-        return(
+        return ( 
             <div className="container">
                 <span styleName="curve" className="container">
                     <div className="row" styleName="title-block">

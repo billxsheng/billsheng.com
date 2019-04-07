@@ -76,28 +76,28 @@ const ProjectsInfo = {
     },
     opentext: {
         name: 'OpenText',
-        description: 'Software Engineering',
+        description: 'EIM Engineering',
         technologies: '',
         tag: "Internship",
         about: "Coming Soon"    
     },
     freelance: {
         name: 'Freelance',
-        description: 'Personal Brand',
+        description: 'My personal brand',
         technologies: '',
         tag: 'Freelance',
         about: 'Coming soon'
     },
     huddle: {
         name:'Huddle',
-        description: 'Coming Soon',
+        description: 'Sports Social Media',
         technologies: '',
         tag: "Project",
         about: "Coming Soon" 
     },
     airdrums: {
         name:'AirDrums',
-        description: 'Coming Soon',
+        description: 'A new way to make music',
         technologies: '',
         tag: "Hackathon",
         about: "Coming Soon" 
