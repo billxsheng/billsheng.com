@@ -1,3 +1,48 @@
+@font-face {
+  font-family: campton-bold;
+  src: url('./assets/fonts/Campton-Bold.otf');
+}
+
+@font-face {
+  font-family: campton-black;
+  src: url('./assets/fonts/Campton-Black.otf');
+}
+
+@font-face {
+  font-family: campton-book;
+  src: url('./assets/fonts/Campton-Book.otf');
+}
+
+@font-face {
+  font-family: campton-extra-bold;
+  src: url('./assets/fonts/Campton-ExtraBold.otf');
+}
+
+@font-face {
+  font-family: campton-medium;
+  src: url('./assets/fonts/Campton-Medium.otf');
+}
+
+@font-face {
+  font-family: campton-extra-light;
+  src: url('./assets/fonts/Campton_ExtraLight.otf');
+}
+
+@font-face {
+  font-family: campton-thin;
+  src: url('./assets/fonts/Campton-Thin.otf');
+}
+
+@font-face {
+  font-family: campton-light;
+  src: url('./assets/fonts/Campton-Light.otf');
+}
+
+@font-face {
+  font-family: campton-semi-bold;
+  src: url('./assets/fonts/Campton_SemiBold.otf');
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -67,10 +112,6 @@ p2 {
   padding: 0 20px;
 }
 
-li {
-}
-
-
 a {
   cursor: pointer;
 }
@@ -86,7 +127,7 @@ button {
 
 @media (max-width: 1000px) {
   h1 {
-    font-size: 80px;
+    font-size: 65px;
   }
 
   p {

@@ -59,6 +59,18 @@
     background-size: cover;
 }
 
+.upper-wrapper-ds {
+    position: absolute;
+    width: inherit;
+    height: 280px;
+    top: 0;    
+    left: 0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: linear-gradient(to right, rgb(0,0,0, 0.4), rgb(0,0,0,0), rgb(0,0,0, 0.4)), url('../../../../assets/images/projects/select-ds.jpg');
+    background-size: cover;
+}
+
 .upper-wrapper-wm {
     position: absolute;
     width: inherit;
@@ -70,6 +82,8 @@
     background: linear-gradient(to right, rgb(0,0,0, 0.4), rgb(0,0,0,0), rgb(0,0,0, 0.4)), url('../../../../assets/images/projects/select-wm.png');
     background-size: cover;
 }
+
+
 
 .upper-wrapper-snl {
     position: absolute;
@@ -107,7 +121,7 @@
     background-size: cover;
 }
 
-.upper-wrapper-showcase-sports {
+/* .upper-wrapper-showcase-sports {
     position: absolute;
     width: inherit;
     height: 320px;
@@ -117,8 +131,8 @@
     border-top-right-radius: 15px;
     background: linear-gradient(to right, rgb(0,0,0, 0.4), rgb(0,0,0,0), rgb(0,0,0, 0.4)), url('../../../../assets/images/personal/team-picture.jpeg');
     background-size: cover;
-}
-
+} */
+/* 
 .upper-wrapper-showcase-bbq {
     position: absolute;
     width: inherit;
@@ -129,8 +143,8 @@
     border-top-right-radius: 15px;
     background: linear-gradient(to right, rgb(0,0,0, 0.4), rgb(0,0,0,0), rgb(0,0,0, 0.4)), url('../../../../assets/images/about/hobbies/barbecue.jpg');
     background-size: cover;
-}
-
+} */
+/* 
 .upper-wrapper-showcase-guitar {
     position: absolute;
     width: inherit;
@@ -141,7 +155,7 @@
     border-top-right-radius: 15px;
     background: linear-gradient(to right, rgb(0,0,0, 0.4), rgb(0,0,0,0), rgb(0,0,0, 0.4)), url('../../../../assets/images/about/hobbies/guitar.jpg');
     background-size: cover;
-}
+} */
 
 .lower-wrapper,
 .lower-wrapper-showcase {

@@ -23,6 +23,7 @@ class projectsPreview extends Component {
                 <SlideCarousel>
                     <CarouselItem title={projectsInfo.headings.experience.title} description={projectsInfo.headings.experience.description} type="exp" to="/projects/experience"/>
                     <CarouselItem title={projectsInfo.headings.webMobile.title} description={projectsInfo.headings.webMobile.description} type="wm" to="/projects/web-mobile"/>
+                    <CarouselItem title={projectsInfo.headings.ds.title} description={projectsInfo.headings.ds.description} type="ds" to="/projects/data-science"/>
                     <CarouselItem title={projectsInfo.headings.hackathons.title} description={projectsInfo.headings.hackathons.description} type="hack" to="/projects/hackathons"/>
                 </SlideCarousel>
             </div>

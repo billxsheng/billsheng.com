@@ -19,7 +19,7 @@ const ProjectsInfo = {
         experience: {
             title: "Experience",
             description: "Internships, Design Teams, Clubs",
-            order: ['opentext', 'canadian-tire'],
+            order: ['opentext', 'freelance', 'canadian-tire'],
             link: 'experience'
         },
         hackathons: {
@@ -81,6 +81,13 @@ const ProjectsInfo = {
         tag: "Internship",
         about: "Coming Soon"    
     },
+    freelance: {
+        name: 'Freelance',
+        description: 'Personal Brand',
+        technologies: '',
+        tag: 'Freelance',
+        about: 'Coming soon'
+    },
     huddle: {
         name:'Huddle',
         description: 'Coming Soon',
@@ -90,7 +97,7 @@ const ProjectsInfo = {
     },
     airdrums: {
         name:'AirDrums',
-        description: 'Comming Soon',
+        description: 'Coming Soon',
         technologies: '',
         tag: "Hackathon",
         about: "Coming Soon" 

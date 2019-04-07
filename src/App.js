@@ -34,6 +34,7 @@ import DialogContent from './components/DialogContent/DialogContent';
 import { withStyles } from '@material-ui/core';
 import Huddle from './views/Projects/ProjectDetails/Huddle/Huddle';
 import Airdrums from './views/Projects/ProjectDetails/Airdrums/Airdrums';
+import Freelance from './views/Projects/ProjectDetails/Freelance/Freelance';
 
 function Transition(props) {
   return <Slide direction="down" timeout= "0"  {...props} />;
@@ -91,19 +92,20 @@ class App extends Component {
         <Route exact path="/gallery/saturday-night-lights" component={SNL} />
         <Route exact path="/gallery/waterloo-engineering" component={WaterlooEngineering} />
         <Route exact path="/gallery/graphql" component={GraphQL} />
-        <Route exact path="/projects/experience/opentext" component={OpenText} />
-        <Route exact path="/projects/web-mobile/blitz" component={Blitz} />
-        <Route exact path="/projects/web-mobile/huddle" component={Huddle} />
-        <Route exact path="/projects/experience/canadian-tire" component={canadianTire} />
         <Route exact path="/projects/hackathons/moodify" component={Moodify} />
-        <Route exact path="/projects/web-mobile/munkee" component={Munkee} />
         <Route exact path="/projects/hackathons/ryse" component={Ryse} />
         <Route exact path="/projects/hackathons/airdrums" component={Airdrums} />
-        <Route exact path="/projects/web-mobile/vcuts" component={VCuts} />
         <Route exact path="/projects/hackathons" component={Hackathons} />
         <Route exact path="/projects/experience" component={Experience} />
-        <Route exact path="/projects/data-science" component={DataScience} />
+        <Route exact path="/projects/experience/freelance" component={Freelance} />
+        <Route exact path="/projects/experience/canadian-tire" component={canadianTire} />
+        <Route exact path="/projects/experience/opentext" component={OpenText} />
         <Route exact path="/projects/web-mobile" component={WebMobile} />
+        <Route exact path="/projects/web-mobile/vcuts" component={VCuts} />
+        <Route exact path="/projects/web-mobile/munkee" component={Munkee} />
+        <Route exact path="/projects/web-mobile/blitz" component={Blitz} />
+        <Route exact path="/projects/web-mobile/huddle" component={Huddle} />
+        <Route exact path="/projects/data-science" component={DataScience} />
         <Route exact path="/projects" component={ProjectSelect} />
         <Route exact path="/my-story" component={MyStory} />
         <Route exact path="/gallery" component={Gallery} />

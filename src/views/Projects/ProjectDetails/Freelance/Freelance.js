@@ -1,14 +1,13 @@
 import React, {Component} from 'react';
 import projectsInfo from '../../../../assets/projectsInfo';
-import CSSModules from 'react-css-modules';
 import styles from '../projectDetail.css';
-import Button from '../../../../components/Button/Button'
+import CSSModules from 'react-css-modules';
 import Icon from '../../../../components/Icon/Icon';
 import {NavLink} from 'react-router-dom';
 
-var projectsArray = projectsInfo.headings.webMobile.order;
+var projectsArray = projectsInfo.headings.experience.order;
 
-class VCuts extends Component {
+class freelance extends Component {
     state = {
         leftArrow: true,
         rightArrow: true
@@ -16,23 +15,22 @@ class VCuts extends Component {
 
     componentDidMount() {
         window.scrollTo(0,0);
-        window.scrollTo(0,0);
-        if(projectsArray.indexOf((projectsInfo.vcuts.name).toLowerCase()) === 0) {
+        if(projectsArray.indexOf((projectsInfo.freelance.name).toLowerCase()) === 0) {
             this.setState({leftArrow: false});
         }
-        if(projectsArray.indexOf((projectsInfo.vcuts.name).toLowerCase()) === projectsArray.length - 1) {
+        if(projectsArray.indexOf((projectsInfo.freelance.name).toLowerCase()) === projectsArray.length - 1) {
             this.setState({rightArrow: false});
         }
     }
-
+    
     render() {
         return (
-            <div className="container" styleName="overlay">
+            <div className="container"  styleName="overlay">
                 <span className="container">
-                <div className="row">
+                    <div className="row">
                         <div className="col-md-2">
                             {this.state.leftArrow ? 
-                                <NavLink styleName="btn-prev" to={`/projects/web-mobile/${projectsArray[projectsArray.indexOf(projectsInfo.vcuts.name.toLowerCase()) - 1]}`} >
+                                <NavLink styleName="btn-prev" to={`/projects/experience/${projectsArray[projectsArray.indexOf(projectsInfo.freelance.name.toLowerCase()) - 1]}`} >
                                     <Icon iconType="iconSmall" iconName="fas fa-chevron-left"></Icon>
                                 </NavLink> : 
                                 <a className="btn-disabled" styleName="btn-disabled">
@@ -42,12 +40,12 @@ class VCuts extends Component {
                         </div> 
                         <div className="col-md-8">
                             <h1>
-                                {projectsInfo.vcuts.name}
+                                {projectsInfo.freelance.name}
                             </h1>
                         </div>
                         <div className="col-md-2">
                             {this.state.rightArrow ? 
-                                <NavLink styleName="btn-next" to={`/projects/web-mobile/${projectsArray[projectsArray.indexOf(projectsInfo.vcuts.name.toLowerCase()) + 1]}`} >
+                                <NavLink styleName="btn-next" to={`/projects/experience/${projectsArray[projectsArray.indexOf(projectsInfo.freelance.name.toLowerCase()) + 1]}`} >
                                     <Icon iconType="iconSmall" iconName="fas fa-chevron-right"></Icon>
                                 </NavLink> : 
                                 <a className="btn-disabled" styleName="btn-disabled">
@@ -57,22 +55,18 @@ class VCuts extends Component {
                         </div> 
                     </div>
                     <p styleName="description-p">
-                    {projectsInfo.vcuts.description}
+                        {projectsInfo.freelance.description}
                     </p>
                     {/* <div className="row" styleName="tag" >
-                        <p>{projectsInfo.vcuts.tag}</p>
+                        <p>{projectsInfo.ctc.tag}</p>
                     </div> */}
                 </span>
                 <span className="container">
                     <h3>Summary</h3>
-                    <p>{projectsInfo.vcuts.about}</p>
+                    <p>{projectsInfo.freelance.about}</p>
                 </span>
-                <div styleName="button-row" className="row">
-                    <Button link="http://github.com/billxsheng/freelance-vcuts" newPage = 'true' btnType="btnLarge" >View on Github</Button>
-                </div>
             </div>
         )
     }
 } 
-
-export default CSSModules(VCuts, styles);
+export default CSSModules(freelance, styles);
