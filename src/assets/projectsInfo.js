@@ -97,7 +97,7 @@ const ProjectsInfo = {
     },
     airdrums: {
         name:'AirDrums',
-        description: 'Comming Soon',
+        description: 'Coming Soon',
         technologies: '',
         tag: "Hackathon",
         about: "Coming Soon" 
