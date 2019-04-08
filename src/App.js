@@ -41,12 +41,22 @@ function Transition(props) {
   return <Slide direction="down" timeout= "0"  {...props} />;
 }
 
-const Modal = withStyles({
+const ContactModal = withStyles({
   paper: {
     borderRadius: '15px',
     top: '-12%',
     overflowX: 'hidden',
-    margin: '20px;'
+    margin: '20px;',
+  }
+})(Dialog);
+
+const ProjectModal = withStyles({
+  paper: {
+    borderRadius: '15px',
+    top: '-15%',
+    overflowX: 'hidden',
+    margin: '20px;',
+    maxWidth: '100vw;'
   }
 })(Dialog);
 
@@ -146,24 +156,24 @@ class App extends Component {
                   {routes}
                   <Navigation modalOpen = {this.onContactModalOpen} ref={this.child} />
                   <MobileNav modalOpen = {this.onContactModalOpen}/>
-                  <Modal TransitionComponent={Transition} 
+                  <ContactModal TransitionComponent={Transition} 
                   onBackdropClick = {this.closeContactModal} 
-                  styleName="modal" 
+                  styleName="modal-contact" 
                   open={this.state.contactModalIsOpen}
                   >
                     <DialogContent>
-                      <a styleName="btn-close" onClick={this.closeContactModal}>Close</a>
+                      <a styleName="btn-close-contact" onClick={this.closeContactModal}>Close</a>
                     </DialogContent>
-                  </Modal>
-                  <Modal TransitionComponent={Transition} 
+                  </ContactModal>
+                  <ProjectModal TransitionComponent={Transition} 
                   onBackdropClick = {this.closeProjectModal} 
-                  styleName="modal" 
+                  styleName="modal-project" 
                   open={this.state.projectModalIsOpen}
                   >
                     <ProjectDialogContent project = {this.state.projectSelected}>
-                      <a styleName="btn-close" onClick={this.closeContactModal}>Close</a>
+                      <a styleName="btn-close-project" onClick={this.closeContactModal}>Close</a>
                     </ProjectDialogContent>
-                  </Modal>
+                  </ProjectModal>
               <Footer />
               </Layout>
             </div>
