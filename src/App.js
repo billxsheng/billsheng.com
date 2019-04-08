@@ -35,6 +35,7 @@ import { withStyles } from '@material-ui/core';
 import Huddle from './views/Projects/ProjectDetails/Huddle/Huddle';
 import Airdrums from './views/Projects/ProjectDetails/Airdrums/Airdrums';
 import Freelance from './views/Projects/ProjectDetails/Freelance/Freelance';
+import ProjectDialogContent from './components/ProjectDialogContent/ProjectDialogContent';
 
 function Transition(props) {
   return <Slide direction="down" timeout= "0"  {...props} />;
@@ -53,21 +54,17 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.child = React.createRef();
-    this.onModalOpen = this.onModalOpen.bind(this);
-    this.closeModal = this.closeModal.bind(this);
+    this.onContactModalOpen = this.onContactModalOpen.bind(this);
+    this.closeContactModal = this.closeContactModal.bind(this);
+    this.onProjectSelected = this.onProjectSelected.bind(this);
+    this.closeProjectModal = this.closeProjectModal.bind(this);
   }
 
   state = {
     isLoading: false,
-    modalIsOpen: false
-  }
-
-  onModalOpen() {
-    this.setState({modalIsOpen: true})
-  }
-
-  closeModal() {
-    this.setState({modalIsOpen: false});
+    contactModalIsOpen: false,
+    projectModalIsOpen: false,
+    projectSelected: ""
   }
 
   componentDidMount = () => {
@@ -75,6 +72,24 @@ class App extends Component {
     setTimeout(() => {
       this.setState({isLoading: false})
     }, 600);
+  }
+
+  onContactModalOpen() {
+    this.setState({contactModalIsOpen: true})
+  }
+
+  closeContactModal() {
+    this.setState({contactModalIsOpen: false});
+  }
+
+  onProjectSelected(project) {
+    console.log(project);
+    this.setState({projectModalIsOpen: true})
+    this.setState({projectSelected: project})
+  }
+
+  closeProjectModal() {
+    this.setState({projectModalIsOpen: false});
   }
 
   onWaypoint = () => {
@@ -92,20 +107,20 @@ class App extends Component {
         <Route exact path="/gallery/saturday-night-lights" component={SNL} />
         <Route exact path="/gallery/waterloo-engineering" component={WaterlooEngineering} />
         <Route exact path="/gallery/graphql" component={GraphQL} />
+        <Route exact path="/projects/hackathons" render={() => <Hackathons openProject = {this.onProjectSelected}/>} />
         <Route exact path="/projects/hackathons/moodify" component={Moodify} />
         <Route exact path="/projects/hackathons/ryse" component={Ryse} />
         <Route exact path="/projects/hackathons/airdrums" component={Airdrums} />
-        <Route exact path="/projects/hackathons" component={Hackathons} />
-        <Route exact path="/projects/experience" component={Experience} />
+        <Route exact path="/projects/experience" render={() => <Experience openProject = {this.onProjectSelected}/>} />
         <Route exact path="/projects/experience/freelance" component={Freelance} />
         <Route exact path="/projects/experience/canadian-tire" component={canadianTire} />
         <Route exact path="/projects/experience/opentext" component={OpenText} />
-        <Route exact path="/projects/web-mobile" component={WebMobile} />
+        <Route exact path="/projects/web-mobile" render={() => <WebMobile openProject = {this.onProjectSelected}/>} />
         <Route exact path="/projects/web-mobile/vcuts" component={VCuts} />
         <Route exact path="/projects/web-mobile/munkee" component={Munkee} />
         <Route exact path="/projects/web-mobile/blitz" component={Blitz} />
         <Route exact path="/projects/web-mobile/huddle" component={Huddle} />
-        <Route exact path="/projects/data-science" component={DataScience} />
+        <Route exact path="/projects/data-science" render={() => <DataScience openProject = {this.onProjectSelected}/>} />
         <Route exact path="/projects" component={ProjectSelect} />
         <Route exact path="/my-story" component={MyStory} />
         <Route exact path="/gallery" component={Gallery} />
@@ -127,19 +142,27 @@ class App extends Component {
                   this.onWaypoint();
                   }}
               />
-              <Layout modalOpen = {this.onModalOpen}>
+              <Layout modalOpen = {this.onContactModalOpen}>
                   {routes}
-                  <Navigation modalOpen = {this.onModalOpen} ref={this.child} />
-                  <MobileNav modalOpen = {this.onModalOpen}/>
+                  <Navigation modalOpen = {this.onContactModalOpen} ref={this.child} />
+                  <MobileNav modalOpen = {this.onContactModalOpen}/>
                   <Modal TransitionComponent={Transition} 
-                  onBackdropClick = {this.closeModal} 
+                  onBackdropClick = {this.closeContactModal} 
                   styleName="modal" 
-                  open={this.state.modalIsOpen}
+                  open={this.state.contactModalIsOpen}
                   >
-                  
                     <DialogContent>
-                      <a styleName="btn-close" onClick={this.closeModal}>Close</a>
+                      <a styleName="btn-close" onClick={this.closeContactModal}>Close</a>
                     </DialogContent>
+                  </Modal>
+                  <Modal TransitionComponent={Transition} 
+                  onBackdropClick = {this.closeProjectModal} 
+                  styleName="modal" 
+                  open={this.state.projectModalIsOpen}
+                  >
+                    <ProjectDialogContent project = {this.state.projectSelected}>
+                      <a styleName="btn-close" onClick={this.closeContactModal}>Close</a>
+                    </ProjectDialogContent>
                   </Modal>
               <Footer />
               </Layout>
