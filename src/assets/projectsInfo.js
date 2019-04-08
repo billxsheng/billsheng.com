@@ -35,8 +35,8 @@ const ProjectsInfo = {
         description: 'Networking application for ex-criminals',
         technologies: 'JavaScript (Node.js, Express.js), MongoDB, HTML, CSS, Bootstrap',
         about: "Coming Soon",       
-        tag: "Hackathon"
-
+        tag: "Hackathon",
+        content: "" 
     },
     ctc: {
         name: 'Canadian Tire',
@@ -44,63 +44,72 @@ const ProjectsInfo = {
         description: 'Improving IT productivity',
         technologies: 'PowerShell, VMWare, Jira, Confluence',
         tag: "Internship",
-        about: "Coming Soon"    
+        about: "Coming Soon",
+        content: ""     
     },
     blitz: {
         name: 'Blitz',
         description: 'Redefining sports notifications',
         technologies: 'JavaScript (Node.js, Express.js), MongoDB, HTML, CSS, Bootstrap',
         tag: "Side Project",
-        about: "Coming Soon"    
+        about: "Coming Soon",
+        content: ""     
     },
     munkee: {
         name: 'Munkee',
         description: 'Online multiplayer game',
         technologies: 'JavaScript (Node.js, Express.js, Socket.IO), MongoDB, HTML, CSS, Bootstrap',
         tag: "Side Project",
-        about: "Coming Soon"    
+        about: "Coming Soon",
+        content: ""     
     },
     moodify: {
         name: 'Moodify',
         description: 'Adding AI to the job search',
         technologies: 'Swift, Xcode, Objective-C, IBM Watson API',
         tag: "Hackathon",
-        about: "Coming Soon"
+        about: "Coming Soon",
+        content: "" 
     },
     vcuts: {
         name: 'VCuts',
         description: 'Freelance barber website',
         technologies: 'JavaScript (Angular 2+, Node.js, jQuery), TypeScript, HTML, CSS, MongoDB, Amazon Web Services (AWS)',
         tag: "Freelance Project",
-        about: "Coming Soon"
+        about: "Coming Soon",
+        content: "" 
     },
     opentext: {
         name: 'OpenText',
         description: 'Software Engineering',
         technologies: '',
         tag: "Internship",
-        about: "Coming Soon"    
+        about: "Coming Soon",
+        content: ""     
     },
     freelance: {
         name: 'Freelance',
         description: 'Personal Brand',
         technologies: '',
         tag: 'Freelance',
-        about: 'Coming soon'
+        about: 'Coming soon',
+        content: "" 
     },
     huddle: {
         name:'Huddle',
         description: 'Coming Soon',
         technologies: '',
         tag: "Project",
-        about: "Coming Soon" 
+        about: "Coming Soon",
+        content: ""  
     },
     airdrums: {
         name:'AirDrums',
         description: 'Coming Soon',
         technologies: '',
         tag: "Hackathon",
-        about: "Coming Soon" 
+        about: "Coming Soon",
+        content: "" 
     }
 }
 export default ProjectsInfo;

@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import CSSModules from 'react-css-modules';
 import styles from './ProjectDialogContent.css';
+import Aux from '../../hoc/HO-Aux/HO-aux';
+
 
 class ProjectModal extends Component {
   state = {
@@ -8,10 +10,13 @@ class ProjectModal extends Component {
   }
 
   render() {
+    let project = this.props.project;
     return (
-      <div styleName="modal">
-        <h1>{this.props.project}</h1>
-      </div>
+      <Aux>
+        <div styleName="modal">
+          <h1>{project.name}</h1>
+        </div>
+      </Aux>
     )
   }
 } 

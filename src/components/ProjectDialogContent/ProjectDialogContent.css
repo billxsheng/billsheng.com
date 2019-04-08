@@ -29,6 +29,29 @@
     width: 300px;
 }
 
+.description-p {
+    /* margin: 0 auto !important; */
+}
+
+.tag {
+    height: 30px !important;
+    margin: 0 auto;
+    background-color: orange;
+    width: 140px;
+    height: auto;
+    line-height: 30px !important;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+    display: table;
+    margin: 20px auto;
+}
+
+.tag p {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 !important;
+}
+
 @media (max-width: 767px) {
     .modal {
         width: 320px;
