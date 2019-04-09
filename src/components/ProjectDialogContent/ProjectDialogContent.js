@@ -22,7 +22,6 @@ class ProjectModal extends Component {
             <div className="row" styleName="tag" >
                 <p>{project.tag}</p>
             </div>
-            <img src={require('../../assets/images/projects/blitz.png')} />
             <h4>Summary</h4>
             <p2>{project.content.summary}</p2>          
             </div>
@@ -40,7 +39,7 @@ class ProjectModal extends Component {
             <div className="row" styleName="tag" >
                 <p>{project.tag}</p>
             </div>
-            <img src={require('../../assets/images/projects/blitz.png')} />
+            <img src={require('../../assets/images/projects/blitz.png')} alt="Blitz" />
             <h4>Summary</h4>
             <p2>{project.content.summary}</p2>
           </div>
