@@ -3,6 +3,8 @@ import CSSModules from 'react-css-modules';
 import styles from './ProjectDialogContent.css';
 import Aux from '../../hoc/HO-Aux/HO-aux';
 import Icon from '../Icon/Icon';
+import Button from '../Button/Button';
+import Links from '../../assets/links';
 
 
 class ProjectModal extends Component {
@@ -23,8 +25,12 @@ class ProjectModal extends Component {
                 <p>{project.tag}</p>
             </div>
             <h4>Summary</h4>
-            <p2>{project.content.summary}</p2>          
-            </div>
+            <p2>{project.content.summary}</p2>     
+            <br/>
+            <br/>
+            <br/>
+            <Button link={"https://github.com/alanxie29/Huddle"} btnType = "btnLarge">Github</Button>     
+          </div>
         </Aux>
       );
 
@@ -42,6 +48,10 @@ class ProjectModal extends Component {
             <img src={require('../../assets/images/projects/blitz.png')} alt="blitz"/>
             <h4>Summary</h4>
             <p2>{project.content.summary}</p2>
+            <br/>
+            <br/>
+            <br/>
+            <Button link={Links.github + "/blitz"} btnType = "btnLarge">Github</Button>
           </div>
         </Aux>
       );
@@ -59,6 +69,10 @@ class ProjectModal extends Component {
             </div>
             <h4>Summary</h4>
             <p2>{project.content.summary}</p2>
+            <br/>
+            <br/>
+            <br/>
+            <Button link={Links.github + "/munkee"} btnType = "btnLarge">Github</Button>
           </div>
         </Aux>
       );
@@ -76,6 +90,10 @@ class ProjectModal extends Component {
             </div>
             <h4>Summary</h4>
             <p2>{project.content.summary}</p2>
+            <br/>
+            <br/>
+            <br/>
+            <Button link={Links.github + "/freelance-vcuts"} btnType = "btnLarge">Github</Button>
           </div>
         </Aux>
       );
@@ -93,6 +111,10 @@ class ProjectModal extends Component {
             </div>
             <h4>Summary</h4>
             <p2>{project.content.summary}</p2>
+            <br/>
+            <br/>
+            <br/>
+            <Button link={"https://github.com/kvptkr/Air-Drums--UoftHacks-2019"} btnType = "btnLarge">Github</Button>
           </div>
         </Aux>
       );
@@ -110,6 +132,10 @@ class ProjectModal extends Component {
             </div>
             <h4>Summary</h4>
             <p2>{project.content.summary}</p2>
+            <br/>
+            <br/>
+            <br/>
+            <Button link={Links.github + "/ryse"} btnType = "btnLarge">Github</Button>
           </div>
         </Aux>
       );
@@ -127,6 +153,10 @@ class ProjectModal extends Component {
             </div>
             <h4>Summary</h4>
             <p2>{project.content.summary}</p2>
+            <br/>
+            <br/>
+            <br/>
+            <Button link={Links.github + "/moodify"} btnType = "btnLarge">Github</Button>
           </div>
         </Aux>
       );

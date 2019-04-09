@@ -4,7 +4,7 @@ import CSSModules from 'react-css-modules';
 import styles from './Link.css';
 import {NavLink} from 'react-router-dom';
 
-const link = (props) => {
+const Link = (props) => {
     
     const linkStyle = {
         'margin': `${props.margin} auto`
@@ -15,4 +15,4 @@ const link = (props) => {
     )
 }
 
-export default CSSModules(link, styles);
+export default CSSModules(Link, styles);

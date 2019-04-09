@@ -5,7 +5,7 @@ import styles from './Footer.css';
 import MainButtonRow from '../Button/MainButtonRow/MainButtonRow';
 import auxillary from '../../assets/auxillary';
 
-const footer = (props) => (
+const Footer = (props) => (
     <footer styleName='footer'>
         <MainButtonRow/>
         <div className="container">
@@ -14,4 +14,4 @@ const footer = (props) => (
     </footer>
 )
 
-export default CSSModules(footer, styles);
+export default CSSModules(Footer, styles);

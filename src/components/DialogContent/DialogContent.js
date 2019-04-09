@@ -4,7 +4,7 @@ import styles from './DialogContent.css';
 import MainButtonNav from '../Button/MainButtonRow/MainButtonRow';
 import contactInfo from '../../assets/contactInfo';
 
-class modal extends Component {
+class Modal extends Component {
   state = {
     isOpen: false
   }
@@ -29,4 +29,4 @@ class modal extends Component {
 } 
 
 
-export default CSSModules(modal, styles);
+export default CSSModules(Modal, styles);

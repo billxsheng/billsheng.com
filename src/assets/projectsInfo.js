@@ -113,7 +113,7 @@ const ProjectsInfo = {
     },
     huddle: {
         name:'Huddle',
-        description: 'A new way to connect fans',
+        description: 'A new way to connect NFL fans',
         technologies: '',
         tag: "Project",
         about: "Coming Soon",

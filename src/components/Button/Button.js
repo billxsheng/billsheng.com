@@ -4,7 +4,7 @@ import CSSModules from 'react-css-modules';
 import styles from './Button.css';
 
 
-class button extends Component {
+class Button extends Component {
     state = {
         newPage: this.props.newPage,
         resume: this.props.resume
@@ -28,4 +28,4 @@ class button extends Component {
 }
 
 
-export default CSSModules(button, styles);
+export default CSSModules(Button, styles);
