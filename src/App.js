@@ -54,7 +54,8 @@ const ContactModal = withStyles({
 const ProjectModal = withStyles({
   paper: {
     borderRadius: '15px',
-    overflowX: 'scroll',
+    overflowX: 'hidden',
+    overflowY: 'scroll',
     margin: '20px;',
     maxWidth: '100vw;'
   }

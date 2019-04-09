@@ -3,7 +3,6 @@ import CSSModules from 'react-css-modules';
 import styles from './DialogContent.css';
 import MainButtonNav from '../Button/MainButtonRow/MainButtonRow';
 import contactInfo from '../../assets/contactInfo';
-import Icon from '../Icon/Icon';
 
 class modal extends Component {
   state = {
@@ -14,7 +13,7 @@ class modal extends Component {
     return (
       <div styleName="modal">
         <h1>{contactInfo.title}</h1>
-          <div styleName="under-heading">
+          <div>
             <p styleName="contact-p" >
               {contactInfo.search}
             </p>

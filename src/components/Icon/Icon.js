@@ -4,7 +4,7 @@ import CSSModules from 'react-css-modules';
 import styles from './Icon.css';
 
 const icon = (props) => {
-    if(props.iconType == "iconClose") {
+    if(props.iconType === "iconClose") {
       return (
         <i target="_blank" className={props.iconName} onClick={props.close} styleName={props.iconType}></i>
       )
