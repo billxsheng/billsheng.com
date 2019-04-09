@@ -36,6 +36,7 @@ import Huddle from './views/Projects/ProjectDetails/Huddle/Huddle';
 import Airdrums from './views/Projects/ProjectDetails/Airdrums/Airdrums';
 import Freelance from './views/Projects/ProjectDetails/Freelance/Freelance';
 import ProjectDialogContent from './components/ProjectDialogContent/ProjectDialogContent';
+import Icon from './components/Icon/Icon';
 
 function Transition(props) {
   return <Slide direction="down" timeout= "0"  {...props} />;
@@ -53,8 +54,7 @@ const ContactModal = withStyles({
 const ProjectModal = withStyles({
   paper: {
     borderRadius: '15px',
-    top: '-15%',
-    overflowX: 'hidden',
+    overflowX: 'scroll',
     margin: '20px;',
     maxWidth: '100vw;'
   }
@@ -162,7 +162,7 @@ class App extends Component {
                   open={this.state.contactModalIsOpen}
                   >
                     <DialogContent>
-                      <a styleName="btn-close-contact" onClick={this.closeContactModal}>Close</a>
+                      <Icon iconName="fas fa-times" close={this.closeContactModal} iconType="iconClose" />
                     </DialogContent>
                   </ContactModal>
                   <ProjectModal TransitionComponent={Transition} 
@@ -170,9 +170,7 @@ class App extends Component {
                   styleName="modal-project" 
                   open={this.state.projectModalIsOpen}
                   >
-                    <ProjectDialogContent project = {this.state.projectSelected}>
-                      <a styleName="btn-close-project" onClick={this.closeContactModal}>Close</a>
-                    </ProjectDialogContent>
+                    <ProjectDialogContent close= {this.closeProjectModal} project = {this.state.projectSelected}/>
                   </ProjectModal>
               <Footer />
               </Layout>

@@ -1,5 +1,5 @@
 .modal {
-    height: 400px !important;
+    height: 325px !important;
     width: 600px;
 }
 
@@ -33,7 +33,7 @@
     .modal {
         width: 320px;
         overflow: hidden;
-        height: 415px !important;
+        height: 380px !important;
     }
 
     .contact-p {

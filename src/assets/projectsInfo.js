@@ -85,7 +85,7 @@ const ProjectsInfo = {
         technologies: '',
         tag: "Internship",
         about: "Coming Soon",
-        content: ""     
+        content: ``    
     },
     freelance: {
         name: 'Freelance',
@@ -97,7 +97,7 @@ const ProjectsInfo = {
     },
     huddle: {
         name:'Huddle',
-        description: 'Coming Soon',
+        description: 'A new way to connect fans',
         technologies: '',
         tag: "Project",
         about: "Coming Soon",
@@ -105,7 +105,7 @@ const ProjectsInfo = {
     },
     airdrums: {
         name:'AirDrums',
-        description: 'Coming Soon',
+        description: 'Computer vision drum kit',
         technologies: '',
         tag: "Hackathon",
         about: "Coming Soon",

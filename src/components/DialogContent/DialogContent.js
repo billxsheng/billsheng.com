@@ -3,6 +3,7 @@ import CSSModules from 'react-css-modules';
 import styles from './DialogContent.css';
 import MainButtonNav from '../Button/MainButtonRow/MainButtonRow';
 import contactInfo from '../../assets/contactInfo';
+import Icon from '../Icon/Icon';
 
 class modal extends Component {
   state = {

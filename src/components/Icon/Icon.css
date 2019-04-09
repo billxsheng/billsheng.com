@@ -9,3 +9,22 @@
     text-align: center !important;
     font-size: 55px;
 }
+
+.iconClose {
+    font-size: 45px;
+    position: absolute;
+    margin: 20px 30px;
+    right: 0;
+    top: 0;
+    color: rgb(235, 233, 233);
+    cursor: pointer;
+}
+
+
+@media (max-width: 767px) {
+    .iconClose {
+        font-size: 40px;
+        margin: 10px 15px;
+        cursor: pointer;
+    }
+} 
