@@ -93,7 +93,7 @@ const ProjectsInfo = {
     },
     opentext: {
         name: 'OpenText',
-        description: 'Software Engineering',
+        description: 'EIM Engineering',
         technologies: '',
         tag: "Internship",
         about: "Coming Soon",
@@ -103,7 +103,7 @@ const ProjectsInfo = {
     },
     freelance: {
         name: 'Freelance',
-        description: 'Personal Brand',
+        description: 'My personal brand',
         technologies: '',
         tag: 'Freelance',
         about: 'Coming soon',
