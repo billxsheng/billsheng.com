@@ -108,7 +108,7 @@ class App extends Component {
         <Route exact path="/gallery/saturday-night-lights" component={SNL} />
         <Route exact path="/gallery/waterloo-engineering" component={WaterlooEngineering} />
         <Route exact path="/gallery/graphql" component={GraphQL} />
-        <Route exact path="/projects/hackathons" render={() => <Hackathons openProject = {this.onProjectSelected}/>} />
+        <Route exact path="/projects/hackathons" render={() => <Hackathons openProject = {this.onProjectSelected}/>} />fox
         <Route exact path="/projects/experience" render={() => <Experience openProject = {this.onProjectSelected}/>} />
         <Route exact path="/projects/web-mobile" render={() => <WebMobile openProject = {this.onProjectSelected}/>} />
         <Route exact path="/projects/data-science" render={() => <DataScience openProject = {this.onProjectSelected}/>} />

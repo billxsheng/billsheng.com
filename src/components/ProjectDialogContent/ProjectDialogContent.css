@@ -1,36 +1,37 @@
 .modal {
     height: 90vh !important;
     width: 93vw;
+    padding: 0 100px 0px 100px;
 }
+
+.modal:after {
+    content: "";
+    display: block;
+    height: 50px;
+    width: 100%;
+  }
 
 .modal h1 {
     margin: 30px auto 0px auto !important;
 }
 
-.btn-close {
-    bottom: 0;
-    margin-top: 15px;
+.modal h3 {
+    text-align: left !important;
 }
 
-.under-heading {
+.modal p {
+    margin: 0 auto;
 }
 
-.contact-p {
-    text-align: center;
-    font-family: 'Cairo';
-    font-size: 15px;
-    margin: 5px auto 15px auto;
-    font-weight: 400;
-    max-width: 550px;
-    line-height: 35px;
+.modal img {
+    height: 500px;
+    margin: 0 auto !important;
+    display: block;
 }
 
-.hr {
-    width: 300px;
-}
-
-.description-p {
-    /* margin: 0 auto !important; */
+.modal p2 {
+    text-align: left;
+    padding: 0;
 }
 
 .tag {
@@ -43,7 +44,7 @@
     border-radius: 5px;
     box-shadow: 0 0 5px #ccc;
     display: table;
-    margin: 20px auto;
+    margin: 10px auto;
 }
 
 .tag p {
@@ -52,19 +53,24 @@
     padding: 0 !important;
 }
 
+@media (max-width: 1000px) {
+    .modal img {
+        height: 350px;
+        margin: 0 auto !important;
+        display: block;
+    }
+} 
+
 @media (max-width: 767px) {
     .modal {
-        width: 320px;
-        overflow: hidden;
-        height: 415px !important;
+        width: 100%;
+        overflow: scroll;
+        padding: 0 20px 0px 20px;
     }
 
-    .contact-p {
-        font-size: 13px;
-    }
-
-    .hr {
-        width: 150px;
+    .modal img {
+        height: auto;
+        width: 300px;
     }
 } 
 
