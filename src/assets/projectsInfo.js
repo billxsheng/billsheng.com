@@ -36,7 +36,9 @@ const ProjectsInfo = {
         technologies: 'JavaScript (Node.js, Express.js), MongoDB, HTML, CSS, Bootstrap',
         about: "Coming Soon",       
         tag: "Hackathon",
-        content: "" 
+        content: {
+            summary: "Coming Soon"
+        } 
     },
     ctc: {
         name: 'Canadian Tire',
@@ -45,7 +47,9 @@ const ProjectsInfo = {
         technologies: 'PowerShell, VMWare, Jira, Confluence',
         tag: "Internship",
         about: "Coming Soon",
-        content: ""     
+        content: {
+            summary: "Coming Soon"
+        }    
     },
     blitz: {
         name: 'Blitz',
@@ -53,7 +57,9 @@ const ProjectsInfo = {
         technologies: 'JavaScript (Node.js, Express.js), MongoDB, HTML, CSS, Bootstrap',
         tag: "Side Project",
         about: "Coming Soon",
-        content: ""     
+        content: {
+            summary: "Coming Soon"
+        }     
     },
     munkee: {
         name: 'Munkee',
@@ -61,7 +67,9 @@ const ProjectsInfo = {
         technologies: 'JavaScript (Node.js, Express.js, Socket.IO), MongoDB, HTML, CSS, Bootstrap',
         tag: "Side Project",
         about: "Coming Soon",
-        content: ""     
+        content: {
+            summary: "Coming Soon"
+        }     
     },
     moodify: {
         name: 'Moodify',
@@ -69,7 +77,9 @@ const ProjectsInfo = {
         technologies: 'Swift, Xcode, Objective-C, IBM Watson API',
         tag: "Hackathon",
         about: "Coming Soon",
-        content: "" 
+        content: {
+            summary: "Coming Soon"
+        } 
     },
     vcuts: {
         name: 'VCuts',
@@ -77,7 +87,9 @@ const ProjectsInfo = {
         technologies: 'JavaScript (Angular 2+, Node.js, jQuery), TypeScript, HTML, CSS, MongoDB, Amazon Web Services (AWS)',
         tag: "Freelance Project",
         about: "Coming Soon",
-        content: "" 
+        content: {
+            summary: "Coming Soon"
+        } 
     },
     opentext: {
         name: 'OpenText',
@@ -85,7 +97,9 @@ const ProjectsInfo = {
         technologies: '',
         tag: "Internship",
         about: "Coming Soon",
-        content: ``    
+        content: {
+            summary: "Coming Soon"
+        }    
     },
     freelance: {
         name: 'Freelance',
@@ -93,7 +107,9 @@ const ProjectsInfo = {
         technologies: '',
         tag: 'Freelance',
         about: 'Coming soon',
-        content: "" 
+        content: {
+            summary: "Coming Soon"
+        }
     },
     huddle: {
         name:'Huddle',
@@ -101,7 +117,9 @@ const ProjectsInfo = {
         technologies: '',
         tag: "Project",
         about: "Coming Soon",
-        content: ""  
+        content: {
+            summary: "Coming Soon"
+        }  
     },
     airdrums: {
         name:'AirDrums',
@@ -109,7 +127,9 @@ const ProjectsInfo = {
         technologies: '',
         tag: "Hackathon",
         about: "Coming Soon",
-        content: "" 
+        content: {
+            summary: "Coming Soon"
+        } 
     }
 }
 export default ProjectsInfo;
