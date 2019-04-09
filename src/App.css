@@ -5,11 +5,11 @@
     max-width: 100%;
 }
 
-.modal {
+.modal-contact {
     z-index: 990;
 }
 
-.btn-close {
+.btn-close-contact {
     cursor: pointer;
     background-color: #4775de;
     padding: 15px;
@@ -21,8 +21,30 @@
     margin: 0 auto;
 }
 
-.btn-close:hover {
+.btn-close-contact:hover {
     text-decoration: none !important;
     background-color: #608aec;
 }
+
+.modal-project {
+    z-index: 990;
+}
+
+.btn-close-project {
+    cursor: pointer;
+    background-color: #4775de;
+    padding: 15px;
+    border-radius: 5px;
+    color: white !important;
+    font-family: 'Lato';
+    transition: background-color 0.2s;
+    position: relative;
+    margin: 0 auto;
+}
+
+.btn-close-project:hover {
+    text-decoration: none !important;
+    background-color: #608aec;
+}
+
 

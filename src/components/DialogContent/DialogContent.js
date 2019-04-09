@@ -13,7 +13,7 @@ class modal extends Component {
     return (
       <div styleName="modal">
         <h1>{contactInfo.title}</h1>
-          <div styleName="under-heading">
+          <div>
             <p styleName="contact-p" >
               {contactInfo.search}
             </p>
