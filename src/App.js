@@ -14,12 +14,6 @@ import MobileNav from './components/Navigation/MobileNav/MobileNav';
 import Footer from './components/Footer/Footer';
 import styles from './App.css';
 import Waypoint from 'react-waypoint';
-import Blitz from './views/Projects/ProjectDetails/Blitz/Blitz';
-import canadianTire from './views/Projects/ProjectDetails/CTC/CTC';
-import Moodify from './views/Projects/ProjectDetails/Moodify/Moodify';
-import Munkee from './views/Projects/ProjectDetails/Munkee/Munkee';
-import Ryse from './views/Projects/ProjectDetails/Ryse/Ryse';
-import VCuts from './views/Projects/ProjectDetails/VCuts/VCuts';
 import SNL from './views/Gallery/GalleryDetails/SNL/SNL';
 import WaterlooEngineering from './views/Gallery/GalleryDetails/WaterlooEngineering/WaterlooEngineering';
 import GraphQL from './views/Gallery/GalleryDetails/GraphQL/GraphQL';
@@ -29,12 +23,8 @@ import Experience from './views/Projects/ProjectSections/Experience/Experience';
 import Hackathons from './views/Projects/ProjectSections/Hackathons/Hackathons';
 import DataScience from './views/Projects/ProjectSections/DataScience/DataScience';
 import WebMobile from './views/Projects/ProjectSections/WebMobile/WebMobile';
-import OpenText from './views/Projects/ProjectDetails/OpenText/OpenText';
 import DialogContent from './components/DialogContent/DialogContent';
 import { withStyles } from '@material-ui/core';
-import Huddle from './views/Projects/ProjectDetails/Huddle/Huddle';
-import Airdrums from './views/Projects/ProjectDetails/Airdrums/Airdrums';
-import Freelance from './views/Projects/ProjectDetails/Freelance/Freelance';
 import ProjectDialogContent from './components/ProjectDialogContent/ProjectDialogContent';
 import Icon from './components/Icon/Icon';
 
@@ -119,18 +109,8 @@ class App extends Component {
         <Route exact path="/gallery/waterloo-engineering" component={WaterlooEngineering} />
         <Route exact path="/gallery/graphql" component={GraphQL} />
         <Route exact path="/projects/hackathons" render={() => <Hackathons openProject = {this.onProjectSelected}/>} />
-        <Route exact path="/projects/hackathons/moodify" component={Moodify} />
-        <Route exact path="/projects/hackathons/ryse" component={Ryse} />
-        <Route exact path="/projects/hackathons/airdrums" component={Airdrums} />
         <Route exact path="/projects/experience" render={() => <Experience openProject = {this.onProjectSelected}/>} />
-        <Route exact path="/projects/experience/freelance" component={Freelance} />
-        <Route exact path="/projects/experience/canadian-tire" component={canadianTire} />
-        <Route exact path="/projects/experience/opentext" component={OpenText} />
         <Route exact path="/projects/web-mobile" render={() => <WebMobile openProject = {this.onProjectSelected}/>} />
-        <Route exact path="/projects/web-mobile/vcuts" component={VCuts} />
-        <Route exact path="/projects/web-mobile/munkee" component={Munkee} />
-        <Route exact path="/projects/web-mobile/blitz" component={Blitz} />
-        <Route exact path="/projects/web-mobile/huddle" component={Huddle} />
         <Route exact path="/projects/data-science" render={() => <DataScience openProject = {this.onProjectSelected}/>} />
         <Route exact path="/projects" component={ProjectSelect} />
         <Route exact path="/my-story" component={MyStory} />
