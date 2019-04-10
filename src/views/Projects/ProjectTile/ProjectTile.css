@@ -101,7 +101,7 @@
 
 @media (max-width: 767px) {
     .project-tile-mobile {
-        height: 470px !important;
+        height: auto !important;
         width: 600px !important;
         margin: 20px auto 70px auto;
         display: block;

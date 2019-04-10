@@ -45,7 +45,6 @@ class ProjectModal extends Component {
             <div className="row" styleName="tag" >
                 <p>{project.tag}</p>
             </div>
-            <img src={require('../../assets/images/projects/blitz.png')} alt="blitz"/>
             <h4>Summary</h4>
             <p2>{project.content.summary}</p2>
             <br/>
@@ -73,6 +72,7 @@ class ProjectModal extends Component {
             <br/>
             <br/>
             <Button link={Links.github + "/munkee"} btnType = "btnLarge">Github</Button>
+            <Button link={Links.munkee} btnType = "btnLarge">Play Now</Button>
           </div>
         </Aux>
       );
