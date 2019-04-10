@@ -130,7 +130,7 @@ const ProjectsInfo = {
         name:'AirDrums',
         description: 'Computer vision drum kit',
         technologies: '',
-        tag: "Hackathon",
+        tag: "Hackathon Winner",
         about: "Coming Soon",
         content: {
             summary: "Coming Soon"

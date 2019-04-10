@@ -30,9 +30,6 @@
     display: none;
 }
 
-.project-tile p {
-}
-
 .project-preview-tag {
     background-color: orange;
     width: 140px;
@@ -41,11 +38,6 @@
     box-shadow: 0 0 5px #ccc;
     padding: 0 !important;
 }
-
-.text-cont {
-}
-
-
 
 .img-cont {
     padding: 0 !important;
