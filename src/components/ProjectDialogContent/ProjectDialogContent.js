@@ -24,8 +24,18 @@ class ProjectModal extends Component {
             <div className="row" styleName="tag" >
                 <p>{project.tag}</p>
             </div>
+            <hr/>
             <h4>Summary</h4>
-            <p2>{project.content.summary}</p2>     
+            <p2>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+               Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+               Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. D
+               onec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
+                venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Viv
+                amus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat 
+                vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viver
+                ra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies 
+              nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus,
+               tellus eget condimentum rhoncus, sem quam semper libero, sit amet a</p2>     
             <br/>
             <br/>
             <br/>
@@ -45,12 +55,24 @@ class ProjectModal extends Component {
             <div className="row" styleName="tag" >
                 <p>{project.tag}</p>
             </div>
+            <hr/>
             <h4>Summary</h4>
-            <p2>{project.content.summary}</p2>
+            <p2>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+               Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+               Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. D
+               onec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
+                venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Viv
+                amus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat 
+                vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viver
+                ra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies 
+              nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus,
+               tellus eget condimentum rhoncus, sem quam semper libero, sit amet a</p2>
             <br/>
             <br/>
             <br/>
-            <Button link={Links.github + "/blitz"} btnType = "btnLarge">Github</Button>
+            <div className="row">
+              <Button link={Links.github + "/blitz"} btnType = "btnLarge">Github</Button>
+            </div>
           </div>
         </Aux>
       );
@@ -66,6 +88,7 @@ class ProjectModal extends Component {
             <div className="row" styleName="tag" >
                 <p>{project.tag}</p>
             </div>
+            <hr/>
             <h4>Summary</h4>
             <p2>{project.content.summary}</p2>
             <br/>
@@ -89,6 +112,7 @@ class ProjectModal extends Component {
             <div className="row" styleName="tag" >
                 <p>{project.tag}</p>
             </div>
+            <hr/>
             <h4>Summary</h4>
             <p2>{project.content.summary}</p2>
             <br/>
@@ -110,6 +134,7 @@ class ProjectModal extends Component {
             <div className="row" styleName="tag" >
                 <p>{project.tag}</p>
             </div>
+            <hr/>
             <h4>Summary</h4>
             <p2>{project.content.summary}</p2>
             <br/>
@@ -131,6 +156,7 @@ class ProjectModal extends Component {
             <div className="row" styleName="tag" >
                 <p>{project.tag}</p>
             </div>
+            <hr/>
             <h4>Summary</h4>
             <p2>{project.content.summary}</p2>
             <br/>
@@ -152,6 +178,7 @@ class ProjectModal extends Component {
             <div className="row" styleName="tag" >
                 <p>{project.tag}</p>
             </div>
+            <hr/>
             <h4>Summary</h4>
             <p2>{project.content.summary}</p2>
             <br/>
@@ -173,6 +200,7 @@ class ProjectModal extends Component {
             <div className="row" styleName="tag" >
                 <p>{project.tag}</p>
             </div>
+            <hr/>
             <h4>Summary</h4>
             <p2>{project.content.summary}</p2>
           </div>
@@ -190,6 +218,7 @@ class ProjectModal extends Component {
             <div className="row" styleName="tag" >
                 <p>{project.tag}</p>
             </div>
+            <hr/>
             <h4>Summary</h4>
             <p2>{project.content.summary}</p2>
           </div>
@@ -207,6 +236,7 @@ class ProjectModal extends Component {
             <div className="row" styleName="tag" >
                 <p>{project.tag}</p>
             </div>
+            <hr/>
             <h4>Summary</h4>
             <p2>{project.content.summary}</p2>
           </div>
