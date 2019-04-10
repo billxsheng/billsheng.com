@@ -72,6 +72,7 @@ class ProjectModal extends Component {
             <br/>
             <br/>
             <Button link={Links.github + "/munkee"} btnType = "btnLarge">Github</Button>
+            &nbsp; &nbsp;
             <Button link={Links.munkee} btnType = "btnLarge">Play Now</Button>
           </div>
         </Aux>
