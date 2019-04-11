@@ -61,7 +61,7 @@ class WebMobile extends Component {
                     </p>
             </span>
             <div className="row">
-                <ProjectTile activateModal = {() => this.props.openProject(projectsInfo.huddle)} to="/projects/web-mobile/huddle" imageName="projects/huddle.png" imageHeight="400px" tag={projectsInfo.huddle.tag} title={projectsInfo.huddle.name} shortDesc={projectsInfo.huddle.description}/>
+                <ProjectTile activateModal = {() => this.props.openProject(projectsInfo.huddle)} to="/projects/web-mobile/huddle" imageName="projects/huddle/huddle.png" imageHeight="400px" tag={projectsInfo.huddle.tag} title={projectsInfo.huddle.name} shortDesc={projectsInfo.huddle.description}/>
             </div>
             <div className="row">
                 <ProjectTile activateModal = {() => this.props.openProject(projectsInfo.blitz)} to="/projects/web-mobile/blitz" reverse="true" imageHeight="400px" imageName="projects/blitz.png" tag={projectsInfo.blitz.tag} title={projectsInfo.blitz.name} shortDesc={projectsInfo.blitz.description}/>
