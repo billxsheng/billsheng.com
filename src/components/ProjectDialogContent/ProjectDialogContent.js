@@ -21,13 +21,14 @@ class ProjectModal extends Component {
           <div styleName="modal" >
             <Icon iconName="fas fa-times" close={this.props.close} iconType="iconClose" />
             <h1>{project.name}</h1>
-            <p className="text-center title-p">{project.description}</p>
+            <p className="text-center" styleName="title-p">{project.description}</p>
             <div className="row" styleName="tag" >
-                <p className="text-center title-p">{project.tag}</p>
+                <p className="text-center" styleName="title-p" >{project.tag}</p>
             </div>
-            <p className="text-center title-p">{project.date}</p> 
+            {/* <p className="text-center" styleName="title-p">{project.date}</p>  */}
             <hr/>
-            <Image path = "projects/huddle/huddle-with-background.png" />
+            <Image withRadius path = "projects/huddle/huddle-with-background.png" />
+            <hr/>
             <h4>Technologies</h4>
             <p>{project.content.technologies}</p> 
             <h4>Summary</h4>
@@ -58,10 +59,12 @@ class ProjectModal extends Component {
           <div styleName="modal" >
             <Icon iconName="fas fa-times" close={this.props.close} iconType="iconClose" />
             <h1>{project.name}</h1>
-            <p className="text-center title-p">{project.description}</p>
+            <p className="text-center" styleName="title-p">{project.description}</p>
             <div className="row" styleName="tag" >
-                <p className="text-center title-p">{project.tag}</p>
+                <p className="text-center" styleName="title-p">{project.tag}</p>
             </div>
+            <hr/>
+            <Image withRadius path = "projects/blitz/blitz-with-background.png" />
             <hr/>
             <h4>Summary</h4>
             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
@@ -74,6 +77,10 @@ class ProjectModal extends Component {
                 ra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies 
               nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus,
                tellus eget condimentum rhoncus, sem quam semper libero, sit amet a</p>
+            <Image fine="Blitz Login" path = "projects/blitz/blitz-login.png" />
+            <Image fine="Blitz Sign Up" path = "projects/blitz/blitz-signup.png" />
+            <Image fine="Blitz Profile" path = "projects/blitz/blitz-profile.png" />
+
             <br/>
             <br/>
             <br/>
@@ -91,13 +98,17 @@ class ProjectModal extends Component {
           <div styleName="modal" >
             <Icon iconName="fas fa-times" close={this.props.close} iconType="iconClose" />
             <h1>{project.name}</h1>
-            <p className="text-center title-p">{project.description}</p>
+            <p className="text-center" styleName="title-p">{project.description}</p>
             <div className="row" styleName="tag" >
-                <p className="text-center title-p">{project.tag}</p>
+                <p className="text-center" styleName="title-p">{project.tag}</p>
             </div>
+            <hr/>
+            <Image path = "projects/munkee/munkee.png" />
             <hr/>
             <h4>Summary</h4>
             <p>{project.content.summary}</p>
+            <Image fine="Munkee Game Screen" path = "projects/munkee/munkee-web.png" />
+            <Image fine="Munkee Mobile Game Screen" path = "projects/munkee/munkee-mobile.png" />
             <br/>
             <br/>
             <br/>
@@ -120,9 +131,9 @@ class ProjectModal extends Component {
           <div styleName="modal" >
             <Icon iconName="fas fa-times" close={this.props.close} iconType="iconClose" />
             <h1>{project.name}</h1>
-            <p className="text-center title-p">{project.description}</p>
+            <p className="text-center" styleName="title-p">{project.description}</p>
             <div className="row" styleName="tag" >
-                <p className="text-center title-p">{project.tag}</p>
+                <p className="text-center" styleName="title-p">{project.tag}</p>
             </div>
             <hr/>
             <h4>Summary</h4>
@@ -144,9 +155,9 @@ class ProjectModal extends Component {
           <div styleName="modal" >
             <Icon iconName="fas fa-times" close={this.props.close} iconType="iconClose" />
             <h1>{project.name}</h1>
-            <p className="text-center title-p">{project.description}</p>
+            <p className="text-center" styleName="title-p">{project.description}</p>
             <div className="row" styleName="tag" >
-                <p className="text-center title-p">{project.tag}</p>
+                <p className="text-center" styleName="title-p">{project.tag}</p>
             </div>
             <hr/>
             <h4>Summary</h4>
@@ -168,9 +179,9 @@ class ProjectModal extends Component {
           <div styleName="modal" >
             <Icon iconName="fas fa-times" close={this.props.close} iconType="iconClose" />
             <h1>{project.name}</h1>
-            <p className="text-center title-p">{project.description}</p>
+            <p className="text-center" styleName="title-p">{project.description}</p>
             <div className="row" styleName="tag" >
-                <p className="text-center title-p">{project.tag}</p>
+                <p className="text-center" styleName="title-p">{project.tag}</p>
             </div>
             <hr/>
             <h4>Summary</h4>
@@ -192,9 +203,9 @@ class ProjectModal extends Component {
           <div styleName="modal" >
           < Icon iconName="fas fa-times" close={this.props.close} iconType="iconClose" />
             <h1>{project.name}</h1>
-            <p className="text-center title-p">{project.description}</p>
+            <p className="text-center" styleName="title-p">{project.description}</p>
             <div className="row" styleName="tag" >
-                <p className="text-center title-p">{project.tag}</p>
+                <p className="text-center" styleName="title-p">{project.tag}</p>
             </div>
             <hr/>
             <h4>Summary</h4>
@@ -210,9 +221,9 @@ class ProjectModal extends Component {
           <div styleName="modal" >
             <Icon iconName="fas fa-times" close={this.props.close} iconType="iconClose" />
             <h1>{project.name}</h1>
-            <p className="text-center title-p">{project.description}</p>
+            <p className="text-center" styleName="title-p">{project.description}</p>
             <div className="row" styleName="tag" >
-                <p className="text-center title-p">{project.tag}</p>
+                <p className="text-center" styleName="title-p">{project.tag}</p>
             </div>
             <hr/>
             <h4>Summary</h4>
@@ -228,9 +239,9 @@ class ProjectModal extends Component {
           <div styleName="modal" >
             <Icon iconName="fas fa-times" close={this.props.close} iconType="iconClose" />
             <h1>{project.name}</h1>
-            <p className="text-center title-p">{project.description}</p>
+            <p className="text-center" styleName="title-p">{project.description}</p>
             <div className="row" styleName="tag" >
-                <p className="text-center title-p">{project.tag}</p>
+                <p className="text-center" styleName="title-p">{project.tag}</p>
             </div>
             <hr/>
             <h4>Summary</h4>
@@ -247,4 +258,4 @@ class ProjectModal extends Component {
 } 
 
 
-export default CSSModules(ProjectModal, styles);
+export default CSSModules(ProjectModal, styles, {allowMultiple: true});

@@ -7,13 +7,21 @@ class Image extends Component {
         const imageStyle = {
            'borderRadius': '15px',
         }
-
-        return (
-            <div styleName="image-box">
-                <img className="img-fluid" alt="bill" style={imageStyle} src={require(`../../assets/images/${this.props.path}`)} />
-                <p className="text-center" styleName="image-description" >{this.props.fine}</p>
-            </div>
-        )
+        if(this.props.withRadius) {
+            return (
+                <div styleName="image-box">
+                    <img className="img-fluid" style={imageStyle} alt="bill" src={require(`../../assets/images/${this.props.path}`)} />
+                    <p className="text-center" styleName="image-description" >{this.props.fine}</p>
+                </div>
+            )
+        } else {
+            return (
+                <div styleName="image-box">
+                    <img className="img-fluid" alt="bill" src={require(`../../assets/images/${this.props.path}`)} />
+                    <p className="text-center" styleName="image-description" >{this.props.fine}</p>
+                </div>
+            )
+        }
     }
 } 
 
