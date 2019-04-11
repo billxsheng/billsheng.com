@@ -1,0 +1,119 @@
+.modal {
+    height: 90vh !important;
+    width: 93vw;
+    padding: 0 100px 0px 100px;
+}
+
+.modal:after {
+    content: "";
+    display: block;
+    height: 80px;
+    width: 100%;
+}
+
+.title-p {
+    margin-bottom: 0;
+}
+
+.modal h1 {
+    margin: 30px auto 0px auto !important;
+    font-size: 70px;
+    letter-spacing: -4px;
+}
+
+.modal h4 {
+    text-align: left !important;
+    margin-bottom: 0;
+}
+
+.modal hr {
+    width: 50%;
+    margin: 30px auto 40px auto;
+}
+
+.modal img {
+    height: 500px;
+    display: block;
+}
+
+.description {
+    text-align: center;
+}
+
+.modal p {
+    text-align: left;
+    padding: 0;
+    max-width: none;
+    margin: 0 0 30px 0;
+}
+
+.modal p:last-of-type {
+    text-align: left;
+    padding: 0;
+    max-width: none;
+    margin: 0;
+}
+
+.modal p2 {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.tag {
+    height: 30px !important;
+    margin: 0 auto;
+    background-color: orange;
+    width: 140px;
+    height: auto;
+    line-height: 30px !important;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+    display: table;
+    margin: 10px auto;
+}
+
+.tag p {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 !important;
+}
+
+@media (max-width: 1000px) {
+    .modal img {
+        height: 350px;
+        margin: 0 auto !important;
+        display: block;
+    }
+} 
+
+@media (max-width: 1000px) {
+
+} 
+
+@media (max-width: 767px) {
+    .modal {
+        overflow: scroll;
+        padding: 0 40px;
+    }
+
+    .modal hr {
+        margin: 20px auto 20px auto;
+    }
+
+    .modal img {
+        height: auto;
+        width: 300px;
+    }
+} 
+
+@media (max-width: 480px) {
+    .modal {
+        padding: 0 25px 0 20px;
+    }
+
+    .modal hr {
+        margin: 20px auto 10px auto;
+    }
+} 
+
+

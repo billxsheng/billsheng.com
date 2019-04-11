@@ -3,7 +3,7 @@ import React from 'react';
 import CSSModules from 'react-css-modules';
 import styles from './Logo.css';
 
-const logo = (props) => {     
+const Logo = (props) => {     
     const logoStyle = {
         'height': props.height,
         'margin': props.margin
@@ -14,4 +14,4 @@ const logo = (props) => {
     )   
 }
 
-export default CSSModules(logo, styles);
+export default CSSModules(Logo, styles);

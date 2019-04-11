@@ -5,7 +5,7 @@ import CSSModules from 'react-css-modules';
 import Logo from '../../Logo/Logo';
 import {NavLink} from 'react-router-dom'; 
 
-class mainNav extends Component {
+class MainNav extends Component {
 
     state = {
         navTop: true
@@ -71,4 +71,4 @@ class mainNav extends Component {
     }
 } 
 
-export default CSSModules(mainNav, classes, {allowMultiple: true});
+export default CSSModules(MainNav, classes, {allowMultiple: true});

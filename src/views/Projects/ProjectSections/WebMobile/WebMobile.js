@@ -61,16 +61,13 @@ class WebMobile extends Component {
                     </p>
             </span>
             <div className="row">
-                <ProjectTile to="/projects/web-mobile/huddle" singleTile="true" tag={projectsInfo.huddle.tag} title={projectsInfo.huddle.name} shortDesc={projectsInfo.huddle.description}/>
+                <ProjectTile activateModal = {() => this.props.openProject(projectsInfo.huddle)} to="/projects/web-mobile/huddle" imageName="projects/huddle/huddle.png" imageHeight="400px" tag={projectsInfo.huddle.tag} title={projectsInfo.huddle.name} shortDesc={projectsInfo.huddle.description}/>
             </div>
             <div className="row">
-                <ProjectTile to="/projects/web-mobile/blitz" reverse="true" imageHeight="400px" imageName="projects/blitz.png" tag={projectsInfo.blitz.tag} title={projectsInfo.blitz.name} shortDesc={projectsInfo.blitz.description}/>
+                <ProjectTile activateModal = {() => this.props.openProject(projectsInfo.blitz)} to="/projects/web-mobile/blitz" reverse="true" imageHeight="400px" imageName="projects/blitz.png" tag={projectsInfo.blitz.tag} title={projectsInfo.blitz.name} shortDesc={projectsInfo.blitz.description}/>
             </div>
             <div className="row">
-                <ProjectTile to="/projects/web-mobile/munkee" imageHeight="400px" imageName="projects/munkee.png" tag={projectsInfo.munkee.tag} title={projectsInfo.munkee.name} shortDesc={projectsInfo.munkee.description}/>
-            </div>
-            <div className="row">
-                <ProjectTile to="/projects/web-mobile/vcuts" singleTile = "true" imageHeight="400px" tag={projectsInfo.vcuts.tag}title={projectsInfo.vcuts.name} shortDesc={projectsInfo.vcuts.description}/>
+                <ProjectTile activateModal = {() => this.props.openProject(projectsInfo.munkee)} to="/projects/web-mobile/munkee" imageHeight="400px" imageName="projects/munkee.png" tag={projectsInfo.munkee.tag} title={projectsInfo.munkee.name} shortDesc={projectsInfo.munkee.description}/>
             </div>
         </div>
         )

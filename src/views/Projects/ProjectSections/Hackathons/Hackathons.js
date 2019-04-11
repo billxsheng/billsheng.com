@@ -62,13 +62,13 @@ class Hackathons extends Component {
                         </p>
                 </span>
                 <div className="row">
-                    <ProjectTile to="/projects/hackathons/airdrums" singleTile="true" tag={projectsInfo.airdrums.tag} title={projectsInfo.airdrums.name} shortDesc={projectsInfo.airdrums.description} />
+                    <ProjectTile activateModal = {() => this.props.openProject(projectsInfo.airdrums)} to="/projects/hackathons/airdrums" imageName="projects/airdrums.png" imageHeight="400px" tag={projectsInfo.airdrums.tag} title={projectsInfo.airdrums.name} shortDesc={projectsInfo.airdrums.description} />
                 </div>
                 <div className="row">
-                    <ProjectTile to="/projects/hackathons/ryse" imageHeight="400px" imageName="projects/ryse.png" tag={projectsInfo.ryse.tag} title={projectsInfo.ryse.name} shortDesc={projectsInfo.ryse.description} />
+                    <ProjectTile activateModal = {() => this.props.openProject(projectsInfo.ryse)} to="/projects/hackathons/ryse" reverse="true" imageHeight="400px" imageName="projects/ryse.png" tag={projectsInfo.ryse.tag} title={projectsInfo.ryse.name} shortDesc={projectsInfo.ryse.description} />
                 </div>
                 <div className="row">
-                    <ProjectTile to="/projects/hackathons/moodify" reverse="true" imageHeight="400px" imageName="projects/moodify.png" tag={projectsInfo.moodify.tag} title={projectsInfo.moodify.name} shortDesc={projectsInfo.moodify.description}/>
+                    <ProjectTile activateModal = {() => this.props.openProject(projectsInfo.moodify)} to="/projects/hackathons/moodify" imageHeight="400px" imageName="projects/moodify.png" tag={projectsInfo.moodify.tag} title={projectsInfo.moodify.name} shortDesc={projectsInfo.moodify.description}/>
                 </div>
                 <div className="row">
                     <Button newPage="true" link={links.devpost} btnType="btnLarge" >View Devpost</Button>
