@@ -16,7 +16,7 @@ class MyStory extends Component {
 
     render() {
         return(
-            <div>
+            <div style = {{'padding': '25px'}}>
                 <div styleName="about" className="container">
                     <span className="container">
                         <div className="row">
@@ -29,71 +29,48 @@ class MyStory extends Component {
 
                 <div styleName="content-div">
                     <div styleName="section-div-first" >
+                        <Image withRadius path="about/other/headshot.jpg" />
+                        {/* <img className="img-fluid" styleName= "header-img" alt="header-img" src={require(`./../../assets/images/about/other/headshot.jpg`)} ></img> */}
+                        <p2>
+                            {aboutInfo.general.description}
+                        </p2>
                         <div className="row">
-                            <img className="img-fluid" styleName= "header-img" alt="header-img" src={require(`./../../assets/images/about/other/headshot.jpg`)} ></img>
-                        </div>
-                        <div className="row">
-                            <p2>
-                                {aboutInfo.general.description}
-                            </p2>
-                        </div>
-                        <div className="row" >
-                        </div>
-                        <div className="row">
-                            <Button resume="true" btnType="btnLarge" >View My Resume</Button>
+                            <Button margin="0px" resume btnType="btnLarge" >View My Resume</Button>
                         </div>
                     </div>
 
                     <div styleName="section-div">
-                        <div className="row">
                             <h2>{aboutInfo.education.title}</h2>
-                        </div>
-                        <div className="row">
                             <p2>
                                 {aboutInfo.education.description}
                             </p2>
-                        </div>
-                        <div className="row">
-                            <Image height="25px" path="about/other/waterloo-engineering.png" />
-                        </div>
+                        <Image path="about/other/waterloo-engineering.png" />
                     </div>
                     
                     <div styleName="section-div"> 
-                        <div className="row">
                             <h2>{aboutInfo.experience.title}</h2>
-                        </div>
-                        <div className="row">
                             <p2>
                                 {aboutInfo.experience.description}
                             </p2>                       
-                        </div>
                         <div className="row">
-                            <Link margin="0px" link="/projects/experience">View My Previous Experiences</Link>
+                            <Button margin="0px" to="/projects/experience">View My Previous Experiences</Button>
                         </div>
                     </div>
                                    
                     <div styleName="section-div">
-                        <div className="row">
                             <h2>Hobbies</h2>
-                        </div>
-                        <div className="row">
                             <p2>
                                 {aboutInfo.hobbies.description}
                             </p2>                       
-                        </div> 
                     </div>
 
 
                     <div styleName="section-div">
-                        <div className="row">
                             <h2>Teams</h2>
-                        </div>
-                        <div className="row">
                             <p2>
                                 {aboutInfo.teams.description}
                             </p2>                       
-                        </div>
-                        <div styleName="img-row" className="row">
+                         <div styleName="img-row" className="row">
                             <span styleName="team" className="col-md-4">
                                 <Image height="100px" path="about/teams/georgia.png" />
                             </span>

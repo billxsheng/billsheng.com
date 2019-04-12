@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 
 import CSSModules from 'react-css-modules';
 import styles from './Button.css';
-
+import {NavLink} from 'react-router-dom';
 
 class Button extends Component {
     state = {
@@ -11,17 +11,25 @@ class Button extends Component {
     }
 
     render() {
-        if(this.state.newPage === 'false') {
+        const linkStyle = {
+            'margin': `${this.props.margin} auto`
+        }
+
+        if(this.props.to) {
             return (
-                <a href={this.props.link} styleName={this.props.btnType}>{this.props.children}</a>
+                <NavLink style={linkStyle} styleName="btn-link" to={this.props.to}>{this.props.children}</NavLink>
             )
-        } else if(this.state.resume) {
+        }else if(this.props.resume) {
             return (
-                <a target="_blank" href= {require(`../../assets/documents/resume.pdf`)} styleName={this.props.btnType}>{this.props.children}</a>
+                <a target="_blank" href= {require(`../../assets/documents/resume.pdf`)} style={linkStyle} styleName={this.props.btnType}>{this.props.children}</a>
+            )
+        } else if(this.props.newPage === "false") {
+            return (
+                <a href={this.props.link} style={linkStyle} styleName={this.props.btnType}>{this.props.children}</a>
             )
         } else {
             return (
-                <a target="_blank" href={this.props.link} styleName={this.props.btnType}>{this.props.children}</a>
+                <a target="_blank" href={this.props.link} style={linkStyle} styleName={this.props.btnType}>{this.props.children}</a>
             )
         }
     }
