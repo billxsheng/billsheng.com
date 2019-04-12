@@ -15,7 +15,7 @@ class MyStory extends Component {
 
     render() {
         return(
-            <div style = {{'padding': '25px'}}>
+            <div styleName="wrapper">
                 <div styleName="about" className="container">
                     <span className="container">
                         <div className="row">
@@ -28,7 +28,7 @@ class MyStory extends Component {
 
                 <div styleName="content-div">
                     <div styleName="section-div-first" >
-                        <Image withRadius path="about/other/headshot.jpg" />
+                        <Image height="300px" withRadius path="about/other/headshot.jpg" />
                         {/* <img className="img-fluid" styleName= "header-img" alt="header-img" src={require(`./../../assets/images/about/other/headshot.jpg`)} ></img> */}
                         <p2>
                             {aboutInfo.general.description}

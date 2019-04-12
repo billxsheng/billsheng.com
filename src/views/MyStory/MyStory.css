@@ -2,6 +2,10 @@
 
 }
 
+.wrapper {
+    padding: 0 250px 0 250px;
+}
+
 .img-container div {
 }
 
@@ -51,6 +55,12 @@
     margin-top: 0;
 }
 
+@media (max-width: 1000px) {
+    .wrapper {
+        padding: 0 100px 0 100px;
+    }
+}
+
 
 @media (max-width: 767px) {
     .header-img {
@@ -62,12 +72,19 @@
     .img-row {
         width: 100%;
     }
+    .wrapper {
+        padding: 0 100px 0 100px;
+    }
 }
 
 
 @media (max-width: 560px) {
     .header-img {
         height: 230px;
+    }
+
+    .wrapper {
+        padding: 0 25px 0 25px;
     }
 }
 

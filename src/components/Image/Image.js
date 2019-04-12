@@ -6,6 +6,9 @@ class Image extends Component {
     render() {
         const imageStyle = {
            'borderRadius': '15px',
+           'height': `${this.props.height}`,
+           'margin': '0 auto',
+           'display': 'block'
         }
         if(this.props.withRadius) {
             return (
