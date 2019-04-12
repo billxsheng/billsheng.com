@@ -12,7 +12,7 @@ class Button extends Component {
 
     render() {
         const linkStyle = {
-            'margin': `${this.props.margin} auto`
+            'margin': `${this.props.margin}`
         }
 
         if(this.props.to) {

@@ -5,7 +5,7 @@ import styles from './GalleryPreview.css';
 import GalleryInfo from '../../../../assets/galleryInfo';
 import SlideCarousel from '../../../../components/Carousel/SlideCarousel/SlideCarousel';
 import CarouselItem from '../../../../components/Carousel/SlideCarousel/CarouselItem/CarouselItem';
-import Link from '../../../../components/Button/Link/Link';
+import Button from '../../../../components/Button/Button';
 import homeInfo from '../../../../assets/homeInfo';
 
 class galleryPreview extends Component {
@@ -25,7 +25,7 @@ class galleryPreview extends Component {
                     </SlideCarousel>
                     </div>
                     <div styleName="link-container" className="row">
-                        <Link  margin="25px" link="/gallery">View Gallery</Link>
+                        <Button  margin="30px auto" to="/gallery">View Gallery</Button>
                     </div>
                 </span>
             </div>

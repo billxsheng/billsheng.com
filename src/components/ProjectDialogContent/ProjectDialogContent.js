@@ -46,7 +46,7 @@ class ProjectModal extends Component {
             <br/>
             <br/>
             <div className="row"> 
-              <Button margin="0px" link={"https://github.com/alanxie29/Huddle"} btnType = "btnLarge">Github</Button>     
+              <Button margin="0px auto" link={"https://github.com/alanxie29/Huddle"} btnType = "btnLarge">Github</Button>     
             </div>
           </div>
         </Aux>
@@ -85,7 +85,7 @@ class ProjectModal extends Component {
             <br/>
             <br/>
             <div className="row">
-              <Button margin="0px" link={Links.github + "/blitz"} btnType = "btnLarge">Github</Button>
+              <Button margin="0px auto" link={Links.github + "/blitz"} btnType = "btnLarge">Github</Button>
             </div>
           </div>
         </Aux>
@@ -113,11 +113,11 @@ class ProjectModal extends Component {
             <br/>
             <br/>
             <div className="row">
-              <Button margin="0px" link={Links.github + "/munkee"} btnType = "btnLarge">Github</Button>
+              <Button margin="0px auto" link={Links.github + "/munkee"} btnType = "btnLarge">Github</Button>
             </div>
             <br/>
             <div className="row">
-              <Button margin="0px" link={Links.munkee} btnType = "btnLarge">Play Now</Button>
+              <Button margin="0px auto" link={Links.munkee} btnType = "btnLarge">Play Now</Button>
             </div>
           </div>
         </Aux>
@@ -142,7 +142,7 @@ class ProjectModal extends Component {
             <br/>
             <br/>
             <div className="row">
-              <Button margin="0px" link={"https://github.com/kvptkr/Air-Drums--UoftHacks-2019"} btnType = "btnLarge">Github</Button>
+              <Button margin="0px auto" link={"https://github.com/kvptkr/Air-Drums--UoftHacks-2019"} btnType = "btnLarge">Github</Button>
             </div>
           </div>
         </Aux>
@@ -166,7 +166,7 @@ class ProjectModal extends Component {
             <br/>
             <br/>
             <div className="row">
-              <Button margin="0px" link={Links.github + "/ryse"} btnType = "btnLarge">Github</Button>
+              <Button margin="0px auto" link={Links.github + "/ryse"} btnType = "btnLarge">Github</Button>
             </div>
           </div>
         </Aux>
@@ -190,7 +190,7 @@ class ProjectModal extends Component {
             <br/>
             <br/>
             <div className="row">
-              <Button margin="0px" link={Links.github + "/moodify"} btnType = "btnLarge">Github</Button>
+              <Button margin="0px auto" link={Links.github + "/moodify"} btnType = "btnLarge">Github</Button>
             </div>
           </div>
         </Aux>

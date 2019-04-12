@@ -71,7 +71,7 @@ class Hackathons extends Component {
                     <ProjectTile activateModal = {() => this.props.openProject(projectsInfo.moodify)} to="/projects/hackathons/moodify" imageHeight="400px" imageName="projects/moodify/moodify.png" tag={projectsInfo.moodify.tag} title={projectsInfo.moodify.name} shortDesc={projectsInfo.moodify.description}/>
                 </div>
                 <div className="row">
-                    <Button newPage="true" link={links.devpost} btnType="btnLarge" >View Devpost</Button>
+                    <Button margin="0 auto" newPage="true" link={links.devpost} btnType="btnLarge" >View Devpost</Button>
                 </div>
             </div>
         )

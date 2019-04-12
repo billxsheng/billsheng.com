@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import styles from './MyStory.css';
 import CSSModules from 'react-css-modules';
 import Image from '../../components/Image/Image';
-import Link from '../../components/Button/Link/Link';
 import Button from '../../components/Button/Button';
 import aboutInfo from '../../assets/aboutInfo';
 
@@ -35,7 +34,7 @@ class MyStory extends Component {
                             {aboutInfo.general.description}
                         </p2>
                         <div className="row">
-                            <Button margin="0px" resume btnType="btnLarge" >View My Resume</Button>
+                            <Button margin="20px auto 0 auto" resume btnType="btnLarge" >View My Resume</Button>
                         </div>
                     </div>
 
@@ -53,7 +52,7 @@ class MyStory extends Component {
                                 {aboutInfo.experience.description}
                             </p2>                       
                         <div className="row">
-                            <Button margin="0px" to="/projects/experience">View My Previous Experiences</Button>
+                            <Button margin="20px auto 0 auto" to="/projects/experience">View My Previous Experiences</Button>
                         </div>
                     </div>
                                    
@@ -65,20 +64,20 @@ class MyStory extends Component {
                     </div>
 
 
-                    <div styleName="section-div">
+                    <div styleName="section-div" className="text-center">
                             <h2>Teams</h2>
                             <p2>
                                 {aboutInfo.teams.description}
                             </p2>                       
                          <div styleName="img-row" className="row">
                             <span styleName="team" className="col-md-4">
-                                <Image height="100px" path="about/teams/georgia.png" />
+                                <Image height="80px" path="about/teams/georgia.png" />
                             </span>
                             <span styleName="team" className="col-md-4">
-                                <Image height="100px" path="about/teams/tml.png" />
+                                <Image height="80px" path="about/teams/tml.png" />
                             </span>                        
                             <span styleName="team" className="col-md-4">
-                                <Image height="100px" path="about/teams/raptors.png" />
+                                <Image height="80px" path="about/teams/raptors.png" />
                             </span> 
                         </div>
                     </div> 
