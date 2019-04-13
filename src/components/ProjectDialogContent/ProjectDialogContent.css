@@ -1,7 +1,8 @@
 .modal {
     height: 90vh !important;
     padding: 0 100px 0px 100px;
-    width: 90vw;
+    width: 70vw;
+
 }
 
 .modal:after {
@@ -88,13 +89,16 @@
 } 
 
 @media (max-width: 1000px) {
+    .modal {
+                padding: 0 50px 0 50px;
+    }
 
 } 
 
 @media (max-width: 767px) {
     .modal {
         overflow: scroll;
-        padding: 0 40px;
+        padding: 0 20px 0 20px;
     }
 
     .modal hr {
@@ -114,6 +118,7 @@
 @media (max-width: 480px) {
     .modal {
         padding: 0 20px 0 20px;
+        width: 90vw;
     }
 
     .modal hr {
@@ -123,6 +128,8 @@
     .modal h1 {
         font-size: 50px;
     }
+
+    
 } 
 
 
