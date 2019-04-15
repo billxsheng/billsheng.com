@@ -30,71 +30,84 @@ const ProjectsInfo = {
         },
         order: ['experience', 'web-mobile', 'data-science', 'hackathons']
     },
+    huddle: {
+        name:'Huddle',
+        description: 'A new way to connect NFL fans',
+        tag: "Side Project",
+        about: "Coming Soon",
+        date: "January 2019 - April 2019",
+        content: {
+            summary: "Huddle is a modern social media application that connects NFL fans while supporting local venues.",
+            technology: 'React Native, Java (Spring), Maven, MySQL',
+            problem: 'Professional sports is a product that can connect people regardless of age, gender, or race. This can occur in any setting, whether it\'s the office or the classroom. It is a concept that is very undermined, yet so powerful. We wanted to utilize the product of sports by coming up with a way to quantify its fan-fueled competitive aspect while selling it for what it really is, a social event.',
+            solution: 'Our brainstorming initially began with the concept of bringing people together. We realized that fans don’t prioritize where they watch games, only who they are watching with and whether or not the game is on. This led us to the idea of promoting local venues. Through Huddle, local venues could advertise the games they were streaming to increase business while connecting fans at the same time. A win-win situation. For the motivational aspect of Huddle, we decided to use a system that would associate a  “rating” with each user. The rating would be based on the accuracy of the user’s picks. It inclines users to continue to use Huddle in order to broadcast their ability to make picks correctly. This can be compared to Stack Overflow, where users ask/answer questions to increase their Stack Overflow “reputation”.',
+        }  
+    },
+    blitz: {
+        name: 'Blitz',
+        description: 'Redefining sports notifications',
+        tag: "Side Project",
+        about: "Coming Soon",
+        content: {
+            summary: "Blitz is a serverless notification service that sends real-time game updates to NFL fans through SMS text messages. From a web application, users can authenticate, specify their favorite team, and add their phone number. Whenever a game finishes, a Node JS server runs a complex algorithm that sends the custom text messages to the appropriate users.",
+            technology: "Node JS (Express JS, Passport JS), MongoDB, Twilio SMS Microservice, MySportsFeeds API",
+            problem: "Digital media apps (ESPN, theScore) are great at notifying fans about their favorite teams and players. The problem is that they heavily rely on the internet. If a user is on the go and does not have consistent access to the web, obtaining the final score of an important game could be a very frustrating process.",
+            solution: "Sports notifications are different because users do not have to further view the content to know the context of the situation. Consider a notification similar to “John Smith commented on your post.” Users must open the application in order to know exactly what was said.  A sports notification as simple as  “Toronto wins 5-3.” contains all the information the user needs. No further action would be required. The solution I came up with utilized SMS texting. Texts are extremely accessible and possess all necessary requirements to pass a piece of data that would not have to be further examined. I created a service that would automatically notify users via SMS texts.",
+        }     
+    },
     ryse: {
         name: 'Ryse',
         description: 'Networking application for ex-criminals',
-        technologies: 'JavaScript (Node.js, Express.js), MongoDB, HTML, CSS, Bootstrap',
         about: "Coming Soon",       
         tag: "Hackathon",
         content: {
-            summary: "Coming Soon"
+            summary: "Ryse is a web application that helps ex-criminals find employment. Instead of a networking application that focuses on achievements (LinkedIn), Ryse zeroes in on personal development. Users can create an account and record personal reflections, skills, and experiences. Endorsements can also be given out by correctional officers, family and friends (similar to LinkedIn Recommendations). By showcasing personal progress, Ryse eliminates the associated negative stigma. This encourages businesses to give second-chances to well-deserved candidates, keeping them off the streets where they can potentially recommit the same crimes.",
+            technology: "HTML/CSS, Node JS (Express JS, Passport JS), MongoDB"
+        } 
+    },
+    airdrums: {
+        name:'AirDrums',
+        description: 'Computer vision drum kit',
+        tag: "Hackathon Winner",
+        about: "Coming Soon",
+        content: {
+            summary: "AirDrums uses computer vision to mimic the standard drum set without the need for heavy and expensive equipment. Using OpenCV color detection, users can use whatever tools they wish as drum sticks. This project won the “Best Intel Hack” award at UofTHacks 2019.",
+            technology: "Python (NumPy, OpenCV, MatPlotLib, PyGame, WinSound)"
+        } 
+    },
+    munkee: {
+        name: 'Munkee',
+        description: 'Online multiplayer game',
+        tag: "Side Project",
+        about: "Coming Soon",
+        content: {
+            summary: "Coming Soon",
+            technology: "Node JS (Express JS, Socket.IO), jQuery, Bootstrap, MongoDB, Heroku"
+        }     
+    },
+    moodify: {
+        name: 'Moodify',
+        description: 'Adding AI to the job search',
+        tag: "Hackathon",
+        about: "Coming Soon",
+        content: {
+            summary: "Coming Soon",
+            technology: "Swift, Objective C, XCode, IBM Watson API"
         } 
     },
     ctc: {
         name: 'Canadian Tire',
         link: 'canadian-tire',
         description: 'Improving IT productivity',
-        technologies: 'PowerShell, VMWare, Jira, Confluence',
         tag: "Internship",
         about: "Coming Soon",
         content: {
             summary: "Coming Soon"
         }    
     },
-    blitz: {
-        name: 'Blitz',
-        description: 'Redefining sports notifications',
-        technologies: 'JavaScript (Node.js, Express.js), MongoDB, HTML, CSS, Bootstrap',
-        tag: "Side Project",
-        about: "Coming Soon",
-        content: {
-            summary: "Coming Soon"
-        }     
-    },
-    munkee: {
-        name: 'Munkee',
-        description: 'Online multiplayer game',
-        technologies: 'JavaScript (Node.js, Express.js, Socket.IO), MongoDB, HTML, CSS, Bootstrap',
-        tag: "Side Project",
-        about: "Coming Soon",
-        content: {
-            summary: "Coming Soon"
-        }     
-    },
-    moodify: {
-        name: 'Moodify',
-        description: 'Adding AI to the job search',
-        technologies: 'Swift, Xcode, Objective-C, IBM Watson API',
-        tag: "Hackathon",
-        about: "Coming Soon",
-        content: {
-            summary: "Coming Soon"
-        } 
-    },
-    vcuts: {
-        name: 'VCuts',
-        description: 'Freelance barber website',
-        technologies: 'JavaScript (Angular 2+, Node.js, jQuery), TypeScript, HTML, CSS, MongoDB, Amazon Web Services (AWS)',
-        tag: "Freelance Project",
-        about: "Coming Soon",
-        content: {
-            summary: "Coming Soon"
-        } 
-    },
     opentext: {
         name: 'OpenText',
         description: 'EIM Engineering',
-        technologies: '',
         tag: "Internship",
         about: "Coming Soon",
         content: {
@@ -104,37 +117,11 @@ const ProjectsInfo = {
     freelance: {
         name: 'Freelance',
         description: 'My personal brand',
-        technologies: '',
         tag: 'Freelance',
         about: 'Coming soon',
         content: {
             summary: "Coming Soon"
         }
     },
-    huddle: {
-        name:'Huddle',
-        description: 'A new way to connect NFL fans',
-        technologies: '',
-        tag: "Side Project",
-        about: "Coming Soon",
-        date: "January 2019 - April 2019",
-        content: {
-            summary: "Huddle is a modern social media application that connects NFL fans while supporting local venues. The primary functionalities of Huddle are to allow fans to make picks on games, bet on games, and watch live games being streamed at local venues promoted by Huddle. This connects like-minded fans while promoting local restaurants/bars at the same time. ",
-            technologies: 'React Native, Java (Spring), Maven, MySQL',
-            problem: 'Talking sports is a huge topic of conversation that can connect anyone regardless of age, gender, or race. Likewise, they can begin in any setting, whether it\'s the office or the classroom. It is a concept that is very undermined, yet so powerful. We wanted to utilize the product of sports by coming up with a way to quantify its fan-fueled competitive aspect while selling it for what it really is, a social excitement.',
-            solution: 'Our brainstorming initially began with the concept of bringing people together. We realized that fans don’t usually care about where they watch games, only who they were watching with and whether or not the game was on. This led us to the idea of promoting local venues. Local venues could advertise the games they were streaming on specific nights to connect fans while supporting their venue. This was a great start, however, there was still no real motivation for fans to use our application. To resolve this issue, we would have to deliver a motivational aspect to Huddle. We decided to use a system that would associate a  “rating” with each user. The rating would be based on the accuracy of the user’s picks. It inclines users to continue to use Huddle in order to broadcast their ability to make correct picks. This can be compared to Stack Overflow, where users feel the need to ask/answer questions to increase their Stack Overflow “reputation”.',
-            delivery: 'During the creation of the project, I built all of the server-side capabilities while writing some JavaScript using the React-Native framework. My frontend tasks involved writing authentication views, HTTP requests, as well as some form logic. Having previously used both React and Swift, React Native’s lack of control was prevalent throughout the project. The UX was not very smooth and the framework was constantly throwing errors caused by NPM. Though this was the case, I can definitely see its potential if a web-based team was short of native developers. On the other hand, the Spring framework',
-        }  
-    },
-    airdrums: {
-        name:'AirDrums',
-        description: 'Computer vision drum kit',
-        technologies: '',
-        tag: "Hackathon Winner",
-        about: "Coming Soon",
-        content: {
-            summary: "Coming Soon"
-        } 
-    }
 }
 export default ProjectsInfo;

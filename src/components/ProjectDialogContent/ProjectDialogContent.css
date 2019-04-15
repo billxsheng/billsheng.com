@@ -15,6 +15,11 @@
 .title-p {
     margin-bottom: 0 !important;
 }
+.modal ul {
+    list-style-type: disk;
+    list-style-position: outside;
+    margin: 10px 0 30px 20px;
+}
 
 .modal h1 {
     margin: 30px auto 0px auto !important;
@@ -38,6 +43,16 @@
     display: block;
 }
 
+.modal p3 {
+    text-align: left;
+    font-family: 'Cairo';
+    font-size: 16px;
+    margin: 10px auto;
+    font-weight: 400;
+    max-width: 700px;
+    line-height: 35px;
+}
+
 .description {
     text-align: center;
 }
@@ -49,12 +64,12 @@
     margin: 0 0 30px 0;
 }
 
-.modal p:last-of-type {
+/* .modal p:last-of-type {
     text-align: left;
     padding: 0;
     max-width: none;
     margin: 0;
-}
+} */
 
 .modal p2 {
     margin: 0 auto;

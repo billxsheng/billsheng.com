@@ -29,18 +29,27 @@ class ProjectModal extends Component {
             <hr/>
             <Image withRadius path = "projects/huddle/huddle-with-background.png" />
             <hr/>
-            <h4>Technologies</h4>
-            <p>{project.content.technologies}</p> 
             <h4>Summary</h4>
             <p>{project.content.summary}</p>
-            <Image fine="Huddle Welcome Screen" path = "projects/huddle/huddle-splash.jpg" />     
+            <h4>Technology</h4>
+            <p>{project.content.technology}</p>
+            <h4>My Tasks</h4>
+            <ul className="list-group">
+              <li><p3>Created authentication templates using React-Native</p3></li>
+              <li><p3>Called HTTP requests using React Axios library</p3></li>
+              <li><p3>Configured login/signup form logic using two-way binding, lifecycle hooks, and component states</p3></li>
+              <li><p3>Implemented MVC design patterns using Java Spring framework</p3></li>
+              <li><p3>Implemented session-based stateful authentication using Spring Security </p3></li>
+              <li><p3>Wrote User and Game entities to be saved into MySQL database</p3></li>
+              <li><p3>Constructed REST API endpoints within Spring controllers to configure data flow between client and server</p3></li>
+              <li><p3>Called external MySportsFeeds API to continuously update database on game states </p3></li>
+            </ul>
             <h4>The Problem</h4>
             <p>{project.content.problem}</p> 
             <h4>Our Solution</h4>
             <p>{project.content.solution}</p>
+            <Image fine="Huddle Welcome Screen" path = "projects/huddle/huddle-splash.jpg" />     
             <Image fine="Huddle Promoted Venues" path = "projects/huddle/huddle-venues.jpg" />      
-            <h4>Delivery</h4>
-            <p>{project.content.delivery}</p> 
             <Image fine="Huddle Games" path = "projects/huddle/huddle-games.jpg" />      
             <br/>
             <br/>
@@ -54,6 +63,9 @@ class ProjectModal extends Component {
 
 
       case "Blitz":
+      var htmlObject = document.createElement('div');
+      htmlObject.innerHTML = project.content.tasks;
+
       return (
         <Aux>
           <div styleName="modal" >
@@ -67,20 +79,28 @@ class ProjectModal extends Component {
             <Image withRadius path = "projects/blitz/blitz-with-background.png" />
             <hr/>
             <h4>Summary</h4>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-               Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
-               Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. D
-               onec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a,
-                venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Viv
-                amus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat 
-                vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viver
-                ra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies 
-              nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus,
-               tellus eget condimentum rhoncus, sem quam semper libero, sit amet a</p>
+            <p>{project.content.summary}</p>
+            <h4>Technology</h4>
+            <p>{project.content.technology}</p>
+            <h4>My Tasks</h4>
+            <ul className="list-group">
+              <li><p3>Used handlebars templates to create 5+ views using HTML & CSS</p3></li>
+              <li><p3>Wrote HTML form logic to call REST API endpoints</p3></li>
+              <li><p3>Wrote User, Team, and Game entities to be saved in MongoDB database</p3></li>
+              <li><p3>Used Mongoose to simplify interactions between server and database</p3></li>
+              <li><p3>Used Node JS for JavaScript run-time environment</p3></li>
+              <li><p3>Wrote REST API using Express JS middleware to specify application endpoints</p3></li>
+              <li><p3>Used Passport JS to implement authentication using JSON Web Tokens and OAuth 2.0</p3></li>
+              <li><p3>Called Twilio SMS microservices to send text messages to users</p3></li>
+              <li><p3>Called external MySportsFeeds API to continuously update game states</p3></li>
+            </ul>
+            <h4>Problem</h4>
+            <p>{project.content.problem}</p>
+            <h4>Solution</h4>
+            <p>{project.content.solution}</p>
             <Image fine="Blitz Login" path = "projects/blitz/blitz-login.png" />
             <Image fine="Blitz Sign Up" path = "projects/blitz/blitz-signup.png" />
             <Image fine="Blitz Profile" path = "projects/blitz/blitz-profile.png" />
-
             <br/>
             <br/>
             <br/>
@@ -107,6 +127,8 @@ class ProjectModal extends Component {
             <hr/>
             <h4>Summary</h4>
             <p>{project.content.summary}</p>
+            <h4>Technology</h4>
+            <p>{project.content.technology}</p>
             <Image fine="Munkee Game Screen" path = "projects/munkee/munkee-web.png" />
             <Image fine="Munkee Mobile Game Screen" path = "projects/munkee/munkee-mobile.png" />
             <br/>
@@ -136,13 +158,21 @@ class ProjectModal extends Component {
                 <p className="text-center" styleName="title-p">{project.tag}</p>
             </div>
             <hr/>
+            <Image path = "projects/airdrums/airdrums.png" />
+            <hr/>
             <h4>Summary</h4>
             <p>{project.content.summary}</p>
+            <h4>Technology</h4>
+            <p>{project.content.technology}</p>
             <br/>
             <br/>
             <br/>
             <div className="row">
               <Button margin="0px auto" link={"https://github.com/kvptkr/Air-Drums--UoftHacks-2019"} btnType = "btnLarge">Github</Button>
+            </div>
+            <br/>
+            <div className="row">
+              <Button margin="0px auto" link={"https://devpost.com/software/airdrums-39k0ny"} btnType = "btnLarge">Devpost</Button>
             </div>
           </div>
         </Aux>
@@ -160,13 +190,21 @@ class ProjectModal extends Component {
                 <p className="text-center" styleName="title-p">{project.tag}</p>
             </div>
             <hr/>
+            <Image path = "projects/ryse/ryse.png" />
+            <hr/>
             <h4>Summary</h4>
             <p>{project.content.summary}</p>
+            <h4>Technology</h4>
+            <p>{project.content.technology}</p>
             <br/>
             <br/>
             <br/>
             <div className="row">
               <Button margin="0px auto" link={Links.github + "/ryse"} btnType = "btnLarge">Github</Button>
+            </div>
+            <br/>
+            <div className="row">
+              <Button margin="0px auto" link={"https://devpost.com/software/ryse"} btnType = "btnLarge">Desktop</Button>
             </div>
           </div>
         </Aux>
