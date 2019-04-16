@@ -49,9 +49,6 @@ class ProjectModal extends Component {
             <Image fine="Huddle Welcome Screen" path = "projects/huddle/huddle-splash.jpg" />     
             <Image fine="Huddle Promoted Venues" path = "projects/huddle/huddle-venues.jpg" />      
             <Image fine="Huddle Games" path = "projects/huddle/huddle-games.jpg" />      
-            <br/>
-            <br/>
-            <br/>
             <div className="row"> 
               <Button margin="0px auto" link={"https://github.com/alanxie29/Huddle"} btnType = "btnLarge">Github</Button>     
             </div>
@@ -99,9 +96,6 @@ class ProjectModal extends Component {
             <Image fine="Blitz Login" path = "projects/blitz/blitz-login.png" />
             <Image fine="Blitz Sign Up" path = "projects/blitz/blitz-signup.png" />
             <Image fine="Blitz Profile" path = "projects/blitz/blitz-profile.png" />
-            <br/>
-            <br/>
-            <br/>
             <div className="row">
               <Button margin="0px auto" link={Links.github + "/blitz"} btnType = "btnLarge">Github</Button>
             </div>
@@ -140,9 +134,6 @@ class ProjectModal extends Component {
             </ul>
             <Image fine="Munkee Game Screen" path = "projects/munkee/munkee-web.png" />
             <Image fine="Munkee Mobile Game Screen" path = "projects/munkee/munkee-mobile.png" />
-            <br/>
-            <br/>
-            <br/>
             <div className="row">
               <Button margin="0px auto" link={Links.github + "/munkee"} btnType = "btnLarge">Github</Button>
             </div>
@@ -173,9 +164,6 @@ class ProjectModal extends Component {
             <p>{project.content.summary}</p>
             <h4>Technology</h4>
             <p>{project.content.technology}</p>
-            <br/>
-            <br/>
-            <br/>
             <div className="row">
               <Button margin="0px auto" link={"https://github.com/kvptkr/Air-Drums--UoftHacks-2019"} btnType = "btnLarge">Github</Button>
             </div>
@@ -205,9 +193,6 @@ class ProjectModal extends Component {
             <p>{project.content.summary}</p>
             <h4>Technology</h4>
             <p>{project.content.technology}</p>
-            <br/>
-            <br/>
-            <br/>
             <div className="row">
               <Button margin="0px auto" link={Links.github + "/ryse"} btnType = "btnLarge">Github</Button>
             </div>
@@ -231,11 +216,10 @@ class ProjectModal extends Component {
                 <p className="text-center" styleName="title-p">{project.tag}</p>
             </div>
             <hr/>
+            <Image path = "projects/moodify/moodify.png" />
+            <hr/>
             <h4>Summary</h4>
             <p>{project.content.summary}</p>
-            <br/>
-            <br/>
-            <br/>
             <div className="row">
               <Button margin="0px auto" link={Links.github + "/moodify"} btnType = "btnLarge">Github</Button>
             </div>
