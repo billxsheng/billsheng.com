@@ -13,8 +13,6 @@ class ProjectModal extends Component {
     let project = this.props.project;
 
     switch(project.name) {
-
-
       case "Huddle":
       return (
         <Aux>
@@ -42,7 +40,7 @@ class ProjectModal extends Component {
               <li><p3>Implemented session-based stateful authentication using Spring Security </p3></li>
               <li><p3>Wrote User and Game entities to be saved into MySQL database</p3></li>
               <li><p3>Constructed REST API endpoints within Spring controllers to configure data flow between client and server</p3></li>
-              <li><p3>Called external MySportsFeeds API to continuously update database on game states </p3></li>
+              <li><p3>Called external MySportsFeeds API to continuously update database on game states</p3></li>
             </ul>
             <h4>The Problem</h4>
             <p>{project.content.problem}</p> 
@@ -86,13 +84,13 @@ class ProjectModal extends Component {
             <ul className="list-group">
               <li><p3>Used handlebars templates to create 5+ views using HTML & CSS</p3></li>
               <li><p3>Wrote HTML form logic to call REST API endpoints</p3></li>
-              <li><p3>Wrote User, Team, and Game entities to be saved in MongoDB database</p3></li>
-              <li><p3>Used Mongoose to simplify interactions between server and database</p3></li>
-              <li><p3>Used Node JS for JavaScript run-time environment</p3></li>
-              <li><p3>Wrote REST API using Express JS middleware to specify application endpoints</p3></li>
-              <li><p3>Used Passport JS to implement authentication using JSON Web Tokens and OAuth 2.0</p3></li>
+              <li><p3>Created User, Team, and Game entities to be saved in MongoDB database</p3></li>
+              <li><p3>Configured Mongoose to simplify interactions between server and database </p3></li>
+              <li><p3>Used Node JS for JavaScript run-time environment </p3></li>
+              <li><p3>Wrote REST API using Express JS and specified logic within application endpoints</p3></li>
+              <li><p3>Utilized Passport JS to implement authentication using JSON Web Tokens and OAuth 2.0</p3></li>
               <li><p3>Called Twilio SMS microservices to send text messages to users</p3></li>
-              <li><p3>Called external MySportsFeeds API to continuously update game states</p3></li>
+              <li><p3>Called external MySportsFeeds API to continuously update game states </p3></li>
             </ul>
             <h4>Problem</h4>
             <p>{project.content.problem}</p>
@@ -129,6 +127,17 @@ class ProjectModal extends Component {
             <p>{project.content.summary}</p>
             <h4>Technology</h4>
             <p>{project.content.technology}</p>
+            <h4>My Tasks</h4>
+            <ul className="list-group">
+              <li><p3>Used Mongoose to simplify interactions between server and database</p3></li>
+              <li><p3>Set up Node JS for JavaScript run-time environment</p3></li>
+              <li><p3>Wrote REST API using Express JS and specified logic within application endpoints</p3></li>
+              <li><p3>Utilized web sockets using Socket.IO to create real-time game lobby “rooms”</p3></li>
+              <li><p3>Configured MongoDB to store game entities including number of players and room ID</p3></li>
+              <li><p3>Generated unique hexatridecimal ID using UniqID NPM library</p3></li>
+              <li><p3>Implemented game logic using JavaScript DOM manipulation</p3></li>
+              <li><p3>Used handlebars templates to create 5+ views using HTML & CSS</p3></li>
+            </ul>
             <Image fine="Munkee Game Screen" path = "projects/munkee/munkee-web.png" />
             <Image fine="Munkee Mobile Game Screen" path = "projects/munkee/munkee-mobile.png" />
             <br/>

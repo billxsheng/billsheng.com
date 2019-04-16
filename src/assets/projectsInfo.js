@@ -81,9 +81,9 @@ const ProjectsInfo = {
         tag: "Side Project",
         about: "Coming Soon",
         content: {
-            summary: "Coming Soon",
+            summary: "Munkee is a cross-platform multiplayer game that runs the classic dice game of pig. The game can be played locally on one computer or online through private game lobbies. When a player creates a game, a unique hexatridecimal game ID is created and saved to the database. The player can then invite their friends by sharing the ID. My usage of web sockets allow for real-time games to be played. Being a fan of console-based sports game (2K, Madden, NHL), I have always been curious about how online matches took place through the web. This inspired me to try implementing my own matchmaking architecture.",
             technology: "Node JS (Express JS, Socket.IO), jQuery, Bootstrap, MongoDB, Heroku"
-        }     
+        } 
     },
     moodify: {
         name: 'Moodify',
@@ -91,7 +91,7 @@ const ProjectsInfo = {
         tag: "Hackathon",
         about: "Coming Soon",
         content: {
-            summary: "Coming Soon",
+            summary: "Moodify is an iOS application that helps students write professional letters.Users upload their document, where the IBM Watson Tone API analyzes how the text is portrayed. The app then gives suggestions on how to adjust the text based on tones the user prioritizes.",
             technology: "Swift, Objective C, XCode, IBM Watson API"
         } 
     },
