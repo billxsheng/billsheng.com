@@ -239,8 +239,23 @@ class ProjectModal extends Component {
                 <p className="text-center" styleName="title-p">{project.tag}</p>
             </div>
             <hr/>
-            <h4>Summary</h4>
-            <p>{project.content.summary}</p>
+            <Image path = "projects/ot/ot.png" />
+            <hr/>
+            <h4>Position</h4>
+            <p>{project.content.position}</p>
+            <h4>Technology</h4>
+            <p>{project.content.technology}</p>
+            <h4>My Tasks</h4>
+            <ul className="list-group">
+              <li><p3>Engaged in all phases of the SDLC within the scrum team during creation of EIM products</p3></li>
+              <li><p3>Wrote monitoring services, error detection software, and unit tests in Java while ensuring best practices to manage numerous agents running on external networks</p3></li>
+              <li><p3>Revised, upgraded 6000+ lines of TypeScript in Angular dashboard to be used by 1500+ stakeholders</p3></li>
+              <li><p3>Implemented a centralized store design pattern on top of Angular website using NGRX for more reusable code structure; reduced code by 40%</p3></li>
+            </ul>
+            <h4>Evaluation</h4>
+            <p>{project.content.evaluation}</p>
+            <Image fine="OpenText Reception in Richmond Hill, Ontario" path ="projects/ot/ot-1.png" />
+            <Image fine="Corridor Art" path ="projects/ot/ot-2.png" />
           </div>
         </Aux>
       );
@@ -257,8 +272,18 @@ class ProjectModal extends Component {
                 <p className="text-center" styleName="title-p">{project.tag}</p>
             </div>
             <hr/>
+            <h4>Position</h4>
+            <p>{project.content.position}</p>
+            <h4>Technology</h4>
+            <p>{project.content.technology}</p>
             <h4>Summary</h4>
             <p>{project.content.summary}</p>
+            <h4>My Tasks</h4>
+            <ul className="list-group">
+              <li><p3>Interfaced with clients to build several full stack applications using React JS, Angular 6, and Node JS</p3></li>
+              <li><p3>Streamlined dynamic content management using MongoDB for low-code versatility; decreased existing redeployment instances by 90%</p3></li>
+              <li><p3>Built a full stack barber website which included an email service, contact form, and dynamic gallery</p3></li>
+            </ul>
           </div>
         </Aux>
       );
@@ -275,8 +300,23 @@ class ProjectModal extends Component {
                 <p className="text-center" styleName="title-p">{project.tag}</p>
             </div>
             <hr/>
-            <h4>Summary</h4>
-            <p>{project.content.summary}</p>
+            <Image path = "projects/ctc/ctc.png" />
+            <hr/>
+            <h4>Position</h4>
+            <p>{project.content.position}</p>
+            <h4>Technology</h4>
+            <p>{project.content.technology}</p>
+            <h4>My Tasks</h4>
+            <ul className="list-group">
+              <li><p3>Engaged in all phases of the SDLC within the scrum team during creation of EIM products</p3></li>
+              <li><p3>Wrote monitoring services, error detection software, and unit tests in Java while ensuring best practices to manage numerous agents running on external networks</p3></li>
+              <li><p3>Revised, upgraded 6000+ lines of TypeScript in Angular dashboard to be used by 1500+ stakeholders</p3></li>
+              <li><p3>Implemented a centralized store design pattern on top of Angular website using NGRX for more reusable code structure; reduced code by 40%</p3></li>
+            </ul>
+            <h4>Evaluation</h4>
+            <p>{project.content.evaluation}</p>
+            <Image fine="Welcome Sign" path ="projects/ctc/ctc-1.png" />
+            <Image fine="Office in Toronto" path ="projects/ctc/ctc-2.png" />
           </div>
         </Aux>
       );

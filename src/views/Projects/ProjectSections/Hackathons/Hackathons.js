@@ -30,7 +30,7 @@ class Hackathons extends Component {
         return(
             <div className="container">
                 <span styleName="curve" className="container">
-                    <div className="row" styleName="title-block">
+                    <div className="row">
                         <div className="col-md-2">
                             {this.state.leftArrow ? 
                                 <NavLink styleName="btn-prev" to={`/projects/${projectsArray[projectsArray.indexOf(projectsInfo.headings.hackathons.link.toLowerCase()) - 1]}`} >

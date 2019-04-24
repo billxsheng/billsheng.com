@@ -7,25 +7,21 @@ const ProjectsInfo = {
         webMobile: {
             title: "Web & Mobile",
             description: "Web/Mobile Development",
-            order: ['huddle', 'blitz', 'munkee', 'vcuts'],
             link: 'web-mobile'
         },
         ds: {
             title: "Data Science",
             link: 'data-science',
             description: "Projects coming soon",
-            order: []
         },
         experience: {
             title: "Experience",
             description: "Internships, Design Teams, Clubs",
-            order: ['opentext', 'freelance', 'canadian-tire'],
             link: 'experience'
         },
         hackathons: {
             title: "Hackathons",
             description: "Projects built during hackathons",
-            order: ['airdrums', 'ryse', 'moodify'],
             link: 'hackathons'
         },
         order: ['experience', 'web-mobile', 'data-science', 'hackathons']
@@ -102,7 +98,9 @@ const ProjectsInfo = {
         tag: "Internship",
         about: "Coming Soon",
         content: {
-            summary: "Coming Soon"
+            position: "Technical Specialist",
+            technology: "PowerShell, Docker, VMWare, Confluence",
+            evaluation: "Excellent"
         }    
     },
     opentext: {
@@ -111,7 +109,9 @@ const ProjectsInfo = {
         tag: "Internship",
         about: "Coming Soon",
         content: {
-            summary: "Coming Soon"
+            position: "Full Stack Developer",
+            technology: "Java (Spring), Maven, Docker, JavaScript (Node JS, Angular 2+), TypeScript, MongoDB, HTML/CSS, Bulma, Git, Jira",
+            evaluation: "Very Good (letter of reference available)"
         }    
     },
     freelance: {
@@ -120,7 +120,9 @@ const ProjectsInfo = {
         tag: 'Freelance',
         about: 'Coming soon',
         content: {
-            summary: "Coming Soon"
+            position: "Founder/Engineer",
+            technology: "JavaScript (Node JS, React JS, Angular 2+), TypeScript, MongoDB, HTML/CSS, Bootstrap, jQuery, AWS, Git",
+            summary: "Coming Soon"        
         }
     },
 }
