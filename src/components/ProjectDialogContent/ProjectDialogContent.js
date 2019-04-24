@@ -254,8 +254,8 @@ class ProjectModal extends Component {
             </ul>
             <h4>Evaluation</h4>
             <p>{project.content.evaluation}</p>
-            <Image fine="OpenText Reception in Richmond Hill, Ontario" path ="projects/ot/ot-1.png" />
-            <Image fine="Corridor Art" path ="projects/ot/ot-2.png" />
+            <Image withRadius fine="OpenText Reception in Richmond Hill, Ontario" path ="projects/ot/ot-1.png" />
+            <Image withRadius fine="Corridor Art" path ="projects/ot/ot-2.png" />
           </div>
         </Aux>
       );
@@ -315,8 +315,8 @@ class ProjectModal extends Component {
             </ul>
             <h4>Evaluation</h4>
             <p>{project.content.evaluation}</p>
-            <Image fine="Welcome Sign" path ="projects/ctc/ctc-1.png" />
-            <Image fine="Office in Toronto" path ="projects/ctc/ctc-2.png" />
+            <Image withRadius fine="Welcome Sign" path ="projects/ctc/ctc-1.png" />
+            <Image withRadius fine="Office in Toronto" path ="projects/ctc/ctc-2.png" />
           </div>
         </Aux>
       );
