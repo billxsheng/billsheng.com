@@ -44,7 +44,7 @@
     left: 0;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    background: linear-gradient(to right, rgb(0,0,0, 0.4), rgb(0,0,0,0), rgb(0,0,0, 0.4)), url('../../../../assets/images/projects/select-hack.png') center;
+    background: linear-gradient(to right, rgb(0,0,0, 0.4), rgb(0,0,0,0), rgb(0,0,0, 0.4)), url('../../../../assets/images/projects/select/select-hack.png') center;
 }
 
 .upper-wrapper-exp {
@@ -55,7 +55,7 @@
     left: 0;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    background: linear-gradient(to right, rgb(0,0,0, 0.4), rgb(0,0,0,0), rgb(0,0,0, 0.4)), url('../../../../assets/images/projects/select-exp.jpg');
+    background: linear-gradient(to right, rgb(0,0,0, 0.4), rgb(0,0,0,0), rgb(0,0,0, 0.4)), url('../../../../assets/images/projects/select/select-exp.jpg');
     background-size: cover;
 }
 
@@ -67,7 +67,7 @@
     left: 0;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    background: linear-gradient(to right, rgb(0,0,0, 0.4), rgb(0,0,0,0), rgb(0,0,0, 0.4)), url('../../../../assets/images/projects/select-ds.jpg');
+    background: linear-gradient(to right, rgb(0,0,0, 0.4), rgb(0,0,0,0), rgb(0,0,0, 0.4)), url('../../../../assets/images/projects/select/select-ds.jpg');
     background-size: cover;
 }
 
@@ -79,7 +79,7 @@
     left: 0;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    background: linear-gradient(to right, rgb(0,0,0, 0.4), rgb(0,0,0,0), rgb(0,0,0, 0.4)), url('../../../../assets/images/projects/select-wm.png');
+    background: linear-gradient(to right, rgb(0,0,0, 0.4), rgb(0,0,0,0), rgb(0,0,0, 0.4)), url('../../../../assets/images/projects/select/select-wm.png');
     background-size: cover;
 }
 
@@ -120,42 +120,6 @@
     background: linear-gradient(to right, rgb(0,0,0, 0.4), rgb(0,0,0,0), rgb(0,0,0, 0.4)), url('../../../../assets/images/gallery/waterloo-campus.jpg');
     background-size: cover;
 }
-
-/* .upper-wrapper-showcase-sports {
-    position: absolute;
-    width: inherit;
-    height: 320px;
-    top: 0;    
-    left: 0;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    background: linear-gradient(to right, rgb(0,0,0, 0.4), rgb(0,0,0,0), rgb(0,0,0, 0.4)), url('../../../../assets/images/personal/team-picture.jpeg');
-    background-size: cover;
-} */
-/* 
-.upper-wrapper-showcase-bbq {
-    position: absolute;
-    width: inherit;
-    height: 320px;
-    top: 0;    
-    left: 0;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    background: linear-gradient(to right, rgb(0,0,0, 0.4), rgb(0,0,0,0), rgb(0,0,0, 0.4)), url('../../../../assets/images/about/hobbies/barbecue.jpg');
-    background-size: cover;
-} */
-/* 
-.upper-wrapper-showcase-guitar {
-    position: absolute;
-    width: inherit;
-    height: 320px;
-    top: 0;    
-    left: 0;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    background: linear-gradient(to right, rgb(0,0,0, 0.4), rgb(0,0,0,0), rgb(0,0,0, 0.4)), url('../../../../assets/images/about/hobbies/guitar.jpg');
-    background-size: cover;
-} */
 
 .lower-wrapper,
 .lower-wrapper-showcase {

@@ -1,37 +1,79 @@
 .modal {
     height: 90vh !important;
-    width: 93vw;
-    padding: 0 200px 0px 200px;
+    padding: 0 50px 0px 50px;
+    width: 70vw;
+
 }
 
 .modal:after {
     content: "";
     display: block;
-    height: 50px;
+    height: 80px;
     width: 100%;
-  }
+}
+
+.title-p {
+    margin-bottom: 0 !important;
+}
+.modal ul {
+    list-style-type: disk;
+    list-style-position: outside;
+    margin: 10px 0 30px 20px;
+}
 
 .modal h1 {
     margin: 30px auto 0px auto !important;
+    font-size: 70px;
+    letter-spacing: -4px;
 }
 
 .modal h4 {
     text-align: left !important;
+    margin-bottom: 0;
 }
 
-.modal p {
-    margin: 0 auto;
+.modal hr {
+    width: 50%;
+    margin: 30px auto 40px auto;
+    min-width: 280px;
 }
 
 .modal img {
     height: 500px;
-    margin: 0 auto !important;
     display: block;
 }
 
-.modal p2 {
+.modal p3 {
+    text-align: left;
+    font-family: 'Cairo';
+    font-size: 16px;
+    margin: 10px auto;
+    font-weight: 400;
+    max-width: 700px;
+    line-height: 35px;
+}
+
+.description {
+    text-align: center;
+}
+
+.modal p {
     text-align: left;
     padding: 0;
+    max-width: none;
+    margin: 0 0 30px 0;
+}
+
+/* .modal p:last-of-type {
+    text-align: left;
+    padding: 0;
+    max-width: none;
+    margin: 0;
+} */
+
+.modal p2 {
+    margin: 0 auto;
+    text-align: center;
 }
 
 .tag {
@@ -61,16 +103,54 @@
     }
 } 
 
+@media (max-width: 1000px) {
+    .modal {
+        padding: 0 50px 0 50px;
+    }
+
+} 
+
 @media (max-width: 767px) {
     .modal {
-        width: 100%;
         overflow: scroll;
-        padding: 0 20px 0px 20px;
+        padding: 0 20px 0 20px;
+    }
+
+    .modal hr {
+        margin: 20px auto 20px auto;
     }
 
     .modal img {
         height: auto;
         width: 300px;
     }
+
+    .modal h1 {
+        font-size: 60px;
+    }
 } 
+
+@media (max-width: 480px) {
+    .modal {
+        padding: 0 20px 0 20px;
+        width: 90vw;
+    }
+
+    .modal hr {
+        margin: 20px auto 20px auto;   
+    }
+
+    .modal h1 {
+        font-size: 50px;
+    }
+
+    .modal:after {
+        content: "";
+        display: block;
+        height: 40px;
+        width: 100%;
+    }
+    
+} 
+
 

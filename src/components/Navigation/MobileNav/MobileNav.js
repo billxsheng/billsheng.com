@@ -5,7 +5,7 @@ import CSSModules from 'react-css-modules';
 import Logo from '../../Logo/Logo';
 import {NavLink} from 'react-router-dom'; 
 
-class mobileNav extends Component {
+class MobileNav extends Component {
 
     state = {
         navOpen: false
@@ -81,4 +81,4 @@ class mobileNav extends Component {
     }
 } 
 
-export default CSSModules(mobileNav, classes, {allowMultiple: true});
+export default CSSModules(MobileNav, classes, {allowMultiple: true});

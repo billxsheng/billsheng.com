@@ -5,21 +5,26 @@ import styles from './Image.css';
 class Image extends Component {
     render() {
         const imageStyle = {
-            'marginTop': this.props.marginTop,
-            'marginBottom': this.props.marginBottom,
-           'marginLeft': `auto`,
-           'marginRight': `auto`,
-           'width': 'auto',
-           'maxHeight': this.props.height,
-           'display': 'block',
-           'verticalAlign': 'middle',
-           'position': 'relative',
-           'borderRadius': '15px'
+           'borderRadius': '15px',
+           'height': `${this.props.height}`,
+           'margin': '0 auto',
+           'display': 'block'
         }
-
-        return (
-            <img className="img-fluid" alt="bill" style={imageStyle} src={require(`../../assets/images/${this.props.path}`)} />
-        )
+        if(this.props.withRadius) {
+            return (
+                <div styleName="image-box">
+                    <img className="img-fluid" style={imageStyle} alt="bill" src={require(`../../assets/images/${this.props.path}`)} />
+                    <p className="text-center" styleName="image-description" >{this.props.fine}</p>
+                </div>
+            )
+        } else {
+            return (
+                <div styleName="image-box">
+                    <img className="img-fluid" alt="bill" src={require(`../../assets/images/${this.props.path}`)} />
+                    <p className="text-center" styleName="image-description" >{this.props.fine}</p>
+                </div>
+            )
+        }
     }
 } 
 
