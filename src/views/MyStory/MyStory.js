@@ -28,7 +28,7 @@ class MyStory extends Component {
 
                 <div styleName="content-div">
                     <div styleName="section-div-first" >
-                        <Image height="300px" withRadius path="about/other/headshot.jpg" />
+                        <Image height="400px" withRadius path="about/other/headshot.jpg" />
                         {/* <img className="img-fluid" styleName= "header-img" alt="header-img" src={require(`./../../assets/images/about/other/headshot.jpg`)} ></img> */}
                         <p2>
                             {aboutInfo.general.description}
@@ -43,7 +43,7 @@ class MyStory extends Component {
                             <p2>
                                 {aboutInfo.education.description}
                             </p2>
-                        <Image path="about/other/waterloo-engineering.png" />
+                        <Image height="30px" path="about/other/waterloo-engineering.png" />
                     </div>
                     
                     <div styleName="section-div"> 
