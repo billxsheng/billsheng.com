@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 
 import CSSModules from 'react-css-modules';
 import styles from './ProjectsPreview.css';
-import Link from '../../../../components/Button/Link/Link';
+import Button from '../../../../components/Button/Button';
 import SlideCarousel from '../../../../components/Carousel/SlideCarousel/SlideCarousel';
 import CarouselItem from '../../../../components/Carousel/SlideCarousel/CarouselItem/CarouselItem';
 import projectsInfo from '../../../../assets/projectsInfo';
@@ -28,7 +28,7 @@ class projectsPreview extends Component {
                 </SlideCarousel>
             </div>
                 <div styleName="link-container" className="row">
-                    <Link margin="25px" link="/projects">View Projects</Link>
+                    <Button margin="30px auto" to="/projects">View Projects</Button>
                 </div>
             </div>
         )

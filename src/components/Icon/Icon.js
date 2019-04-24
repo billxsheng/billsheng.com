@@ -3,7 +3,7 @@ import React from 'react';
 import CSSModules from 'react-css-modules';
 import styles from './Icon.css';
 
-const icon = (props) => {
+const Icon = (props) => {
     if(props.iconType === "iconClose") {
       return (
         <i target="_blank" className={props.iconName} onClick={props.close} styleName={props.iconType}></i>
@@ -16,4 +16,4 @@ const icon = (props) => {
     
 }
 
-export default CSSModules(icon, styles);
+export default CSSModules(Icon, styles);

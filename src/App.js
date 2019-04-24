@@ -84,7 +84,6 @@ class App extends Component {
   }
 
   onProjectSelected(project) {
-    console.log(project);
     this.setState({projectModalIsOpen: true})
     this.setState({projectSelected: project})
   }

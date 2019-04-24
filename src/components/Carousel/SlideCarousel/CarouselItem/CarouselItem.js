@@ -3,7 +3,7 @@ import CSSModules from 'react-css-modules';
 import {NavLink} from 'react-router-dom';
 import styles from './CarouselItem.css';
 
-class carouselItem extends Component {
+class CarouselItem extends Component {
     state = {
         showcase: this.props.showcase
     }
@@ -47,4 +47,4 @@ class carouselItem extends Component {
 }   
 
 
-export default CSSModules(carouselItem, styles, {allowMultiple: true});
+export default CSSModules(CarouselItem, styles, {allowMultiple: true});

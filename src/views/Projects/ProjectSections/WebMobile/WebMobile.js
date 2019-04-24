@@ -29,7 +29,7 @@ class WebMobile extends Component {
         return(
         <div className="container">
             <span styleName="curve" className="container">
-                <div className="row" styleName="title-block">
+                <div className="row">
                     <div className="col-md-2">
                             {this.state.leftArrow ? 
                                 <NavLink styleName="btn-prev" to={`/projects/${projectsArray[projectsArray.indexOf(projectsInfo.headings.webMobile.link.toLowerCase()) - 1]}`} >
@@ -61,16 +61,13 @@ class WebMobile extends Component {
                     </p>
             </span>
             <div className="row">
-                <ProjectTile activateModal = {() => this.props.openProject(projectsInfo.huddle)} to="/projects/web-mobile/huddle" singleTile="true" tag={projectsInfo.huddle.tag} title={projectsInfo.huddle.name} shortDesc={projectsInfo.huddle.description}/>
+                <ProjectTile activateModal = {() => this.props.openProject(projectsInfo.huddle)} to="/projects/web-mobile/huddle" imageName="projects/huddle/huddle.png" imageHeight="400px" tag={projectsInfo.huddle.tag} title={projectsInfo.huddle.name} shortDesc={projectsInfo.huddle.description}/>
             </div>
             <div className="row">
-                <ProjectTile activateModal = {() => this.props.openProject(projectsInfo.blitz)} to="/projects/web-mobile/blitz" reverse="true" imageHeight="400px" imageName="projects/blitz.png" tag={projectsInfo.blitz.tag} title={projectsInfo.blitz.name} shortDesc={projectsInfo.blitz.description}/>
+                <ProjectTile activateModal = {() => this.props.openProject(projectsInfo.blitz)} to="/projects/web-mobile/blitz" reverse="true" imageHeight="400px" imageName="projects/blitz/blitz.png" tag={projectsInfo.blitz.tag} title={projectsInfo.blitz.name} shortDesc={projectsInfo.blitz.description}/>
             </div>
             <div className="row">
-                <ProjectTile activateModal = {() => this.props.openProject(projectsInfo.munkee)} to="/projects/web-mobile/munkee" imageHeight="400px" imageName="projects/munkee.png" tag={projectsInfo.munkee.tag} title={projectsInfo.munkee.name} shortDesc={projectsInfo.munkee.description}/>
-            </div>
-            <div className="row">
-                <ProjectTile activateModal = {() => this.props.openProject(projectsInfo.vcuts)} to="/projects/web-mobile/vcuts" singleTile = "true" imageHeight="400px" tag={projectsInfo.vcuts.tag}title={projectsInfo.vcuts.name} shortDesc={projectsInfo.vcuts.description}/>
+                <ProjectTile activateModal = {() => this.props.openProject(projectsInfo.munkee)} to="/projects/web-mobile/munkee" imageHeight="400px" imageName="projects/munkee/munkee.png" tag={projectsInfo.munkee.tag} title={projectsInfo.munkee.name} shortDesc={projectsInfo.munkee.description}/>
             </div>
         </div>
         )

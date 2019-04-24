@@ -24,12 +24,11 @@ class Experience extends Component {
         }
     }
     
-
     render() {
-        return(
+        return ( 
             <div className="container">
                 <span styleName="curve" className="container">
-                    <div className="row" styleName="title-block">
+                    <div className="row">
                         <div className="col-md-2">
                             {this.state.leftArrow ? 
                                 <NavLink styleName="btn-prev" to={`/projects/${projectsArray[projectsArray.indexOf(projectsInfo.headings.experience.link.toLowerCase()) - 1]}`} >
@@ -61,13 +60,13 @@ class Experience extends Component {
                         </p>
                 </span>
                 <div className="row">
-                    <ProjectTile activateModal = {() => this.props.openProject(projectsInfo.opentext)} to="/projects/experience/opentext" imageName = "projects/ot.png" imageHeight="400px"  tag={projectsInfo.opentext.tag} title={projectsInfo.opentext.name} shortDesc={projectsInfo.opentext.description} />
+                    <ProjectTile activateModal = {() => this.props.openProject(projectsInfo.opentext)} to="/projects/experience/opentext" imageName = "projects/ot/ot.png" imageHeight="400px"  tag={projectsInfo.opentext.tag} title={projectsInfo.opentext.name} shortDesc={projectsInfo.opentext.description} />
                 </div>
                 <div className="row">
-                    <ProjectTile activateModal = {() => this.props.openProject(projectsInfo.freelance)} to="/projects/experience/freelance" imageHeight="400px" reverse="true" imageName="projects/freelance.png" tag={projectsInfo.freelance.tag} title={projectsInfo.freelance.name} shortDesc={projectsInfo.freelance.description} />
+                    <ProjectTile activateModal = {() => this.props.openProject(projectsInfo.freelance)} to="/projects/experience/freelance" imageHeight="400px" reverse="true" imageName="projects/freelance/freelance.png" tag={projectsInfo.freelance.tag} title={projectsInfo.freelance.name} shortDesc={projectsInfo.freelance.description} />
                 </div>
                 <div className="row">
-                    <ProjectTile activateModal = {() => this.props.openProject(projectsInfo.ctc)} to="/projects/experience/canadian-tire"  top="25px" imageHeight="400px" imageName="projects/ctc.png" tag={projectsInfo.ctc.tag}title={projectsInfo.ctc.name} shortDesc={projectsInfo.ctc.description}/>
+                    <ProjectTile activateModal = {() => this.props.openProject(projectsInfo.ctc)} to="/projects/experience/canadian-tire"  top="25px" imageHeight="400px" imageName="projects/ctc/ctc.png" tag={projectsInfo.ctc.tag}title={projectsInfo.ctc.name} shortDesc={projectsInfo.ctc.description}/>
                 </div>
             </div>
         )

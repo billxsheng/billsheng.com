@@ -4,7 +4,7 @@ import CSSModules from 'react-css-modules';
 import styles from './AboutPreview.css';
 import Carousel from '../../../../components/Carousel/EmojiCarousel/EmojiCarousel';
 import OwlCarousel from 'react-owl-carousel2';
-import Link from '../../../../components/Button/Link/Link';
+import Button from '../../../../components/Button/Button';
 import homeInfo from '../../../../assets/homeInfo';
 
 
@@ -48,7 +48,7 @@ const aboutPreview = (props) => {
         </OwlCarousel>
         <div className="container">
                 <div styleName="abt-prev-el" className="row">
-                    <Link margin="25px" link="/my-story">My Story</Link>
+                    <Button margin="30px auto" to="/my-story">My Story</Button>
                 </div>
             </div>
     </div>
