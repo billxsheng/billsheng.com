@@ -28,7 +28,7 @@ class MyStory extends Component {
 
                 <div styleName="content-div">
                     <div styleName="section-div-first" >
-                        <Image height="400px" withRadius path="about/other/headshot.jpg" />
+                        <Image top="0px" height="400px" withRadius path="about/other/headshot.jpg" />
                         {/* <img className="img-fluid" styleName= "header-img" alt="header-img" src={require(`./../../assets/images/about/other/headshot.jpg`)} ></img> */}
                         <p2>
                             {aboutInfo.general.description}

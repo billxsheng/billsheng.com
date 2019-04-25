@@ -51,6 +51,14 @@ body {
   overflow-x: hidden; 
 }
 
+h5 {
+  text-align: center;
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 85px;
+  letter-spacing: -6px;
+  margin: 100px auto 0 auto !important;
+}
 
 h4 {
   font-family: 'Poppins';
@@ -68,7 +76,6 @@ h3 {
   font-size: 40px;
 }
 
-
 h2 {
   font-size: 50px;
   font-family: 'Poppins';
@@ -82,8 +89,8 @@ h1 {
   text-align: center;
   font-family: 'Poppins';
   font-weight: 700;
-  font-size: 85px;
-  letter-spacing: -6px;
+  font-size: 60px;
+  letter-spacing: -4px;
   margin: 100px auto 0 auto !important;
 }
 
@@ -126,7 +133,7 @@ button {
 
 
 @media (max-width: 1000px) {
-  h1 {
+  h5 {
     font-size: 65px;
   }
 
@@ -137,10 +144,14 @@ button {
 
 @media (max-width: 767px) {
   h1 {
-    font-size: 50px;
+    font-size: 45px;
     letter-spacing: -4px;
     padding: 0 10px !important;
     margin: 90px auto 0 auto !important;
+  }
+
+  h1 {
+    font-size: 50px;
   }
 
   p {
