@@ -104,8 +104,11 @@ button {
     margin: 90px auto 0 auto !important;
   }
 
-  h1 {
+  h5 {
     font-size: 50px !important;
+    letter-spacing: -4px !important;
+    margin: 90px auto 0 auto !important;
+    padding: 0 10px !important;
   }
 
   p {
