@@ -27,7 +27,7 @@
 }
 
 .mobile-nav-item p {
-    padding: 0;
+    padding: 0 !important;
     top: -25px !important;
     position: relative;
 }

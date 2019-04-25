@@ -34,7 +34,7 @@
     }
 
     .contact-p {
-        font-size: 13px;
+        font-size: 13px !important;
     }
 
     .hr {

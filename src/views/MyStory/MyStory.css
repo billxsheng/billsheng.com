@@ -2,11 +2,14 @@
 
 }
 
-.wrapper {
-    padding: 0 250px 0 250px;
+.skills-list {
+    list-style-type: disk;
+    list-style-position: outside;
+    margin: 10px 0 30px 20px;
 }
 
-.img-container div {
+.wrapper {
+    padding: 0 250px 0 250px;
 }
 
 .content-div {

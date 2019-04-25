@@ -39,25 +39,35 @@ class MyStory extends Component {
                     </div>
 
                     <div styleName="section-div">
-                            <h2>{aboutInfo.education.title}</h2>
+                            <h2>{aboutInfo.goals.title}</h2>
                             <p2>
-                                {aboutInfo.education.description}
+                                {aboutInfo.goals.description}
                             </p2>
-                        <Image height="30px" path="about/other/waterloo-engineering.png" />
+                            <div className="row">
+                                <Button margin="20px auto 0 auto" to="/projects/experience">View My Previous Experiences</Button>
+                            </div>
                     </div>
                     
                     <div styleName="section-div"> 
-                            <h2>{aboutInfo.experience.title}</h2>
+                            <h2>{aboutInfo.education.title}</h2>
                             <p2>
-                                {aboutInfo.experience.description}
-                            </p2>                       
-                        <div className="row">
-                            <Button margin="20px auto 0 auto" to="/projects/experience">View My Previous Experiences</Button>
-                        </div>
+                                {aboutInfo.education.description}
+                            </p2>    
+                            <Image height="30px" path="about/other/waterloo-engineering.png" />
+                   
+            
+                    </div>
+
+                    <div styleName="section-div">
+                            <h2>{aboutInfo.skills.title}</h2>
+                            <ul styleName="skills-list" className="list-group">
+                                <li>{aboutInfo.skills.languages}</li>
+                                <li>{aboutInfo.skills.frameworks}</li>
+                            </ul>                       
                     </div>
                                    
                     <div styleName="section-div">
-                            <h2>Hobbies</h2>
+                            <h2>{aboutInfo.hobbies.title}</h2>
                             <p2>
                                 {aboutInfo.hobbies.description}
                             </p2>                       
