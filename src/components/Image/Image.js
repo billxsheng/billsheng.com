@@ -6,13 +6,13 @@ class Image extends Component {
     render() {
         const imageStyle = {
            'borderRadius': '15px',
-           'max-height': `${this.props.height}`,
+           'maxHeight': `${this.props.height}`,
            'display': 'block'
         }
 
         const boxStyle = {
-            'margin-top': `${this.props.top}`,
-            'margin-bottom': `${this.props.bottom}`
+            'marginTop': `${this.props.top}`,
+            'marginBottom': `${this.props.bottom}`
         }
 
         if(this.props.withRadius) {
