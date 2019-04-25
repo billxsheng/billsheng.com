@@ -14,11 +14,11 @@ const Hero = (props) => {
         <div styleName='hero'>
             <span className="container">
                 <div className="row" styleName="main-title">
-                    <h1>
+                    <h5>
                     <span><img styleName="wave" alt="wave" style={waveStyle} src={require('../../../../assets/images/other/wave.png')}></img></span>
                     &nbsp;
                     Hey, I'm Bill!
-                    </h1>
+                    </h5>
                 </div>
             </span>
             <div styleName="stripe"/>    
