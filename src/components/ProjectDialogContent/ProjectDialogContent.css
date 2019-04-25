@@ -22,15 +22,15 @@
 
 .modal h1 {
     margin: 30px auto 0px auto !important;
-    font-size: 48px;
-    letter-spacing: -3px;
+    font-size: 48px !important;
+    letter-spacing: -3px !important;
 }
 
 .modal h4 {
     text-align: left !important;
     margin-bottom: 0;
-    font-size: 25px;
-    letter-spacing: -1px;
+    font-size: 25px !important;
+    letter-spacing: -1px !important;
 }
 
 .modal hr {
@@ -60,7 +60,7 @@
 
 .modal p {
     text-align: left;
-    padding: 0;
+    padding: 0 !important;
     max-width: none;
     margin: 0 0 30px 0;
 }
@@ -127,7 +127,7 @@
     }
 
     .modal h1 {
-        font-size: 40px;
+        font-size: 40px !important;
     }
 } 
 
@@ -142,12 +142,12 @@
     }
 
     .modal h1 {
-        font-size: 35px;
+        font-size: 35px !important;
         letter-spacing: -2px;
     }
 
     .modal h4 {
-        font-size: 20px;
+        font-size: 20px !important;
         letter-spacing: -0.5px;
     }
 

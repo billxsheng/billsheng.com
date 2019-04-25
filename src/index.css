@@ -1,48 +1,3 @@
-@font-face {
-  font-family: campton-bold;
-  src: url('./assets/fonts/Campton-Bold.otf');
-}
-
-@font-face {
-  font-family: campton-black;
-  src: url('./assets/fonts/Campton-Black.otf');
-}
-
-@font-face {
-  font-family: campton-book;
-  src: url('./assets/fonts/Campton-Book.otf');
-}
-
-@font-face {
-  font-family: campton-extra-bold;
-  src: url('./assets/fonts/Campton-ExtraBold.otf');
-}
-
-@font-face {
-  font-family: campton-medium;
-  src: url('./assets/fonts/Campton-Medium.otf');
-}
-
-@font-face {
-  font-family: campton-extra-light;
-  src: url('./assets/fonts/Campton_ExtraLight.otf');
-}
-
-@font-face {
-  font-family: campton-thin;
-  src: url('./assets/fonts/Campton-Thin.otf');
-}
-
-@font-face {
-  font-family: campton-light;
-  src: url('./assets/fonts/Campton-Light.otf');
-}
-
-@font-face {
-  font-family: campton-semi-bold;
-  src: url('./assets/fonts/Campton_SemiBold.otf');
-}
-
 body {
   margin: 0;
   padding: 0;
@@ -53,44 +8,44 @@ body {
 
 h5 {
   text-align: center;
-  font-family: 'Poppins';
-  font-weight: 700;
-  font-size: 85px;
+  font-family: 'Poppins' !important;
+  font-weight: 700 !important;
+  font-size: 85px !important;
   letter-spacing: -6px;
   margin: 100px auto 0 auto !important;
 }
 
 h4 {
-  font-family: 'Poppins';
-  font-weight: 700;
-  text-align: center;
-  letter-spacing: -2px;
-  font-size: 30px;
+  font-family: 'Poppins' !important;
+  font-weight: 700 !important;
+  text-align: center !important;
+  letter-spacing: -2px !important;
+  font-size: 30px !important;
 }
 
 h3 {
-  font-family: 'Poppins';
-  font-weight: 700;
-  text-align: center;
-  letter-spacing: -2px;
-  font-size: 40px;
+  font-family: 'Poppins' !important;
+  font-weight: 700 !important;
+  text-align: center !important;
+  letter-spacing: -2px !important;
+  font-size: 40px !important;
 }
 
 h2 {
-  font-size: 50px;
-  font-family: 'Poppins';
-  font-weight: 700;
-  text-align: center !important;
-  letter-spacing: -3px;
+  font-size: 50px !important;
+  font-family: 'Poppins' !important;
+  font-weight: 700 !important;
+  text-align: center !important;  
+  letter-spacing: -3px !important;
   margin: 0 auto;
 }
 
 h1 {
-  text-align: center;
-  font-family: 'Poppins';
-  font-weight: 700;
-  font-size: 60px;
-  letter-spacing: -4px;
+  text-align: center !important;
+  font-family: 'Poppins' !important;
+  font-weight: 700 !important;
+  font-size: 60px !important;
+  letter-spacing: -4px !important; 
   margin: 100px auto 0 auto !important;
 }
 
@@ -99,13 +54,13 @@ h1 {
 }
 
 p {
-  text-align: center;
-  font-family: 'Cairo';
-  font-size: 16px;
-  margin: 10px auto;
-  font-weight: 400;
-  max-width: 700px;
-  line-height: 35px;
+  text-align: center ;
+  font-family: 'Cairo' ;
+  font-size: 16px ;
+  margin: 10px auto ;
+  font-weight: 400 ;
+  max-width: 700px ;
+  line-height: 35px ;
 }
 
 p2 {
@@ -114,9 +69,8 @@ p2 {
   font-family: 'Cairo';
   font-size: 16px;
   line-height: 35px;
-  font-weight: 400;
+  font-weight: 400 ;
   max-width: 750px;
-  /* padding: 0 20px; */
 }
 
 a {
@@ -134,39 +88,39 @@ button {
 
 @media (max-width: 1000px) {
   h5 {
-    font-size: 65px;
+    font-size: 65px !important;
   }
 
   p {
-    font-size: 15px;
+    font-size: 15px !important;
   }
 }
 
 @media (max-width: 767px) {
   h1 {
-    font-size: 45px;
-    letter-spacing: -4px;
+    font-size: 45px !important;
+    letter-spacing: -4px !important;
     padding: 0 10px !important;
     margin: 90px auto 0 auto !important;
   }
 
   h1 {
-    font-size: 50px;
+    font-size: 50px !important;
   }
 
   p {
-    font-size: 15px;
-    padding: 0 30px;
-    margin: 8px auto;
+    font-size: 15px !important;
+    padding: 0 30px !important;
+    margin: 8px auto !important;
   }
 
   h2 {
-    font-size: 40px;
-    letter-spacing: -2px;
+    font-size: 40px !important;
+    letter-spacing: -2px !important;
   }
 
   h3 {
-    font-size: 30px;
+    font-size: 30px !important;
   }
 
   p2 {
