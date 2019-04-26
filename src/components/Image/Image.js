@@ -25,7 +25,7 @@ class Image extends Component {
         } else {
             return (
                 <div styleName="image-box" style={boxStyle}>
-                    <img className="img-fluid" style={imageStyle} alt="bill" src={require(`../../assets/images/${this.props.path}`)} />
+                    <img className="img-fluid" alt="bill" src={require(`../../assets/images/${this.props.path}`)} />
                     <p className="text-center" styleName="image-description" >{this.props.fine}</p>
                 </div>
             )
