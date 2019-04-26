@@ -2,6 +2,7 @@ import React from 'react';
 import CSSModules from 'react-css-modules';
 import styles from './Hero.css';
 import MainButtonRow from '../../../../components/Button/MainButtonRow/MainButtonRow';
+import Image from '../../../../components/Image/Image';
 
 const Hero = (props) => {
     const waveStyle = {
@@ -25,6 +26,12 @@ const Hero = (props) => {
             <div styleName="stripe-reflected"/>  
             <div className="container" styleName="divide-container">
                <div styleName="upper-wrapper" >
+                <div styleName="img-wide">
+                    <Image top="0px" path="about/other/secondary.jpeg"  />
+                </div>
+                <div styleName="img-narrow">
+                    <Image top="0px" path="about/other/secondary-mobile.jpeg"  />
+                </div>
                </div>
                <div styleName="lower-wrapper" >
                     <MainButtonRow/>
