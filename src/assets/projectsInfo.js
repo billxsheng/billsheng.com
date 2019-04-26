@@ -45,10 +45,10 @@ const ProjectsInfo = {
         tag: "Side Project",
         about: "Coming Soon",
         content: {
-            summary: "Blitz is a serverless notification service that sends real-time game updates to NFL fans through SMS text messages. From a web application, users can authenticate, specify their favorite team, and add their phone number. Whenever a game finishes, a Node JS server runs a complex algorithm that sends the custom text messages to the appropriate users.",
-            technology: "Node JS (Express JS, Passport JS), MongoDB, Twilio SMS Microservice, MySportsFeeds API",
-            problem: "Digital media apps (ESPN, theScore) are great at notifying fans about their favorite teams and players. The problem is that they heavily rely on the internet. If a user is on the go and does not have consistent access to the web, obtaining the final score of an important game could be a very frustrating process.",
-            solution: "Sports notifications are different because users do not have to further view the content to know the context of the situation. Consider a notification similar to “John Smith commented on your post.” Users must open the application in order to know exactly what was said.  A sports notification as simple as  “Toronto wins 5-3.” contains all the information the user needs. No further action would be required. The solution I came up with utilized SMS texting. Texts are extremely accessible and possess all necessary requirements to pass a piece of data that would not have to be further examined. I created a service that would automatically notify users via SMS texts.",
+            summary: "Blitz is a serverless notification service that sends real-time game updates to NFL fans through SMS text messages. From a web application, users can authenticate, specify their favorite team, and add their phone number. Whenever a game finishes, a Node JS server will run a complex algorithm that sends text message notifications to the appropriate users.",
+            technology: "Node JS (Express JS, Passport JS), MongoDB, Mongoose, Twilio SMS Microservice, MySportsFeeds API. HTML/CSS, Postman",
+            problem: "Digital media apps (ESPN, theScore) are great at keeping fans up to date on their favorite teams and players. The problem is that they heavily rely on internet connection. If a user does not have consistent access to the web, obtaining the final score of an important game could be a very frustrating process.",
+            solution: "Sports notifications are different because users do not have to further view the content to know the context of the situation. Consider a notification similar to “John Smith commented on your post.” Users must open the application in order to know exactly what was said.  A sports notification as simple as  “Toronto wins 5-3.” contains all the information the user needs. No further action would be required. The solution I came up with utilized SMS texting. Texts are extremely accessible and possess all requirements necessary when passing an immutable piece of data. By incorporating several external API’s, I created a service that would send SMS notifications to users.",
         }     
     },
     ryse: {
@@ -57,8 +57,8 @@ const ProjectsInfo = {
         about: "Coming Soon",       
         tag: "Hackathon",
         content: {
-            summary: "Ryse is a web application that helps ex-criminals find employment. Instead of a networking application that focuses on achievements (LinkedIn), Ryse zeroes in on personal development. Users can create an account and record personal reflections, skills, and experiences. Endorsements can also be given out by correctional officers, family and friends (similar to LinkedIn Recommendations). By showcasing personal progress, Ryse eliminates the associated negative stigma. This encourages businesses to give second-chances to well-deserved candidates, keeping them off the streets where they can potentially recommit the same crimes.",
-            technology: "HTML/CSS, Node JS (Express JS, Passport JS), MongoDB"
+            summary: "Ryse is a web application that helps employ ex-criminals. Instead of a networking application that focuses on achievements (LinkedIn), Ryse zeroes in on personal development. Users can create an account and record personal reflections, skills, and experiences. Endorsements can also be given out by correctional officers, family and friends (similar to LinkedIn Recommendations). By showcasing personal progress, Ryse eliminates the associated negative stigma. This encourages businesses to give second-chances to well-deserved candidates, keeping them off the streets where they can potentially recommit the same crimes.",
+            technology: "Node JS (Express JS, Passport JS), MongoDB, Mongoose, HTML/CSS, Postman"
         } 
     },
     airdrums: {
@@ -77,8 +77,8 @@ const ProjectsInfo = {
         tag: "Side Project",
         about: "Coming Soon",
         content: {
-            summary: "Munkee is a cross-platform multiplayer game that runs the classic dice game of pig. The game can be played locally on one computer or online through private game lobbies. When a player creates a game, a unique hexatridecimal game ID is created and saved to the database. The player can then invite their friends by sharing the ID. My usage of web sockets allow for real-time games to be played. Being a fan of console-based sports game (2K, Madden, NHL), I have always been curious about how online matches took place through the web. This inspired me to try implementing my own matchmaking architecture.",
-            technology: "Node JS (Express JS, Socket.IO), jQuery, Bootstrap, MongoDB, Heroku"
+            summary: "Munkee is a cross-platform multiplayer game that runs the classic game of pig. The game can be played locally on one computer or online through private game lobbies. When a player creates a game, a unique hexatridecimal game ID is created and saved to a NoSQL database. The player can then invite their friends by sharing the ID. My usage of web sockets allow for real-time games to be played. Being a fan of console-based sports game (2K, Madden, NHL), I have always been curious about how online matches took place. This inspired me to implement my own real-time matchmaking architecture.",
+            technology: "Node JS (Express JS, Socket.IO), jQuery, Bootstrap, MongoDB, Mongoose, HTML/CSS, Heroku"
         } 
     },
     moodify: {
@@ -87,7 +87,7 @@ const ProjectsInfo = {
         tag: "Hackathon",
         about: "Coming Soon",
         content: {
-            summary: "Moodify is an iOS application that helps students write professional letters.Users upload their document, where the IBM Watson Tone API analyzes how the text is portrayed. The app then gives suggestions on how to adjust the text based on tones the user prioritizes.",
+            summary: "Moodify is an iOS application that helps students write professional letters. Users can upload a document where the IBM Watson Tone API determines how the text is portrayed. The app then gives suggestions on how to adjust the text based on tones the user prioritizes.",
             technology: "Swift, Objective C, XCode, IBM Watson API"
         } 
     },
@@ -110,7 +110,7 @@ const ProjectsInfo = {
         about: "Coming Soon",
         content: {
             position: "Full Stack Developer",
-            technology: "Java (Spring), Maven, Docker, JavaScript (Node JS, Angular 2+), TypeScript, MongoDB, HTML/CSS, Bulma, Git, Jira",
+            technology: "Java (Spring), Maven, Docker, JavaScript (Node JS, Angular 2+), TypeScript, MongoDB, HTML/CSS, Bulma, Git, Jira, Postman",
             evaluation: "Very Good (letter of reference available)"
         }    
     },
@@ -121,7 +121,7 @@ const ProjectsInfo = {
         about: 'Coming soon',
         content: {
             position: "Founder/Engineer",
-            technology: "JavaScript (Node JS, React JS, Angular 2+), TypeScript, MongoDB, HTML/CSS, Bootstrap, jQuery, AWS, Git",
+            technology: "JavaScript (Node JS, React JS, Angular 2+), TypeScript, MongoDB, MySQL, HTML/CSS, Bootstrap, jQuery, AWS, Git, Postman",
             summary: "Coming Soon"        
         }
     },

@@ -16,7 +16,7 @@ class MyStory extends Component {
     render() {
         return(
             <div styleName="wrapper">
-                <div styleName="about" className="container">
+                <div className="container">
                     <span className="container">
                         <div className="row">
                             <h1>
