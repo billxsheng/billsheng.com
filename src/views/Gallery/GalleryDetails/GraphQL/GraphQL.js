@@ -11,22 +11,20 @@ class graphQL extends Component {
     
     render() {
         return (
-                <div>
-                    <span className="container">
-                        <div className="row">
-                            <h1>
-                                {galleryInfo.graphql.title}
-                            </h1>
-                        </div>
-                        <span className="container">
-                            <p>
-                                {galleryInfo.graphql.date}
-                            </p>
-                        </span>
-                        <div styleName="content">
-                        </div>
-                    </span>
+            <div className="container">
+                <span className="container">
+                    <div className="row">
+                        <h1>
+                            {galleryInfo.graphql.title}
+                        </h1>
+                    </div>
+                        <p>
+                            {galleryInfo.graphql.description}
+                        </p>
+                </span>
+                <div styleName="content">
                 </div>
+            </div>
         )
     }
 } 

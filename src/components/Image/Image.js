@@ -7,12 +7,19 @@ class Image extends Component {
         const imageStyle = {
            'borderRadius': '15px',
            'maxHeight': `${this.props.height}`,
-           'display': 'block'
+           'display': 'block',
+           'float': `${this.props.float}`
+        }
+
+        const imageStyleNR = {
+            'maxHeight': `${this.props.height}`,
+            'display': 'block',
+            'float': `${this.props.float}`
+
         }
 
         const boxStyle = {
-            'marginTop': `${this.props.top}`,
-            'marginBottom': `${this.props.bottom}`
+            'margin': `${this.props.margin}`,
         }
 
         if(this.props.withRadius) {
@@ -25,7 +32,7 @@ class Image extends Component {
         } else {
             return (
                 <div styleName="image-box" style={boxStyle}>
-                    <img className="img-fluid" alt="bill" src={require(`../../assets/images/${this.props.path}`)} />
+                    <img className="img-fluid" style={imageStyleNR} alt="bill" src={require(`../../assets/images/${this.props.path}`)} />
                     <p className="text-center" styleName="image-description" >{this.props.fine}</p>
                 </div>
             )

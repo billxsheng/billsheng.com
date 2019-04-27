@@ -11,21 +11,19 @@ class wateng extends Component {
     
     render() {
         return (
-            <div>
+            <div className="container">
                 <span className="container">
                     <div className="row">
                         <h1>
                             {galleryInfo.year1.title}
                         </h1>
                     </div>
-                    <span className="container">
                         <p>
-                            {galleryInfo.year1.date}
+                            {galleryInfo.year1.description}
                         </p>
-                    </span>
-                    <div styleName="content">
-                    </div>
                 </span>
+                <div styleName="content">
+                </div>
             </div>
         )
     }

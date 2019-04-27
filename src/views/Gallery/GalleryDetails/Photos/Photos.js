@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 import CSSModules from 'react-css-modules';
-import styles from './SNL.css';
+import styles from './Photos.css';
 import galleryInfo from '../../../../assets/galleryInfo';
 
-class SNL extends Component {
+class Photos extends Component {
 
     componentDidMount() {
         window.scrollTo(0,0);
@@ -15,11 +15,11 @@ class SNL extends Component {
                 <span className="container">
                     <div className="row">
                         <h1>
-                            {galleryInfo.snl.title}
+                            {galleryInfo.photos.title}
                         </h1>
                     </div>
                         <p>
-                            {galleryInfo.snl.description}
+                            {galleryInfo.photos.description}
                         </p>
                 </span>
                 <div styleName="content">
@@ -29,4 +29,4 @@ class SNL extends Component {
     }
 } 
 
-export default CSSModules(SNL, styles);
+export default CSSModules(Photos, styles);

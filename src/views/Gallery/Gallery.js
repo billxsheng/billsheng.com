@@ -27,11 +27,17 @@ class Gallery extends Component {
                 <div className="container">
                     <div styleName="gallery-tile-row" className="row">
                         <GalleryTile height="350px" col="12">
-                            <GalleryTileDetail isFirst to="/gallery/saturday-night-lights" article="snl" left="20px" right="20px" date={GalleryInfo.snl.date} title={GalleryInfo.snl.title} description={GalleryInfo.snl.description}></GalleryTileDetail></GalleryTile>
+                            <GalleryTileDetail isFirst to="/gallery/photos" article="photos" left="10px" right="10px" date={GalleryInfo.photos.date} title={GalleryInfo.photos.title}></GalleryTileDetail>
+                        </GalleryTile>
                         <GalleryTile height="350px" col="4">
-                            <GalleryTileDetail to="/gallery/graphql" article="graphql" left="20px" right="10px" date={GalleryInfo.graphql.date} title={GalleryInfo.graphql.title} description={GalleryInfo.graphql.description}></GalleryTileDetail></GalleryTile>
-                        <GalleryTile height="350px" col="8">
-                            <GalleryTileDetail to="/gallery/waterloo-engineering"  article="wateng" left="10px" right="20px" date={GalleryInfo.year1.date} title={GalleryInfo.year1.title} description={GalleryInfo.year1.description}></GalleryTileDetail></GalleryTile>
+                            <GalleryTileDetail isFirst to="/gallery/saturday-night-lights" article="snl" left="10px" right="10px" date={GalleryInfo.snl.date} title={GalleryInfo.snl.title} description={GalleryInfo.snl.description}></GalleryTileDetail>
+                        </GalleryTile>
+                        <GalleryTile height="350px" col="4">
+                            <GalleryTileDetail to="/gallery/graphql" article="graphql" left="10px" right="10px" date={GalleryInfo.graphql.date} title={GalleryInfo.graphql.title} description={GalleryInfo.graphql.description}></GalleryTileDetail>
+                        </GalleryTile>
+                        <GalleryTile height="350px" col="4">
+                            <GalleryTileDetail to="/gallery/waterloo-engineering"  article="wateng" left="10px" right="10px" date={GalleryInfo.year1.date} title={GalleryInfo.year1.title} description={GalleryInfo.year1.description}></GalleryTileDetail>
+                        </GalleryTile>
                     </div>
                 </div>
             </div>

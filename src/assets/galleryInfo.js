@@ -19,6 +19,10 @@ const GalleryInfo = {
         title: '1st Year',
         date: "Coming Soon"
         // description: 'Thoughts and Takeaways',
+    },
+    photos: {
+        title: 'Photos',
+        description: ""
     }
 }
 

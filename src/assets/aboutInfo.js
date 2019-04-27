@@ -1,14 +1,15 @@
 const aboutInfo = {
     general:{
-        description: "Hey, I'm Bill! I'm a curious, motivated, and hard-working student at the University of Waterloo with an interest for software, AI, finance, and data. I enjoy working on projects that have real-world impact in industries that I am passionate about.",
+        description: "Hey, I'm Bill! I am a purpose-driven, people-focused leader with extended expertise planning, developing, and delivering software solutions through critical thinking, active collaboration, and best practice. I enjoy working on projects that have real-world impact in industries that I am passionate about.",
     } ,
     education: {
         title: "Education",
-        description: "I'm currently studying Management Engineering at the University of Waterloo. Management Engineering is a one-of-a-kind interdisciplinary program with a split focus in computer science, systems engineering, and optimization.",
+        description: "I am currently studying Management Engineering at the University of Waterloo, Canada’s number one engineering school. Management Engineering is a one-of-a-kind interdisciplinary program with a split focus in computer science, finance, and optimization. It’s diverse course load offers expertise in a wide-range of concepts allowing for a versatile degree suitable for any industry."
+
     }, 
     goals: {
         title: "Goals",
-        description: "Waterloo Engineering students are given six co-op terms on top of coursework. These work terms allow students like me to gain real-world experience while exploring potential career paths. During academic terms, I can be found working with engineering design teams."
+        description: "My main interests lie in software, data, and artificial intelligence. I hope to use my interests to build a strong technical foundation through side projects and internships before taking on leadership roles in consulting, entrepreneurship, and product.",
     },
     skills: {
         title: 'Skills',
@@ -17,6 +18,7 @@ const aboutInfo = {
     },
     hobbies: {
         title: "Hobbies",
+        description: "I believe in a healthy, well-rounded lifestyle. Here are some of favorite hobbies: "
     },
     teams: {
         title: "Teams",
