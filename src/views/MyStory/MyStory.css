@@ -14,11 +14,12 @@
 }
 
 .wrapper {
-    padding: 0 250px 0 250px;
+    padding: 0 10%;
 }
 
 .wrapper h2 {
     text-align: left !important;
+    font-size: 40px !important;
 }
 
 .content-div {
@@ -66,13 +67,6 @@
     margin-top: 0;
 }
 
-@media (max-width: 1000px) {
-    .wrapper {
-        padding: 0 100px 0 100px;
-    }
-}
-
-
 @media (max-width: 767px) {
     .header-img {
         height: 300px;
@@ -83,19 +77,15 @@
     .img-row {
         width: 100%;
     }
-    .wrapper {
-        padding: 0 100px 0 100px;
+
+    .wrapper h2 {
+        font-size: 30px !important;
     }
 }
-
 
 @media (max-width: 560px) {
     .header-img {
         height: 230px;
-    }
-
-    .wrapper {
-        padding: 0 25px 0 25px;
     }
 }
 

@@ -21,9 +21,9 @@ class Projects extends Component {
                             {ProjectsInfo.headings.projects.title}
                         </h1>
                     </div>
-                        <p>
-                            {ProjectsInfo.headings.projects.description}
-                        </p>
+                    <p>
+                        {ProjectsInfo.headings.projects.description}
+                    </p>
                 </span>
                 <div styleName="project-select-row" className="row">
                     <NavLink styleName="project-select-link" to="/projects/experience" className="col-md-3">

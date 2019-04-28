@@ -19,7 +19,7 @@ class wateng extends Component {
                         </h1>
                     </div>
                         <p>
-                            {galleryInfo.year1.description}
+                            {galleryInfo.year1.date}
                         </p>
                 </span>
                 <div styleName="content">

@@ -129,7 +129,7 @@
     left: 0;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    background: linear-gradient(to right, rgb(0,0,0, 0.4), rgb(0,0,0,0), rgb(0,0,0, 0.4)), url('../../../../assets/images/about/other/team-picture.jpeg');
+    background: linear-gradient(to right, rgb(0,0,0, 0.4), rgb(0,0,0,0), rgb(0,0,0, 0.4)), url('../../../../assets/images/gallery/photos/team-picture.jpeg');
     background-size: cover;
 }
 

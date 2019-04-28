@@ -19,7 +19,7 @@ class graphQL extends Component {
                         </h1>
                     </div>
                         <p>
-                            {galleryInfo.graphql.description}
+                            {galleryInfo.graphql.date}
                         </p>
                 </span>
                 <div styleName="content">

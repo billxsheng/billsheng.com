@@ -7,22 +7,19 @@ const GalleryInfo = {
     },
     snl: {
         title: 'SNL',
-        date: "Coming Soon"
-        // description: 'The dominance of the FBS',
+        date: 'Coming Soon'
     },
     graphql: {
         title: 'GraphQL',
-        date: "Coming Soon"
-        // description: 'API\'s Reimagined',
+        date: 'Coming Soon'
     },
     year1: {
         title: '1st Year',
-        date: "Coming Soon"
-        // description: 'Thoughts and Takeaways',
+        date: 'Coming Soon'
     },
     photos: {
         title: 'Photos',
-        description: ""
+        date: "Pictures I like"
     }
 }
 

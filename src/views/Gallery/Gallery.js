@@ -20,23 +20,23 @@ class Gallery extends Component {
                             {GalleryInfo.headings.gallery.title}
                         </h1>
                     </div>
-                        <p>
-                            {GalleryInfo.headings.gallery.description}
-                        </p>
+                    <p>
+                        {GalleryInfo.headings.gallery.description}
+                    </p>
                 </span>
                 <div className="container">
                     <div styleName="gallery-tile-row" className="row">
-                        <GalleryTile height="350px" col="12">
-                            <GalleryTileDetail isFirst to="/gallery/photos" article="photos" left="10px" right="10px" date={GalleryInfo.photos.date} title={GalleryInfo.photos.title}></GalleryTileDetail>
+                        <GalleryTile height="350px" col="8">
+                            <GalleryTileDetail isFirst to="/gallery/photos" article="photos" left="5px" right="5px" title={GalleryInfo.photos.title}></GalleryTileDetail>
                         </GalleryTile>
                         <GalleryTile height="350px" col="4">
-                            <GalleryTileDetail isFirst to="/gallery/saturday-night-lights" article="snl" left="10px" right="10px" date={GalleryInfo.snl.date} title={GalleryInfo.snl.title} description={GalleryInfo.snl.description}></GalleryTileDetail>
+                            <GalleryTileDetail isFirst to="/gallery/saturday-night-lights" article="snl" left="5px" right="5px" date={GalleryInfo.snl.date} title={GalleryInfo.snl.title}></GalleryTileDetail>
                         </GalleryTile>
                         <GalleryTile height="350px" col="4">
-                            <GalleryTileDetail to="/gallery/graphql" article="graphql" left="10px" right="10px" date={GalleryInfo.graphql.date} title={GalleryInfo.graphql.title} description={GalleryInfo.graphql.description}></GalleryTileDetail>
+                            <GalleryTileDetail to="/gallery/graphql" article="graphql" left="5px" right="5px" date={GalleryInfo.graphql.date} title={GalleryInfo.graphql.title}></GalleryTileDetail>
                         </GalleryTile>
-                        <GalleryTile height="350px" col="4">
-                            <GalleryTileDetail to="/gallery/waterloo-engineering"  article="wateng" left="10px" right="10px" date={GalleryInfo.year1.date} title={GalleryInfo.year1.title} description={GalleryInfo.year1.description}></GalleryTileDetail>
+                        <GalleryTile height="350px" col="8">
+                            <GalleryTileDetail to="/gallery/waterloo-engineering"  article="wateng" left="5px" right="5px" date={GalleryInfo.year1.date} title={GalleryInfo.year1.title}></GalleryTileDetail>
                         </GalleryTile>
                     </div>
                 </div>

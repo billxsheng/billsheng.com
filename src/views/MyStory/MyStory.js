@@ -32,13 +32,6 @@ class MyStory extends Component {
                         <p2>
                             {aboutInfo.general.description}
                         </p2>
-                    </div>
-
-                    <div styleName="section-div">
-                        <h2>{aboutInfo.goals.title}</h2>
-                        <p2>
-                            {aboutInfo.goals.description}
-                        </p2>
                         <div className="row" style={{'margin': '0'}}>
                             <Button margin="20px 0 0 0" to="/projects/experience">View My Previous Experiences</Button>
                         </div>

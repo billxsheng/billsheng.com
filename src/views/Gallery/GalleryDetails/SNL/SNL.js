@@ -19,7 +19,7 @@ class SNL extends Component {
                         </h1>
                     </div>
                         <p>
-                            {galleryInfo.snl.description}
+                            {galleryInfo.snl.date}
                         </p>
                 </span>
                 <div styleName="content">

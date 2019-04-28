@@ -7,12 +7,14 @@ class Image extends Component {
         const imageStyle = {
            'borderRadius': '15px',
            'maxHeight': `${this.props.height}`,
+           'width': `${this.props.width}`,
            'display': 'block',
            'float': `${this.props.float}`
         }
 
         const imageStyleNR = {
             'maxHeight': `${this.props.height}`,
+            'width': `${this.props.width}`,
             'display': 'block',
             'float': `${this.props.float}`
 
