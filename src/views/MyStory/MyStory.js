@@ -32,11 +32,11 @@ class MyStory extends Component {
                         <p2>
                             {aboutInfo.general.description}
                         </p2>
-                        <div className="row" style={{'margin': '0'}}>
-                            <Button margin="20px 0 0 0" to="/projects/experience">View My Previous Experiences</Button>
+                        <div className="row" >
+                            <Button margin="20px auto 0 auto" to="/projects/experience">View My Previous Experiences</Button>
                         </div>
-                        <div className="row" style={{'margin': '0'}}>
-                            <Button margin="20px 0 0 0" resume btnType="btnLarge" >View My Resume</Button>
+                        <div className="row" >
+                            <Button margin="20px auto 0 auto" resume btnType="btnLarge" >View My Resume</Button>
                         </div>
                     </div>
                     
@@ -46,9 +46,7 @@ class MyStory extends Component {
                             {aboutInfo.education.description}
                         </p2>    
                         <div className="row">
-                            <div className="col-md-6">
-                                <Image float="left" height="30px" path="about/other/waterloo-engineering.png" />
-                            </div>
+                            <Image width="700px" path="about/other/waterloo-engineering.png" />
                         </div>
                     </div>
 
@@ -90,13 +88,13 @@ class MyStory extends Component {
                         </p2>                       
                          <div styleName="img-row" className="row">
                             <span styleName="team" className="col-md-4">
-                                <Image float="left" height="80px" path="about/teams/georgia.png" />
+                                <Image height="80px" path="about/teams/georgia.png" />
                             </span>
                             <span styleName="team" className="col-md-4">
-                                <Image float="left" height="80px" path="about/teams/tml.png" />
+                                <Image height="80px" path="about/teams/tml.png" />
                             </span>                        
                             <span styleName="team" className="col-md-4">
-                                <Image float="left" height="80px" path="about/teams/raptors.png" />
+                                <Image height="80px" path="about/teams/raptors.png" />
                             </span> 
                         </div>
                     </div> 

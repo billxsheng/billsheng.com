@@ -251,6 +251,7 @@ class ProjectModal extends Component {
               <li><p3>Wrote monitoring services, error detection software, and unit tests in Java while ensuring best practices to manage numerous agents running on external networks</p3></li>
               <li><p3>Revised, upgraded 6000+ lines of TypeScript in Angular dashboard to be used by 1500+ stakeholders</p3></li>
               <li><p3>Implemented a centralized store design pattern on top of Angular website using NGRX for more reusable code structure; reduced code by 40%</p3></li>
+              <li><p3>Used company-specific Git/Jira practices for team-wide communication</p3></li>
             </ul>
             <h4>Evaluation</h4>
             <p>{project.content.evaluation}</p>
