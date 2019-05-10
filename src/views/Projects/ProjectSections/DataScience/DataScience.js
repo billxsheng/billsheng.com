@@ -58,6 +58,8 @@ class DataScience extends Component {
                             {projectsInfo.headings.ds.description}
                         </p>
                 </span>
+                <div styleName="content-row">
+                </div>
                 <br/>
                 <br/>
                 <br/>

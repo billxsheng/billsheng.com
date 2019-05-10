@@ -59,6 +59,7 @@ class Experience extends Component {
                             {projectsInfo.headings.experience.description}
                         </p>
                 </span>
+                <div styleName="content-row">
                 <div className="row">
                     <ProjectTile activateModal = {() => this.props.openProject(projectsInfo.opentext)} to="/projects/experience/opentext" imageName = "projects/ot/ot.png" imageHeight="400px"  tag={projectsInfo.opentext.tag} title={projectsInfo.opentext.name} shortDesc={projectsInfo.opentext.description} />
                 </div>
@@ -67,6 +68,7 @@ class Experience extends Component {
                 </div>
                 <div className="row">
                     <ProjectTile activateModal = {() => this.props.openProject(projectsInfo.ctc)} to="/projects/experience/canadian-tire"  top="25px" imageHeight="400px" imageName="projects/ctc/ctc.png" tag={projectsInfo.ctc.tag}title={projectsInfo.ctc.name} shortDesc={projectsInfo.ctc.description}/>
+                </div>
                 </div>
             </div>
         )

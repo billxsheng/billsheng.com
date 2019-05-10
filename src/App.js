@@ -28,6 +28,7 @@ import { withStyles } from '@material-ui/core';
 import ProjectDialogContent from './components/ProjectDialogContent/ProjectDialogContent';
 import Icon from './components/Icon/Icon';
 import Photos from './views/Gallery/GalleryDetails/Photos/Photos';
+import Huddle from './views/Projects/ProjectDetails/Huddle/Huddle';
 
 function Transition(props) {
   return <Slide direction="down" timeout= "0"  {...props} />;
@@ -109,13 +110,14 @@ class App extends Component {
         <Route exact path="/gallery/waterloo-engineering" component={WaterlooEngineering} />
         <Route exact path="/gallery/graphql" component={GraphQL} />
         <Route exact path="/gallery/photos" component={Photos} />
-        <Route exact path="/projects/hackathons" render={() => <Hackathons openProject = {this.onProjectSelected}/>} />fox
+        <Route exact path="/projects/hackathons" render={() => <Hackathons openProject = {this.onProjectSelected}/>} />
         <Route exact path="/projects/experience" render={() => <Experience openProject = {this.onProjectSelected}/>} />
         <Route exact path="/projects/web-mobile" render={() => <WebMobile openProject = {this.onProjectSelected}/>} />
         <Route exact path="/projects/data-science" render={() => <DataScience openProject = {this.onProjectSelected}/>} />
         <Route exact path="/projects" component={ProjectSelect} />
         <Route exact path="/my-story" component={MyStory} />
         <Route exact path="/gallery" component={Gallery} />
+        <Route exact path="/projects/web-mobile/huddle" component={Huddle} />
         <Route exact path="/" component={Home} />
         <Redirect exact to="/" />
       </Switch>

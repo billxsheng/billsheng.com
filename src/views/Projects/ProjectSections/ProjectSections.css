@@ -2,6 +2,10 @@
     width: 100%;
 }
 
+.content-row {
+    margin-top: -10px;
+}
+
 .btn-prev,
 .btn-next,
 .btn-disabled {

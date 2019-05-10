@@ -61,6 +61,7 @@ class Hackathons extends Component {
                             {projectsInfo.headings.hackathons.description}
                         </p>
                 </span>
+                <div styleName="content-row">
                 <div className="row">
                     <ProjectTile activateModal = {() => this.props.openProject(projectsInfo.airdrums)} to="/projects/hackathons/airdrums" imageName="projects/airdrums/airdrums.png" imageHeight="400px" tag={projectsInfo.airdrums.tag} title={projectsInfo.airdrums.name} shortDesc={projectsInfo.airdrums.description} />
                 </div>
@@ -72,6 +73,7 @@ class Hackathons extends Component {
                 </div>
                 <div className="row">
                     <Button margin="0 auto" newPage="true" link={links.devpost} btnType="btnLarge" >View Devpost</Button>
+                </div>
                 </div>
             </div>
         )
