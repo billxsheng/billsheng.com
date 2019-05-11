@@ -4,6 +4,7 @@ import CSSModules from 'react-css-modules';
 import ProjectSelectTile from './ProjectSelectTile/ProjectSelectTile';
 import { NavLink } from 'react-router-dom';
 import ProjectsInfo from '../../assets/projectsInfo';
+import Fade from 'react-reveal/Fade';
 
 
 class Projects extends Component {
@@ -16,6 +17,7 @@ class Projects extends Component {
         return(
             <div className="container">
                 <span styleName="curve" className="container">
+                    <Fade bottom>
                     <div className="row">
                         <h1>
                             {ProjectsInfo.headings.projects.title}
@@ -24,7 +26,9 @@ class Projects extends Component {
                     <p>
                         {ProjectsInfo.headings.projects.description}
                     </p>
+                    </Fade>
                 </span>
+                <Fade bottom>
                 <div styleName="project-select-row" className="row">
                     <NavLink styleName="project-select-link" to="/projects/experience" className="col-md-3">
                         <ProjectSelectTile name="exp" type={ProjectsInfo.headings.experience.title}/>
@@ -39,6 +43,7 @@ class Projects extends Component {
                         <ProjectSelectTile name="hack" type={ProjectsInfo.headings.hackathons.title}/>
                     </NavLink>
                 </div>
+                </Fade>
             </div>
         )
     }

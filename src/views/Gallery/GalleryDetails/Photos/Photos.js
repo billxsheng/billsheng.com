@@ -3,6 +3,7 @@ import CSSModules from 'react-css-modules';
 import styles from './Photos.css';
 import galleryInfo from '../../../../assets/galleryInfo';
 import Image from '../../../../components/Image/Image';
+import Fade from 'react-reveal/Fade';
 
 class Photos extends Component {
 
@@ -14,25 +15,37 @@ class Photos extends Component {
         return (
             <div className="container">
                 <span className="container">
+                <Fade bottom>
                     <div className="row">
                         <h1>
                             {galleryInfo.photos.title}
                         </h1>
                     </div>
-                        <p>
-                            {galleryInfo.photos.description}
-                        </p>
+                    <p>
+                        {galleryInfo.photos.description}
+                    </p>
+                    </Fade>
                 </span>
                 <div styleName="content">
+                    <Fade bottom>
                     <Image width="700px" fine="Ultimate Intramural Champions" margin="0" path="gallery/photos/team-picture.jpeg" />
+                    </Fade>
                     <br/>
+                    <Fade bottom>
                     <Image width="700px" fine="University of Pennsylvania" margin="0" path="gallery/photos/upenn.png" />
+                    </Fade>
                     <br/>
+                    <Fade bottom>
                     <Image width="700px" fine="Venice, Italy" margin="0" path="gallery/photos/italy.png" />
+                    </Fade>
                     <br/>
+                    <Fade bottom>
                     <Image width="700px" fine="Rocky Steps, Philadelphia" margin="0" path="gallery/photos/eagles.png" />
+                    </Fade>
                     <br/>
+                    <Fade bottom>
                     <Image width="700px" fine="Boston @ Toronto Game 6 2019" margin="0" path="gallery/photos/jurassic-park.png" />
+                    </Fade>
                 </div>
             </div>
         )

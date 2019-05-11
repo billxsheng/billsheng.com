@@ -7,8 +7,6 @@ import aboutInfo from '../../assets/aboutInfo';
 import Fade from 'react-reveal/Fade';
 import Aux from '../../hoc/HO-Aux/HO-aux';
 
-
-
 class MyStory extends Component {
 
     componentDidMount() {

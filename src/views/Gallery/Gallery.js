@@ -4,6 +4,7 @@ import CSSModules from 'react-css-modules';
 import GalleryTile from './GalleryTile/GalleryTile';
 import GalleryTileDetail from './GalleryTileDetail/GalleryTileDetail';
 import GalleryInfo from '../../assets/galleryInfo';
+import Fade from 'react-reveal/Fade';
 
 class Gallery extends Component {
 
@@ -15,6 +16,7 @@ class Gallery extends Component {
         return(
             <div styleName="gallery" className="container">
                 <span className="container">
+                    <Fade bottom>
                     <div className="row">
                         <h1>
                             {GalleryInfo.headings.gallery.title}
@@ -23,7 +25,9 @@ class Gallery extends Component {
                     <p>
                         {GalleryInfo.headings.gallery.description}
                     </p>
+                    </Fade>
                 </span>
+                <Fade bottom>
                 <div className="container">
                     <div styleName="gallery-tile-row" className="row">
                         <GalleryTile height="350px" col="8">
@@ -40,6 +44,7 @@ class Gallery extends Component {
                         </GalleryTile>
                     </div>
                 </div>
+                </Fade>
             </div>
         )
     }

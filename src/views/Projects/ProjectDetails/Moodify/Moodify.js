@@ -32,7 +32,6 @@ class Moodify extends Component {
         return (
             <div>
                 <span styleName="curve" className="container">
-                <Fade bottom>
                     <div className="row container" style={{margin: '0 auto'}}>
                         <div className="col-md-2">
                             {this.state.leftArrow ? 
@@ -44,11 +43,13 @@ class Moodify extends Component {
                                 </a>
                             }
                         </div> 
+                        <Fade bottom>
                         <div className="col-md-8">
                             <h1>
                                 {ProjectsInfo.moodify.name}
                             </h1>
                         </div>
+                        </Fade>
                         <div className="col-md-2">
                             {this.state.rightArrow ? 
                                 <NavLink styleName="btn-next" to={`/projects/hackathons/${projectsArray[projectsArray.indexOf(ProjectsInfo.moodify.name.toLowerCase()) + 1]}`} >
@@ -60,6 +61,7 @@ class Moodify extends Component {
                             }
                         </div> 
                     </div>
+                    <Fade bottom>
                     <p>
                         {ProjectsInfo.moodify.description}
                     </p>

@@ -4,6 +4,7 @@ import Icon from '../../../../components/Icon/Icon';
 import {NavLink} from 'react-router-dom';
 import styles from '../ProjectSections.css';
 import CSSModules from 'react-css-modules';
+import Fade from 'react-reveal/Fade';
 
 var projectsArray = projectsInfo.headings.order;
 
@@ -38,11 +39,13 @@ class DataScience extends Component {
                                 </a>
                             }
                         </div> 
+                        <Fade bottom>
                         <div className="col-md-8" styleName="heading-div">
                             <h1>
                                 {projectsInfo.headings.ds.title}
                             </h1>
                         </div>
+                        </Fade>
                         <div className="col-md-2">
                             {this.state.rightArrow ? 
                                 <NavLink styleName="btn-next" to={`/projects/${projectsArray[projectsArray.indexOf(projectsInfo.headings.ds.link.toLowerCase()) + 1]}`} >
@@ -54,9 +57,11 @@ class DataScience extends Component {
                             }
                         </div>
                     </div>
-                        <p>
-                            {projectsInfo.headings.ds.description}
-                        </p>
+                    <Fade bottom>
+                    <p>
+                        {projectsInfo.headings.ds.description}
+                    </p>
+                    </Fade>
                 </span>
                 <div styleName="content-row">
                 </div>

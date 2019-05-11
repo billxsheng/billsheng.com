@@ -7,6 +7,7 @@ import Icon from '../../../../components/Icon/Icon';
 import {NavLink} from 'react-router-dom';
 import Button from '../../../../components/Button/Button';
 import links from '../../../../assets/links';
+import Fade from 'react-reveal/Fade';
 
 var projectsArray = projectsInfo.headings.order;
 class Hackathons extends Component {
@@ -41,11 +42,13 @@ class Hackathons extends Component {
                                 </a>
                             }
                         </div> 
+                        <Fade bottom>   
                         <div className="col-md-8" styleName="heading-div">
                             <h1>
                                 {projectsInfo.headings.hackathons.title}
                             </h1>
                         </div>
+                        </Fade>
                         <div className="col-md-2">
                             {this.state.rightArrow ? 
                                 <NavLink styleName="btn-next" to={`/projects/${projectsArray[projectsArray.indexOf(projectsInfo.headings.hackathons.link.toLowerCase()) + 1]}`} >
@@ -57,23 +60,34 @@ class Hackathons extends Component {
                             }
                         </div>
                     </div>
-                        <p>
-                            {projectsInfo.headings.hackathons.description}
-                        </p>
+                    <Fade bottom>   
+                    <p>
+                        {projectsInfo.headings.hackathons.description}
+                    </p>
+                    </Fade>
                 </span>
                 <div styleName="content-row">
+                <Fade bottom>   
                 <div className="row">
                     <ProjectTile  to="/projects/hackathons/airdrums" imageName="projects/airdrums/airdrums.png" imageHeight="400px" tag={projectsInfo.airdrums.tag} title={projectsInfo.airdrums.name} shortDesc={projectsInfo.airdrums.description} />
                 </div>
+                </Fade>
+                <Fade bottom>   
                 <div className="row">
                     <ProjectTile to="/projects/hackathons/ryse" reverse="true" imageHeight="400px" imageName="projects/ryse/ryse.png" tag={projectsInfo.ryse.tag} title={projectsInfo.ryse.name} shortDesc={projectsInfo.ryse.description} />
                 </div>
+                </Fade>
+                <Fade bottom>   
                 <div className="row">
                     <ProjectTile to="/projects/hackathons/moodify" imageHeight="400px" imageName="projects/moodify/moodify.png" tag={projectsInfo.moodify.tag} title={projectsInfo.moodify.name} shortDesc={projectsInfo.moodify.description}/>
                 </div>
+                </Fade>
+                <hr/>
+                <Fade top>   
                 <div className="row">
                     <Button margin="0 auto" newPage="true" link={links.devpost} btnType="btnLarge" >View Devpost</Button>
                 </div>
+                </Fade>
                 </div>
             </div>
         )

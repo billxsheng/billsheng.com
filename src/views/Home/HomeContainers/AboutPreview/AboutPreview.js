@@ -6,7 +6,7 @@ import Carousel from '../../../../components/Carousel/EmojiCarousel/EmojiCarouse
 import OwlCarousel from 'react-owl-carousel2';
 import Button from '../../../../components/Button/Button';
 import homeInfo from '../../../../assets/homeInfo';
-
+import Fade from 'react-reveal/Fade';
 
 const aboutPreview = (props) => {
     const carouselItems = ['🐶', '👔', '🏀', '🎣', '🎸', '🔧', '🌇', '📚', '🍁','🎓', '🧠', '👨🏻‍💻', '🏋🏻‍', '🥑 ', '🏈', '⚾️', '🥅', '🎢'];
@@ -34,23 +34,29 @@ const aboutPreview = (props) => {
     return (
     <div styleName='aboutPreview'>
             <div className="container">
+                <Fade bottom>
                 <div styleName="abt-prev-el" className="row">
                 <h2>{homeInfo.myStory.title}</h2>
                 <span className="container">
                     <p>{homeInfo.myStory.description}</p>            
                 </span>  
                 </div>
+                </Fade>
             </div>
+        <Fade bottom>
         <OwlCarousel
         options={options}
         >   
             <Carousel carouselItems={carouselItems} classes="owl-carousel owl-theme" />
         </OwlCarousel>
+        </Fade>
         <div className="container">
-                <div styleName="abt-prev-el" className="row">
-                    <Button margin="30px auto" to="/my-story">My Story</Button>
-                </div>
+            <Fade bottom>
+            <div styleName="abt-prev-el" className="row">
+                <Button margin="30px auto" to="/my-story">My Story</Button>
             </div>
+            </Fade>
+        </div>
     </div>
     )
 }

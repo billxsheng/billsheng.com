@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import CSSModules from 'react-css-modules';
 import styles from './WaterlooEngineering.css';
 import galleryInfo from '../../../../assets/galleryInfo';
+import Fade from 'react-reveal/Fade';
 
 class wateng extends Component {
 
@@ -13,14 +14,16 @@ class wateng extends Component {
         return (
             <div className="container">
                 <span className="container">
+                    <Fade bottom>
                     <div className="row">
                         <h1>
                             {galleryInfo.year1.title}
                         </h1>
                     </div>
-                        <p>
-                            {galleryInfo.year1.date}
-                        </p>
+                    <p>
+                        {galleryInfo.year1.description}
+                    </p>
+                    </Fade>
                 </span>
                 <div styleName="content">
                 </div>

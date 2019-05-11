@@ -28,7 +28,6 @@ class Freelance extends Component {
         return (
             <div>
                 <span styleName="curve" className="container">
-                    <Fade bottom>
                     <div className="row container" style={{margin: '0 auto'}}>
                         <div className="col-md-2">
                             {this.state.leftArrow ? 
@@ -40,11 +39,13 @@ class Freelance extends Component {
                                 </a>
                             }
                         </div> 
+                        <Fade bottom>
                         <div className="col-md-8">
                             <h1>
                                 {ProjectsInfo.freelance.name}
                             </h1>
                         </div>
+                        </Fade>
                         <div className="col-md-2">
                             {this.state.rightArrow ? 
                                 <NavLink styleName="btn-next" to={`/projects/experience/${projectsArray[projectsArray.indexOf(ProjectsInfo.freelance.name.toLowerCase()) + 1]}`} >
@@ -56,6 +57,7 @@ class Freelance extends Component {
                             }
                         </div> 
                     </div>
+                    <Fade bottom>
                     <p>
                         {ProjectsInfo.freelance.description}
                     </p>

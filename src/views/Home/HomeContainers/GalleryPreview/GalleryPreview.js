@@ -7,27 +7,34 @@ import SlideCarousel from '../../../../components/Carousel/SlideCarousel/SlideCa
 import CarouselItem from '../../../../components/Carousel/SlideCarousel/CarouselItem/CarouselItem';
 import Button from '../../../../components/Button/Button';
 import homeInfo from '../../../../assets/homeInfo';
+import Fade from 'react-reveal/Fade';
 
 class galleryPreview extends Component {
     render() {
         return (
             <div styleName= 'galleryPreview'>
                 <span className="container">
+                    <Fade bottom>
                     <h2>{homeInfo.gallery.title}</h2>
                     <span styleName="gallery-preview-paragraph" className="container">
                         <p>{homeInfo.gallery.description}</p>            
                     </span> 
+                    </Fade>
                     <div styleName="carousel-relative" >
+                    <Fade bottom>
                     <SlideCarousel>
                         <CarouselItem to="/gallery/photos" type = "photos" description={GalleryInfo.photos.description} title={GalleryInfo.photos.title}  />
                         <CarouselItem to="/gallery/saturday-night-lights" type = "snl" description={GalleryInfo.snl.description} title={GalleryInfo.snl.title}  />
                         <CarouselItem to="/gallery/graphql"  type = "graphql"  title={GalleryInfo.graphql.title} description={GalleryInfo.graphql.description} />
                         <CarouselItem  to="/gallery/waterloo-engineering" type = "wateng"  title={GalleryInfo.year1.title} description={GalleryInfo.year1.description} />
                     </SlideCarousel>
+                    </Fade>
                     </div>
+                    <Fade bottom>
                     <div styleName="link-container" className="row">
-                        <Button  margin="30px auto" to="/gallery">View Gallery</Button>
+                        <Button margin="30px auto" to="/gallery">View Gallery</Button>
                     </div>
+                    </Fade>
                 </span>
             </div>
         )

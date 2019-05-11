@@ -30,7 +30,6 @@ class Ctc extends Component {
         return (
             <div>
                 <span styleName="curve" className="container">
-                <Fade bottom>
                     <div className="row container" style={{margin: '0 auto'}}>
                         <div className="col-md-2">
                             {this.state.leftArrow ? 
@@ -42,11 +41,13 @@ class Ctc extends Component {
                                 </a>
                             }
                         </div> 
+                        <Fade bottom>
                         <div className="col-md-8">
                             <h1>
                                 {ProjectsInfo.ctc.name}
                             </h1>
                         </div>
+                        </Fade>
                         <div className="col-md-2">
                             {this.state.rightArrow ? 
                                 <NavLink styleName="btn-next" to={`/projects/web-mobile/${projectsArray[projectsArray.indexOf(ProjectsInfo.ctc.link.toLowerCase()) + 1]}`} >
@@ -58,6 +59,7 @@ class Ctc extends Component {
                             }
                         </div> 
                     </div>
+                    <Fade bottom>
                     <p>
                         {ProjectsInfo.ctc.description}
                     </p>

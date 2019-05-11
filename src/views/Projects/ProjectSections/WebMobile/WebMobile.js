@@ -5,6 +5,7 @@ import ProjectTile from '../../ProjectTile/ProjectTile';
 import projectsInfo from '../../../../assets/projectsInfo';
 import Icon from '../../../../components/Icon/Icon';
 import {NavLink} from 'react-router-dom';
+import Fade from 'react-reveal/Fade';
 
 var projectsArray = projectsInfo.headings.order;
 
@@ -39,12 +40,14 @@ class WebMobile extends Component {
                                     <Icon iconType="iconSmall" iconName="fas fa-chevron-left"></Icon>
                                 </a>
                             }
-                        </div> 
+                        </div>
+                        <Fade bottom>   
                         <div className="col-md-8" styleName="heading-div">
                             <h1>
                                 {projectsInfo.headings.webMobile.title}
                             </h1>
                         </div>
+                        </Fade>
                         <div className="col-md-2">
                             {this.state.rightArrow ? 
                                 <NavLink styleName="btn-next" to={`/projects/${projectsArray[projectsArray.indexOf(projectsInfo.headings.webMobile.link.toLowerCase()) + 1]}`} >
@@ -56,20 +59,28 @@ class WebMobile extends Component {
                             }
                         </div>
                 </div>
-                    <p>
-                        {projectsInfo.headings.webMobile.description}
-                    </p>
+                <Fade bottom>   
+                <p>
+                    {projectsInfo.headings.webMobile.description}
+                </p>
+                </Fade>
             </span>
             <div styleName="content-row">
+            <Fade bottom>   
             <div className="row">
                 <ProjectTile to="/projects/web-mobile/huddle" imageName="projects/huddle/huddle.png" imageHeight="400px" tag={projectsInfo.huddle.tag} title={projectsInfo.huddle.name} shortDesc={projectsInfo.huddle.description}/>
             </div>
+            </Fade>
+            <Fade bottom>   
             <div className="row">
                 <ProjectTile to="/projects/web-mobile/blitz" reverse="true" imageHeight="400px" imageName="projects/blitz/blitz.png" tag={projectsInfo.blitz.tag} title={projectsInfo.blitz.name} shortDesc={projectsInfo.blitz.description}/>
             </div>
+            </Fade>
+            <Fade bottom>   
             <div className="row">
                 <ProjectTile to="/projects/web-mobile/munkee" imageHeight="400px" imageName="projects/munkee/munkee.png" tag={projectsInfo.munkee.tag} title={projectsInfo.munkee.name} shortDesc={projectsInfo.munkee.description}/>
             </div>
+            </Fade>
             </div>
         </div>
         )

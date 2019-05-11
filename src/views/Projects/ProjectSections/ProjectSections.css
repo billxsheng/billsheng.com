@@ -6,6 +6,12 @@
     margin-top: -10px;
 }
 
+.content-row hr {
+    width: 50%;
+    margin: 30px auto 40px auto;
+    min-width: 280px;
+}
+
 .btn-prev,
 .btn-next,
 .btn-disabled {
