@@ -7,6 +7,7 @@ const ProjectsInfo = {
         webMobile: {
             title: "Web & Mobile",
             description: "Web/Mobile Development",
+            order: ['huddle', 'blitz', 'munkee'],
             link: 'web-mobile'
         },
         ds: {
@@ -17,14 +18,17 @@ const ProjectsInfo = {
         experience: {
             title: "Experience",
             description: "Internships, Design Teams, Clubs",
+            order: ['opentext', 'freelance', 'ctc'],
             link: 'experience'
         },
         hackathons: {
             title: "Hackathons",
             description: "Projects built during hackathons",
+            order: ['airdrums', 'ryse', 'moodify'],
             link: 'hackathons'
         },
-        order: ['experience', 'web-mobile', 'data-science', 'hackathons']
+        order: ['experience', 'web-mobile', 'data-science', 'hackathons'],
+        projectOrder: ['opentext', 'freelance', 'ctc', 'huddle', 'blitz', 'munkee', 'airdrums', 'ryse', 'moodify']
     },
     huddle: {
         name:'Huddle',
@@ -93,7 +97,7 @@ const ProjectsInfo = {
     },
     ctc: {
         name: 'Canadian Tire',
-        link: 'canadian-tire',
+        link: 'ctc',
         description: 'Improving IT productivity',
         tag: "Internship",
         about: "Coming Soon",

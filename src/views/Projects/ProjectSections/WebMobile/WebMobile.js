@@ -62,13 +62,13 @@ class WebMobile extends Component {
             </span>
             <div styleName="content-row">
             <div className="row">
-                <ProjectTile activateModal = {() => this.props.openProject(projectsInfo.huddle)} to="/projects/web-mobile/huddle" imageName="projects/huddle/huddle.png" imageHeight="400px" tag={projectsInfo.huddle.tag} title={projectsInfo.huddle.name} shortDesc={projectsInfo.huddle.description}/>
+                <ProjectTile to="/projects/web-mobile/huddle" imageName="projects/huddle/huddle.png" imageHeight="400px" tag={projectsInfo.huddle.tag} title={projectsInfo.huddle.name} shortDesc={projectsInfo.huddle.description}/>
             </div>
             <div className="row">
-                <ProjectTile activateModal = {() => this.props.openProject(projectsInfo.blitz)} to="/projects/web-mobile/blitz" reverse="true" imageHeight="400px" imageName="projects/blitz/blitz.png" tag={projectsInfo.blitz.tag} title={projectsInfo.blitz.name} shortDesc={projectsInfo.blitz.description}/>
+                <ProjectTile to="/projects/web-mobile/blitz" reverse="true" imageHeight="400px" imageName="projects/blitz/blitz.png" tag={projectsInfo.blitz.tag} title={projectsInfo.blitz.name} shortDesc={projectsInfo.blitz.description}/>
             </div>
             <div className="row">
-                <ProjectTile activateModal = {() => this.props.openProject(projectsInfo.munkee)} to="/projects/web-mobile/munkee" imageHeight="400px" imageName="projects/munkee/munkee.png" tag={projectsInfo.munkee.tag} title={projectsInfo.munkee.name} shortDesc={projectsInfo.munkee.description}/>
+                <ProjectTile to="/projects/web-mobile/munkee" imageHeight="400px" imageName="projects/munkee/munkee.png" tag={projectsInfo.munkee.tag} title={projectsInfo.munkee.name} shortDesc={projectsInfo.munkee.description}/>
             </div>
             </div>
         </div>

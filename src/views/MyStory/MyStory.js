@@ -52,9 +52,7 @@ class MyStory extends Component {
                             <p2>
                                 {aboutInfo.education.description}
                             </p2>    
-                            <div className="row">
-                                <Image width="800px" path="about/other/waterloo-engineering.png" />
-                            </div>
+                            <Image width="600px" path="about/other/waterloo-engineering.png" />
                         </div>
                         </Fade>
 

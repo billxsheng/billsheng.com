@@ -20,9 +20,9 @@ class Button extends Component {
                 <NavLink style={linkStyle} styleName="btn-link" to={this.props.to}>{this.props.children}</NavLink>
             )
         }else if(this.props.resume) {
-            // return (
-            //     <a target="_blank" href= {require(`../../assets/documents/resume.pdf`)} style={linkStyle} styleName={this.props.btnType}>{this.props.children}</a>
-            // )
+            return (
+                <a target="_blank" href= {require(`../../assets/documents/resume.pdf`)} style={linkStyle} styleName={this.props.btnType}>{this.props.children}</a>
+            )
         } else if(this.props.newPage === "false") {
             return (
                 <a href={this.props.link} style={linkStyle} styleName={this.props.btnType}>{this.props.children}</a>

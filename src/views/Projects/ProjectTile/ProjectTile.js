@@ -3,6 +3,7 @@ import CSSModules from 'react-css-modules';
 import styles from './ProjectTile.css';
 import ProjectsImage from '../../../components/Image/ProjectsImage/ProjectsImage';
 import Aux from '../../../hoc/HO-Aux/HO-aux';
+import {NavLink} from 'react-router-dom'
 
 
 class projectTile extends Component {
@@ -15,7 +16,7 @@ class projectTile extends Component {
         if(this.state.reverse) {
             return (     
                 <Aux>
-                    <a onClick={this.props.activateModal} to={this.props.to} className="row" styleName="project-tile">
+                    <NavLink to={this.props.to} className="row" styleName="project-tile">
                         <div styleName="img-cont" className="col-md-6">
                             <ProjectsImage reverse top={this.props.top} height={this.props.imageHeight} path={this.props.imageName}/>
                         </div>
@@ -28,8 +29,8 @@ class projectTile extends Component {
                             </p>
                             <p styleName="project-preview-tag" >{this.props.tag}</p>
                         </div>
-                    </a>
-                    <a onClick={this.props.activateModal} to={this.props.to} className="row" styleName="project-tile-mobile">
+                    </NavLink>
+                    <NavLink to={this.props.to} className="row" styleName="project-tile-mobile">
                         <div styleName="text-cont" className="col-md-6">
                             <h2>
                                 {this.props.title}
@@ -42,13 +43,13 @@ class projectTile extends Component {
                         <div styleName="img-cont" className="col-md-6">
                             <ProjectsImage top={this.props.top} height={this.props.imageHeight} path={this.props.imageName}/>
                         </div>                
-                    </a>
+                    </NavLink>
                 </Aux>        
             )
         } else if (this.props.singleTile) {
             return (
                 <Aux>
-                    <a onClick={this.props.activateModal} to={this.props.to} className="row" styleName="project-tile">
+                    <NavLink to={this.props.to} className="row" styleName="project-tile">
                         <div styleName="text-cont" className="col-md-12">
                             <h2>
                                 {this.props.title}
@@ -58,8 +59,8 @@ class projectTile extends Component {
                             </p>
                             <p styleName="project-preview-tag" >{this.props.tag}</p>
                         </div>
-                    </a>
-                    <a onClick={this.props.activateModal} to={this.props.to} className="row" styleName="project-tile-mobile-single">
+                    </NavLink>
+                    <NavLink to={this.props.to} className="row" styleName="project-tile-mobile-single">
                         <div styleName="text-cont" className="col-md-6">
                             <h2>
                                 {this.props.title}
@@ -69,13 +70,13 @@ class projectTile extends Component {
                             </p>
                             <p styleName="project-preview-tag" >{this.props.tag}</p>
                         </div>
-                    </a>
+                    </NavLink>
                 </Aux>
             )
         } else {
             return (
                 <Aux>
-                    <a onClick={this.props.activateModal} to={this.props.to} className="row" styleName="project-tile">
+                    <NavLink to={this.props.to} className="row" styleName="project-tile">
                         <div styleName="text-cont" className="col-md-6">
                             <h2>
                                 {this.props.title}
@@ -88,8 +89,8 @@ class projectTile extends Component {
                         <div styleName="img-cont" className="col-md-6">
                             <ProjectsImage height={this.props.imageHeight} path={this.props.imageName}/>
                         </div>
-                    </a>
-                    <a onClick={this.props.activateModal} to={this.props.to} className="row" styleName="project-tile-mobile">
+                    </NavLink>
+                    <NavLink to={this.props.to} className="row" styleName="project-tile-mobile">
                         <div styleName="text-cont" className="col-md-6">
                             <h2>
                                 {this.props.title}
@@ -102,7 +103,7 @@ class projectTile extends Component {
                         <div styleName="img-cont" className="col-md-6">
                             <ProjectsImage height={this.props.imageHeight} path={this.props.imageName}/>
                         </div>
-                    </a>
+                    </NavLink>
                 </Aux>
             )
         }

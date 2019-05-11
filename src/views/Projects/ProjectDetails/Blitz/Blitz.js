@@ -2,15 +2,17 @@ import React, { Component } from 'react';
 import styles from '../ProjectDetails.css';
 import CSSModules from 'react-css-modules';
 import ProjectsInfo from '../../../../assets/projectsInfo';
+import Links from '../../../../assets/links';
 import Image from '../../../../components/Image/Image';
 import Button from '../../../../components/Button/Button';
 import {NavLink} from 'react-router-dom'; 
 import Icon from '../../../../components/Icon/Icon';
 import Fade from 'react-reveal/Fade';
 
+
 var projectsArray = ProjectsInfo.headings.projectOrder;
 
-class Huddle extends Component {
+class Blitz extends Component {
     state = {
         leftArrow: true,
         rightArrow: true
@@ -18,14 +20,14 @@ class Huddle extends Component {
 
     componentDidMount() {
         window.scrollTo(0,0);
-        if(projectsArray.indexOf((ProjectsInfo.huddle.name).toLowerCase()) === 0) {
+        if(projectsArray.indexOf((ProjectsInfo.blitz.name).toLowerCase()) === 0) {
             this.setState({leftArrow: false});
         }
-        if(projectsArray.indexOf((ProjectsInfo.huddle.name).toLowerCase()) === projectsArray.length - 1) {
+        if(projectsArray.indexOf((ProjectsInfo.blitz.name).toLowerCase()) === projectsArray.length - 1) {
             this.setState({rightArrow: false});
         }
     }
-    
+
     render() {
         return (
             <div>
@@ -34,9 +36,9 @@ class Huddle extends Component {
                     <div className="row container" style={{margin: '0 auto'}}>
                         <div className="col-md-2">
                             {this.state.leftArrow ? 
-                                <NavLink styleName="btn-prev" to={`/projects/experience/${projectsArray[projectsArray.indexOf(ProjectsInfo.huddle.name.toLowerCase()) - 1]}`} >
+                                <NavLink styleName="btn-prev" to={`/projects/web-mobile/${projectsArray[projectsArray.indexOf(ProjectsInfo.blitz.name.toLowerCase()) - 1]}`} >
                                     <Icon iconType="iconSmall" iconName="fas fa-chevron-left"></Icon>
-                                </NavLink> : 
+                                </NavLink>: 
                                 <a className="btn-disabled" styleName="btn-disabled">
                                     <Icon iconType="iconSmall" iconName="fas fa-chevron-left"></Icon>
                                 </a>
@@ -44,12 +46,12 @@ class Huddle extends Component {
                         </div> 
                         <div className="col-md-8">
                             <h1>
-                                {ProjectsInfo.huddle.name}
+                                {ProjectsInfo.blitz.name}
                             </h1>
                         </div>
                         <div className="col-md-2">
                             {this.state.rightArrow ? 
-                                <NavLink styleName="btn-next" to={`/projects/web-mobile/${projectsArray[projectsArray.indexOf(ProjectsInfo.huddle.name.toLowerCase()) + 1]}`} >
+                                <NavLink styleName="btn-next" to={`/projects/web-mobile/${projectsArray[projectsArray.indexOf(ProjectsInfo.blitz.name.toLowerCase()) + 1]}`} >
                                     <Icon iconType="iconSmall" iconName="fas fa-chevron-right"></Icon>
                                 </NavLink> : 
                                 <a className="btn-disabled" styleName="btn-disabled">
@@ -59,67 +61,65 @@ class Huddle extends Component {
                         </div> 
                     </div>
                     <p>
-                        {ProjectsInfo.huddle.description}
+                        {ProjectsInfo.blitz.description}
                     </p>
                     <div className="row" styleName="tag" >
-                        <p className="text-center" styleName="title-p" >{ProjectsInfo.huddle.tag}</p>
+                        <p className="text-center" styleName="title-p" >{ProjectsInfo.blitz.tag}</p>
                     </div>
                     </Fade>
                 </span>
-                <div styleName="modal">
-                    <Fade bottom>
+                <div styleName="modal" >
+                <Fade bottom>
                     <hr/>
-                    <Image width="500px" withRadius path = "projects/huddle/huddle-with-background.png" />
+                    <Image width="500px" withRadius path = "projects/blitz/blitz-with-background.png" />
                     <hr/>
                     </Fade>
                     <Fade bottom>
                     <h4>Summary</h4>
-                    <p>{ProjectsInfo.huddle.content.summary}</p>
+                    <p>{ProjectsInfo.blitz.content.summary}</p>
                     </Fade>
                     <Fade bottom>
                     <h4>Technology</h4>
-                    <p>{ProjectsInfo.huddle.content.technology}</p>
+                    <p>{ProjectsInfo.blitz.content.technology}</p>
                     </Fade>
                     <Fade bottom>
                     <h4>My Tasks</h4>
                     <ul className="list-group">
-                    <li><p3>Created authentication templates using React-Native</p3></li>
-                    <li><p3>Called HTTP requests using React Axios library</p3></li>
-                    <li><p3>Configured login/signup form logic using data binding, lifecycle hooks, and component states</p3></li>
-                    <li><p3>Implemented MVC design patterns using Java Spring framework</p3></li>
-                    <li><p3>Implemented session-based stateful authentication using Spring Security </p3></li>
-                    <li><p3>Wrote User and Game entities to be saved into MySQL database</p3></li>
-                    <li><p3>Constructed REST API endpoints within Spring Controllers to configure data flow between client, server, and database</p3></li>
-                    <li><p3>Called external MySportsFeeds API to continuously update game states in database</p3></li>
+                    <li><p3>Wrote HTML form logic to call REST API endpoints</p3></li>
+                    <li><p3>Created User, Team, and Game entities to be saved in MongoDB database</p3></li>
+                    <li><p3>Configured Mongoose to simplify interactions with MongoDB database</p3></li>
+                    <li><p3>Used Node JS for JavaScript run-time environment</p3></li>
+                    <li><p3>Wrote REST API using Express JS and specified logic within application endpoints</p3></li>
+                    <li><p3>Utilized Passport JS to implement authentication using JSON Web Tokens and OAuth 2.0</p3></li>
+                    <li><p3>Called Twilio SMS microservices to send text messages to users</p3></li>
+                    <li><p3>Called external MySportsFeeds API to continuously update game states </p3></li>
+                    <li><p3>Used handlebars templates to create 5+ views using HTML & CSS</p3></li>
                     </ul>
                     </Fade>
                     <Fade bottom>
-                    <h4>The Problem</h4>
-                    <p>{ProjectsInfo.huddle.content.problem}</p> 
+                    <h4>Problem</h4>
+                    <p>{ProjectsInfo.blitz.content.problem}</p>
                     </Fade>
                     <Fade bottom>
-                    <h4>Our Solution</h4>
-                    <p>{ProjectsInfo.huddle.content.solution}</p>
+                    <h4>Solution</h4>
+                    <p>{ProjectsInfo.blitz.content.solution}</p>
                     </Fade>
                     <Fade bottom>
-                    <Image width="300px" fine="Huddle Welcome Screen" path = "projects/huddle/huddle-splash.jpg" />
+                    <Image width="500px" fine="Blitz Login" path = "projects/blitz/blitz-login.png" />
                     </Fade>
                     <Fade bottom>
-                    <div className="row">
-                        <div className="col-md-6">
-                        <Image width="300px" fine="Huddle Promoted Venues" path = "projects/huddle/huddle-venues.jpg" />      
-                        </div>
-                        <div className="col-md-6">
-                        <Image width="300px" fine="Huddle Games" path = "projects/huddle/huddle-games.jpg" />      
-                        </div>
-                    </div>   
+                    <Image width="500px" fine="Blitz Sign Up" path = "projects/blitz/blitz-signup.png" />
+                    </Fade>
+                    <Fade bottom>
+                    <Image width="500px" fine="Blitz Profile" path = "projects/blitz/blitz-profile.png" />
                     </Fade>
                     <Fade top>
                     <hr/>
-                    <div className="row"> 
-                    <Button margin="0px auto" link={"https://github.com/alanxie29/Huddle"} btnType = "btnLarge">Github</Button>     
+                    <div className="row">
+                    <Button margin="0px auto" link={Links.github + "/blitz"} btnType = "btnLarge">Github</Button>
                     </div>
                     </Fade>
+
                 </div>
             </div>
         )
@@ -128,4 +128,4 @@ class Huddle extends Component {
 
 
 
-export default CSSModules(Huddle, styles);
+export default CSSModules(Blitz, styles);

@@ -15,7 +15,7 @@ class GalleryTileDetail extends Component {
                 <NavLink to={this.props.to} styleName={articleName}>
                     <div styleName="text-div">
                         <h2>{this.props.title}</h2>
-                        <p>{this.props.date}</p>
+                        <p>{this.props.description}</p>
                     </div>
                 </NavLink>
             </span>

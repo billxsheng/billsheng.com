@@ -7,19 +7,19 @@ const GalleryInfo = {
     },
     snl: {
         title: 'SNL',
-        date: 'Coming Soon'
+        description: 'Coming Soon'
     },
     graphql: {
         title: 'GraphQL',
-        date: 'Coming Soon'
+        description: 'Coming Soon'
     },
     year1: {
         title: '1st Year',
-        date: 'Coming Soon'
+        description: 'Coming Soon'
     },
     photos: {
         title: 'Photos',
-        date: "Pictures I like"
+        description: "Photo Gallery"
     }
 }
 

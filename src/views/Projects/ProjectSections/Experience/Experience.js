@@ -61,13 +61,13 @@ class Experience extends Component {
                 </span>
                 <div styleName="content-row">
                 <div className="row">
-                    <ProjectTile activateModal = {() => this.props.openProject(projectsInfo.opentext)} to="/projects/experience/opentext" imageName = "projects/ot/ot.png" imageHeight="400px"  tag={projectsInfo.opentext.tag} title={projectsInfo.opentext.name} shortDesc={projectsInfo.opentext.description} />
+                    <ProjectTile to="/projects/experience/opentext" imageName = "projects/ot/ot.png" imageHeight="400px"  tag={projectsInfo.opentext.tag} title={projectsInfo.opentext.name} shortDesc={projectsInfo.opentext.description} />
                 </div>
                 <div className="row">
-                    <ProjectTile activateModal = {() => this.props.openProject(projectsInfo.freelance)} to="/projects/experience/freelance" imageHeight="400px" reverse="true" imageName="projects/freelance/freelance.png" tag={projectsInfo.freelance.tag} title={projectsInfo.freelance.name} shortDesc={projectsInfo.freelance.description} />
+                    <ProjectTile to="/projects/experience/freelance" imageHeight="400px" reverse="true" imageName="projects/freelance/freelance.png" tag={projectsInfo.freelance.tag} title={projectsInfo.freelance.name} shortDesc={projectsInfo.freelance.description} />
                 </div>
                 <div className="row">
-                    <ProjectTile activateModal = {() => this.props.openProject(projectsInfo.ctc)} to="/projects/experience/canadian-tire"  top="25px" imageHeight="400px" imageName="projects/ctc/ctc.png" tag={projectsInfo.ctc.tag}title={projectsInfo.ctc.name} shortDesc={projectsInfo.ctc.description}/>
+                    <ProjectTile to="/projects/experience/ctc"  top="25px" imageHeight="400px" imageName="projects/ctc/ctc.png" tag={projectsInfo.ctc.tag}title={projectsInfo.ctc.name} shortDesc={projectsInfo.ctc.description}/>
                 </div>
                 </div>
             </div>

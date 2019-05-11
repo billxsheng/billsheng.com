@@ -3,14 +3,13 @@ import styles from '../ProjectDetails.css';
 import CSSModules from 'react-css-modules';
 import ProjectsInfo from '../../../../assets/projectsInfo';
 import Image from '../../../../components/Image/Image';
-import Button from '../../../../components/Button/Button';
-import {NavLink} from 'react-router-dom'; 
 import Icon from '../../../../components/Icon/Icon';
+import {NavLink} from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
 
 var projectsArray = ProjectsInfo.headings.projectOrder;
 
-class Huddle extends Component {
+class Opentext extends Component {
     state = {
         leftArrow: true,
         rightArrow: true
@@ -18,10 +17,10 @@ class Huddle extends Component {
 
     componentDidMount() {
         window.scrollTo(0,0);
-        if(projectsArray.indexOf((ProjectsInfo.huddle.name).toLowerCase()) === 0) {
+        if(projectsArray.indexOf((ProjectsInfo.opentext.name).toLowerCase()) === 0) {
             this.setState({leftArrow: false});
         }
-        if(projectsArray.indexOf((ProjectsInfo.huddle.name).toLowerCase()) === projectsArray.length - 1) {
+        if(projectsArray.indexOf((ProjectsInfo.opentext.name).toLowerCase()) === projectsArray.length - 1) {
             this.setState({rightArrow: false});
         }
     }
@@ -30,11 +29,11 @@ class Huddle extends Component {
         return (
             <div>
                 <span styleName="curve" className="container">
-                <Fade bottom>
+                    <Fade bottom>
                     <div className="row container" style={{margin: '0 auto'}}>
                         <div className="col-md-2">
                             {this.state.leftArrow ? 
-                                <NavLink styleName="btn-prev" to={`/projects/experience/${projectsArray[projectsArray.indexOf(ProjectsInfo.huddle.name.toLowerCase()) - 1]}`} >
+                                <NavLink styleName="btn-prev" to={`/projects/experience/${projectsArray[projectsArray.indexOf(ProjectsInfo.opentext.name.toLowerCase()) - 1]}`} >
                                     <Icon iconType="iconSmall" iconName="fas fa-chevron-left"></Icon>
                                 </NavLink> : 
                                 <a className="btn-disabled" styleName="btn-disabled">
@@ -44,12 +43,12 @@ class Huddle extends Component {
                         </div> 
                         <div className="col-md-8">
                             <h1>
-                                {ProjectsInfo.huddle.name}
+                                {ProjectsInfo.opentext.name}
                             </h1>
                         </div>
                         <div className="col-md-2">
                             {this.state.rightArrow ? 
-                                <NavLink styleName="btn-next" to={`/projects/web-mobile/${projectsArray[projectsArray.indexOf(ProjectsInfo.huddle.name.toLowerCase()) + 1]}`} >
+                                <NavLink styleName="btn-next" to={`/projects/experience/${projectsArray[projectsArray.indexOf(ProjectsInfo.opentext.name.toLowerCase()) + 1]}`} >
                                     <Icon iconType="iconSmall" iconName="fas fa-chevron-right"></Icon>
                                 </NavLink> : 
                                 <a className="btn-disabled" styleName="btn-disabled">
@@ -59,66 +58,54 @@ class Huddle extends Component {
                         </div> 
                     </div>
                     <p>
-                        {ProjectsInfo.huddle.description}
+                        {ProjectsInfo.opentext.description}
                     </p>
                     <div className="row" styleName="tag" >
-                        <p className="text-center" styleName="title-p" >{ProjectsInfo.huddle.tag}</p>
+                        <p className="text-center" styleName="title-p" >{ProjectsInfo.opentext.tag}</p>
                     </div>
                     </Fade>
                 </span>
-                <div styleName="modal">
+                <div styleName="modal" >
                     <Fade bottom>
                     <hr/>
-                    <Image width="500px" withRadius path = "projects/huddle/huddle-with-background.png" />
+                    <Image width="500px" path = "projects/ot/ot.png" />
                     <hr/>
                     </Fade>
                     <Fade bottom>
-                    <h4>Summary</h4>
-                    <p>{ProjectsInfo.huddle.content.summary}</p>
+                    <h4>Position</h4>
+                    <p>{ProjectsInfo.opentext.content.position}</p>
                     </Fade>
                     <Fade bottom>
                     <h4>Technology</h4>
-                    <p>{ProjectsInfo.huddle.content.technology}</p>
+                    <p>{ProjectsInfo.opentext.content.technology}</p>
                     </Fade>
                     <Fade bottom>
                     <h4>My Tasks</h4>
                     <ul className="list-group">
-                    <li><p3>Created authentication templates using React-Native</p3></li>
-                    <li><p3>Called HTTP requests using React Axios library</p3></li>
-                    <li><p3>Configured login/signup form logic using data binding, lifecycle hooks, and component states</p3></li>
-                    <li><p3>Implemented MVC design patterns using Java Spring framework</p3></li>
-                    <li><p3>Implemented session-based stateful authentication using Spring Security </p3></li>
-                    <li><p3>Wrote User and Game entities to be saved into MySQL database</p3></li>
-                    <li><p3>Constructed REST API endpoints within Spring Controllers to configure data flow between client, server, and database</p3></li>
-                    <li><p3>Called external MySportsFeeds API to continuously update game states in database</p3></li>
+                    <li><p3>Engaged in all phases of the SDLC within the scrum team during creation of EIM products/services</p3></li>
+                    <li><p3>Wrote monitoring services, error detection software, and unit tests in Java while ensuring best practices to manage numerous agents running on external networks</p3></li>
+                    <li><p3>Revised, upgraded 6000+ lines of TypeScript in Angular dashboard to be used by 1500+ stakeholders</p3></li>
+                    <li><p3>Implemented a centralized store design pattern on top of Angular website using NGRX for more reusable code structure; reduced code by 40%</p3></li>
+                    <li><p3>Used company-specific Git/Jira practices for team-wide communication</p3></li>
                     </ul>
                     </Fade>
                     <Fade bottom>
-                    <h4>The Problem</h4>
-                    <p>{ProjectsInfo.huddle.content.problem}</p> 
+                    <h4>Evaluation</h4>
+                    <p>{ProjectsInfo.opentext.content.evaluation}</p>
                     </Fade>
                     <Fade bottom>
-                    <h4>Our Solution</h4>
-                    <p>{ProjectsInfo.huddle.content.solution}</p>
-                    </Fade>
-                    <Fade bottom>
-                    <Image width="300px" fine="Huddle Welcome Screen" path = "projects/huddle/huddle-splash.jpg" />
+
+                    <Image width="500px" withRadius fine="Office in Richmond Hill, Ontario" path ="projects/ot/ot-3.png" />
                     </Fade>
                     <Fade bottom>
                     <div className="row">
                         <div className="col-md-6">
-                        <Image width="300px" fine="Huddle Promoted Venues" path = "projects/huddle/huddle-venues.jpg" />      
+                        <Image withRadius fine="Reception Desk" path ="projects/ot/ot-1.png" />
                         </div>
                         <div className="col-md-6">
-                        <Image width="300px" fine="Huddle Games" path = "projects/huddle/huddle-games.jpg" />      
+                        <Image withRadius fine="Corridor Art" path ="projects/ot/ot-2.png" />
                         </div>
                     </div>   
-                    </Fade>
-                    <Fade top>
-                    <hr/>
-                    <div className="row"> 
-                    <Button margin="0px auto" link={"https://github.com/alanxie29/Huddle"} btnType = "btnLarge">Github</Button>     
-                    </div>
                     </Fade>
                 </div>
             </div>
@@ -128,4 +115,4 @@ class Huddle extends Component {
 
 
 
-export default CSSModules(Huddle, styles);
+export default CSSModules(Opentext, styles);

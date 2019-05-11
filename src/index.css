@@ -61,7 +61,7 @@ p {
   text-align: center ;
   font-family: 'Cairo' ;
   font-size: 16px ;
-  margin: 10px auto ;
+  margin: 0 auto 10px auto;
   font-weight: 400 ;
   max-width: 700px ;
   line-height: 35px ;
@@ -118,7 +118,7 @@ button {
   p {
     font-size: 15px !important;
     padding: 0 30px !important;
-    margin: 8px auto !important;
+    /* margin: 8px auto !important; */
   }
 
   h2 {

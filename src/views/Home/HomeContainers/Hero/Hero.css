@@ -7,8 +7,6 @@
     overflow: hidden;
 }
 
-
-
 .divide-container {
     position: relative;
     background-color: white !important;
@@ -80,7 +78,7 @@
 }
 
 .stripe {
-    height: 500px;
+    height: 450px;
     width: 99.7%;
     top: 350px;
     position: absolute;
@@ -105,7 +103,7 @@
 
 @media (max-width: 767px) {
     .hero {
-        margin-bottom: 60px;
+        margin-bottom: 10px;
     }
 
     .wave {

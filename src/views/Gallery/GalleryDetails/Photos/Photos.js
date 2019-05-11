@@ -20,7 +20,7 @@ class Photos extends Component {
                         </h1>
                     </div>
                         <p>
-                            {galleryInfo.photos.date}
+                            {galleryInfo.photos.description}
                         </p>
                 </span>
                 <div styleName="content">

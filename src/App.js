@@ -3,6 +3,7 @@ import CSSModules from 'react-css-modules';
 import { BrowserRouter, Switch, Route, Redirect  } from 'react-router-dom';
 import Dialog from '@material-ui/core/Dialog';
 import Slide from '@material-ui/core/Slide';
+import Fade from 'react-reveal/Fade';
 
 import Layout from './hoc/Layout/Layout';
 import Home from './views/Home/Home';
@@ -25,10 +26,17 @@ import DataScience from './views/Projects/ProjectSections/DataScience/DataScienc
 import WebMobile from './views/Projects/ProjectSections/WebMobile/WebMobile';
 import DialogContent from './components/DialogContent/DialogContent';
 import { withStyles } from '@material-ui/core';
-import ProjectDialogContent from './components/ProjectDialogContent/ProjectDialogContent';
 import Icon from './components/Icon/Icon';
 import Photos from './views/Gallery/GalleryDetails/Photos/Photos';
 import Huddle from './views/Projects/ProjectDetails/Huddle/Huddle';
+import Opentext from './views/Projects/ProjectDetails/Opentext/Opentext';
+import Blitz from './views/Projects/ProjectDetails/Blitz/Blitz';
+import Moodify from './views/Projects/ProjectDetails/Moodify/Moodify';
+import Airdrums from './views/Projects/ProjectDetails/Airdrums/Airdrums';
+import Ryse from './views/Projects/ProjectDetails/Ryse/Ryse';
+import Munkee from './views/Projects/ProjectDetails/Munkee/Munkee';
+import Freelance from './views/Projects/ProjectDetails/Freelance/Freelance';
+import Ctc from './views/Projects/ProjectDetails/Ctc/Ctc';
 
 function Transition(props) {
   return <Slide direction="down" timeout= "0"  {...props} />;
@@ -43,31 +51,17 @@ const ContactModal = withStyles({
   }
 })(Dialog);
 
-const ProjectModal = withStyles({
-  paper: {
-    borderRadius: '15px',
-    overflowX: 'hidden',
-    overflowY: 'scroll',
-    margin: '20px;',
-    maxWidth: '100vw;'
-  }
-})(Dialog);
-
 class App extends Component {
   constructor(props) {
     super(props);
     this.child = React.createRef();
     this.onContactModalOpen = this.onContactModalOpen.bind(this);
     this.closeContactModal = this.closeContactModal.bind(this);
-    this.onProjectSelected = this.onProjectSelected.bind(this);
-    this.closeProjectModal = this.closeProjectModal.bind(this);
   }
 
   state = {
     isLoading: false,
     contactModalIsOpen: false,
-    projectModalIsOpen: false,
-    projectSelected: ""
   }
 
   componentDidMount = () => {
@@ -83,15 +77,6 @@ class App extends Component {
 
   closeContactModal() {
     this.setState({contactModalIsOpen: false});
-  }
-
-  onProjectSelected(project) {
-    this.setState({projectModalIsOpen: true})
-    this.setState({projectSelected: project})
-  }
-
-  closeProjectModal() {
-    this.setState({projectModalIsOpen: false});
   }
 
   onWaypoint = () => {
@@ -110,14 +95,22 @@ class App extends Component {
         <Route exact path="/gallery/waterloo-engineering" component={WaterlooEngineering} />
         <Route exact path="/gallery/graphql" component={GraphQL} />
         <Route exact path="/gallery/photos" component={Photos} />
-        <Route exact path="/projects/hackathons" render={() => <Hackathons openProject = {this.onProjectSelected}/>} />
-        <Route exact path="/projects/experience" render={() => <Experience openProject = {this.onProjectSelected}/>} />
-        <Route exact path="/projects/web-mobile" render={() => <WebMobile openProject = {this.onProjectSelected}/>} />
-        <Route exact path="/projects/data-science" render={() => <DataScience openProject = {this.onProjectSelected}/>} />
+        <Route exact path="/projects/hackathons" component={Hackathons} />
+        <Route exact path="/projects/experience" component={Experience} />
+        <Route exact path="/projects/web-mobile" component={WebMobile} />
+        <Route exact path="/projects/data-science" component={DataScience} />
         <Route exact path="/projects" component={ProjectSelect} />
         <Route exact path="/my-story" component={MyStory} />
         <Route exact path="/gallery" component={Gallery} />
         <Route exact path="/projects/web-mobile/huddle" component={Huddle} />
+        <Route exact path="/projects/web-mobile/blitz" component={Blitz} />
+        <Route exact path="/projects/web-mobile/munkee" component={Munkee} />
+        <Route exact path="/projects/experience/opentext" component={Opentext} />
+        <Route exact path="/projects/experience/freelance" component={Freelance} />
+        <Route exact path="/projects/experience/ctc" component={Ctc} />
+        <Route exact path="/projects/hackathons/moodify" component={Moodify} />
+        <Route exact path="/projects/hackathons/airdrums" component={Airdrums} />
+        <Route exact path="/projects/hackathons/ryse" component={Ryse} />
         <Route exact path="/" component={Home} />
         <Redirect exact to="/" />
       </Switch>
@@ -149,14 +142,9 @@ class App extends Component {
                       <Icon iconName="fas fa-times" close={this.closeContactModal} iconType="iconClose" />
                     </DialogContent>
                   </ContactModal>
-                  <ProjectModal TransitionComponent={Transition} 
-                  onBackdropClick = {this.closeProjectModal} 
-                  styleName="modal-project" 
-                  open={this.state.projectModalIsOpen}
-                  >
-                    <ProjectDialogContent close= {this.closeProjectModal} project = {this.state.projectSelected}/>
-                  </ProjectModal>
+              <Fade bottom>
               <Footer />
+              </Fade>
               </Layout>
             </div>
           </BrowserRouter>
