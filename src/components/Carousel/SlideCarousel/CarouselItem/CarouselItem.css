@@ -44,7 +44,8 @@
     left: 0;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    background: linear-gradient(to right, rgb(0,0,0, 0.4), rgb(0,0,0,0), rgb(0,0,0, 0.4)), url('../../../../assets/images/projects/select/select-hack.png') center;
+    background-image: url('../../../../assets/images/projects/select/select-hack.jpg');
+    background-position: center;
 }
 
 .upper-wrapper-exp {
@@ -55,7 +56,7 @@
     left: 0;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    background: linear-gradient(to right, rgb(0,0,0, 0.4), rgb(0,0,0,0), rgb(0,0,0, 0.4)), url('../../../../assets/images/projects/select/select-exp.jpg');
+    background-image:  url('../../../../assets/images/projects/select/select-exp.jpg');
     background-size: cover;
 }
 
@@ -67,7 +68,7 @@
     left: 0;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    background: linear-gradient(to right, rgb(0,0,0, 0.4), rgb(0,0,0,0), rgb(0,0,0, 0.4)), url('../../../../assets/images/projects/select/select-ds.jpg');
+    background-image: url('../../../../assets/images/projects/select/select-ds.jpg');
     background-size: cover;
 }
 
@@ -79,7 +80,7 @@
     left: 0;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    background: linear-gradient(to right, rgb(0,0,0, 0.4), rgb(0,0,0,0), rgb(0,0,0, 0.4)), url('../../../../assets/images/projects/select/select-wm.png');
+    background-image: url('../../../../assets/images/projects/select/select-wm.jpg');
     background-size: cover;
 }
 
@@ -93,7 +94,7 @@
     left: 0;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    background: linear-gradient(to right, rgb(0,0,0, 0.4), rgb(0,0,0,0), rgb(0,0,0, 0.4)), url('../../../../assets/images/gallery/fbs.jpg');
+    background-image: url('../../../../assets/images/gallery/fbs.jpg');
     background-size: cover;
 }
 
@@ -105,7 +106,7 @@
     left: 0;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    background: linear-gradient(to right, rgb(0,0,0, 0.4), rgb(0,0,0,0), rgb(0,0,0, 0.4)), url('../../../../assets/images/gallery/graphql.jpg');
+    background-image: url('../../../../assets/images/gallery/graphql.jpg');
     background-size: cover;
 }
 
@@ -117,7 +118,7 @@
     left: 0;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    background: linear-gradient(to right, rgb(0,0,0, 0.4), rgb(0,0,0,0), rgb(0,0,0, 0.4)), url('../../../../assets/images/gallery/waterloo-campus.jpg');
+    background-image: url('../../../../assets/images/gallery/waterloo-campus.jpg');
     background-size: cover;
 }
 
@@ -129,7 +130,7 @@
     left: 0;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    background: linear-gradient(to right, rgb(0,0,0, 0.4), rgb(0,0,0,0), rgb(0,0,0, 0.4)), url('../../../../assets/images/gallery/photos/team-picture.jpeg');
+    background-image: url('../../../../assets/images/gallery/photos/team-picture.jpeg');
     background-size: cover;
 }
 
