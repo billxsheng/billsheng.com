@@ -119,7 +119,7 @@ class Huddle extends Component {
                     <Fade top>
                     <hr/>
                     <div className="row"> 
-                    <Button margin="0px auto" link={"https://github.com/alanxie29/Huddle"} btnType = "btnLarge">Github</Button>     
+                    <Button margin="0px auto" link={"https://github.com/billxsheng/Huddle"} btnType = "btnLarge">Github</Button>     
                     </div>
                     </Fade>
                 </div>

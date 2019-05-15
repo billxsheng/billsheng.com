@@ -84,11 +84,11 @@ class Opentext extends Component {
                     <Fade bottom>
                     <h4>My Tasks</h4>
                     <ul className="list-group">
-                    <li><p3>Engaged in all phases of the SDLC within the scrum team during creation of EIM products/services</p3></li>
-                    <li><p3>Wrote monitoring services, error detection software, and unit tests in Java while ensuring best practices to manage numerous agents running on external networks</p3></li>
-                    <li><p3>Revised, upgraded 6000+ lines of TypeScript in Angular dashboard to be used by 1500+ stakeholders</p3></li>
-                    <li><p3>Implemented a centralized store design pattern on top of Angular website using NGRX for more reusable code structure; reduced code by 40%</p3></li>
-                    <li><p3>Used company-specific Git/Jira practices for team-wide communication</p3></li>
+                    <li><p3>Developed a SaaS Cloud Platform that provides cloud computing resources, microservices, storage, deployment, and cybersecurity capabilities to clients and OpenText teams; engaged in all phases of the SDLC during production process</p3></li>
+                    <li><p3>Wrote monitoring services, error detection software in Java to provide insight on numerous agents running on external networks; allowed development team to analyze and forecast iOS/Android build jobs</p3></li>
+                    <li><p3>Revised, upgraded 6000+ lines of TypeScript code in Angular dashboard to be used by 1500+ stakeholders</p3></li>
+                    <li><p3>Implemented a centralized store design pattern on top of Angular application using NGRX for more reusable code structure; reduced source code by 40%</p3></li>
+                    <li><p3>Practiced test-driven development and wrote automated unit/integration tests using Mockito and Jasmine for Jenkins CI/CD</p3></li>
                     </ul>
                     </Fade>
                     <Fade bottom>

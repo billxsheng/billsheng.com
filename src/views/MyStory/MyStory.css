@@ -1,17 +1,17 @@
-.list {
+.list,
+.skills-list {
     list-style-type: disk;
     list-style-position: outside;
     margin: 10px 0 30px 25px;
     font-family: 'Cairo'
 }
 
-.list li {
-    margin: 5px 0;
+.skills-list {
+    margin: 5px 0 5px 25px !important;
 }
 
-.skills-list {
-    list-style-type: none;
-    margin: 10px 0 30px 0;
+.list li {
+    margin: 5px 0;
 }
 
 .wrapper {

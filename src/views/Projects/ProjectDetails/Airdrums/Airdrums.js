@@ -89,7 +89,7 @@ class Airdrums extends Component {
                     </div>
                     <br/>
                     <div className="row">
-                    <Button margin="0px auto" link={"https://github.com/kvptkr/Air-Drums--UoftHacks-2019"} btnType = "btnLarge">Github</Button>
+                    <Button margin="0px auto" link={"https://github.com/billxsheng/airdrums"} btnType = "btnLarge">Github</Button>
                     </div>
                     </Fade>
                 </div>

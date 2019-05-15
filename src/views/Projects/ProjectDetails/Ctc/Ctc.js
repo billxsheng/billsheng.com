@@ -85,10 +85,9 @@ class Ctc extends Component {
                     <Fade bottom>
                     <h4>My Tasks</h4>
                     <ul className="list-group">
-                    <li><p3>Engaged in all phases of the SDLC within the scrum team during creation of EIM products</p3></li>
-                    <li><p3>Wrote monitoring services, error detection software, and unit tests in Java while ensuring best practices to manage numerous agents running on external networks</p3></li>
-                    <li><p3>Revised, upgraded 6000+ lines of TypeScript in Angular dashboard to be used by 1500+ stakeholders</p3></li>
-                    <li><p3>Implemented a centralized store design pattern on top of Angular website using NGRX for more reusable code structure; reduced code by 40%</p3></li>
+                    <li><p3>Excelled in a fast-paced agile work environment</p3></li>
+                    <li><p3>Engineered large-scale virtualized deployments using VMWare </p3></li>
+                    <li><p3>Created 10+ PowerShell automation scripts for seamless configuration of enterprise servers; scripts to be used across IT community (200+ employees)</p3></li>
                     </ul>
                     </Fade>
                     <Fade bottom>
