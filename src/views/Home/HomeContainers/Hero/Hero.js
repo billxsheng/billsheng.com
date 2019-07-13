@@ -31,10 +31,10 @@ const Hero = (props) => {
             <div className="container" styleName="divide-container">
                <div styleName="upper-wrapper" >
                 <div styleName="img-wide">
-                    <Image margin="0px" path="about/other/secondary.jpeg"  />
+                    <Image margin="0px" path="about/other/headshot-hero.jpg"  />
                 </div>
                 <div styleName="img-narrow">
-                    <Image margin="0px" path="about/other/secondary-mobile.jpeg"  />
+                    <Image margin="0px" path="about/other/headshot-hero-mobile.jpg"  />
                 </div>
                </div>
                <div styleName="lower-wrapper" >

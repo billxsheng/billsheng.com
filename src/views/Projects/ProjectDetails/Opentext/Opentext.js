@@ -84,11 +84,12 @@ class Opentext extends Component {
                     <Fade bottom>
                     <h4>My Tasks</h4>
                     <ul className="list-group">
-                    <li><p3>Developed a SaaS Cloud Platform that provides cloud computing resources, microservices, storage, deployment, and cybersecurity capabilities to clients and OpenText teams; engaged in all phases of the SDLC during production process</p3></li>
-                    <li><p3>Wrote monitoring services, error detection software in Java to provide insight on numerous agents running on external networks; allowed development team to analyze and forecast iOS/Android build jobs</p3></li>
-                    <li><p3>Revised, upgraded 6000+ lines of TypeScript code in Angular dashboard to be used by 1500+ stakeholders</p3></li>
-                    <li><p3>Implemented a centralized store design pattern on top of Angular application using NGRX for more reusable code structure; reduced source code by 40%</p3></li>
-                    <li><p3>Practiced test-driven development and wrote automated unit/integration tests using Mockito and Jasmine for Jenkins CI/CD</p3></li>
+                    <li><p3>Heavily engaged in the planning/development of a PaaS Cloud Console that provides cloud computing resources, content management systems, microservices, and deployment tools for clients and OpenText teams</p3></li>
+                    <li><p3>Developed monitoring services with Spring framework to provide insight on numerous Java agents running on external systems; allowed development team to simultaneously analyze multiple automated build jobs</p3></li>
+                    <li><p3>Containerized applications and databases using Docker and wrote deployment scripts in Bash to optimize infrastructure processes across team projects</p3></li>
+                    <li><p3>Practiced test-driven development; wrote automated integration tests using JUnit and Jasmine with Jenkins CI/CD</p3></li>
+                    <li><p3>Upgraded, optimized, and migrated 2000+ lines of TypeScript in high-profile hybrid dashboard used by 500+ clients</p3></li>
+                    <li><p3>Used company-specific Git/Jira practices for team-wide communication</p3></li>
                     </ul>
                     </Fade>
                     <Fade bottom>

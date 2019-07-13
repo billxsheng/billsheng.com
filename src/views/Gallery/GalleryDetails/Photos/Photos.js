@@ -36,15 +36,7 @@ class Photos extends Component {
                     </Fade>
                     <br/>
                     <Fade bottom>
-                    <Image width="700px" fine="Venice, Italy" margin="0" path="gallery/photos/italy.png" />
-                    </Fade>
-                    <br/>
-                    <Fade bottom>
-                    <Image width="700px" fine="Rocky Steps, Philadelphia" margin="0" path="gallery/photos/eagles.png" />
-                    </Fade>
-                    <br/>
-                    <Fade bottom>
-                    <Image width="700px" fine="Boston @ Toronto Game 6 2019" margin="0" path="gallery/photos/jurassic-park.png" />
+                    <Image width="700px" fine="Florence, Italy" margin="0" path="gallery/photos/secondary.jpeg" />
                     </Fade>
                 </div>
             </div>

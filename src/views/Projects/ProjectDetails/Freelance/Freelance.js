@@ -83,7 +83,7 @@ class Freelance extends Component {
                     <Fade bottom>
                     <h4>My Tasks</h4>
                     <ul className="list-group">
-                    <li><p3>Interfaced with clients to build several full stack applications using React JS, Angular 6, and Node JS</p3></li>
+                    <li><p3>Interfaced with local businesses to build several full stack applications using React, Angular, Node.js, and AWS </p3></li>
                     <li><p3>Streamlined dynamic content management using MongoDB for low-code versatility; decreased existing redeployment instances by 90%</p3></li>
                     <li><p3>Built a full stack barber website which included an email service, contact form, and dynamic gallery</p3></li>
                     </ul>
