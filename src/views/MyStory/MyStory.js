@@ -60,11 +60,15 @@ class MyStory extends Component {
                             <div style={{'margin': '0 auto'}}>
                                 <p2><strong>Languages</strong></p2>
                                 <ul styleName="skills-list" className="list-group">
-                                <li>JavaScript, Java, Swift, Ruby, Python, HTML/CSS, Typescript, VBA, SQL</li>
+                                <li>JavaScript, Java, Swift, Ruby, Python, HTML/CSS, Typescript, VBA, SQL, PHP</li>
                                 </ul> 
                                 <p2><strong>Frameworks & Libraries</strong></p2>
                                 <ul styleName="skills-list" className="list-group">
                                 <li>Node JS (Express JS & Socket.IO), Spring, Ruby on Rails, React JS, React Native, Angular 2+</li>
+                                </ul>
+                                <p2><strong>Data Engineering</strong></p2>
+                                <ul styleName="skills-list" className="list-group">
+                                <li>Hadoop, Apache Kafka, Apache Spark</li>
                                 </ul>
                                 <p2><strong>Cloud & Tools</strong></p2>
                                 <ul styleName="skills-list" className="list-group">
