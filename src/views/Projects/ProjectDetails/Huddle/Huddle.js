@@ -41,13 +41,11 @@ class Huddle extends Component {
                                 </a>
                             }
                         </div> 
-                        <Fade bottom>
                         <div className="col-md-8">
                             <h1>
                                 {ProjectsInfo.huddle.name}
                             </h1>
                         </div>
-                        </Fade>
                         <div className="col-md-2">
                             {this.state.rightArrow ? 
                                 <NavLink styleName="btn-next" to={`/projects/web-mobile/${projectsArray[projectsArray.indexOf(ProjectsInfo.huddle.name.toLowerCase()) + 1]}`} >

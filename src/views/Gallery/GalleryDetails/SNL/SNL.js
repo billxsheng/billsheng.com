@@ -14,12 +14,12 @@ class SNL extends Component {
         return (
             <div className="container">
                 <span className="container">
-                    <Fade bottom>
                     <div className="row">
                         <h1>
                             {galleryInfo.snl.title}
                         </h1>
                     </div>
+                    <Fade bottom>
                     <p>
                         {galleryInfo.snl.description}
                     </p>

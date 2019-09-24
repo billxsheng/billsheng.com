@@ -43,13 +43,11 @@ class Blitz extends Component {
                                 </a>
                             }
                         </div> 
-                        <Fade bottom>
                         <div className="col-md-8">
                             <h1>
                                 {ProjectsInfo.blitz.name}
                             </h1>
                         </div>
-                        </Fade>
                         <div className="col-md-2">
                             {this.state.rightArrow ? 
                                 <NavLink styleName="btn-next" to={`/projects/web-mobile/${projectsArray[projectsArray.indexOf(ProjectsInfo.blitz.name.toLowerCase()) + 1]}`} >

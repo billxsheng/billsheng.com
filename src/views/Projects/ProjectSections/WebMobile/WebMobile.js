@@ -41,13 +41,11 @@ class WebMobile extends Component {
                                 </a>
                             }
                         </div>
-                        <Fade bottom>   
                         <div className="col-md-8" styleName="heading-div">
                             <h1>
                                 {projectsInfo.headings.webMobile.title}
                             </h1>
                         </div>
-                        </Fade>
                         <div className="col-md-2">
                             {this.state.rightArrow ? 
                                 <NavLink styleName="btn-next" to={`/projects/${projectsArray[projectsArray.indexOf(projectsInfo.headings.webMobile.link.toLowerCase()) + 1]}`} >

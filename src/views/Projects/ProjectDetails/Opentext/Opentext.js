@@ -40,13 +40,11 @@ class Opentext extends Component {
                                 </a>
                             }
                         </div> 
-                        <Fade bottom>
                         <div className="col-md-8">
                             <h1>
                                 {ProjectsInfo.opentext.name}
                             </h1>
                         </div>
-                        </Fade>
                         <div className="col-md-2">
                             {this.state.rightArrow ? 
                                 <NavLink styleName="btn-next" to={`/projects/experience/${projectsArray[projectsArray.indexOf(ProjectsInfo.opentext.name.toLowerCase()) + 1]}`} >

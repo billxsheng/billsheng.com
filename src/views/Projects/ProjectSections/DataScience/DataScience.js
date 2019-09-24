@@ -39,13 +39,11 @@ class DataScience extends Component {
                                 </a>
                             }
                         </div> 
-                        <Fade bottom>
                         <div className="col-md-8" styleName="heading-div">
                             <h1>
                                 {projectsInfo.headings.ds.title}
                             </h1>
                         </div>
-                        </Fade>
                         <div className="col-md-2">
                             {this.state.rightArrow ? 
                                 <NavLink styleName="btn-next" to={`/projects/${projectsArray[projectsArray.indexOf(projectsInfo.headings.ds.link.toLowerCase()) + 1]}`} >

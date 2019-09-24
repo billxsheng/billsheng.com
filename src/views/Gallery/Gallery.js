@@ -16,12 +16,12 @@ class Gallery extends Component {
         return(
             <div styleName="gallery" className="container">
                 <span className="container">
-                    <Fade bottom>
                     <div className="row">
                         <h1>
                             {GalleryInfo.headings.gallery.title}
                         </h1>
                     </div>
+                    <Fade bottom>
                     <p>
                         {GalleryInfo.headings.gallery.description}
                     </p>

@@ -15,12 +15,12 @@ class Photos extends Component {
         return (
             <div className="container">
                 <span className="container">
-                <Fade bottom>
                     <div className="row">
                         <h1>
                             {galleryInfo.photos.title}
                         </h1>
                     </div>
+                    <Fade bottom>
                     <p>
                         {galleryInfo.photos.description}
                     </p>

@@ -14,12 +14,12 @@ class graphQL extends Component {
         return (
             <div className="container">
                 <span className="container">
-                    <Fade bottom>
                     <div className="row">
                         <h1>
                             {galleryInfo.graphql.title}
                         </h1>
                     </div>
+                    <Fade bottom>
                     <p>
                         {galleryInfo.graphql.description}
                     </p>

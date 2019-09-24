@@ -14,12 +14,12 @@ class wateng extends Component {
         return (
             <div className="container">
                 <span className="container">
-                    <Fade bottom>
                     <div className="row">
                         <h1>
                             {galleryInfo.year1.title}
                         </h1>
                     </div>
+                    <Fade bottom>
                     <p>
                         {galleryInfo.year1.description}
                     </p>

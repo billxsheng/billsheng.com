@@ -14,8 +14,8 @@ class galleryPreview extends Component {
         return (
             <div styleName= 'galleryPreview'>
                 <span className="container">
-                    <Fade bottom>
                     <h2>{homeInfo.gallery.title}</h2>
+                    <Fade bottom>
                     <span styleName="gallery-preview-paragraph" className="container">
                         <p>{homeInfo.gallery.description}</p>            
                     </span> 

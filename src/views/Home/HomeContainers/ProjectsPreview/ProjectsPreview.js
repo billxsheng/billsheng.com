@@ -15,9 +15,9 @@ class projectsPreview extends Component {
         return (
             <div styleName= 'projectsPreview'>
                 <span className="container">
-                    <Fade bottom>
+                    {/* <Fade bottom> */}
                     <h2>{homeInfo.projects.title}</h2>
-                    </Fade>
+                    {/* </Fade> */}
                 </span>
                 <span styleName="projects-preview-paragraph" className="container">
                     <Fade bottom>

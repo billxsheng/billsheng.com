@@ -34,14 +34,14 @@ const aboutPreview = (props) => {
     return (
     <div styleName='aboutPreview'>
             <div className="container">
-                <Fade bottom>
                 <div styleName="abt-prev-el" className="row">
                 <h2>{homeInfo.myStory.title}</h2>
+                <Fade bottom>
                 <span className="container">
                     <p>{homeInfo.myStory.description}</p>            
                 </span>  
-                </div>
                 </Fade>
+                </div>
             </div>
         <Fade bottom>
         <OwlCarousel
@@ -51,11 +51,9 @@ const aboutPreview = (props) => {
         </OwlCarousel>
         </Fade>
         <div className="container">
-            <Fade bottom>
             <div styleName="abt-prev-el" className="row">
                 <Button margin="30px auto" to="/my-story">My Story</Button>
             </div>
-            </Fade>
         </div>
     </div>
     )

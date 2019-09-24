@@ -17,12 +17,12 @@ class Projects extends Component {
         return(
             <div className="container">
                 <span styleName="curve" className="container">
-                    <Fade bottom>
                     <div className="row">
                         <h1>
                             {ProjectsInfo.headings.projects.title}
                         </h1>
                     </div>
+                    <Fade bottom>
                     <p>
                         {ProjectsInfo.headings.projects.description}
                     </p>
