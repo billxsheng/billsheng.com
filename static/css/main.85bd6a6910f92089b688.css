@@ -1425,7 +1425,7 @@ button {
     transition: transform 0.2s;
     transition: transform 0.2s, -webkit-transform 0.2s;
     color: white;
-    background: url(/billxsheng/personal-website/static/media/fbs.8293b033.png);
+    background: url(/personal-website/static/media/fbs.8293b033.png);
     background-size: cover;
 }
 
@@ -1441,7 +1441,7 @@ button {
     transition: transform 0.2s;
     transition: transform 0.2s, -webkit-transform 0.2s;
     color: white;
-    background-image: url(/billxsheng/personal-website/static/media/graphql.50872fdd.png);
+    background-image: url(/personal-website/static/media/graphql.50872fdd.png);
     background-size: cover;
 }
 
@@ -1457,7 +1457,7 @@ button {
     transition: transform 0.2s;
     transition: transform 0.2s, -webkit-transform 0.2s;
     color: white;
-    background-image: url(/billxsheng/personal-website/static/media/waterloo-campus.e0b74607.png);
+    background-image: url(/personal-website/static/media/waterloo-campus.e0b74607.png);
     background-size: cover;
 }
 
@@ -1473,7 +1473,7 @@ button {
     transition: transform 0.2s;
     transition: transform 0.2s, -webkit-transform 0.2s;
     color: white;
-    background-image: url(/billxsheng/personal-website/static/media/team-picture.45ceae1a.png);
+    background-image: url(/personal-website/static/media/team-picture.45ceae1a.png);
     background-size: cover;
 }
 
@@ -1540,22 +1540,22 @@ button {
 }
 
 .ProjectSelectTile__select-box-ds__2Fb7z {
-    background-image:url(/billxsheng/personal-website/static/media/select-ds.aac6b609.png);
+    background-image:url(/personal-website/static/media/select-ds.aac6b609.png);
     background-size: cover;
 }
 
 .ProjectSelectTile__select-box-wm__1AMcF {
-    background-image:url(/billxsheng/personal-website/static/media/select-wm.bebfac9f.png);
+    background-image:url(/personal-website/static/media/select-wm.bebfac9f.png);
     background-size: cover;
 }
 
 .ProjectSelectTile__select-box-exp__3cwAv {
-    background-image: url(/billxsheng/personal-website/static/media/select-exp.90f37027.png);
+    background-image: url(/personal-website/static/media/select-exp.90f37027.png);
     background-size: cover;
 }
 
 .ProjectSelectTile__select-box-hack__D3weZ {
-    background-image:url(/billxsheng/personal-website/static/media/select-hack.e6a5bf17.png);
+    background-image:url(/personal-website/static/media/select-hack.e6a5bf17.png);
     background-size: cover;
 }
 
@@ -1645,7 +1645,7 @@ button {
     left: 0;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    background-image: url(/billxsheng/personal-website/static/media/select-hack.00b11764.jpg);
+    background-image: url(/personal-website/static/media/select-hack.00b11764.jpg);
     background-position: center;
 }
 
@@ -1657,7 +1657,7 @@ button {
     left: 0;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    background-image:  url(/billxsheng/personal-website/static/media/select-exp.7e191f78.jpg);
+    background-image:  url(/personal-website/static/media/select-exp.7e191f78.jpg);
     background-size: cover;
 }
 
@@ -1669,7 +1669,7 @@ button {
     left: 0;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    background-image: url(/billxsheng/personal-website/static/media/select-ds.85e6044c.jpg);
+    background-image: url(/personal-website/static/media/select-ds.85e6044c.jpg);
     background-size: cover;
 }
 
@@ -1681,7 +1681,7 @@ button {
     left: 0;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    background-image: url(/billxsheng/personal-website/static/media/select-wm.bb4ba708.jpg);
+    background-image: url(/personal-website/static/media/select-wm.bb4ba708.jpg);
     background-size: cover;
 }
 
@@ -1695,7 +1695,7 @@ button {
     left: 0;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    background-image: url(/billxsheng/personal-website/static/media/fbs.ebc90a4b.jpg);
+    background-image: url(/personal-website/static/media/fbs.ebc90a4b.jpg);
     background-size: cover;
 }
 
@@ -1707,7 +1707,7 @@ button {
     left: 0;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    background-image: url(/billxsheng/personal-website/static/media/graphql.fca1e33a.jpg);
+    background-image: url(/personal-website/static/media/graphql.fca1e33a.jpg);
     background-size: cover;
 }
 
@@ -1719,7 +1719,7 @@ button {
     left: 0;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    background-image: url(/billxsheng/personal-website/static/media/waterloo-campus.7f3de478.jpg);
+    background-image: url(/personal-website/static/media/waterloo-campus.7f3de478.jpg);
     background-size: cover;
 }
 
@@ -1731,7 +1731,7 @@ button {
     left: 0;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    background-image: url(/billxsheng/personal-website/static/media/team-picture.fd2ed17a.jpeg);
+    background-image: url(/personal-website/static/media/team-picture.fd2ed17a.jpeg);
     background-size: cover;
 }
 
@@ -1772,4 +1772,4 @@ button {
 
 
 
-/*# sourceMappingURL=main.71fc8a354dab31797c74.css.map*/
+/*# sourceMappingURL=main.85bd6a6910f92089b688.css.map*/
