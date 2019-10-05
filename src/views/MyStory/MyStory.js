@@ -17,7 +17,6 @@ class MyStory extends Component {
         return (
             <Aux>
                 <div styleName="wrapper">
-                    <Fade bottom>
                     <div className="container">
                         <span className="container">
                             <div className="row">
@@ -27,7 +26,6 @@ class MyStory extends Component {
                             </div>
                         </span>
                     </div>
-                    </Fade>
 
                     <div styleName="content-div">
                         <Fade bottom>

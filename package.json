@@ -2,6 +2,7 @@
   "name": "pwebsite",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://billsheng.com",
   "dependencies": {
     "@material-ui/core": "^3.1.0",
     "animate.css": "^3.7.0",
@@ -51,15 +52,16 @@
     "url-loader": "^1.1.2",
     "webpack": "^4.16.5",
     "webpack-cli": "^3.1.0",
-    "webpack-dev-server": "3.0.0",
+    "webpack-dev-server": "^3.8.2",
     "webpack-manifest-plugin": "andriijas/webpack-manifest-plugin",
     "whatwg-fetch": "2.0.3"
   },
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "deploy": "aws s3 sync build/ s3://billsheng.com",
-    "test": "node scripts/test.js --env=jsdom"
+    "test": "node scripts/test.js --env=jsdom",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
   },
   "jest": {
     "collectCoverageFrom": [
@@ -106,7 +108,7 @@
   "devDependencies": {
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "file-loader": "^1.1.6",
-    "gh-pages": "^2.0.1",
+    "gh-pages": "^2.1.1",
     "preload-webpack-plugin": "^3.0.0-beta.3"
   }
 }
