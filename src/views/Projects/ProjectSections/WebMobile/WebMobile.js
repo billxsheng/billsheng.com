@@ -17,10 +17,10 @@ class WebMobile extends Component {
 
     componentDidMount() {
         window.scrollTo(0,0);
-        if(projectsArray.indexOf((projectsInfo.headings.webMobile.link).toLowerCase()) === 0) {
+        if(projectsArray.indexOf((projectsInfo.headings.webMobile.link)) === 0) {
             this.setState({leftArrow: false});
         }
-        if(projectsArray.indexOf((projectsInfo.headings.webMobile.link).toLowerCase()) === projectsArray.length - 1) {
+        if(projectsArray.indexOf((projectsInfo.headings.webMobile.link)) === projectsArray.length - 1) {
             this.setState({rightArrow: false});
         }
     }
@@ -33,7 +33,7 @@ class WebMobile extends Component {
                 <div className="row">
                     <div className="col-md-2">
                             {this.state.leftArrow ? 
-                                <NavLink styleName="btn-prev" to={`/projects/${projectsArray[projectsArray.indexOf(projectsInfo.headings.webMobile.link.toLowerCase()) - 1]}`} >
+                                <NavLink styleName="btn-prev" to={`/projects/${projectsArray[projectsArray.indexOf(projectsInfo.headings.webMobile.link) - 1]}`} >
                                     <Icon iconType="iconSmall" iconName="fas fa-chevron-left"></Icon>
                                 </NavLink>: 
                                 <a className="btn-disabled" styleName="btn-disabled">
@@ -48,7 +48,7 @@ class WebMobile extends Component {
                         </div>
                         <div className="col-md-2">
                             {this.state.rightArrow ? 
-                                <NavLink styleName="btn-next" to={`/projects/${projectsArray[projectsArray.indexOf(projectsInfo.headings.webMobile.link.toLowerCase()) + 1]}`} >
+                                <NavLink styleName="btn-next" to={`/projects/${projectsArray[projectsArray.indexOf(projectsInfo.headings.webMobile.link) + 1]}`} >
                                     <Icon iconType="iconSmall" iconName="fas fa-chevron-right"></Icon>
                                 </NavLink> : 
                                 <a className="btn-disabled" styleName="btn-disabled">
@@ -71,7 +71,7 @@ class WebMobile extends Component {
             </Fade>
             <Fade bottom>   
             <div className="row">
-                <ProjectTile to="/projects/web-mobile/blitz" reverse="true" imageHeight="400px" imageName="projects/blitz/blitz.png" tag={projectsInfo.blitz.tag} title={projectsInfo.blitz.name} shortDesc={projectsInfo.blitz.description}/>
+                <ProjectTile to="/projects/web-mobile/blitz" reverse imageHeight="400px" imageName="projects/blitz/blitz.png" tag={projectsInfo.blitz.tag} title={projectsInfo.blitz.name} shortDesc={projectsInfo.blitz.description}/>
             </div>
             </Fade>
             <Fade bottom>   

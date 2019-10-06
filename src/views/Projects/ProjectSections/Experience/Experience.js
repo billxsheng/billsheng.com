@@ -17,10 +17,10 @@ class Experience extends Component {
 
     componentDidMount() {
         window.scrollTo(0,0);
-        if(projectsArray.indexOf((projectsInfo.headings.experience.link).toLowerCase()) === 0) {
+        if(projectsArray.indexOf((projectsInfo.headings.experience.link)) === 0) {
             this.setState({leftArrow: false});
         }
-        if(projectsArray.indexOf((projectsInfo.headings.experience.link).toLowerCase()) === projectsArray.length - 1) {
+        if(projectsArray.indexOf((projectsInfo.headings.experience.link)) === projectsArray.length - 1) {
             this.setState({rightArrow: false});
         }
     }
@@ -32,7 +32,7 @@ class Experience extends Component {
                     <div className="row">
                         <div className="col-md-2">
                             {this.state.leftArrow ? 
-                                <NavLink styleName="btn-prev" to={`/projects/${projectsArray[projectsArray.indexOf(projectsInfo.headings.experience.link.toLowerCase()) - 1]}`} >
+                                <NavLink styleName="btn-prev" to={`/projects/${projectsArray[projectsArray.indexOf(projectsInfo.headings.experience.link) - 1]}`} >
                                     <Icon iconType="iconSmall" iconName="fas fa-chevron-left"></Icon>
                                 </NavLink>: 
                                 <a className="btn-disabled" styleName="btn-disabled">
@@ -47,7 +47,7 @@ class Experience extends Component {
                         </div>
                         <div className="col-md-2">
                             {this.state.rightArrow ? 
-                                <NavLink styleName="btn-next" to={`/projects/${projectsArray[projectsArray.indexOf(projectsInfo.headings.experience.link.toLowerCase()) + 1]}`} >
+                                <NavLink styleName="btn-next" to={`/projects/${projectsArray[projectsArray.indexOf(projectsInfo.headings.experience.link) + 1]}`} >
                                     <Icon iconType="iconSmall" iconName="fas fa-chevron-right"></Icon>
                                 </NavLink> : 
                                 <a className="btn-disabled" styleName="btn-disabled">
@@ -65,12 +65,22 @@ class Experience extends Component {
                 <div styleName="content-row">
                 <Fade bottom>
                 <div className="row">
+                    <ProjectTile to="/projects/experience/lcbo-next" imageName = "projects/lcbonext/lcbonext.png" imageHeight="400px"  tag={projectsInfo.lcbonext.tag} title={projectsInfo.lcbonext.name} shortDesc={projectsInfo.lcbonext.description} />
+                </div>
+                </Fade>
+                <Fade bottom>
+                <div className="row">
+                    <ProjectTile to="/projects/experience/uwblueprint" imageName = "projects/uwblueprint/uwblueprint.png" imageHeight="400px" reverse tag={projectsInfo.uwblueprint.tag} title={projectsInfo.uwblueprint.name} shortDesc={projectsInfo.uwblueprint.description} />
+                </div>
+                </Fade>
+                <Fade bottom>
+                <div className="row">
                     <ProjectTile to="/projects/experience/opentext" imageName = "projects/ot/ot.png" imageHeight="400px"  tag={projectsInfo.opentext.tag} title={projectsInfo.opentext.name} shortDesc={projectsInfo.opentext.description} />
                 </div>
                 </Fade>
                 <Fade bottom>
                 <div className="row">
-                    <ProjectTile to="/projects/experience/freelance" imageHeight="400px" reverse="true" imageName="projects/freelance/freelance.png" tag={projectsInfo.freelance.tag} title={projectsInfo.freelance.name} shortDesc={projectsInfo.freelance.description} />
+                    <ProjectTile to="/projects/experience/freelance" imageHeight="400px" reverse imageName="projects/freelance/freelance.png" tag={projectsInfo.freelance.tag} title={projectsInfo.freelance.name} shortDesc={projectsInfo.freelance.description} />
                 </div>
                 </Fade>
                 <Fade bottom>

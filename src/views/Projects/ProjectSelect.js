@@ -10,11 +10,11 @@ import Fade from 'react-reveal/Fade';
 class Projects extends Component {
 
     componentDidMount() {
-        window.scrollTo(0,0);
+        window.scrollTo(0, 0);
     }
-    
+
     render() {
-        return(
+        return (
             <div className="container">
                 <span styleName="curve" className="container">
                     <div className="row">
@@ -23,26 +23,26 @@ class Projects extends Component {
                         </h1>
                     </div>
                     <Fade bottom>
-                    <p>
-                        {ProjectsInfo.headings.projects.description}
-                    </p>
+                        <p>
+                            {ProjectsInfo.headings.projects.description}
+                        </p>
                     </Fade>
                 </span>
                 <Fade bottom>
-                <div styleName="project-select-row" className="row">
-                    <NavLink styleName="project-select-link" to="/projects/experience" className="col-md-3">
-                        <ProjectSelectTile name="exp" type={ProjectsInfo.headings.experience.title}/>
-                    </NavLink>
-                    <NavLink styleName="project-select-link" to="/projects/web-mobile" className="col-md-3">
-                        <ProjectSelectTile name="wm" type={ProjectsInfo.headings.webMobile.title}/>
-                    </NavLink>
-                    <NavLink styleName="project-select-link" to="/projects/data-science" className="col-md-3">
-                        <ProjectSelectTile name="ds" type={ProjectsInfo.headings.ds.title}/>
-                    </NavLink>
-                    <NavLink styleName="project-select-link" to="/projects/hackathons" className="col-md-3">
-                        <ProjectSelectTile name="hack" type={ProjectsInfo.headings.hackathons.title}/>
-                    </NavLink>
-                </div>
+                    <div styleName="project-select-row" className="row">
+                        <NavLink styleName="project-select-link" to="/projects/experience" className="col-md-3">
+                            <ProjectSelectTile name="exp" type={ProjectsInfo.headings.experience.title} />
+                        </NavLink>
+                        <NavLink styleName="project-select-link" to="/projects/web-mobile" className="col-md-3">
+                            <ProjectSelectTile name="wm" type={ProjectsInfo.headings.webMobile.title} />
+                        </NavLink>
+                        <NavLink styleName="project-select-link" to="/projects/data" className="col-md-3">
+                            <ProjectSelectTile name="ds" type={ProjectsInfo.headings.ds.title} />
+                        </NavLink>
+                        <NavLink styleName="project-select-link" to="/projects/hackathons" className="col-md-3">
+                            <ProjectSelectTile name="hack" type={ProjectsInfo.headings.hackathons.title} />
+                        </NavLink>
+                    </div>
                 </Fade>
             </div>
         )

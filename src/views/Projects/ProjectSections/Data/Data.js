@@ -5,10 +5,11 @@ import {NavLink} from 'react-router-dom';
 import styles from '../ProjectSections.css';
 import CSSModules from 'react-css-modules';
 import Fade from 'react-reveal/Fade';
+import ProjectTile from '../../ProjectTile/ProjectTile';
 
 var projectsArray = projectsInfo.headings.order;
 
-class DataScience extends Component {
+class Data extends Component {
     state = {
         leftArrow: true,
         rightArrow: true
@@ -16,10 +17,10 @@ class DataScience extends Component {
 
     componentDidMount() {
         window.scrollTo(0,0);
-        if(projectsArray.indexOf((projectsInfo.headings.ds.link).toLowerCase()) === 0) {
+        if(projectsArray.indexOf((projectsInfo.headings.ds.link)) === 0) {
             this.setState({leftArrow: false});
         }
-        if(projectsArray.indexOf((projectsInfo.headings.ds.link).toLowerCase()) === projectsArray.length - 1) {
+        if(projectsArray.indexOf((projectsInfo.headings.ds.link)) === projectsArray.length - 1) {
             this.setState({rightArrow: false});
         }
     }
@@ -31,7 +32,7 @@ class DataScience extends Component {
                     <div className="row">
                         <div className="col-md-2">
                             {this.state.leftArrow ? 
-                                <NavLink styleName="btn-prev" to={`/projects/${projectsArray[projectsArray.indexOf(projectsInfo.headings.ds.link.toLowerCase()) - 1]}`} >
+                                <NavLink styleName="btn-prev" to={`/projects/${projectsArray[projectsArray.indexOf(projectsInfo.headings.ds.link) - 1]}`} >
                                     <Icon iconType="iconSmall" iconName="fas fa-chevron-left"></Icon>
                                 </NavLink>: 
                                 <a className="btn-disabled" styleName="btn-disabled">
@@ -46,7 +47,7 @@ class DataScience extends Component {
                         </div>
                         <div className="col-md-2">
                             {this.state.rightArrow ? 
-                                <NavLink styleName="btn-next" to={`/projects/${projectsArray[projectsArray.indexOf(projectsInfo.headings.ds.link.toLowerCase()) + 1]}`} >
+                                <NavLink styleName="btn-next" to={`/projects/${projectsArray[projectsArray.indexOf(projectsInfo.headings.ds.link) + 1]}`} >
                                     <Icon iconType="iconSmall" iconName="fas fa-chevron-right"></Icon>
                                 </NavLink> : 
                                 <a className="btn-disabled" styleName="btn-disabled">
@@ -63,20 +64,16 @@ class DataScience extends Component {
                 </span>
                 <div styleName="content-row">
                 </div>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-
+                {/* <Fade bottom>
+                <div className="row">
+                    <ProjectTile to="/projects/experience/lcbo-next" imageName = "projects/ot/ot.png" imageHeight="400px"  tag={projectsInfo.lcbonext.tag} title={projectsInfo.lcbonext.name} shortDesc={projectsInfo.lcbonext.description} />
+                </div>
+                </Fade>
+                <Fade bottom>
+                <div className="row">
+                    <ProjectTile to="/projects/experience/uwblueprint" imageName = "projects/ot/ot.png" imageHeight="400px" reverse tag={projectsInfo.uwblueprint.tag} title={projectsInfo.uwblueprint.name} shortDesc={projectsInfo.uwblueprint.description} />
+                </div>
+                </Fade> */}
             </div>
         )
     }
@@ -84,4 +81,4 @@ class DataScience extends Component {
 
 
 
-export default CSSModules(DataScience, styles);
+export default CSSModules(Data, styles);

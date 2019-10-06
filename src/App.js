@@ -22,7 +22,7 @@ import Aux from './hoc/HO-Aux/HO-aux';
 import Spinner from './components/Spinner/Spinner';
 import Experience from './views/Projects/ProjectSections/Experience/Experience';
 import Hackathons from './views/Projects/ProjectSections/Hackathons/Hackathons';
-import DataScience from './views/Projects/ProjectSections/DataScience/DataScience';
+import DataScience from './views/Projects/ProjectSections/Data/Data';
 import WebMobile from './views/Projects/ProjectSections/WebMobile/WebMobile';
 import DialogContent from './components/DialogContent/DialogContent';
 import { withStyles } from '@material-ui/core';
@@ -37,6 +37,8 @@ import Ryse from './views/Projects/ProjectDetails/Ryse/Ryse';
 import Munkee from './views/Projects/ProjectDetails/Munkee/Munkee';
 import Freelance from './views/Projects/ProjectDetails/Freelance/Freelance';
 import Ctc from './views/Projects/ProjectDetails/Ctc/Ctc';
+import LCBONext from './views/Projects/ProjectDetails/LCBONext/LCBONext';
+import UWBlueprint from './views/Projects/ProjectDetails/UWBlueprint/UWBlueprint';
 
 function Transition(props) {
   return <Slide direction="down" timeout= "0"  {...props} />;
@@ -98,13 +100,15 @@ class App extends Component {
         <Route exact path="/projects/hackathons" component={Hackathons} />
         <Route exact path="/projects/experience" component={Experience} />
         <Route exact path="/projects/web-mobile" component={WebMobile} />
-        <Route exact path="/projects/data-science" component={DataScience} />
+        <Route exact path="/projects/data" component={DataScience} />
         <Route exact path="/projects" component={ProjectSelect} />
         <Route exact path="/my-story" component={MyStory} />
         <Route exact path="/gallery" component={Gallery} />
         <Route exact path="/projects/web-mobile/huddle" component={Huddle} />
         <Route exact path="/projects/web-mobile/blitz" component={Blitz} />
         <Route exact path="/projects/web-mobile/munkee" component={Munkee} />
+        <Route exact path="/projects/experience/lcbo-next" component={LCBONext} />
+        <Route exact path="/projects/experience/uwblueprint" component={UWBlueprint} />
         <Route exact path="/projects/experience/opentext" component={Opentext} />
         <Route exact path="/projects/experience/freelance" component={Freelance} />
         <Route exact path="/projects/experience/ctc" component={Ctc} />

@@ -18,10 +18,10 @@ class Hackathons extends Component {
 
     componentDidMount() {
         window.scrollTo(0,0);
-        if(projectsArray.indexOf((projectsInfo.headings.hackathons.link).toLowerCase()) === 0) {
+        if(projectsArray.indexOf((projectsInfo.headings.hackathons.link)) === 0) {
             this.setState({leftArrow: false});
         }
-        if(projectsArray.indexOf((projectsInfo.headings.hackathons.link).toLowerCase()) === projectsArray.length - 1) {
+        if(projectsArray.indexOf((projectsInfo.headings.hackathons.link)) === projectsArray.length - 1) {
             this.setState({rightArrow: false});
         }
     }
@@ -34,7 +34,7 @@ class Hackathons extends Component {
                     <div className="row">
                         <div className="col-md-2">
                             {this.state.leftArrow ? 
-                                <NavLink styleName="btn-prev" to={`/projects/${projectsArray[projectsArray.indexOf(projectsInfo.headings.hackathons.link.toLowerCase()) - 1]}`} >
+                                <NavLink styleName="btn-prev" to={`/projects/${projectsArray[projectsArray.indexOf(projectsInfo.headings.hackathons.link) - 1]}`} >
                                     <Icon iconType="iconSmall" iconName="fas fa-chevron-left"></Icon>
                                 </NavLink>: 
                                 <a className="btn-disabled" styleName="btn-disabled">
@@ -49,7 +49,7 @@ class Hackathons extends Component {
                         </div>
                         <div className="col-md-2">
                             {this.state.rightArrow ? 
-                                <NavLink styleName="btn-next" to={`/projects/${projectsArray[projectsArray.indexOf(projectsInfo.headings.hackathons.link.toLowerCase()) + 1]}`} >
+                                <NavLink styleName="btn-next" to={`/projects/${projectsArray[projectsArray.indexOf(projectsInfo.headings.hackathons.link) + 1]}`} >
                                     <Icon iconType="iconSmall" iconName="fas fa-chevron-right"></Icon>
                                 </NavLink> : 
                                 <a className="btn-disabled" styleName="btn-disabled">
@@ -72,7 +72,7 @@ class Hackathons extends Component {
                 </Fade>
                 <Fade bottom>   
                 <div className="row">
-                    <ProjectTile to="/projects/hackathons/ryse" reverse="true" imageHeight="400px" imageName="projects/ryse/ryse.png" tag={projectsInfo.ryse.tag} title={projectsInfo.ryse.name} shortDesc={projectsInfo.ryse.description} />
+                    <ProjectTile to="/projects/hackathons/ryse" reverse imageHeight="400px" imageName="projects/ryse/ryse.png" tag={projectsInfo.ryse.tag} title={projectsInfo.ryse.name} shortDesc={projectsInfo.ryse.description} />
                 </div>
                 </Fade>
                 <Fade bottom>   
@@ -81,7 +81,7 @@ class Hackathons extends Component {
                 </div>
                 </Fade>
                 <hr/>
-                <Fade top>   
+                <Fade bottom>   
                 <div className="row">
                     <Button margin="0 auto" newPage="true" link={links.devpost} btnType="btnLarge" >View Devpost</Button>
                 </div>

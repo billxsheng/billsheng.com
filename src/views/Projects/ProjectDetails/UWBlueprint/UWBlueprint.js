@@ -2,13 +2,15 @@ import React, { Component } from 'react';
 import styles from '../ProjectDetails.css';
 import CSSModules from 'react-css-modules';
 import ProjectsInfo from '../../../../assets/projectsInfo';
+import Image from '../../../../components/Image/Image';
+import Button from '../../../../components/Button/Button';
+import Fade from 'react-reveal/Fade';
 import Icon from '../../../../components/Icon/Icon';
 import {NavLink} from 'react-router-dom'; 
-import Fade from 'react-reveal/Fade';
 
 var projectsArray = ProjectsInfo.headings.projectOrder;
 
-class Freelance extends Component {
+class UWBlueprint extends Component {
     state = {
         leftArrow: true,
         rightArrow: true
@@ -16,22 +18,22 @@ class Freelance extends Component {
 
     componentDidMount() {
         window.scrollTo(0,0);
-        if(projectsArray.indexOf((ProjectsInfo.freelance.reference)) === 0) {
+        if(projectsArray.indexOf((ProjectsInfo.uwblueprint.reference).toLowerCase()) === 0) {
             this.setState({leftArrow: false});
         }
-        if(projectsArray.indexOf((ProjectsInfo.freelance.reference)) === projectsArray.length - 1) {
+        if(projectsArray.indexOf((ProjectsInfo.uwblueprint.reference).toLowerCase()) === projectsArray.length - 1) {
             this.setState({rightArrow: false});
         }
     }
     
     render() {
-        return (
+        return(
             <div>
                 <span styleName="curve" className="container">
                     <div className="row container" style={{margin: '0 auto'}}>
                         <div className="col-md-2">
                             {this.state.leftArrow ? 
-                                <NavLink styleName="btn-prev" to={`/projects/experience/${projectsArray[projectsArray.indexOf(ProjectsInfo.freelance.reference) - 1]}`} >
+                                <NavLink styleName="btn-prev" to={`/projects/experience/${projectsArray[projectsArray.indexOf(ProjectsInfo.uwblueprint.reference) - 1]}`} >
                                     <Icon iconType="iconSmall" iconName="fas fa-chevron-left"></Icon>
                                 </NavLink> : 
                                 <a className="btn-disabled" styleName="btn-disabled">
@@ -41,12 +43,12 @@ class Freelance extends Component {
                         </div> 
                         <div className="col-md-8">
                             <h1>
-                                {ProjectsInfo.freelance.name}
+                                {ProjectsInfo.uwblueprint.name}
                             </h1>
                         </div>
                         <div className="col-md-2">
                             {this.state.rightArrow ? 
-                                <NavLink styleName="btn-next" to={`/projects/experience/${projectsArray[projectsArray.indexOf(ProjectsInfo.freelance.reference) + 1]}`} >
+                                <NavLink styleName="btn-next" to={`/projects/experience/${projectsArray[projectsArray.indexOf(ProjectsInfo.uwblueprint.reference) + 1]}`} >
                                     <Icon iconType="iconSmall" iconName="fas fa-chevron-right"></Icon>
                                 </NavLink> : 
                                 <a className="btn-disabled" styleName="btn-disabled">
@@ -57,35 +59,37 @@ class Freelance extends Component {
                     </div>
                     <Fade bottom>
                     <p>
-                        {ProjectsInfo.freelance.description}
+                        {ProjectsInfo.uwblueprint.description}
                     </p>
                     <div className="row" styleName="tag" >
-                        <p className="text-center" styleName="title-p" >{ProjectsInfo.freelance.tag}</p>
+                        <p className="text-center" styleName="title-p" >{ProjectsInfo.uwblueprint.tag}</p>
                     </div>
                     </Fade>
                 </span>
                 <div styleName="modal" >
                     <Fade bottom>
                     <hr/>
-                    <h4>Position</h4>
-                    <p>{ProjectsInfo.freelance.content.position}</p>
-                    </Fade>
-                    <Fade bottom>
-                    <h4>Technology</h4>
-                    <p>{ProjectsInfo.freelance.content.technology}</p>
+                    <Image width="500px" path = "projects/uwblueprint/uwblueprint.png" />
+                    <hr/>
                     </Fade>
                     <Fade bottom>
                     <h4>Summary</h4>
-                    <p>{ProjectsInfo.freelance.content.summary}</p>
+                    <p>{ProjectsInfo.uwblueprint.content.summary}</p>
                     </Fade>
                     <Fade bottom>
-                    <h4>My Tasks</h4>
-                    <ul className="list-group">
-                    <li><p3>Interfaced with local businesses to build several full stack applications using React, Angular, Node.js, and AWS </p3></li>
-                    <li><p3>Streamlined dynamic content management using MongoDB for low-code versatility; decreased existing redeployment instances by 90%</p3></li>
-                    <li><p3>Built a full stack barber website which included an email service, contact form, and dynamic gallery</p3></li>
-                    </ul>
+                    <h4>Technology</h4>
+                    <p>{ProjectsInfo.uwblueprint.content.technology}</p>
                     </Fade>
+                    {/* <Fade top>
+                    <hr/>
+                    <div className="row">
+                    <Button margin="0px auto" link={"https://devpost.com/software/airdrums-39k0ny"} btnType = "btnLarge">Devpost</Button>
+                    </div>
+                    <br/>
+                    <div className="row">
+                    <Button margin="0px auto" link={"https://github.com/billxsheng/airdrums"} btnType = "btnLarge">Github</Button>
+                    </div>
+                    </Fade> */}
                 </div>
             </div>
         )
@@ -94,4 +98,4 @@ class Freelance extends Component {
 
 
 
-export default CSSModules(Freelance, styles);
+export default CSSModules(UWBlueprint, styles);

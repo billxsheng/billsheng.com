@@ -30,7 +30,7 @@ class MyStory extends Component {
                     <div styleName="content-div">
                         <Fade bottom>
                         <div>
-                            <Image margin="0" height="400px" withRadius path="about/other/headshot.jpg" />
+                            <Image margin="0" height="400px" withRadius path="about/other/secondary.jpg" />
                             <p2>
                                 {aboutInfo.general.description}
                             </p2>
@@ -94,7 +94,7 @@ class MyStory extends Component {
                                 <li>Guitar</li>
                                 <li>Side Projects</li>
                                 <li>Reading</li>
-                                <li>Finance (Investment)</li>
+                                <li>Finance</li>
                             </ul>                   
                         </div>
                         </Fade>

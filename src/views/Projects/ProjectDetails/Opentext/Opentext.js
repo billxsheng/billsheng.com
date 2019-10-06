@@ -17,10 +17,10 @@ class Opentext extends Component {
 
     componentDidMount() {
         window.scrollTo(0,0);
-        if(projectsArray.indexOf((ProjectsInfo.opentext.name).toLowerCase()) === 0) {
+        if(projectsArray.indexOf((ProjectsInfo.opentext.reference)) === 0) {
             this.setState({leftArrow: false});
         }
-        if(projectsArray.indexOf((ProjectsInfo.opentext.name).toLowerCase()) === projectsArray.length - 1) {
+        if(projectsArray.indexOf((ProjectsInfo.opentext.reference)) === projectsArray.length - 1) {
             this.setState({rightArrow: false});
         }
     }
@@ -32,7 +32,7 @@ class Opentext extends Component {
                     <div className="row container" style={{margin: '0 auto'}}>
                         <div className="col-md-2">
                             {this.state.leftArrow ? 
-                                <NavLink styleName="btn-prev" to={`/projects/experience/${projectsArray[projectsArray.indexOf(ProjectsInfo.opentext.name.toLowerCase()) - 1]}`} >
+                                <NavLink styleName="btn-prev" to={`/projects/experience/${projectsArray[projectsArray.indexOf(ProjectsInfo.opentext.reference) - 1]}`} >
                                     <Icon iconType="iconSmall" iconName="fas fa-chevron-left"></Icon>
                                 </NavLink> : 
                                 <a className="btn-disabled" styleName="btn-disabled">
@@ -47,7 +47,7 @@ class Opentext extends Component {
                         </div>
                         <div className="col-md-2">
                             {this.state.rightArrow ? 
-                                <NavLink styleName="btn-next" to={`/projects/experience/${projectsArray[projectsArray.indexOf(ProjectsInfo.opentext.name.toLowerCase()) + 1]}`} >
+                                <NavLink styleName="btn-next" to={`/projects/experience/${projectsArray[projectsArray.indexOf(ProjectsInfo.opentext.reference) + 1]}`} >
                                     <Icon iconType="iconSmall" iconName="fas fa-chevron-right"></Icon>
                                 </NavLink> : 
                                 <a className="btn-disabled" styleName="btn-disabled">
