@@ -1,19 +1,20 @@
-const ProjectsInfo = {
+const projects = {
     headings: {
         projects: {
             title: "Projects",
             description: "A collection of projects & experiences"
         },
         webMobile: {
-            title: "Web & Mobile",
-            link: 'web-mobile',
-            description: "Web/Mobile Development",
-            order: ['huddle', 'blitz', 'munkee'],
+            title: "Side Projects",
+            link: 'side-projects',
+            description: "Learning & Innovation",
+            order: ['shell-chatbot', 'huddle', 'blitz', 'munkee'],
         },
         ds: {
             title: "Data",
             link: 'data',
-            description: "Projects coming soon",
+            description: "Designing Data-Intensive Applications",
+            order: ['oubre-sa'],
         },
         experience: {
             title: "Experience",
@@ -27,12 +28,12 @@ const ProjectsInfo = {
             description: "Projects built during hackathons",
             order: ['airdrums', 'ryse', 'moodify'],
         },
-        order: ['experience', 'web-mobile', 'data', 'hackathons'],
-        projectOrder: ['lcbo-next', 'uwblueprint', 'opentext', 'freelance', 'ctc', 'huddle', 'blitz', 'munkee', 'airdrums', 'ryse', 'moodify']
+        order: ['experience', 'side-projects', 'data', 'hackathons'],
+        projectOrder: ['experience/lcbo-next', 'experience/uwblueprint', 'experience/opentext', 'experience/freelance', 'experience/ctc', 'side-projects/shell-chatbot', 'side-projects/huddle', 'side-projects/blitz', 'side-projects/munkee', 'data/oubre-sentiment-analysis', 'hackathons/airdrums', 'hackathons/ryse', 'hackathons/moodify']
     },
     huddle: {
         name: 'Huddle',
-        reference: 'huddle',
+        reference: 'side-projects/huddle',
         description: 'A new way to connect NFL fans',
         tag: "Side Project",
         about: "Coming Soon",
@@ -46,7 +47,7 @@ const ProjectsInfo = {
     },
     blitz: {
         name: 'Blitz',
-        reference: 'blitz',
+        reference: 'side-projects/blitz',
         description: 'Redefining sports notifications',
         tag: "Side Project",
         about: "Coming Soon",
@@ -59,7 +60,7 @@ const ProjectsInfo = {
     },
     ryse: {
         name: 'Ryse',
-        reference: 'ryse',
+        reference: 'hackathons/ryse',
         description: 'Networking application for ex-criminals',
         about: "Coming Soon",
         tag: "Hackathon",
@@ -68,9 +69,20 @@ const ProjectsInfo = {
             technology: "Node JS (Express JS, Passport JS), MongoDB, Mongoose, HTML/CSS, Postman"
         }
     },
+    shellChatbot: {
+        name: 'Shell Chatbot',
+        reference: 'side-projects/shell-chatbot',
+        description: 'A Tour of Go',
+        tag: "Side Project",
+        about: "Coming Soon",
+        content: {
+            summary: "Coming Soon",
+            technology: "Coming Soon"
+        }
+    },
     airdrums: {
         name: 'AirDrums',
-        reference: 'airdrums',
+        reference: 'hackathons/airdrums',
         description: 'Computer vision drum kit',
         tag: "Hackathon Winner",
         about: "Coming Soon",
@@ -81,7 +93,7 @@ const ProjectsInfo = {
     },
     munkee: {
         name: 'Munkee',
-        reference: 'munkee',
+        reference: 'side-projects/munkee',
         description: 'Online multiplayer game',
         tag: "Side Project",
         about: "Coming Soon",
@@ -92,7 +104,7 @@ const ProjectsInfo = {
     },
     moodify: {
         name: 'Moodify',
-        reference: 'moodify',
+        reference: 'hackathons/moodify',
         description: 'Adding AI to the job search',
         tag: "Hackathon",
         about: "Coming Soon",
@@ -102,21 +114,19 @@ const ProjectsInfo = {
         }
     },
     oubre: {
-        name: 'Oubre Sentiment Analysis',
-        reference: 'oubre-sentiment-analysis',
-        description: 'TBD',
-        tag: "Side Project",
+        name: 'Oubre SA',
+        reference: 'data/oubre-sentiment-analysis',
+        description: 'A complete data platform',
+        tag: "Data Project",
         about: "Coming Soon",
         content: {
-            summary: "Blitz is a serverless notification service that sends real-time game updates to NFL fans through SMS text messages. From a web application, users can authenticate, specify their favorite team, and add their phone number. Whenever a game finishes, a Node JS server will run a complex algorithm that sends text message notifications to the appropriate users.",
-            technology: "Node JS (Express JS, Passport JS), MongoDB, Mongoose, Twilio SMS Microservice, MySportsFeeds API. HTML/CSS, Postman",
-            problem: "Digital media apps (ESPN, theScore) are great at keeping fans up to date on their favorite teams and players. The problem is that they heavily rely on internet connection. If a user does not have consistent access to the web, obtaining the final score of an important game could be a very frustrating process.",
-            solution: "Sports notifications are different because users do not have to further view the content to know the context of the situation. Consider a notification similar to “John Smith commented on your post.” Users must open the application in order to know exactly what was said.  A sports notification as simple as  “Toronto wins 5-3.” contains all the information the user needs. No further action would be required. The solution I came up with utilized SMS texting. Texts are extremely accessible and possess all requirements necessary when passing an immutable piece of data. By incorporating several external API’s, I created a service that would send SMS notifications to users.",
+            summary: "Coming Soon",
+            technology: "Coming Soon",
         }
     },
     ctc: {
         name: 'Canadian Tire',
-        reference: 'ctc',
+        reference: 'experience/ctc',
         description: 'Improving IT productivity',
         tag: "Internship",
         about: "Coming Soon",
@@ -128,7 +138,7 @@ const ProjectsInfo = {
     },
     opentext: {
         name: 'OpenText',
-        reference: 'opentext',
+        reference: 'experience/opentext',
         description: 'EIM Engineering',
         tag: "Internship",
         about: "Coming Soon",
@@ -140,7 +150,7 @@ const ProjectsInfo = {
     },
     freelance: {
         name: 'Freelance',
-        reference: 'freelance',
+        reference: 'experience/freelance',
         description: 'My personal brand',
         tag: 'Freelance',
         about: 'Coming soon',
@@ -152,7 +162,7 @@ const ProjectsInfo = {
     },
     uwblueprint: {
         name: 'UW Blueprint',
-        reference: 'uwblueprint',
+        reference: 'experience/uwblueprint',
         description: 'Coming Soon',
         tag: 'Design Team',
         about: 'Coming soon',
@@ -164,7 +174,7 @@ const ProjectsInfo = {
     },
     lcbonext: {
         name: 'LCBO | next',
-        reference: 'lcbo-next',
+        reference: 'experience/lcbo-next',
         description: 'Coming Soon',
         tag: 'Internship',
         about: 'Coming soon',
@@ -173,6 +183,6 @@ const ProjectsInfo = {
             technology: "Coming Soon",
             summary: "Coming Soon"
         }
-    },
+    }
 }
-export default ProjectsInfo;
+export default projects;

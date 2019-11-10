@@ -23,7 +23,7 @@ import Spinner from './components/Spinner/Spinner';
 import Experience from './views/Projects/ProjectSections/Experience/Experience';
 import Hackathons from './views/Projects/ProjectSections/Hackathons/Hackathons';
 import DataScience from './views/Projects/ProjectSections/Data/Data';
-import WebMobile from './views/Projects/ProjectSections/WebMobile/WebMobile';
+import SideProjects from './views/Projects/ProjectSections/SideProjects/SideProjects';
 import DialogContent from './components/DialogContent/DialogContent';
 import { withStyles } from '@material-ui/core';
 import Icon from './components/Icon/Icon';
@@ -39,6 +39,8 @@ import Freelance from './views/Projects/ProjectDetails/Freelance/Freelance';
 import Ctc from './views/Projects/ProjectDetails/Ctc/Ctc';
 import LCBONext from './views/Projects/ProjectDetails/LCBONext/LCBONext';
 import UWBlueprint from './views/Projects/ProjectDetails/UWBlueprint/UWBlueprint';
+import ShellChatbot from './views/Projects/ProjectDetails/ShellChatbot/ShellChatbot';
+import OubreSA from './views/Projects/ProjectDetails/OubreSA/OubreSA';
 
 function Transition(props) {
   return <Slide direction="down" timeout= "0"  {...props} />;
@@ -99,18 +101,20 @@ class App extends Component {
         <Route exact path="/gallery/photos" component={Photos} />
         <Route exact path="/projects/hackathons" component={Hackathons} />
         <Route exact path="/projects/experience" component={Experience} />
-        <Route exact path="/projects/web-mobile" component={WebMobile} />
+        <Route exact path="/projects/side-projects" component={SideProjects} />
         <Route exact path="/projects/data" component={DataScience} />
         <Route exact path="/projects" component={ProjectSelect} />
         <Route exact path="/my-story" component={MyStory} />
         <Route exact path="/gallery" component={Gallery} />
-        <Route exact path="/projects/web-mobile/huddle" component={Huddle} />
-        <Route exact path="/projects/web-mobile/blitz" component={Blitz} />
-        <Route exact path="/projects/web-mobile/munkee" component={Munkee} />
+        <Route exact path="/projects/side-projects/shell-chatbot" component={ShellChatbot} />
+        <Route exact path="/projects/side-projects/huddle" component={Huddle} />
+        <Route exact path="/projects/side-projects/blitz" component={Blitz} />
+        <Route exact path="/projects/side-projects/munkee" component={Munkee} />
         <Route exact path="/projects/experience/lcbo-next" component={LCBONext} />
         <Route exact path="/projects/experience/uwblueprint" component={UWBlueprint} />
         <Route exact path="/projects/experience/opentext" component={Opentext} />
         <Route exact path="/projects/experience/freelance" component={Freelance} />
+        <Route exact path="/projects/data/oubre-sentiment-analysis" component={OubreSA} />
         <Route exact path="/projects/experience/ctc" component={Ctc} />
         <Route exact path="/projects/hackathons/moodify" component={Moodify} />
         <Route exact path="/projects/hackathons/airdrums" component={Airdrums} />

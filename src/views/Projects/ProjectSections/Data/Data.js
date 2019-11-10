@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import projectsInfo from '../../../../assets/projectsInfo';
+import projectsInfo from '../../../../assets/projects';
 import Icon from '../../../../components/Icon/Icon';
 import {NavLink} from 'react-router-dom';
 import styles from '../ProjectSections.css';
@@ -64,16 +64,11 @@ class Data extends Component {
                 </span>
                 <div styleName="content-row">
                 </div>
-                {/* <Fade bottom>
-                <div className="row">
-                    <ProjectTile to="/projects/experience/lcbo-next" imageName = "projects/ot/ot.png" imageHeight="400px"  tag={projectsInfo.lcbonext.tag} title={projectsInfo.lcbonext.name} shortDesc={projectsInfo.lcbonext.description} />
-                </div>
-                </Fade>
                 <Fade bottom>
                 <div className="row">
-                    <ProjectTile to="/projects/experience/uwblueprint" imageName = "projects/ot/ot.png" imageHeight="400px" reverse tag={projectsInfo.uwblueprint.tag} title={projectsInfo.uwblueprint.name} shortDesc={projectsInfo.uwblueprint.description} />
+                    <ProjectTile singleTile to="/projects/data/oubre-sentiment-analysis" tag={projectsInfo.oubre.tag} title={projectsInfo.oubre.name} shortDesc={projectsInfo.oubre.description} />
                 </div>
-                </Fade> */}
+                </Fade>
             </div>
         )
     }

@@ -5,7 +5,7 @@ import styles from './AboutPreview.css';
 import Carousel from '../../../../components/Carousel/EmojiCarousel/EmojiCarousel';
 import OwlCarousel from 'react-owl-carousel2';
 import Button from '../../../../components/Button/Button';
-import homeInfo from '../../../../assets/homeInfo';
+import home from '../../../../assets/home';
 import Fade from 'react-reveal/Fade';
 
 const aboutPreview = (props) => {
@@ -35,10 +35,10 @@ const aboutPreview = (props) => {
     <div styleName='aboutPreview'>
             <div className="container">
                 <div styleName="abt-prev-el" className="row">
-                <h2>{homeInfo.myStory.title}</h2>
+                <h2>{home.myStory.title}</h2>
                 <Fade bottom>
                 <span className="container">
-                    <p>{homeInfo.myStory.description}</p>            
+                    <p>{home.myStory.description}</p>            
                 </span>  
                 </Fade>
                 </div>

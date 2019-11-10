@@ -3,7 +3,7 @@ import styles from './ProjectSelect.css';
 import CSSModules from 'react-css-modules';
 import ProjectSelectTile from './ProjectSelectTile/ProjectSelectTile';
 import { NavLink } from 'react-router-dom';
-import ProjectsInfo from '../../assets/projectsInfo';
+import projects from '../../assets/projects';
 import Fade from 'react-reveal/Fade';
 
 
@@ -19,28 +19,28 @@ class Projects extends Component {
                 <span styleName="curve" className="container">
                     <div className="row">
                         <h1>
-                            {ProjectsInfo.headings.projects.title}
+                            {projects.headings.projects.title}
                         </h1>
                     </div>
                     <Fade bottom>
                         <p>
-                            {ProjectsInfo.headings.projects.description}
+                            {projects.headings.projects.description}
                         </p>
                     </Fade>
                 </span>
                 <Fade bottom>
                     <div styleName="project-select-row" className="row">
                         <NavLink styleName="project-select-link" to="/projects/experience" className="col-md-3">
-                            <ProjectSelectTile name="exp" type={ProjectsInfo.headings.experience.title} />
+                            <ProjectSelectTile name="exp" type={projects.headings.experience.title} />
                         </NavLink>
-                        <NavLink styleName="project-select-link" to="/projects/web-mobile" className="col-md-3">
-                            <ProjectSelectTile name="wm" type={ProjectsInfo.headings.webMobile.title} />
+                        <NavLink styleName="project-select-link" to="/projects/side-projects" className="col-md-3">
+                            <ProjectSelectTile name="wm" type={projects.headings.webMobile.title} />
                         </NavLink>
                         <NavLink styleName="project-select-link" to="/projects/data" className="col-md-3">
-                            <ProjectSelectTile name="ds" type={ProjectsInfo.headings.ds.title} />
+                            <ProjectSelectTile name="ds" type={projects.headings.ds.title} />
                         </NavLink>
                         <NavLink styleName="project-select-link" to="/projects/hackathons" className="col-md-3">
-                            <ProjectSelectTile name="hack" type={ProjectsInfo.headings.hackathons.title} />
+                            <ProjectSelectTile name="hack" type={projects.headings.hackathons.title} />
                         </NavLink>
                     </div>
                 </Fade>

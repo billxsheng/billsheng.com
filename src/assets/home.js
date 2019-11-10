@@ -1,4 +1,4 @@
-const homeInfo = {
+const home = {
     mainHeader: "Hey, I'm Bill",
     myStory: {
         title: "My Story",
@@ -14,4 +14,4 @@ const homeInfo = {
     }
 }
 
-export default homeInfo;
+export default home;

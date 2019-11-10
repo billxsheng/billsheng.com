@@ -1,6 +1,6 @@
-const aboutInfo = {
+const about = {
     general:{
-        description: "Hey, I'm Bill! I am a purpose-driven, people-focused leader with extensive expertise planning, developing, and delivering software solutions through critical thinking, active collaboration, and best practices. I enjoy working on projects that have real-world impact in industries that I am passionate about. My main interests lie in software, data, and artificial intelligence. I hope to build a strong technical foundation through side projects and internships before taking on leadership roles in consulting, entrepreneurship, and product.",
+        description: "Hey, I'm Bill! I am a purpose-driven, people-focused leader with extensive expertise planning, developing, and delivering software solutions through critical thinking, active collaboration, and best practices. I enjoy working on projects that have real-world impact in industries that I am passionate about. My main interests lie in backend engineering and data infrastructure. I hope to build a strong technical foundation through side projects and internships before taking on leadership roles in consulting, entrepreneurship, and product.",
     } ,
     education: {
         title: "Education",
@@ -20,4 +20,4 @@ const aboutInfo = {
     }
 }
 
-export default aboutInfo;
+export default about;

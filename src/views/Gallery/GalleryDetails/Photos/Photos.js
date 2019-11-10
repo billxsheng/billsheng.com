@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import CSSModules from 'react-css-modules';
 import styles from './Photos.css';
-import galleryInfo from '../../../../assets/galleryInfo';
+import galleryInfo from '../../../../assets/gallery';
 import Image from '../../../../components/Image/Image';
 import Fade from 'react-reveal/Fade';
 

@@ -2,14 +2,14 @@ import React, { Component } from 'react';
 import styles from '../ProjectSections.css';
 import CSSModules from 'react-css-modules';
 import ProjectTile from '../../ProjectTile/ProjectTile';
-import projectsInfo from '../../../../assets/projectsInfo';
+import projectsInfo from '../../../../assets/projects';
 import Icon from '../../../../components/Icon/Icon';
 import {NavLink} from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
 
 var projectsArray = projectsInfo.headings.order;
 
-class WebMobile extends Component {
+class SideProjects extends Component {
     state = {
         leftArrow: true,
         rightArrow: true
@@ -66,17 +66,22 @@ class WebMobile extends Component {
             <div styleName="content-row">
             <Fade bottom>   
             <div className="row">
-                <ProjectTile to="/projects/web-mobile/huddle" imageName="projects/huddle/huddle.png" imageHeight="400px" tag={projectsInfo.huddle.tag} title={projectsInfo.huddle.name} shortDesc={projectsInfo.huddle.description}/>
+                <ProjectTile to="/projects/side-projects/shell-chatbot" singleTile tag={projectsInfo.shellChatbot.tag} title={projectsInfo.shellChatbot.name} shortDesc={projectsInfo.shellChatbot.description}/>
             </div>
             </Fade>
             <Fade bottom>   
             <div className="row">
-                <ProjectTile to="/projects/web-mobile/blitz" reverse imageHeight="400px" imageName="projects/blitz/blitz.png" tag={projectsInfo.blitz.tag} title={projectsInfo.blitz.name} shortDesc={projectsInfo.blitz.description}/>
+                <ProjectTile to="/projects/side-projects/huddle" imageName="projects/huddle/huddle.png" imageHeight="400px" tag={projectsInfo.huddle.tag} title={projectsInfo.huddle.name} shortDesc={projectsInfo.huddle.description}/>
             </div>
             </Fade>
             <Fade bottom>   
             <div className="row">
-                <ProjectTile to="/projects/web-mobile/munkee" imageHeight="400px" imageName="projects/munkee/munkee.png" tag={projectsInfo.munkee.tag} title={projectsInfo.munkee.name} shortDesc={projectsInfo.munkee.description}/>
+                <ProjectTile to="/projects/side-projects/blitz" reverse imageHeight="400px" imageName="projects/blitz/blitz.png" tag={projectsInfo.blitz.tag} title={projectsInfo.blitz.name} shortDesc={projectsInfo.blitz.description}/>
+            </div>
+            </Fade>
+            <Fade bottom>   
+            <div className="row">
+                <ProjectTile to="/projects/side-projects/munkee" imageHeight="400px" imageName="projects/munkee/munkee.png" tag={projectsInfo.munkee.tag} title={projectsInfo.munkee.name} shortDesc={projectsInfo.munkee.description}/>
             </div>
             </Fade>
             </div>
@@ -87,4 +92,4 @@ class WebMobile extends Component {
 
 
 
-export default CSSModules(WebMobile, styles);
+export default CSSModules(SideProjects, styles);

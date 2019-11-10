@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import styles from '../ProjectSections.css';
 import CSSModules from 'react-css-modules';
 import ProjectTile from '../../ProjectTile/ProjectTile';
-import projectsInfo from '../../../../assets/projectsInfo';
+import projectsInfo from '../../../../assets/projects';
 import Icon from '../../../../components/Icon/Icon';
 import {NavLink} from 'react-router-dom';
 import Button from '../../../../components/Button/Button';

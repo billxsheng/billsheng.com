@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import CSSModules from 'react-css-modules';
 import styles from './GraphQL.css';
-import galleryInfo from '../../../../assets/galleryInfo';
+import galleryInfo from '../../../../assets/gallery';
 import Fade from 'react-reveal/Fade';
 
 class graphQL extends Component {

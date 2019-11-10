@@ -1,4 +1,4 @@
-const GalleryInfo = {
+const gallery = {
     headings: {
         gallery: {
             title: "Gallery",
@@ -23,4 +23,4 @@ const GalleryInfo = {
     }
 }
 
-export default GalleryInfo;
+export default gallery;

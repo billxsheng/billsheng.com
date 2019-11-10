@@ -1,4 +1,4 @@
-const Links = {
+const links = {
     github: 'http://github.com/billxsheng',
     linkedin: 'http://linkedin.com/in/billxsheng',
     email: 'mailto:billxsheng@gmail.com',
@@ -6,4 +6,4 @@ const Links = {
     munkee: "https://munkee.herokuapp.com"
 }
 
-export default Links;
+export default links;

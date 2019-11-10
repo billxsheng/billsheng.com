@@ -3,7 +3,7 @@ import styles from './MyStory.css';
 import CSSModules from 'react-css-modules';
 import Image from '../../components/Image/Image';
 import Button from '../../components/Button/Button';
-import aboutInfo from '../../assets/aboutInfo';
+import about from '../../assets/about';
 import Fade from 'react-reveal/Fade';
 import Aux from '../../hoc/HO-Aux/HO-aux';
 
@@ -32,7 +32,7 @@ class MyStory extends Component {
                         <div>
                             <Image margin="0" height="400px" withRadius path="about/other/secondary.jpg" />
                             <p2>
-                                {aboutInfo.general.description}
+                                {about.general.description}
                             </p2>
                             <div className="row" >
                                 <Button margin="20px auto 0 auto" to="/projects/experience">View My Previous Experiences</Button>
@@ -44,9 +44,9 @@ class MyStory extends Component {
                         </Fade>
                         <Fade bottom>
                         <div styleName="section-div"> 
-                            <h2>{aboutInfo.education.title}</h2>
+                            <h2>{about.education.title}</h2>
                             <p2>
-                                {aboutInfo.education.description}
+                                {about.education.description}
                             </p2>    
                             <Image width="600px" path="about/other/waterloo-engineering.png" />
                         </div>
@@ -54,7 +54,7 @@ class MyStory extends Component {
 
                         <Fade bottom>
                         <div styleName="section-div">
-                            <h2>{aboutInfo.skills.title}</h2>
+                            <h2>{about.skills.title}</h2>
                             <div style={{'margin': '0 auto'}}>
                                 <p2><strong>Languages</strong></p2>
                                 <ul styleName="skills-list" className="list-group">
@@ -82,9 +82,9 @@ class MyStory extends Component {
 
                         <Fade bottom>
                         <div styleName="section-div">
-                            <h2>{aboutInfo.hobbies.title}</h2>
+                            <h2>{about.hobbies.title}</h2>
                             <p2>
-                                {aboutInfo.hobbies.description}
+                                {about.hobbies.description}
                             </p2>    
                             <ul styleName="list" className="list-group">
                                 <li>Basketball</li>
@@ -103,7 +103,7 @@ class MyStory extends Component {
                         <div styleName="section-div">
                             <h2>Teams</h2>
                             <p2>
-                                {aboutInfo.teams.description}
+                                {about.teams.description}
                             </p2>                       
                             <div styleName="img-row" className="row">
                                 <span styleName="team" className="col-md-4">

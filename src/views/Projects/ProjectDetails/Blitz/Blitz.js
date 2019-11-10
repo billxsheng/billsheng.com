@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import styles from '../ProjectDetails.css';
 import CSSModules from 'react-css-modules';
-import ProjectsInfo from '../../../../assets/projectsInfo';
-import Links from '../../../../assets/links';
+import projects from '../../../../assets/projects';
+import links from '../../../../assets/links';
 import Image from '../../../../components/Image/Image';
 import Button from '../../../../components/Button/Button';
 import {NavLink} from 'react-router-dom'; 
@@ -10,7 +10,7 @@ import Icon from '../../../../components/Icon/Icon';
 import Fade from 'react-reveal/Fade';
 
 
-var projectsArray = ProjectsInfo.headings.projectOrder;
+var projectsArray = projects.headings.projectOrder;
 
 class Blitz extends Component {
     state = {
@@ -20,10 +20,10 @@ class Blitz extends Component {
 
     componentDidMount() {
         window.scrollTo(0,0);
-        if(projectsArray.indexOf((ProjectsInfo.blitz.reference)) === 0) {
+        if(projectsArray.indexOf((projects.blitz.reference)) === 0) {
             this.setState({leftArrow: false});
         }
-        if(projectsArray.indexOf((ProjectsInfo.blitz.reference)) === projectsArray.length - 1) {
+        if(projectsArray.indexOf((projects.blitz.reference)) === projectsArray.length - 1) {
             this.setState({rightArrow: false});
         }
     }
@@ -35,7 +35,7 @@ class Blitz extends Component {
                     <div className="row container" style={{margin: '0 auto'}}>
                         <div className="col-md-2">
                             {this.state.leftArrow ? 
-                                <NavLink styleName="btn-prev" to={`/projects/web-mobile/${projectsArray[projectsArray.indexOf(ProjectsInfo.blitz.reference) - 1]}`} >
+                                <NavLink styleName="btn-prev" to={`/projects/${projectsArray[projectsArray.indexOf(projects.blitz.reference) - 1]}`} >
                                     <Icon iconType="iconSmall" iconName="fas fa-chevron-left"></Icon>
                                 </NavLink>: 
                                 <a className="btn-disabled" styleName="btn-disabled">
@@ -45,12 +45,12 @@ class Blitz extends Component {
                         </div> 
                         <div className="col-md-8">
                             <h1>
-                                {ProjectsInfo.blitz.name}
+                                {projects.blitz.name}
                             </h1>
                         </div>
                         <div className="col-md-2">
                             {this.state.rightArrow ? 
-                                <NavLink styleName="btn-next" to={`/projects/web-mobile/${projectsArray[projectsArray.indexOf(ProjectsInfo.blitz.reference) + 1]}`} >
+                                <NavLink styleName="btn-next" to={`/projects/${projectsArray[projectsArray.indexOf(projects.blitz.reference) + 1]}`} >
                                     <Icon iconType="iconSmall" iconName="fas fa-chevron-right"></Icon>
                                 </NavLink> : 
                                 <a className="btn-disabled" styleName="btn-disabled">
@@ -61,10 +61,10 @@ class Blitz extends Component {
                     </div>
                     <Fade bottom>
                     <p>
-                        {ProjectsInfo.blitz.description}
+                        {projects.blitz.description}
                     </p>
                     <div className="row" styleName="tag" >
-                        <p className="text-center" styleName="title-p" >{ProjectsInfo.blitz.tag}</p>
+                        <p className="text-center" styleName="title-p" >{projects.blitz.tag}</p>
                     </div>
                     </Fade>
                 </span>
@@ -76,11 +76,11 @@ class Blitz extends Component {
                     </Fade>
                     <Fade bottom>
                     <h4>Summary</h4>
-                    <p>{ProjectsInfo.blitz.content.summary}</p>
+                    <p>{projects.blitz.content.summary}</p>
                     </Fade>
                     <Fade bottom>
                     <h4>Technology</h4>
-                    <p>{ProjectsInfo.blitz.content.technology}</p>
+                    <p>{projects.blitz.content.technology}</p>
                     </Fade>
                     <Fade bottom>
                     <h4>My Tasks</h4>
@@ -98,11 +98,11 @@ class Blitz extends Component {
                     </Fade>
                     <Fade bottom>
                     <h4>Problem</h4>
-                    <p>{ProjectsInfo.blitz.content.problem}</p>
+                    <p>{projects.blitz.content.problem}</p>
                     </Fade>
                     <Fade bottom>
                     <h4>Solution</h4>
-                    <p>{ProjectsInfo.blitz.content.solution}</p>
+                    <p>{projects.blitz.content.solution}</p>
                     </Fade>
                     <Fade bottom>
                     <Image width="500px" fine="Blitz Login" path = "projects/blitz/blitz-login.png" />
@@ -116,7 +116,7 @@ class Blitz extends Component {
                     <Fade top>
                     <hr/>
                     <div className="row">
-                    <Button margin="0px auto" link={Links.github + "/blitz"} btnType = "btnLarge">Github</Button>
+                    <Button margin="0px auto" link={links.github + "/blitz"} btnType = "btnLarge">Github</Button>
                     </div>
                     </Fade>
 

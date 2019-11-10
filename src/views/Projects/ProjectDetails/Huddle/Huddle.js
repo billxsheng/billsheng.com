@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import styles from '../ProjectDetails.css';
 import CSSModules from 'react-css-modules';
-import ProjectsInfo from '../../../../assets/projectsInfo';
+import projects from '../../../../assets/projects';
 import Image from '../../../../components/Image/Image';
 import Button from '../../../../components/Button/Button';
 import {NavLink} from 'react-router-dom'; 
 import Icon from '../../../../components/Icon/Icon';
 import Fade from 'react-reveal/Fade';
 
-var projectsArray = ProjectsInfo.headings.projectOrder;
+var projectsArray = projects.headings.projectOrder;
 
 class Huddle extends Component {
     state = {
@@ -18,10 +18,10 @@ class Huddle extends Component {
 
     componentDidMount() {
         window.scrollTo(0,0);
-        if(projectsArray.indexOf((ProjectsInfo.huddle.reference)) === 0) {
+        if(projectsArray.indexOf((projects.huddle.reference)) === 0) {
             this.setState({leftArrow: false});
         }
-        if(projectsArray.indexOf((ProjectsInfo.huddle.reference)) === projectsArray.length - 1) {
+        if(projectsArray.indexOf((projects.huddle.reference)) === projectsArray.length - 1) {
             this.setState({rightArrow: false});
         }
     }
@@ -33,7 +33,7 @@ class Huddle extends Component {
                     <div className="row container" style={{margin: '0 auto'}}>
                         <div className="col-md-2">
                             {this.state.leftArrow ? 
-                                <NavLink styleName="btn-prev" to={`/projects/experience/${projectsArray[projectsArray.indexOf(ProjectsInfo.huddle.reference) - 1]}`} >
+                                <NavLink styleName="btn-prev" to={`/projects/${projectsArray[projectsArray.indexOf(projects.huddle.reference) - 1]}`} >
                                     <Icon iconType="iconSmall" iconName="fas fa-chevron-left"></Icon>
                                 </NavLink> : 
                                 <a className="btn-disabled" styleName="btn-disabled">
@@ -43,12 +43,12 @@ class Huddle extends Component {
                         </div> 
                         <div className="col-md-8">
                             <h1>
-                                {ProjectsInfo.huddle.name}
+                                {projects.huddle.name}
                             </h1>
                         </div>
                         <div className="col-md-2">
                             {this.state.rightArrow ? 
-                                <NavLink styleName="btn-next" to={`/projects/web-mobile/${projectsArray[projectsArray.indexOf(ProjectsInfo.huddle.reference) + 1]}`} >
+                                <NavLink styleName="btn-next" to={`/projects/${projectsArray[projectsArray.indexOf(projects.huddle.reference) + 1]}`} >
                                     <Icon iconType="iconSmall" iconName="fas fa-chevron-right"></Icon>
                                 </NavLink> : 
                                 <a className="btn-disabled" styleName="btn-disabled">
@@ -59,10 +59,10 @@ class Huddle extends Component {
                     </div>
                     <Fade bottom>
                     <p>
-                        {ProjectsInfo.huddle.description}
+                        {projects.huddle.description}
                     </p>
                     <div className="row" styleName="tag" >
-                        <p className="text-center" styleName="title-p" >{ProjectsInfo.huddle.tag}</p>
+                        <p className="text-center" styleName="title-p" >{projects.huddle.tag}</p>
                     </div>
                     </Fade>
                 </span>
@@ -74,11 +74,11 @@ class Huddle extends Component {
                     </Fade>
                     <Fade bottom>
                     <h4>Summary</h4>
-                    <p>{ProjectsInfo.huddle.content.summary}</p>
+                    <p>{projects.huddle.content.summary}</p>
                     </Fade>
                     <Fade bottom>
                     <h4>Technology</h4>
-                    <p>{ProjectsInfo.huddle.content.technology}</p>
+                    <p>{projects.huddle.content.technology}</p>
                     </Fade>
                     <Fade bottom>
                     <h4>My Tasks</h4>
@@ -95,11 +95,11 @@ class Huddle extends Component {
                     </Fade>
                     <Fade bottom>
                     <h4>The Problem</h4>
-                    <p>{ProjectsInfo.huddle.content.problem}</p> 
+                    <p>{projects.huddle.content.problem}</p> 
                     </Fade>
                     <Fade bottom>
                     <h4>Our Solution</h4>
-                    <p>{ProjectsInfo.huddle.content.solution}</p>
+                    <p>{projects.huddle.content.solution}</p>
                     </Fade>
                     <Fade bottom>
                     <Image width="300px" fine="Huddle Welcome Screen" path = "projects/huddle/huddle-splash.jpg" />
