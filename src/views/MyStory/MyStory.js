@@ -87,13 +87,13 @@ class MyStory extends Component {
                                 {about.hobbies.description}
                             </p2>    
                             <ul styleName="list" className="list-group">
+                                <li>Reading (Designing Data-Intensive Applications by Martin Kleppmann)</li>
                                 <li>Basketball</li>
                                 <li>Ice Hockey</li>
                                 <li>Ultimate Frisbee</li>
                                 <li>College Football, NHL, NBA</li>
                                 <li>Guitar</li>
                                 <li>Side Projects</li>
-                                <li>Reading</li>
                                 <li>Finance</li>
                             </ul>                   
                         </div>
