@@ -58,23 +58,23 @@ class MyStory extends Component {
                             <div style={{'margin': '0 auto'}}>
                                 <p2><strong>Languages</strong></p2>
                                 <ul styleName="skills-list" className="list-group">
-                                <li>JavaScript, Java, Swift, Ruby, Python, HTML/CSS, Typescript, VBA, SQL, PHP</li>
+                                <li>JavaScript, Typescript, Java, Python, SQL, PHP</li>
                                 </ul> 
                                 <p2><strong>Frameworks & Libraries</strong></p2>
                                 <ul styleName="skills-list" className="list-group">
-                                <li>Node JS (Express JS & Socket.IO), Spring, Ruby on Rails, React JS, React Native, Angular 2+</li>
+                                <li>Node (Express & SocketIO), Spring, Ruby on Rails, React, React Native, Angular</li>
                                 </ul>
                                 <p2><strong>Data Engineering</strong></p2>
                                 <ul styleName="skills-list" className="list-group">
-                                <li>Hadoop, Apache Kafka, Apache Spark</li>
+                                <li>Hadoop, Apache Kafka, Apache Spark, MongoDB, MySQL, PostgreSQL, ElasticSearch</li>
                                 </ul>
                                 <p2><strong>Cloud & Tools</strong></p2>
                                 <ul styleName="skills-list" className="list-group">
-                                <li>MongoDB, MySQL, PostgreSQL, Xcode, Git, Docker, JIRA, VMWare, AWS, Postman</li>
+                                <li>Xcode, Git, Docker, JIRA, VMWare, AWS, Azure, Postman</li>
                                 </ul>
                                 <p2><strong>General</strong></p2>
                                 <ul styleName="skills-list" className="list-group">
-                                <li>Object-Oriented Design, Data Structures & Algorithms, Databases, Data Analysis, Restful, MVC, API Development</li>
+                                <li>OOP, Data Structures & Algorithms, Databases, Distributed Systems, Data Infrastructure</li>
                                 </ul>
                             </div>                       
                         </div>
