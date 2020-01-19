@@ -69,12 +69,15 @@ class OubreSA extends Component {
                 </span>
                 <div styleName="modal" >
                     <Fade bottom>
-                        <h4>Summary</h4>
-                        <p>{projects.oubre.content.summary}</p>
-                    </Fade>
-                    <Fade bottom>
                         <h4>Technology</h4>
                         <p>{projects.oubre.content.technology}</p>
+                    </Fade>
+                    <Fade bottom>
+                        <h4>What I did</h4>
+                        <ul className="list-group">
+                            <li><p3>Implemented a data streaming platform with Java that performs sentiment analysis on tweets regarding controversial athletes</p3></li>
+                            <li><p3>Used Kafka and Spark to ingest, analyze, and load data into a Cassandra data warehouse, allowing results to be queried/displayed</p3></li>
+                        </ul>
                     </Fade>
                     <Fade top>
                         <hr />

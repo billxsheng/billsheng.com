@@ -4,19 +4,18 @@ const about = {
     } ,
     education: {
         title: "Education",
-        description: "I am currently studying Management Engineering at the University of Waterloo. Management Engineering is a one-of-a-kind interdisciplinary program with a split focus in computer science, product management, and optimization. It’s diverse course load offers expertise in a wide-range of concepts. This produces a versatile degree suitable for any industry."
-
+        description: "I am currently studying Management Engineering at the University of Waterloo. Management Engineering is a one-of-a-kind interdisciplinary program with a split focus in computer science, product management, and optimization. Its diverse course load offers expertise in a wide range of concepts. This produces a versatile degree suitable for any industry."
     },
     skills: {
         title: "Skills"
     },
     hobbies: {
         title: "Hobbies",
-        description: "I believe in a healthy, well-rounded lifestyle. Here are some of favorite hobbies: "
+        description: "I believe in a healthy, well-rounded lifestyle. Here are some of my favorite hobbies: "
     },
     teams: {
         title: "Teams",
-        description: "These are the sports teams I support."
+        description: "My favourite sports teams."
     }
 }
 

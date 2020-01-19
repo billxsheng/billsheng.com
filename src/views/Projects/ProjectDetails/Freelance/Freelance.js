@@ -79,7 +79,7 @@ class Freelance extends Component {
                     <p>{projects.freelance.content.summary}</p>
                     </Fade>
                     <Fade bottom>
-                    <h4>My Tasks</h4>
+                    <h4>What I did</h4>
                     <ul className="list-group">
                     <li><p3>Interfaced with local businesses to build several full stack applications using React, Angular, Node.js, and AWS </p3></li>
                     <li><p3>Streamlined dynamic content management using MongoDB for low-code versatility; decreased existing redeployment instances by 90%</p3></li>

@@ -81,7 +81,7 @@ class Huddle extends Component {
                     <p>{projects.huddle.content.technology}</p>
                     </Fade>
                     <Fade bottom>
-                    <h4>My Tasks</h4>
+                    <h4>What I did</h4>
                     <ul className="list-group">
                     <li><p3>Created authentication templates using React-Native</p3></li>
                     <li><p3>Called HTTP requests using React Axios library</p3></li>

@@ -81,11 +81,11 @@ class Ctc extends Component {
                     <p>{projects.ctc.content.technology}</p>
                     </Fade>
                     <Fade bottom>
-                    <h4>My Tasks</h4>
+                    <h4>What I did</h4>
                     <ul className="list-group">
                     <li><p3>Excelled in a fast-paced agile work environment</p3></li>
-                    <li><p3>Engineered large-scale virtualized deployments using VMWare </p3></li>
-                    <li><p3>Created 10+ PowerShell automation scripts for seamless configuration of enterprise servers; scripts to be used across IT community (200+ employees)</p3></li>
+                    <li><p3>Streamlined inefficient VM configuration processes by writing PowerShell automation scripts used by 50+ employees across IT teams</p3></li>
+                    <li><p3>Engineered large-scale virtualized deployments with VMWare, updating 100+ corporate computers with no ensuing complications</p3></li>
                     </ul>
                     </Fade>
                     <Fade bottom>

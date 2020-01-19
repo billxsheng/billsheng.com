@@ -2,15 +2,15 @@ const home = {
     mainHeader: "Hey, I'm Bill",
     myStory: {
         title: "My Story",
-        description: "Striving to be the best"
+        description: "Learn more about me"
     },
     projects: {
         title: "Projects",
-        description: "I'm always up for a challenge"
+        description: "Always up for a challenge"
     },
     gallery: {
         title: "Gallery",
-        description: "From pick six to python"
+        description: "Pick six to python"
     }
 }
 

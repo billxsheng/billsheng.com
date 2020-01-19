@@ -83,7 +83,7 @@ class Munkee extends Component {
                     <p>{projects.munkee.content.technology}</p>
                     </Fade>
                     <Fade bottom>
-                    <h4>My Tasks</h4>
+                    <h4>What I did</h4>
                     <ul className="list-group">
                     <li><p3>Configured Mongoose to simplify interactions with MongoDB database</p3></li>
                     <li><p3>Set up Node JS for JavaScript run-time environment</p3></li>

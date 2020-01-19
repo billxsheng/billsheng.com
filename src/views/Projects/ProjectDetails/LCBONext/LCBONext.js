@@ -73,12 +73,27 @@ class LCBONext extends Component {
                     <hr/>
                     </Fade>
                     <Fade bottom>
-                    <h4>Summary</h4>
-                    <p>{projects.lcbonext.content.summary}</p>
+                    <h4>Position</h4>
+                    <p>{projects.lcbonext.content.position}</p>
+                    </Fade>
+                    <Fade bottom>
+                    <h4>Team</h4>
+                    <p>{projects.lcbonext.content.team}</p>
                     </Fade>
                     <Fade bottom>
                     <h4>Technology</h4>
                     <p>{projects.lcbonext.content.technology}</p>
+                    </Fade>
+                    <Fade bottom>
+                    <h4>What I did</h4>
+                    <ul className="list-group">
+                    <li><p3>Built a cron-based web scraper that extracts marketable content from 950+ webpages, increasing app conversion paths from 9 to 400</p3></li>
+                    <li><p3>Developed a Node ETL pipeline that tags products with new properties to improve search precision, decreasing search exits by 25%</p3></li>
+                    <li><p3>Designed an indexing strategy with ElasticSearch aliases that prevents data loss during API crashes in 2 large-scale data pipelines</p3></li>
+                    <li><p3>Leveraged Redis caching strategies to scale store inventory microservice, improving performance audit of core products app by ~15%</p3></li>
+                    <li><p3>Co-built and deployed a Node recommendation engine, leveraging compound ElasticSearch queries to address customer indecision</p3></li>
+                    <li><p3>Created technical documents for POC app and presented to corporate stakeholders, receiving approval for deployment to 100+ stores</p3></li>
+                    </ul>
                     </Fade>
                     {/* <Fade top>
                     <hr/>

@@ -73,23 +73,34 @@ class UWBlueprint extends Component {
                     <hr/>
                     </Fade>
                     <Fade bottom>
-                    <h4>Summary</h4>
-                    <p>{projects.uwblueprint.content.summary}</p>
+                    <h4>Position</h4>
+                    <p>{projects.uwblueprint.content.position}</p>
+                    </Fade>
+                    <Fade bottom>
+                    <h4>Team</h4>
+                    <p>{projects.uwblueprint.content.team}</p>
                     </Fade>
                     <Fade bottom>
                     <h4>Technology</h4>
                     <p>{projects.uwblueprint.content.technology}</p>
                     </Fade>
-                    {/* <Fade top>
+                    <Fade bottom>
+                    <h4>What I did</h4>
+                    <ul className="list-group">
+                    <li><p3>Built a web platform for a non-profit investment group (~150 users) aimed to scale and manage their application selection process</p3></li>
+                    <li><p3>Co-designed a document data model to represent application flows and developed CRUD operations with React/Redux and MongoDB</p3></li>
+                    </ul>
+                    </Fade>
+                    <Fade top>
                     <hr/>
                     <div className="row">
-                    <Button margin="0px auto" link={"https://devpost.com/software/airdrums-39k0ny"} btnType = "btnLarge">Devpost</Button>
+                    <Button margin="0px auto" link={"https://uwblueprint.org"} btnType = "btnLarge">Learn more</Button>
                     </div>
                     <br/>
                     <div className="row">
-                    <Button margin="0px auto" link={"https://github.com/billxsheng/airdrums"} btnType = "btnLarge">Github</Button>
+                    <Button margin="0px auto" link={"https://github.com/uwblueprint"} btnType = "btnLarge">Projects</Button>
                     </div>
-                    </Fade> */}
+                    </Fade>
                 </div>
             </div>
         )

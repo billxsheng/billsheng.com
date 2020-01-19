@@ -29,7 +29,7 @@ const projects = {
             order: ['airdrums', 'ryse', 'moodify'],
         },
         order: ['experience', 'side-projects', 'data', 'hackathons'],
-        projectOrder: ['experience/lcbo-next', 'experience/uwblueprint', 'experience/opentext', 'experience/freelance', 'experience/ctc', 'side-projects/shell-chatbot', 'side-projects/huddle', 'side-projects/blitz', 'side-projects/munkee', 'data/oubre-sentiment-analysis', 'hackathons/airdrums', 'hackathons/ryse', 'hackathons/moodify']
+        projectOrder: ['experience/lcbo-next', 'experience/uwblueprint', 'experience/opentext', 'experience/freelance', 'experience/ctc', 'side-projects/shell-chatbot', 'side-projects/huddle', 'side-projects/blitz', 'side-projects/munkee', 'data/oubre-sentiment-analysis', 'data/sql-media-platform' , 'hackathons/airdrums', 'hackathons/ryse', 'hackathons/moodify']
     },
     huddle: {
         name: 'Huddle',
@@ -124,6 +124,17 @@ const projects = {
             technology: "Apache Kafka, Apache Spark, Cassandra, Java, MapReduce",
         }
     },
+    mmp: {
+        name: 'SQL Media Platform',
+        reference: 'data/sql-media-platform',
+        description: 'MSCI346 Project',
+        tag: "Data Project",
+        about: "Coming Soon",
+        content: {
+            summary: "Coming Soon",
+            technology: "PHP, MySQL, PHPMyAdmin",
+        }
+    },
     ctc: {
         name: 'Canadian Tire',
         reference: 'experience/ctc',
@@ -131,7 +142,7 @@ const projects = {
         tag: "Internship",
         about: "Coming Soon",
         content: {
-            position: "Technical Specialist",
+            position: "Infrastructure Specialist",
             technology: "PowerShell, Docker, VMWare, Confluence",
             evaluation: "Excellent"
         }
@@ -144,8 +155,8 @@ const projects = {
         about: "Coming Soon",
         content: {
             position: "Software Developer",
+            team: 'Appworks Web/Mobile Engineering Team',
             technology: "Java (Spring), Maven, Docker, Node, Angular, TypeScript, MongoDB, HTML/CSS, Bulma, Git, Jira, Postman",
-            evaluation: "Very Good (letter of reference available)"
         }
     },
     freelance: {
@@ -168,6 +179,7 @@ const projects = {
         about: 'Coming soon',
         content: {
             position: "Software Developer",
+            team: 'Social Venture Partners',
             technology: "React, Node, MongoDB",
             summary: "Coming Soon"
         }
@@ -179,7 +191,8 @@ const projects = {
         tag: 'Internship',
         about: 'Coming soon',
         content: {
-            position: "Full Stack Developer",
+            position: "Full Stack Developer and Technical Product Manager",
+            team: 'Innovation Lab',
             technology: "React, Node, ElasticSearch, ETL Pipelines, Azure, Docker",
             summary: "Coming Soon"
         }

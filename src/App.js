@@ -35,6 +35,7 @@ import Moodify from './views/Projects/ProjectDetails/Moodify/Moodify';
 import Airdrums from './views/Projects/ProjectDetails/Airdrums/Airdrums';
 import Ryse from './views/Projects/ProjectDetails/Ryse/Ryse';
 import Munkee from './views/Projects/ProjectDetails/Munkee/Munkee';
+import MediaPlatform from './views/Projects/ProjectDetails/MediaPlatform/MediaPlatform';
 import Freelance from './views/Projects/ProjectDetails/Freelance/Freelance';
 import Ctc from './views/Projects/ProjectDetails/Ctc/Ctc';
 import LCBONext from './views/Projects/ProjectDetails/LCBONext/LCBONext';
@@ -115,6 +116,7 @@ class App extends Component {
         <Route exact path="/projects/experience/opentext" component={Opentext} />
         <Route exact path="/projects/experience/freelance" component={Freelance} />
         <Route exact path="/projects/data/oubre-sentiment-analysis" component={OubreSA} />
+        <Route exact path="/projects/data/sql-media-platform" component={MediaPlatform} />
         <Route exact path="/projects/experience/ctc" component={Ctc} />
         <Route exact path="/projects/hackathons/moodify" component={Moodify} />
         <Route exact path="/projects/hackathons/airdrums" component={Airdrums} />

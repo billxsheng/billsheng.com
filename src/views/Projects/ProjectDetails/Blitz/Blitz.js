@@ -83,7 +83,7 @@ class Blitz extends Component {
                     <p>{projects.blitz.content.technology}</p>
                     </Fade>
                     <Fade bottom>
-                    <h4>My Tasks</h4>
+                    <h4>What I did</h4>
                     <ul className="list-group">
                     <li><p3>Wrote HTML form logic to call REST API endpoints</p3></li>
                     <li><p3>Created User, Team, and Game entities to be saved in MongoDB database</p3></li>

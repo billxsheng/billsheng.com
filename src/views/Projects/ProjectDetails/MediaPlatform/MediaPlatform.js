@@ -3,13 +3,15 @@ import styles from '../ProjectDetails.css';
 import CSSModules from 'react-css-modules';
 import projects from '../../../../assets/projects';
 import Image from '../../../../components/Image/Image';
+import Button from '../../../../components/Button/Button';
 import Icon from '../../../../components/Icon/Icon';
+import links from '../../../../assets/links';
 import {NavLink} from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
 
 var projectsArray = projects.headings.projectOrder;
 
-class Opentext extends Component {
+class MMP extends Component {
     state = {
         leftArrow: true,
         rightArrow: true
@@ -17,10 +19,11 @@ class Opentext extends Component {
 
     componentDidMount() {
         window.scrollTo(0,0);
-        if(projectsArray.indexOf((projects.opentext.reference)) === 0) {
+        window.scrollTo(0,0);
+        if(projectsArray.indexOf((projects.mmp.reference)) === 0) {
             this.setState({leftArrow: false});
         }
-        if(projectsArray.indexOf((projects.opentext.reference)) === projectsArray.length - 1) {
+        if(projectsArray.indexOf((projects.mmp.reference)) === projectsArray.length - 1) {
             this.setState({rightArrow: false});
         }
     }
@@ -32,7 +35,7 @@ class Opentext extends Component {
                     <div className="row container" style={{margin: '0 auto'}}>
                         <div className="col-md-2">
                             {this.state.leftArrow ? 
-                                <NavLink styleName="btn-prev" to={`/projects/${projectsArray[projectsArray.indexOf(projects.opentext.reference) - 1]}`} >
+                                <NavLink styleName="btn-prev" to={`/projects/${projectsArray[projectsArray.indexOf(projects.mmp.reference) - 1]}`} >
                                     <Icon iconType="iconSmall" iconName="fas fa-chevron-left"></Icon>
                                 </NavLink> : 
                                 <a className="btn-disabled" styleName="btn-disabled">
@@ -42,12 +45,12 @@ class Opentext extends Component {
                         </div> 
                         <div className="col-md-8">
                             <h1>
-                                {projects.opentext.name}
+                                {projects.mmp.name}
                             </h1>
                         </div>
                         <div className="col-md-2">
                             {this.state.rightArrow ? 
-                                <NavLink styleName="btn-next" to={`/projects/${projectsArray[projectsArray.indexOf(projects.opentext.reference) + 1]}`} >
+                                <NavLink styleName="btn-next" to={`/projects/${projectsArray[projectsArray.indexOf(projects.mmp.reference) + 1]}`} >
                                     <Icon iconType="iconSmall" iconName="fas fa-chevron-right"></Icon>
                                 </NavLink> : 
                                 <a className="btn-disabled" styleName="btn-disabled">
@@ -58,54 +61,30 @@ class Opentext extends Component {
                     </div>
                     <Fade bottom>
                     <p>
-                        {projects.opentext.description}
+                        {projects.mmp.description}
                     </p>
                     <div className="row" styleName="tag" >
-                        <p className="text-center" styleName="title-p" >{projects.opentext.tag}</p>
+                        <p className="text-center" styleName="title-p" >{projects.mmp.tag}</p>
                     </div>
                     </Fade>
                 </span>
                 <div styleName="modal" >
                     <Fade bottom>
-                    <hr/>
-                    <Image width="500px" path = "projects/ot/ot.png" />
-                    <hr/>
-                    </Fade>
-                    <Fade bottom>
-                    <h4>Position</h4>
-                    <p>{projects.opentext.content.position}</p>
-                    </Fade>
-                    <Fade bottom>
-                    <h4>Team</h4>
-                    <p>{projects.opentext.content.team}</p>
-                    </Fade>
-                    <Fade bottom>
                     <h4>Technology</h4>
-                    <p>{projects.opentext.content.technology}</p>
+                    <p>{projects.mmp.content.technology}</p>
                     </Fade>
                     <Fade bottom>
                     <h4>What I did</h4>
                     <ul className="list-group">
-                    <li><p3>Developed a monitoring service with Spring and Thymeleaf that reports on the state of Java Agents, notifying users of build timeouts</p3></li>
-                    <li><p3>Refactored a high-profile deprecated dashboard into an Angular PWA used by 800+ stakeholders at annual enterprise conference</p3></li>
-                    <li><p3>Practiced test-driven development and wrote unit tests with Mocha, Mockito, and JUnit, achieving average code coverage of ~94%</p3></li>
-                    <li><p3>Used company-specific Git/Jira practices for cross-team communication</p3></li>
-                    <li><p3>Worked in an agile scrum team</p3></li>
+                    <li><p3>Developed a PHP web application that interacts with a MySQL database designed and managed on phpMyAdmin</p3></li>
+                    <li><p3>Wrote complex SQL queries to provide functionality for podcast subscriptions, user profiles, and public/private playlists</p3></li>
                     </ul>
                     </Fade>
-                    <Fade bottom>
-
-                    <Image width="500px" withRadius fine="Office in Richmond Hill, Ontario" path ="projects/ot/ot-3.png" />
-                    </Fade>
-                    <Fade bottom>
+                    <Fade top>
+                    <hr/>
                     <div className="row">
-                        <div className="col-md-6">
-                        <Image withRadius fine="Reception Desk" path ="projects/ot/ot-1.png" />
-                        </div>
-                        <div className="col-md-6">
-                        <Image withRadius fine="Corridor Art" path ="projects/ot/ot-2.png" />
-                        </div>
-                    </div>   
+                    <Button margin="0px auto" link={links.github + "/media-management-platform"} btnType = "btnLarge">Github</Button>
+                    </div>
                     </Fade>
                 </div>
             </div>
@@ -115,4 +94,4 @@ class Opentext extends Component {
 
 
 
-export default CSSModules(Opentext, styles);
+export default CSSModules(MMP, styles);
