@@ -21,13 +21,10 @@ class Gallery extends Component {
                             {gallery.headings.gallery.title}
                         </h1>
                     </div>
-                    <Fade bottom>
                     <p>
                         {gallery.headings.gallery.description}
                     </p>
-                    </Fade>
                 </span>
-                <Fade bottom>
                 <div className="container">
                     <div styleName="gallery-tile-row" className="row">
                         <GalleryTile height="350px" col="8">
@@ -44,7 +41,6 @@ class Gallery extends Component {
                         </GalleryTile>
                     </div>
                 </div>
-                </Fade>
             </div>
         )
     }

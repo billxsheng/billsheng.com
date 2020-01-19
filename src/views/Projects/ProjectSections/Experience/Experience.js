@@ -56,38 +56,26 @@ class Experience extends Component {
                             }
                         </div>
                     </div>
-                    <Fade bottom>
                     <p>
                         {projectsInfo.headings.experience.description}
                     </p>
-                    </Fade>
                 </span>
                 <div styleName="content-row">
-                <Fade bottom>
                 <div className="row">
                     <ProjectTile to="/projects/experience/lcbo-next" imageName = "projects/lcbonext/lcbonext.png" imageHeight="400px"  tag={projectsInfo.lcbonext.tag} title={projectsInfo.lcbonext.name} shortDesc={projectsInfo.lcbonext.description} />
                 </div>
-                </Fade>
-                <Fade bottom>
                 <div className="row">
                     <ProjectTile to="/projects/experience/uwblueprint" imageName = "projects/uwblueprint/uwblueprint.png" imageHeight="400px" reverse tag={projectsInfo.uwblueprint.tag} title={projectsInfo.uwblueprint.name} shortDesc={projectsInfo.uwblueprint.description} />
                 </div>
-                </Fade>
-                <Fade bottom>
                 <div className="row">
                     <ProjectTile to="/projects/experience/opentext" imageName = "projects/ot/ot.png" imageHeight="400px"  tag={projectsInfo.opentext.tag} title={projectsInfo.opentext.name} shortDesc={projectsInfo.opentext.description} />
                 </div>
-                </Fade>
-                <Fade bottom>
                 <div className="row">
                     <ProjectTile to="/projects/experience/freelance" imageHeight="400px" reverse imageName="projects/freelance/freelance.png" tag={projectsInfo.freelance.tag} title={projectsInfo.freelance.name} shortDesc={projectsInfo.freelance.description} />
                 </div>
-                </Fade>
-                <Fade bottom>
                 <div className="row">
                     <ProjectTile to="/projects/experience/ctc"  top="25px" imageHeight="400px" imageName="projects/ctc/ctc.png" tag={projectsInfo.ctc.tag}title={projectsInfo.ctc.name} shortDesc={projectsInfo.ctc.description}/>
                 </div>
-                </Fade>
                 </div>
             </div>
         )

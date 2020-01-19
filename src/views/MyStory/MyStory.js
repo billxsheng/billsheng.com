@@ -28,7 +28,6 @@ class MyStory extends Component {
                     </div>
 
                     <div styleName="content-div">
-                        <Fade bottom>
                         <div>
                             <Image margin="0 0 20px 0" height="400px" withRadius path="about/other/secondary.jpg" />
                             <p2>
@@ -41,8 +40,6 @@ class MyStory extends Component {
                                 <Button margin="20px auto 0 auto" resume btnType="btnLarge" >View My Resume</Button>
                             </div>
                         </div>
-                        </Fade>
-                        <Fade bottom>
                         <div styleName="section-div"> 
                             <h2>{about.education.title}</h2>
                             <p2>
@@ -50,9 +47,7 @@ class MyStory extends Component {
                             </p2>    
                             <Image width="600px" path="about/other/waterloo-engineering.png" />
                         </div>
-                        </Fade>
 
-                        <Fade bottom>
                         <div styleName="section-div">
                             <h2>{about.skills.title}</h2>
                             <div style={{'margin': '0 auto'}}>
@@ -78,9 +73,7 @@ class MyStory extends Component {
                                 </ul>
                             </div>                       
                         </div>
-                        </Fade>
 
-                        <Fade bottom>
                         <div styleName="section-div">
                             <h2>{about.hobbies.title}</h2>
                             <p2>
@@ -97,9 +90,7 @@ class MyStory extends Component {
                                 <li>Finance</li>
                             </ul>                   
                         </div>
-                        </Fade>
 
-                        <Fade bottom>
                         <div styleName="section-div">
                             <h2>Teams</h2>
                             <p2>
@@ -117,7 +108,6 @@ class MyStory extends Component {
                                 </span> 
                             </div>
                         </div> 
-                        </Fade>
                     </div>
                 </div>
                 </Aux>

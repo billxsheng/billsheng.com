@@ -57,33 +57,23 @@ class SideProjects extends Component {
                             }
                         </div>
                 </div>
-                <Fade bottom>   
                 <p>
                     {projectsInfo.headings.webMobile.description}
                 </p>
-                </Fade>
             </span>
             <div styleName="content-row">
-            <Fade bottom>   
             <div className="row">
                 <ProjectTile to="/projects/side-projects/shell-chatbot" singleTile tag={projectsInfo.shellChatbot.tag} title={projectsInfo.shellChatbot.name} shortDesc={projectsInfo.shellChatbot.description}/>
             </div>
-            </Fade>
-            <Fade bottom>   
             <div className="row">
                 <ProjectTile to="/projects/side-projects/huddle" imageName="projects/huddle/huddle.png" imageHeight="400px" tag={projectsInfo.huddle.tag} title={projectsInfo.huddle.name} shortDesc={projectsInfo.huddle.description}/>
             </div>
-            </Fade>
-            <Fade bottom>   
             <div className="row">
                 <ProjectTile to="/projects/side-projects/blitz" reverse imageHeight="400px" imageName="projects/blitz/blitz.png" tag={projectsInfo.blitz.tag} title={projectsInfo.blitz.name} shortDesc={projectsInfo.blitz.description}/>
             </div>
-            </Fade>
-            <Fade bottom>   
             <div className="row">
                 <ProjectTile to="/projects/side-projects/munkee" imageHeight="400px" imageName="projects/munkee/munkee.png" tag={projectsInfo.munkee.tag} title={projectsInfo.munkee.name} shortDesc={projectsInfo.munkee.description}/>
             </div>
-            </Fade>
             </div>
         </div>
         )

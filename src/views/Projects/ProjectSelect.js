@@ -22,13 +22,10 @@ class Projects extends Component {
                             {projects.headings.projects.title}
                         </h1>
                     </div>
-                    <Fade bottom>
                         <p>
                             {projects.headings.projects.description}
                         </p>
-                    </Fade>
                 </span>
-                <Fade bottom>
                     <div styleName="project-select-row" className="row">
                         <NavLink styleName="project-select-link" to="/projects/experience" className="col-md-3">
                             <ProjectSelectTile name="exp" type={projects.headings.experience.title} />
@@ -43,7 +40,6 @@ class Projects extends Component {
                             <ProjectSelectTile name="hack" type={projects.headings.hackathons.title} />
                         </NavLink>
                     </div>
-                </Fade>
             </div>
         )
     }

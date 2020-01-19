@@ -152,9 +152,7 @@ class App extends Component {
                       <Icon iconName="fas fa-times" close={this.closeContactModal} iconType="iconClose" />
                     </DialogContent>
                   </ContactModal>
-              <Fade bottom>
               <Footer />
-              </Fade>
               </Layout>
             </div>
           </BrowserRouter>

@@ -36,20 +36,16 @@ const aboutPreview = (props) => {
             <div className="container">
                 <div styleName="abt-prev-el" className="row">
                 <h2>{home.myStory.title}</h2>
-                <Fade bottom>
                 <span className="container">
                     <p>{home.myStory.description}</p>            
                 </span>  
-                </Fade>
                 </div>
             </div>
-        <Fade bottom>
         <OwlCarousel
         options={options}
         >   
             <Carousel carouselItems={carouselItems} classes="owl-carousel owl-theme" />
         </OwlCarousel>
-        </Fade>
         <div className="container">
             <div styleName="abt-prev-el" className="row">
                 <Button margin="30px auto" to="/my-story">My Story</Button>

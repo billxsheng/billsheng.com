@@ -56,22 +56,18 @@ class Data extends Component {
                             }
                         </div>
                     </div>
-                    <Fade bottom>
                     <p>
                         {projectsInfo.headings.ds.description}
                     </p>
-                    </Fade>
                 </span>
                 <div styleName="content-row">
                 </div>
-                <Fade bottom>
                 <div className="row">
                     <ProjectTile singleTile to="/projects/data/oubre-sentiment-analysis" tag={projectsInfo.oubre.tag} title={projectsInfo.oubre.name} shortDesc={projectsInfo.oubre.description} />
                 </div>
                 <div className="row">
                     <ProjectTile singleTile to="/projects/data/sql-media-platform" tag={projectsInfo.mmp.tag} title={projectsInfo.mmp.name} shortDesc={projectsInfo.mmp.description} />
                 </div>
-                </Fade>
             </div>
         )
     }

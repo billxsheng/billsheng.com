@@ -15,7 +15,6 @@ const Hero = (props) => {
     return (
         <div styleName='hero'>
             <span className="container">
-                <Fade bottom>
                 <div className="row" styleName="main-title">
                     <h5>
                     <span><img styleName="wave" alt="wave" style={waveStyle} src={require('../../../../assets/images/other/wave.png')}></img></span>
@@ -23,11 +22,9 @@ const Hero = (props) => {
                     Hey, I'm Bill!
                     </h5>
                 </div>
-                </Fade>
             </span>
             <div styleName="stripe"/>   
             <div styleName="stripe-reflected"/> 
-            <Fade bottom>
             <div className="container" styleName="divide-container">
                <div styleName="upper-wrapper" >
                 <div styleName="img-wide">
@@ -41,7 +38,6 @@ const Hero = (props) => {
                     <MainButtonRow/>
                </div>
             </div>
-            </Fade>
         </div>
     )
 }
