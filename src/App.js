@@ -129,7 +129,7 @@ class App extends Component {
     return (
       <Aux>
         {this.state.isLoading ? <Spinner/> :
-          <BrowserRouter basename="/">
+          <BrowserRouter>
             <div className="App" styleName="main-wrapper">
               <Waypoint topOffset={"-1px"} bottomOffset={"6000px"}
                 onEnter={() => {
