@@ -70,6 +70,10 @@ class MMP extends Component {
                 </span>
                 <div styleName="modal" >
                     <Fade bottom>
+                    <h4>Summary</h4>
+                    <p>{projects.mmp.content.summary}</p>
+                    </Fade>
+                    <Fade bottom>
                     <h4>Technology</h4>
                     <p>{projects.mmp.content.technology}</p>
                     </Fade>

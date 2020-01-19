@@ -69,6 +69,10 @@ class OubreSA extends Component {
                 </span>
                 <div styleName="modal" >
                     <Fade bottom>
+                        <h4>Summary</h4>
+                        <p>{projects.oubre.content.summary}</p>
+                    </Fade>
+                    <Fade bottom>
                         <h4>Technology</h4>
                         <p>{projects.oubre.content.technology}</p>
                     </Fade>

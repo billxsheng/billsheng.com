@@ -14,7 +14,7 @@
 .modal {
     overflow: hidden;
     padding: 0 40px;
-    max-width: 900px;
+    max-width: 1000px;
     margin: -20px auto 0 auto;
 }
 
@@ -58,7 +58,11 @@
     margin: 10px auto;
     font-weight: 400;
     max-width: 700px;
-    line-height: 35px;
+    line-height: 20px;
+}
+
+.modal li {
+    margin-bottom: 10px;
 }
 
 .btn-prev,

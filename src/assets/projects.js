@@ -41,8 +41,8 @@ const projects = {
         content: {
             summary: "Huddle is a modern social media application that connects NFL fans while supporting local venues.",
             technology: 'React Native, Java (Spring), Maven, MySQL',
-            problem: 'Professional sports is a product that connects people regardless of age, gender, or race. This can occur in any setting, whether it\'s the office or the classroom. It is a concept that is very undermined, yet so powerful. We wanted to utilize the product of sports by coming up with a way to quantify its fan-fueled competitive aspect while selling it for what it really is, a social event.',
-            solution: 'Our brainstorming initially began with the concept of bringing people together. We realized that fans don’t prioritize where they watch games, only who they are watching with and whether or not the game is on. This led us to the idea of promoting local venues. Through Huddle, local venues could advertise the games they were streaming to increase business while connecting fans at the same time. A win-win situation. For the motivational aspect of Huddle, we decided to use a system that would associate a  “rating” with each user. The rating would be based on the accuracy of the user’s picks. It inclines users to continue to use Huddle in order to broadcast their ability to make picks correctly. This can be compared to Stack Overflow, where users ask/answer questions to increase their Stack Overflow “reputation”.',
+            problem: 'Professional sports is a product that connects people regardless of age, gender, or race. This can occur in any setting, whether it\'s the office or the classroom. It is a concept that is very undermined, yet so powerful. We wanted to utilize the product of sports by coming up with a way to quantify its fan-fueled competitive aspect while selling it for what it is, a social event.',
+            solution: 'Our brainstorming initially began with the concept of bringing people together. We realized that fans don’t prioritize where they watch games, only who they are watching with and whether or not the game is on. This led us to the idea of promoting local venues. Through Huddle, local venues could advertise the games they were streaming to increase business while connecting fans at the same time. A win-win situation. For the motivational aspect of Huddle, we decided to use a system that would associate a “rating” with each user. The rating would be based on the accuracy of the user’s picks. It inclines users to continue to use Huddle to broadcast their ability to make picks correctly. This can be compared to Stack Overflow, where users ask/answer questions to increase their Stack Overflow “reputation”.'
         }
     },
     blitz: {
@@ -55,7 +55,7 @@ const projects = {
             summary: "Blitz is a serverless notification service that sends real-time game updates to NFL fans through SMS text messages. From a web application, users can authenticate, specify their favorite team, and add their phone number. Whenever a game finishes, a Node JS server will run a complex algorithm that sends text message notifications to the appropriate users.",
             technology: "Node (Express, PassportJS), MongoDB, Mongoose, Twilio SMS Microservice, MySportsFeeds API. HTML/CSS, Postman",
             problem: "Digital media apps (ESPN, theScore) are great at keeping fans up to date on their favorite teams and players. The problem is that they heavily rely on internet connection. If a user does not have consistent access to the web, obtaining the final score of an important game could be a very frustrating process.",
-            solution: "Sports notifications are different because users do not have to further view the content to know the context of the situation. Consider a notification similar to “John Smith commented on your post.” Users must open the application in order to know exactly what was said.  A sports notification as simple as  “Toronto wins 5-3.” contains all the information the user needs. No further action would be required. The solution I came up with utilized SMS texting. Texts are extremely accessible and possess all requirements necessary when passing an immutable piece of data. By incorporating several external API’s, I created a service that would send SMS notifications to users.",
+            solution: 'Sports notifications are different because users do not have to further view the content to know the context of the situation. Consider a notification similar to “John Smith commented on your post.” Users must open the application in order to know exactly what was said. A sports notification as simple as “Toronto wins 5-3.” contains all the information the user needs. No further action would be required. The solution I came up with utilized SMS texting. Texts are extremely accessible and possess all requirements necessary when passing an immutable piece of data. By incorporating several external APIs, I created a service that would send SMS notifications to users.'
         }
     },
     ryse: {
@@ -76,7 +76,7 @@ const projects = {
         tag: "Side Project",
         about: "Coming Soon",
         content: {
-            summary: "Coming Soon",
+            summary: "This project is a work in progress. If you have any burning questions, feel free to contact me.",
             technology: "Golang, PostgreSQL"
         }
     },
@@ -98,7 +98,7 @@ const projects = {
         tag: "Side Project",
         about: "Coming Soon",
         content: {
-            summary: "Munkee is a cross-platform multiplayer game that runs the classic game of pig. The game can be played locally on one computer or online through private game lobbies. When a player creates a game, a unique hexatridecimal game ID is created and saved to a NoSQL database. The player can then invite their friends by sharing the ID. My usage of web sockets allow for real-time games to be played. Being a fan of console-based sports game (2K, Madden, NHL), I have always been curious about how online matches took place. This inspired me to implement my own real-time matchmaking architecture.",
+            summary:'Munkee is a cross-platform multiplayer game that runs the classic game of pig. The game can be played locally on one computer or online through private game lobbies. When a player creates a game, a unique hexatridecimal game ID is created and saved to a NoSQL database. The player can then invite their friends by sharing the ID. My usage of web sockets allows for real-time games to be played. Being a fan of console-based sports games (2K, Madden, NHL), I have always been curious about how online matches took place. This inspired me to implement my own real-time matchmaking architecture.',
             technology: "Node (Express, SocketIO), jQuery, Bootstrap, MongoDB, Mongoose, HTML/CSS, Heroku"
         }
     },
@@ -120,7 +120,7 @@ const projects = {
         tag: "Data Project",
         about: "Coming Soon",
         content: {
-            summary: "Coming Soon",
+            summary: "This project is a work in progress. If you have any burning questions, feel free to contact me.",
             technology: "Apache Kafka, Apache Spark, Cassandra, Java, MapReduce",
         }
     },
@@ -131,7 +131,7 @@ const projects = {
         tag: "Data Project",
         about: "Coming Soon",
         content: {
-            summary: "Coming Soon",
+            summary: 'This project was a web application I made for my MSCI346 databases course. The web application interacts with a MySQL database designed and managed on PHPMyAdmin. My team and I developed an ER diagram and relational schema before populating our database with data that mocks a music management platform similar to Genius. As part of our project, we wrote complex SQL queries to provide functionality within our application.',
             technology: "PHP, MySQL, PHPMyAdmin",
         }
     },
