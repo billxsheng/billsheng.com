@@ -908,7 +908,7 @@ button {
 .ProjectDetails__modal__30ejV {
     overflow: hidden;
     padding: 0 40px;
-    max-width: 900px;
+    max-width: 1000px;
     margin: -20px auto 0 auto;
 }
 
@@ -952,7 +952,11 @@ button {
     margin: 10px auto;
     font-weight: 400;
     max-width: 700px;
-    line-height: 35px;
+    line-height: 20px;
+}
+
+.ProjectDetails__modal__30ejV li {
+    margin-bottom: 10px;
 }
 
 .ProjectDetails__btn-prev__2QCpp,
@@ -1773,4 +1777,4 @@ button {
 
 
 
-/*# sourceMappingURL=main.223b308e93f23cb69927.css.map*/
+/*# sourceMappingURL=main.07e82407cc9e1797fea2.css.map*/
