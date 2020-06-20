@@ -15,7 +15,7 @@ class Home extends Component {
 
     render() {
         return(
-            <div>
+            <div styleName="bkgd">
                 <Hero/>
                 <AboutPreview/>
                 <ProjectsPreview/>

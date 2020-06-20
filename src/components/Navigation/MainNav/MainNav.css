@@ -1,11 +1,15 @@
 .btnNav {
     font-family: 'Cairo';
-    font-size: 20px;
+    font-size: 15px;
     cursor: pointer;
     letter-spacing: 2px;
     line-height: 70px;
     color: rgba(0, 0, 0, 0.4) !important;
     transition: color 0.2s;
+    -webkit-transition: color 0.2s;
+    -moz-transition: color 0.2s;
+    -ms-transition: color 0.2s;
+    -o-transition: color 0.2s;
 }
 
 .btnNav:hover {

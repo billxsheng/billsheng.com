@@ -87,11 +87,11 @@ class MyStory extends Component {
                                 <li>College Football, NHL, NBA</li>
                                 <li>Guitar</li>
                                 <li>Side Projects</li>
-                                <li>Finance</li>
+                                <li>Investing</li>
                             </ul>                   
                         </div>
 
-                        <div styleName="section-div">
+                        {/* <div styleName="section-div">
                             <h2>Teams</h2>
                             <p2>
                                 {about.teams.description}
@@ -107,7 +107,7 @@ class MyStory extends Component {
                                     <Image height="80px" path="about/teams/raptors.png" />
                                 </span> 
                             </div>
-                        </div> 
+                        </div>  */}
                     </div>
                 </div>
                 </Aux>

@@ -18,7 +18,7 @@ class MainNav extends Component {
     render() {
 
         let topStyle = {
-            padding: '10px',
+            padding: '5px',
             zIndex: '900',
             position: 'fixed',
             width: '99vw',
@@ -26,12 +26,13 @@ class MainNav extends Component {
             top: 0,
             backgroundColor: 'white',
             color: 'white !important',
-            transition: 'box-shadow 0.5s'
+            transition: 'box-shadow 0.5s',
+            height: "100px"
         }
 
         if(this.state.navTop === false) {
             topStyle = {
-                padding: '10px',
+                padding: '5px',
                 zIndex: '900',
                 position: 'fixed',
                 width: '99vw',
@@ -40,7 +41,8 @@ class MainNav extends Component {
                 backgroundColor: 'white',
                 color: 'white !important',
                 boxShadow: '0 0 40px #ccc',
-                transition: 'box-shadow 0.2s'
+                transition: 'box-shadow 0.2s',
+                height: "100px"
             }
         }        
 

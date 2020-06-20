@@ -92,7 +92,7 @@ button {
 
 @media (max-width: 1000px) {
   h5 {
-    font-size: 65px !important;
+    /* font-size: 65px !important; */
   }
 
   p {
