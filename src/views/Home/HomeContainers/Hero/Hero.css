@@ -13,7 +13,7 @@
     margin: 0 auto;
     width: 500px;
     border-radius: 20px;
-    top: 80px;
+    top: 50px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
@@ -75,7 +75,7 @@
 .stripe {
     height: 450px;
     width: 99.7%;
-    top: 320px;
+    top: 270px;
     position: absolute;
     background-color: #4775de;
     transform: skew(6.2deg) rotate(6.2deg);
@@ -83,7 +83,7 @@
 }
 
 .stripe-reflected {
-    top: 300px;
+    top: 270px;
     height: 400px;
     position: absolute;
     width: 99.7%;
@@ -107,6 +107,7 @@
     }
 
     .divide-container {
+        top: 80px;
         width: 450px;
     }
 
@@ -133,6 +134,7 @@
 
 @media (max-width: 480px) {
     .divide-container {
+        top: 60px;
         width: 300px;
     }
 

@@ -19,7 +19,7 @@ const Hero = (props) => {
                     <h5>
                     {/* <span><img styleName="wave" alt="wave" style={waveStyle} src={require('../../../../assets/images/other/wave.png')}></img></span> */}
                     {/* &nbsp; */}
-                    Hey, I'm Bill!
+                    Hey, I'm Bill
                     </h5>
                 </div>
             </span>

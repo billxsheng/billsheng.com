@@ -27,7 +27,7 @@ class MainNav extends Component {
             backgroundColor: 'white',
             color: 'white !important',
             transition: 'box-shadow 0.5s',
-            height: "100px"
+            height: "90px"
         }
 
         if(this.state.navTop === false) {
@@ -42,7 +42,7 @@ class MainNav extends Component {
                 color: 'white !important',
                 boxShadow: '0 0 40px #ccc',
                 transition: 'box-shadow 0.2s',
-                height: "100px"
+                height: "90px"
             }
         }        
 
@@ -57,7 +57,7 @@ class MainNav extends Component {
                             <NavLink to="/projects" styleName='btnNav' className="nav-link">PROJECTS</NavLink>
                         </li>
                         <li styleName="nav-item-parent" className="nav-item" >
-                            <NavLink to="/"styleName='btnNav' className="nav-link"><Logo height="70px" className="navbar-brand"/></NavLink>
+                            <NavLink to="/"styleName='btnNav' className="nav-link"><Logo height="60px" className="navbar-brand"/></NavLink>
                         </li>
                         <li styleName="nav-item-parent" className="nav-item" >
                             <NavLink to="/gallery" styleName='btnNav' className="nav-link">GALLERY</NavLink>
