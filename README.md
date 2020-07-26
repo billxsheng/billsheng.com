@@ -1,2 +1,2 @@
 # billsheng.com
-Personal Website built with React
+Personal portfolio website built with React.
