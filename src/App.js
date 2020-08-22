@@ -42,6 +42,7 @@ import LCBONext from './views/Projects/ProjectDetails/LCBONext/LCBONext';
 import UWBlueprint from './views/Projects/ProjectDetails/UWBlueprint/UWBlueprint';
 import ShellChatbot from './views/Projects/ProjectDetails/ShellChatbot/ShellChatbot';
 import OubreSA from './views/Projects/ProjectDetails/OubreSA/OubreSA';
+import NVIDIA from './views/Projects/ProjectDetails/NVIDIA/NVIDIA';
 
 function Transition(props) {
   return <Slide direction="down" timeout= "0"  {...props} />;
@@ -115,6 +116,7 @@ class App extends Component {
         <Route exact path="/projects/experience/uwblueprint" component={UWBlueprint} />
         <Route exact path="/projects/experience/opentext" component={Opentext} />
         <Route exact path="/projects/experience/freelance" component={Freelance} />
+        <Route exact path="/projects/experience/nvidia" component={NVIDIA} />
         <Route exact path="/projects/data/oubre-sentiment-analysis" component={OubreSA} />
         <Route exact path="/projects/data/sql-media-platform" component={MediaPlatform} />
         <Route exact path="/projects/experience/ctc" component={Ctc} />

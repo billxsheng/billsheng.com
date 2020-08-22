@@ -8,28 +8,24 @@ const projects = {
             title: "Side Projects",
             link: 'side-projects',
             description: "Learning & Innovation",
-            order: ['shell-chatbot', 'huddle', 'blitz', 'munkee'],
         },
         ds: {
             title: "Data",
             link: 'data',
             description: "Designing Data-Intensive Applications",
-            order: ['oubre-sa'],
         },
         experience: {
             title: "Experience",
             link: 'experience',
             description: "Internships, Design Teams, Clubs",
-            order: ['lcbo-next', 'uwblueprint', 'opentext', 'freelance', 'ctc'],
         },
         hackathons: {
             title: "Hackathons",
             link: 'hackathons',
             description: "Projects built during hackathons",
-            order: ['airdrums', 'ryse', 'moodify'],
         },
         order: ['experience', 'side-projects', 'data', 'hackathons'],
-        projectOrder: ['experience/lcbo-next', 'experience/uwblueprint', 'experience/opentext', 'experience/freelance', 'experience/ctc', 'side-projects/shell-chatbot', 'side-projects/huddle', 'side-projects/blitz', 'side-projects/munkee', 'data/oubre-sentiment-analysis', 'data/sql-media-platform' , 'hackathons/airdrums', 'hackathons/ryse', 'hackathons/moodify']
+        projectOrder: ['experience/nvidia', 'experience/lcbo-next', 'experience/uwblueprint', 'experience/opentext', 'experience/freelance', 'experience/ctc', 'side-projects/shell-chatbot', 'side-projects/huddle', 'side-projects/blitz', 'side-projects/munkee', 'data/oubre-sentiment-analysis', 'data/sql-media-platform' , 'hackathons/airdrums', 'hackathons/ryse', 'hackathons/moodify']
     },
     huddle: {
         name: 'Huddle',
@@ -162,7 +158,7 @@ const projects = {
     freelance: {
         name: 'Freelance',
         reference: 'experience/freelance',
-        description: 'My personal brand',
+        description: 'My Personal Work',
         tag: 'Freelance',
         about: 'Coming soon',
         content: {
@@ -174,7 +170,7 @@ const projects = {
     uwblueprint: {
         name: 'UW Blueprint',
         reference: 'experience/uwblueprint',
-        description: 'Coming Soon',
+        description: 'Tech for Nonprofits',
         tag: 'Design Team',
         about: 'Coming soon',
         content: {
@@ -187,13 +183,26 @@ const projects = {
     lcbonext: {
         name: 'LCBO | next',
         reference: 'experience/lcbo-next',
-        description: 'Coming Soon',
+        description: 'Startup Experience',
         tag: 'Internship',
         about: 'Coming soon',
         content: {
             position: "Full Stack Developer and Technical Product Manager",
             team: 'Innovation Lab',
             technology: "React, Node, ElasticSearch, ETL Pipelines, Azure, Docker",
+            summary: "Coming Soon"
+        }
+    },
+    nvidia: {
+        name: 'NVIDIA',
+        reference: 'experience/nvidia',
+        description: 'Coming Soon',
+        tag: 'Internship',
+        about: 'Coming soon',
+        content: {
+            position: "Web/Database Applications Architect",
+            team: 'Hardware Infrastructure Metrics Team',
+            technology: "Java (Eclipse Vert.x), Python, Apache Kafka, Docker, Jenkins, Kubernetes",
             summary: "Coming Soon"
         }
     }

@@ -34,7 +34,7 @@
     background-size: cover;
 }
 
-.text-wrapper-photos {
+.text-wrapper-dc {
     display: table;
     height: 100%;
     width: 100%;
@@ -42,14 +42,14 @@
     border-radius: 15px;
     transition: transform 0.2s;
     color: white;
-    background-image: url('../../../assets/images/gallery/team-picture.png');
+    background-image: url('../../../assets/images/gallery/dc.png');
     background-size: cover;
 }
 
 .text-wrapper-snl:hover,
 .text-wrapper-graphql:hover,
 .text-wrapper-wateng:hover,
-.text-wrapper-photos:hover {
+.text-wrapper-dc:hover {
     transform: scale(1.05);
     color: white;
     text-decoration: none;

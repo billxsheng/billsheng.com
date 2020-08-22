@@ -28,15 +28,15 @@ class Photos extends Component {
                 </span>
                 <div styleName="content">
                     <Fade bottom>
-                    <Image width="700px" fine="Ultimate Intramural Champions" margin="0" path="gallery/photos/team-picture.jpeg" />
+                    <Image width="700px" fine="Philadelphia, Pennsylvania" margin="0" path="gallery/photos/upenn.png" />
                     </Fade>
                     <br/>
                     <Fade bottom>
-                    <Image width="700px" fine="University of Pennsylvania" margin="0" path="gallery/photos/upenn.png" />
+                    <Image width="700px" fine="Toronto, Canada" margin="0" path="gallery/photos/cne.jpg" />
                     </Fade>
                     <br/>
                     <Fade bottom>
-                    <Image width="700px" fine="Florence, Italy" margin="0" path="gallery/photos/secondary.jpeg" />
+                    <Image width="700px" fine="Metlife Stadium, NYC" margin="0" path="gallery/photos/metlife.jpg" />
                     </Fade>
                 </div>
             </div>
