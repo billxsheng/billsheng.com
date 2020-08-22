@@ -1464,7 +1464,7 @@ button {
     background-size: cover;
 }
 
-.GalleryTileDetail__text-wrapper-photos__18wLj {
+.GalleryTileDetail__text-wrapper-dc__1ZwnL {
     display: table;
     height: 100%;
     width: 100%;
@@ -1476,14 +1476,14 @@ button {
     transition: transform 0.2s;
     transition: transform 0.2s, -webkit-transform 0.2s;
     color: white;
-    background-image: url(/static/media/team-picture.d6c562d8.png);
+    background-image: url(/static/media/dc.7751119f.png);
     background-size: cover;
 }
 
 .GalleryTileDetail__text-wrapper-snl__mw_bp:hover,
 .GalleryTileDetail__text-wrapper-graphql__vP-NY:hover,
 .GalleryTileDetail__text-wrapper-wateng__Z2Y6W:hover,
-.GalleryTileDetail__text-wrapper-photos__18wLj:hover {
+.GalleryTileDetail__text-wrapper-dc__1ZwnL:hover {
     -webkit-transform: scale(1.05);
         -ms-transform: scale(1.05);
             transform: scale(1.05);
@@ -1734,7 +1734,7 @@ button {
     left: 0;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    background-image: url(/static/media/team-picture.fd2ed17a.jpeg);
+    background-image: url(/static/media/dc.edef8a7f.jpg);
     background-size: cover;
 }
 
@@ -1775,4 +1775,4 @@ button {
 
 
 
-/*# sourceMappingURL=main.5e2f96419b760d1927f1.css.map*/
+/*# sourceMappingURL=main.52beb1ebaa7697a6d096.css.map*/
