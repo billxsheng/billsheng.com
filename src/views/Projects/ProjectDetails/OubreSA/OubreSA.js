@@ -83,6 +83,9 @@ class OubreSA extends Component {
                             <li><p3>Used Kafka and Spark to ingest, analyze, and load data into a Cassandra data warehouse, allowing results to be queried/displayed</p3></li>
                         </ul>
                     </Fade>
+                    <Fade bottom>
+                    <Image width="700px" fine="Flowchart" path = "projects/oubresa/flowchart.png" />
+                    </Fade>
                     <Fade top>
                         <hr />
                         <div className="row">

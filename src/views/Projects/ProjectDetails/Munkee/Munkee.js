@@ -104,10 +104,6 @@ class Munkee extends Component {
                     <Fade top>
                     <hr/>
                     <div className="row">
-                    <Button margin="0px auto" link={links.munkee} btnType = "btnLarge">Play Now</Button>
-                    </div>
-                    <br/>
-                    <div className="row">
                     <Button margin="0px auto" link={links.github + "/munkee"} btnType = "btnLarge">Github</Button>
                     </div>
                     </Fade>

@@ -89,10 +89,6 @@ class Ctc extends Component {
                     </ul>
                     </Fade>
                     <Fade bottom>
-                    <h4>Evaluation</h4>
-                    <p>{projects.ctc.content.evaluation}</p>
-                    </Fade>
-                    <Fade bottom>
                     <Image width="500px" withRadius fine="Welcome Sign" path ="projects/ctc/ctc-1.png" />
                     </Fade>
                     <Fade bottom>

@@ -97,11 +97,11 @@ class Blitz extends Component {
                     </ul>
                     </Fade>
                     <Fade bottom>
-                    <h4>Problem</h4>
+                    <h4>The Problem</h4>
                     <p>{projects.blitz.content.problem}</p>
                     </Fade>
                     <Fade bottom>
-                    <h4>Solution</h4>
+                    <h4>Our Solution</h4>
                     <p>{projects.blitz.content.solution}</p>
                     </Fade>
                     <Fade bottom>
