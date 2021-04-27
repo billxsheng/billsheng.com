@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import CSSModules from 'react-css-modules';
 import styles from './ProjectTile.css';
 import ProjectsImage from '../../../components/Image/ProjectsImage/ProjectsImage';
-import Aux from '../../../hoc/HO-Aux/HO-aux';
 import {NavLink} from 'react-router-dom'
 
 
@@ -15,7 +14,7 @@ class projectTile extends Component {
 
         if(this.state.reverse) {
             return (     
-                <Aux>
+                <div>
                     <NavLink to={this.props.to} className="row" styleName="project-tile">
                         <div styleName="img-cont" className="col-md-6">
                             <ProjectsImage reverse top={this.props.top} height={this.props.imageHeight} path={this.props.imageName}/>
@@ -44,11 +43,11 @@ class projectTile extends Component {
                             <ProjectsImage top={this.props.top} height={this.props.imageHeight} path={this.props.imageName}/>
                         </div>                
                     </NavLink>
-                </Aux>        
+                </div>        
             )
         } else if (this.props.singleTile) {
             return (
-                <Aux>
+                <div>
                     <NavLink to={this.props.to} className="row" styleName="project-tile">
                         <div styleName="text-cont" className="col-md-12">
                             <h2>
@@ -71,11 +70,11 @@ class projectTile extends Component {
                             <p styleName="project-preview-tag" >{this.props.tag}</p>
                         </div>
                     </NavLink>
-                </Aux>
+                </div>
             )
         } else {
             return (
-                <Aux>
+                <div>
                     <NavLink to={this.props.to} className="row" styleName="project-tile">
                         <div styleName="text-cont" className="col-md-6">
                             <h2>
@@ -104,7 +103,7 @@ class projectTile extends Component {
                             <ProjectsImage height={this.props.imageHeight} path={this.props.imageName}/>
                         </div>
                     </NavLink>
-                </Aux>
+                </div>
             )
         }
     }
