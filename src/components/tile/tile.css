@@ -1,0 +1,27 @@
+.tile-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    color: rgb(238, 232, 232) !important;
+    transition: background-color 0.2s;
+    position: relative;
+    box-shadow: 0 0 20px rgb(163, 163, 163);
+}
+
+.text-col {
+    color: black;
+}
+
+.image-col {
+
+}
+
+h3 {
+    font-family: 'Fira Sans';
+    font-weight: 500;
+    font-size: 30px;
+}

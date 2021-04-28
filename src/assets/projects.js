@@ -1,4 +1,42 @@
 const projects = {
+    experiences: [
+        {
+            name: "Shopify",
+            position: "Backend Engineer Intern",
+            duration: "Jan 2021 - Apr 2021",
+            image_name: "shopify",
+        },
+        {
+            name: "NVIDIA",
+            position: "Software Engineer Intern",
+            duration: "May 2020 - Aug 2020",
+            image_name: "nvidia"
+        },
+        {
+            name: "LCBO | next",
+            position: "Full Stack Developer Intern",
+            duration: "Sept 2019 - Dec 2019",
+            image_name: "lcbo"
+        },
+        {
+            name: "UW Blueprint",
+            position: "Software Developer",
+            duration: "Sept 2019 - Dec 2019",
+            image_name: "blueprint"
+        },
+        {
+            name: "OpenText",
+            position: "Software Developer Intern",
+            duration: "Jan 2019 - Apr 2019",
+            image_name: "opentext"
+        },
+        {
+            name: "Canadian Tire",
+            position: "Technical Specialist Intern",
+            duration: "May 2018 - Aug 2018",
+            image_name: "ctc"
+        }
+    ],
     headings: {
         projects: {
             title: "Projects",

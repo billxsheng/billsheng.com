@@ -1,0 +1,88 @@
+.col-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.about-container {
+    /* height: 100vh; */
+    margin-bottom: 100px;
+}
+
+.back-row {
+    margin-top: 5%;
+}
+
+.row {
+    margin-top: 5%;
+}
+
+.tile-row {
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-wrapper p {
+    margin: 0 40px 20px 0;
+}
+
+.back-arrow {
+    font-size: 40px;
+    color: rgb(202, 198, 198);
+    margin: 0 15px 0 0;
+}
+
+.back-arrow:hover {
+    color: black;
+    transition: 0.2s;
+}
+
+.text-link-back {
+    font-family: 'Lato';
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.title {
+    /* margin-bottom: 25px; */
+}
+
+.text-link-shopify {
+    color: #96bf48;
+
+}
+
+.text-link-shopify:hover {
+    text-decoration-line: underline;
+    color: #96bf48;
+}
+
+.text-link-nvidia {
+    color: #76b900;
+
+}
+
+.text-link-nvidia:hover {
+    text-decoration-line: underline;
+    color: #76b900;
+}
+
+.image {
+    max-height: 500px;
+}
+
+h2 {
+    font-family: 'Fira Sans';
+    font-weight: 500;
+    font-size: 40px;
+}
+
