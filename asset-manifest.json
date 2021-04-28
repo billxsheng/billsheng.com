@@ -1,14 +1,8 @@
 {
-  "main.js": "/static/js/main.f533caff.js",
-  "main.css": "/static/css/main.dc080d1379db3e0d462c.css",
-  "main.js.map": "/static/js/main.f533caff.js.map",
-  "main.css.map": "/static/css/main.dc080d1379db3e0d462c.css.map",
+  "main.js": "/static/js/main.920fe47a.js",
+  "main.css": "/static/css/main.da58feb9058b13c762d4.css",
+  "main.js.map": "/static/js/main.920fe47a.js.map",
+  "main.css.map": "/static/css/main.da58feb9058b13c762d4.css.map",
   "index.html": "/index.html",
-  "static/media/blueprint.png": "/static/media/blueprint.eb564dc8.png",
-  "static/media/ctc.png": "/static/media/ctc.07b57c16.png",
-  "static/media/home-pic.jpg": "/static/media/home-pic.9824fde6.jpg",
-  "static/media/lcbo.png": "/static/media/lcbo.02478233.png",
-  "static/media/nvidia.png": "/static/media/nvidia.afe7d313.png",
-  "static/media/opentext.png": "/static/media/opentext.15132043.png",
-  "static/media/shopify.png": "/static/media/shopify.4f044d41.png"
+  "static/media/home-pic.jpg": "/static/media/home-pic.9824fde6.jpg"
 }
