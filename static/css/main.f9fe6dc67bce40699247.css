@@ -1,0 +1,245 @@
+.home__col__3Hhm5 {
+}
+
+.home__container__2izwO {
+    display: -ms-flexbox;
+    display: flex; 
+    -ms-flex-align: center; 
+        align-items: center; 
+    -ms-flex-pack: center; 
+        justify-content: center;
+    height: 100vh;
+}
+
+.home__row__B19zl {
+    width: 900px;
+    margin-bottom: 5%;
+}
+
+.home__content-wrapper__wjXhp p {
+    margin: 0 0 20px 0;
+}
+
+.home__name__i0J4o {
+    margin-bottom: 25px;
+}
+
+.home__text-link-shopify__3aCmh {
+    color: #96bf48;
+
+}
+
+.home__text-link-shopify__3aCmh:hover {
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
+    color: #96bf48;
+}
+
+.home__text-link-gc__iejfF {
+    color: #4285f4;
+}
+
+.home__text-link-gc__iejfF:hover {
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
+    color: #4285f4;
+}
+
+.home__text-link-learn-more__16U3_ {
+    font-family: 'Lato';
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.home__future-text__3_enK {
+    margin-top: 60px;
+}
+
+.home__links-row__3bsK9 a{
+    font-size: 25px;
+    color: rgb(202, 198, 198);
+    margin: 0 15px 0 0;
+}
+
+.home__links-row__3bsK9 a:hover {
+    color: black;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+}
+
+h1 {
+    font-family: 'Fira Sans';
+    font-weight: 900;
+    font-size: 100px;
+}
+
+h2 {
+    font-family: 'Fira Sans';
+    font-weight: 500;
+    font-size: 60px;
+}
+
+p {
+    font-family: 'Lato';
+    font-weight: 500;
+    font-size: 17px;
+}
+
+@media (max-width: 991px) {
+    h1 {
+        font-size: 70px;
+    }
+}
+
+@media (max-width: 575px) {
+    h1 {
+        font-size: 50px;
+    }
+    .home__row__B19zl {
+        margin: 0 40px;
+    }
+}
+
+@media (max-width: 450px) {
+    h1 {
+        font-size: 50px;
+    }
+    .home__row__B19zl {
+        margin: 0 10px;
+    }
+}.about__col-image__nnuUz {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+}
+
+.about__col-text__3W2D9 {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+}
+
+
+.about__about-container__337Yq {
+    /* height: 100vh; */
+    margin-bottom: 100px;
+}
+
+.about__back-row__2opB0 {
+    margin-top: 5%;
+}
+
+.about__row__2R_FH {
+    margin-top: 5%;
+}
+
+.about__tile-row__2EC4u {
+    margin-top: 5%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+}
+
+.about__content-wrapper__3Ifyw p {
+    margin: 0 40px 20px 0;
+}
+
+.about__back-arrow__vnbcn {
+    font-size: 40px;
+    color: rgb(202, 198, 198);
+    margin: 0 15px 0 0;
+}
+
+.about__back-arrow__vnbcn:hover {
+    color: black;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+}
+
+.about__text-link-back__1jO7k {
+    font-family: 'Lato';
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.about__title__243io {
+    /* margin-bottom: 25px; */
+}
+
+.about__text-link-shopify__rF0m- {
+    color: #96bf48;
+
+}
+
+.about__text-link-shopify__rF0m-:hover {
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
+    color: #96bf48;
+}
+
+.about__text-link-nvidia__2UIiv {
+    color: #76b900;
+
+}
+
+.about__text-link-nvidia__2UIiv:hover {
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
+    color: #76b900;
+}
+
+.about__image__2rBSO {
+    max-height: 500px;
+}
+
+h2 {
+    font-family: 'Fira Sans';
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.tile__tile-wrapper__QVi6M {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+    width: 60%;
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    color: rgb(238, 232, 232) !important;
+    -webkit-transition: background-color 0.2s;
+    -o-transition: background-color 0.2s;
+    transition: background-color 0.2s;
+    position: relative;
+    -webkit-box-shadow: 0 0 20px rgb(163, 163, 163);
+            box-shadow: 0 0 20px rgb(163, 163, 163);
+}
+
+.tile__text-col__2sU12 {
+    color: black;
+}
+
+.tile__image-col__2sRig {
+
+}
+
+h3 {
+    font-family: 'Fira Sans';
+    font-weight: 500;
+    font-size: 30px;
+}
+/*# sourceMappingURL=main.f9fe6dc67bce40699247.css.map*/
