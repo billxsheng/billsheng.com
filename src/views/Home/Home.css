@@ -42,7 +42,7 @@
 
 .text-link-learn-more {
     font-family: 'Lato';
-    font-weight: 500;
+    font-weight: 400;
     font-size: 17px;
 }
 
@@ -69,13 +69,13 @@ h1 {
 
 h2 {
     font-family: 'Fira Sans';
-    font-weight: 500;
+    font-weight: 400;
     font-size: 60px;
 }
 
 p {
     font-family: 'Lato';
-    font-weight: 500;
+    font-weight: 400;
     font-size: 17px;
 }
 
@@ -89,6 +89,7 @@ p {
     h1 {
         font-size: 50px;
     }
+
     .row {
         margin: 0 40px;
     }
@@ -98,6 +99,7 @@ p {
     h1 {
         font-size: 50px;
     }
+    
     .row {
         margin: 0 10px;
     }
