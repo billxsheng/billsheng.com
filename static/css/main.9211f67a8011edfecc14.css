@@ -213,6 +213,13 @@ h2 {
     }
 }
 
+@media (max-width: 767px) {
+    .about__summary-container__2ji3F {
+        height: auto;
+        margin-bottom: 100px;
+    }
+}
+
 @media (max-width: 575px) {
     .about__row__2R_FH {
         margin: 0 40px;
@@ -243,4 +250,4 @@ h2 {
 }
 
 
-/*# sourceMappingURL=main.da58feb9058b13c762d4.css.map*/
+/*# sourceMappingURL=main.9211f67a8011edfecc14.css.map*/
