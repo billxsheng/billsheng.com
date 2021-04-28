@@ -91,6 +91,13 @@ h2 {
     }
 }
 
+@media (max-width: 767px) {
+    .summary-container {
+        height: auto;
+        margin-bottom: 100px;
+    }
+}
+
 @media (max-width: 575px) {
     .row {
         margin: 0 40px;
