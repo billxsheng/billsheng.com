@@ -13,7 +13,7 @@ const projects = {
             image_name: "nvidia"
         },
         {
-            name: "LCBO | next",
+            name: "LCBO|next",
             position: "Full Stack Developer Intern",
             duration: "Sept 2019 - Dec 2019",
             image_name: "lcbo"
