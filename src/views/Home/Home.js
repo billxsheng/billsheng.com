@@ -30,11 +30,9 @@ class Home extends Component {
                                 <p>Hi! I'm a Management Engineering student at the University of Waterloo currently in my 4A term. 🔬</p>
                             </Row>
                             <Row>
-                                <p>This past winter, I interned at &nbsp;
-                                    <a target="_blank" styleName="text-link-shopify" href="https://shopify.ca">Shopify</a>
-                                    &nbsp; as a backend engineer on the &nbsp; 
-                                    <a target="_blank" styleName="text-link-gc" href="https://apps.shopify.com/google?surface_detail=places-to-sell-online-marketplaces&surface_inter_position=1&surface_intra_position=1&surface_type=category">Google Sales Channel</a>
-                                    &nbsp; team. 🚀
+                                <p>This past winter, I interned at&nbsp;
+                                    <a target="_blank" styleName="text-link-shopify" href="https://shopify.ca">Shopify</a>&nbsp;as a backend engineer on the&nbsp; 
+                                    <a target="_blank" styleName="text-link-gc" href="https://apps.shopify.com/google?surface_detail=places-to-sell-online-marketplaces&surface_inter_position=1&surface_intra_position=1&surface_type=category">Google Sales Channel</a>&nbsp;team. 🚀
                                 </p>
                             </Row>
                             <Row>

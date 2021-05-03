@@ -27,11 +27,9 @@ class About extends Component {
                             <div styleName="content-wrapper">
                                 <p><b>Hey, I'm Bill!</b> I'm a product-driven, people-focused engineer with extensive expertise designing, developing, and
                                 shipping software solutions through critical thinking, active collaboration, and best practices.</p>
-                                <p>I've worked as an engineering intern at five companies, including &nbsp;
-                                 <a target="_blank" styleName="text-link-shopify" href="https://shopify.ca">Shopify</a>
-                                 &nbsp; and &nbsp;
-                                  <a target="_blank" styleName="text-link-nvidia" href="https://nvidia.com/">NVIDIA</a>
-                                  . I'm currently in my 4A term of Management Engineering at the University of Waterloo.
+                                <p>I've worked as an engineering intern at five companies, including&nbsp;
+                                 <a target="_blank" styleName="text-link-shopify" href="https://shopify.ca">Shopify</a>&nbsp;and&nbsp;
+                                  <a target="_blank" styleName="text-link-nvidia" href="https://nvidia.com/">NVIDIA</a>. I'm currently in my 4A term of Management Engineering at the University of Waterloo.
                                   </p>
                                 <p>In my spare time, I like to exercise, watch sports, play video games, and read.</p>
                             </div>
