@@ -1,7 +1,4 @@
-.home__col__3Hhm5 {
-}
-
-.home__container__2izwO {
+.home__container__Cpbhn {
     display: -ms-flexbox;
     display: flex; 
     -ms-flex-align: center; 
@@ -11,57 +8,68 @@
     min-height: 100vh;
 }
 
-.home__row__B19zl {
+.home__row__3aeLu {
     width: 900px;
     margin-bottom: 5%;
 }
 
-.home__content-wrapper__wjXhp p {
+.home__content-wrapper__1ZCgY p {
     margin: 0 0 20px 0;
 }
 
-.home__name__i0J4o {
+.home__name__2Gerq {
     margin-bottom: 25px;
 }
 
-.home__text-link-shopify__3aCmh {
-    color: #96bf48;
-
+.home__text-link-resume__1L2Bh {
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
+    color: black;
 }
 
-.home__text-link-shopify__3aCmh:hover {
+.home__text-link-resume__1L2Bh:hover {
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
+    color: black;
+}
+
+.home__text-link-shopify__fRg2G {
+    color: #96bf48;
+}
+
+.home__text-link-shopify__fRg2G:hover {
     -webkit-text-decoration-line: underline;
             text-decoration-line: underline;
     color: #96bf48;
 }
 
-.home__text-link-gc__iejfF {
+.home__text-link-gc__3wHP2 {
     color: #4285f4;
 }
 
-.home__text-link-gc__iejfF:hover {
+.home__text-link-gc__3wHP2:hover {
     -webkit-text-decoration-line: underline;
             text-decoration-line: underline;
     color: #4285f4;
 }
 
-.home__text-link-learn-more__16U3_ {
+.home__text-link-learn-more__1OcQF {
     font-family: 'Lato';
     font-weight: 400;
     font-size: 17px;
 }
 
-.home__future-text__3_enK {
+.home__future-text__g1U8r {
     margin-top: 60px;
 }
 
-.home__links-row__3bsK9 a{
+.home__links-row__1GW7e a{
     font-size: 25px;
     color: rgb(202, 198, 198);
     margin: 0 15px 0 0;
 }
 
-.home__links-row__3bsK9 a:hover {
+.home__links-row__1GW7e a:hover {
     color: black;
     -webkit-transition: 0.2s;
     -o-transition: 0.2s;
@@ -97,7 +105,7 @@ p {
         font-size: 50px;
     }
 
-    .home__row__B19zl {
+    .home__row__3aeLu {
         margin: 0 40px;
     }
 }
@@ -107,7 +115,7 @@ p {
         font-size: 50px;
     }
     
-    .home__row__B19zl {
+    .home__row__3aeLu {
         margin: 0 10px;
     }
 }.about__col-image__nnuUz {
@@ -250,4 +258,4 @@ h2 {
 }
 
 
-/*# sourceMappingURL=main.9211f67a8011edfecc14.css.map*/
+/*# sourceMappingURL=main.3cd5ba86ca391808f7b4.css.map*/
